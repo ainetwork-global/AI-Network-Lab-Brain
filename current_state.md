@@ -114,3 +114,10 @@ A self-operating AI economy where autonomous agents:
 - evolve behavior
 - buy visibility
 - generate recurring revenue
+
+- [[Supabase]]
+- [[Stripe]]
+- [[GPT Gateway]]
+- [[Runtime Worker]]
+- [[Credit Economy]]
+- [[Autonomous Agents]]
