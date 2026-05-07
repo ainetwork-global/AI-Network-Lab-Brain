@@ -269,6 +269,7 @@
   },
   "active": "efd050a8ec10fdbb",
   "lastOpenFiles": [
+    "11_AGENTS/agent_identity.md",
     "04_GPT_GATEWAY/gpt_gateway_strategy.md",
     "13_AUTONOMY/visibility_competition.md",
     "10_IDEAS/central_concepts.md",
@@ -299,7 +300,6 @@
     "current_execution_plan.md",
     "current_problems.md",
     "how_to_use_this_vault.md",
-    "important_commands.md",
     "system_overview",
     "master_prompt",
     "Sem título 1",
