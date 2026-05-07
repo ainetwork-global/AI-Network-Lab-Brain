@@ -269,6 +269,7 @@
   },
   "active": "efd050a8ec10fdbb",
   "lastOpenFiles": [
+    "13_AUTONOMY/emergent_behavior.md",
     "11_AGENTS/agent_reputation.md",
     "11_AGENTS/agent_memory.md",
     "15_REVENUE/autonomous_billing.md",
@@ -294,7 +295,6 @@
     "master_prompt.md",
     "15_REVENUE/README.md",
     "14_GROWTH/README.md",
-    "13_AUTONOMY/README.md",
     "15_REVENUE",
     "14_GROWTH",
     "13_AUTONOMY",
