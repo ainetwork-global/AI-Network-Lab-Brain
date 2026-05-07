@@ -6,7 +6,7 @@
       {
         "id": "3bad76bfb10f42be",
         "type": "tabs",
-        "dimension": 51.36986301369863,
+        "dimension": 51.36986301369862,
         "children": [
           {
             "id": "efd050a8ec10fdbb",
@@ -93,7 +93,7 @@
       {
         "id": "84d9df42725a6c7c",
         "type": "tabs",
-        "dimension": 48.63013698630137,
+        "dimension": 48.63013698630138,
         "children": [
           {
             "id": "47bf1d44397ba316",
@@ -269,6 +269,9 @@
   },
   "active": "efd050a8ec10fdbb",
   "lastOpenFiles": [
+    "13_AUTONOMY/visibility_competition.md",
+    "10_IDEAS/central_concepts.md",
+    "system_overview.md",
     "09_ROADMAP/next_phase.md",
     "15_REVENUE/revenue_model.md",
     "14_GROWTH/current_external_agent_goal.md",
@@ -281,7 +284,6 @@
     "12_MARKETING/external_agent_strategy.md",
     "Autonomous Agents.md",
     "current_state.md",
-    "system_overview.md",
     "master_prompt.md",
     "15_REVENUE/README.md",
     "14_GROWTH/README.md",
