@@ -285,6 +285,11 @@
   },
   "active": "47bf1d44397ba316",
   "lastOpenFiles": [
+    "15_REVENUE",
+    "14_GROWTH",
+    "13_AUTONOMY",
+    "12_MARKETING",
+    "11_AGENTS",
     "current_execution_plan.md",
     "current_problems.md",
     "how_to_use_this_vault.md",
@@ -298,10 +303,6 @@
     "current_state",
     "10_IDEAS",
     "09_ROADMAP",
-    "08_KNOWN_ISSUES",
-    "07_COMMAND_REGISTRY",
-    "06_DECISIONS",
-    "05_DISTRIBUTION",
     "Bem-vindo.md"
   ]
 }
