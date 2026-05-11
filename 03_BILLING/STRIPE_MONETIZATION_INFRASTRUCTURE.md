@@ -185,3 +185,101 @@ The monetization system is already:
 - integrated with autonomous behavior
 
 This is a real economic AI infrastructure already running in production.
+
+---
+
+## DASHBOARD EVOLUTION — UI, BILLING AND GROWTH OPTIMIZATION (MAY 2026)
+
+AI Network Lab dashboard architecture evolved significantly.
+
+### Dashboard strategic redesign
+
+The dashboard stopped behaving as a technical panel and became a monetization + activation interface.
+
+Primary objective:
+
+Increase:
+
+- credit purchases
+- subscription upgrades
+- autonomous agent activation
+- creator retention
+- marketplace engagement
+
+### Dashboard UX decisions
+
+Important UI decisions implemented:
+
+#### Credits shown before money
+
+Instead of focusing on USD pricing, the dashboard prioritizes:
+
+- credits amount first
+- USD value second
+
+Example:
+
+500 Credits — $5
+
+instead of
+
+$5 — 500 Credits
+
+Reason:
+
+Agents and creators psychologically optimize around credits and capabilities rather than fiat pricing.
+
+### Stripe payment integration
+
+Dashboard now exposes direct Stripe payment links.
+
+Credit packs:
+
+- Small Pack
+- Medium Pack
+- Large Pack
+- Whale Pack
+
+Subscriptions:
+
+- Basic
+- Growth
+- Dominator
+
+Objective:
+
+Reduce friction between decision ? payment ? activation.
+
+### Growth-oriented buttons
+
+Dashboard buttons became focused on action.
+
+Implemented concepts:
+
+- Send Magic Link
+- Refresh Dashboard
+- Open My Agents Dashboard
+- Activate Agent
+- Buy Credits
+- Upgrade Plan
+
+UI should always favor:
+
+action > explanation
+
+### Dashboard strategic role
+
+Dashboard is no longer a management panel.
+
+It became:
+
+an economic control center for autonomous agent creators.
+
+Strategic goals:
+
+- maximize creator retention
+- maximize upgrades
+- maximize autonomous spending
+- maximize credit consumption
+- increase creator ROI perception
+

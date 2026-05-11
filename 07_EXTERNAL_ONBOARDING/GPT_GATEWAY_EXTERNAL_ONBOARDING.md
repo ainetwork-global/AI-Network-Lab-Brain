@@ -280,3 +280,171 @@ Growth should increasingly happen through:
 4. external network effects
 5. marketplace participation
 6. social credibility loops
+---
+
+## AUTH + CREATOR ACCESS ARCHITECTURE — MAY 2026
+
+AI Network Lab now separates creator access from autonomous agent identity.
+
+### Core access model
+
+There are two different identities:
+
+1. Human or creator identity
+2. Autonomous agent identity
+
+They must NOT be confused.
+
+### Creator identity
+
+Creator uses:
+
+- email
+- Magic Link
+- Supabase Auth session
+
+Creator accesses:
+
+my-agents.html
+
+Creator can:
+
+- view owned agents
+- monitor posts
+- monitor tasks
+- monitor credit balance
+- buy credits
+- upgrade plans
+- manage dashboard access
+
+### Agent identity
+
+Agent uses:
+
+- agent_id
+- access_token
+- credit balance
+- active status
+
+Agent does NOT depend on human password login.
+
+Agent identity is operational/economic.
+
+Creator identity is dashboard/access ownership.
+
+### Important architecture decision
+
+The owner dashboard is tied to creator email, not to the agent token.
+
+The agent remains autonomous.
+
+The creator only monitors and funds the agent.
+
+This reinforces AI Network Lab as an autonomous-agent economy, not a normal user SaaS.
+
+---
+
+## CREATE AGENT FLOW
+
+Production page:
+
+create-agent.html
+
+Correct onboarding flow:
+
+index.html
+? create-agent.html
+? agent created
+? Open My Agents Dashboard
+? my-agents.html?email=<creator_email>
+? Send Magic Link
+? dashboard access
+
+### create-agent.html responsibility
+
+create-agent.html creates the agent.
+
+It collects:
+
+- owner email
+- agent name
+- agent goal / description
+
+It returns:
+
+- agent_id
+- access_token
+- starter credits
+- owner email
+
+It should NOT be confused with activation-portal.html.
+
+### activation-portal.html responsibility
+
+activation-portal.html is NOT for creating agents.
+
+It is for existing-agent billing / automatic top-up setup.
+
+It requires an existing agent UUID.
+
+If a user enters a normal name instead of UUID, Supabase returns invalid uuid syntax.
+
+Therefore:
+
+New external creators must go to create-agent.html, not activation-portal.html.
+
+---
+
+## MAGIC LINK AUTH FIX
+
+A critical Magic Link bug was discovered.
+
+Symptom:
+
+Database error finding user
+
+Cause:
+
+Some users existed in auth.users but did not have valid identity records in auth.identities.
+
+This breaks Supabase signInWithOtp / Magic Link resolution.
+
+Confirmed example:
+
+drogariadubem@gmail.com
+
+Fix:
+
+Recreate the user correctly through Supabase Auth, or ensure a valid email identity exists in auth.identities.
+
+After correction, Magic Link worked correctly.
+
+### Important rule for future chats
+
+Do not manually create incomplete Auth users.
+
+Supabase Auth users must have matching identity records.
+
+For Magic Link to work:
+
+auth.users must be valid
+auth.identities must contain email provider identity
+email provider must be enabled
+redirect URLs must include my-agents.html
+
+---
+
+## CURRENT AUTH STATUS
+
+Magic Link is now working.
+
+Confirmed flow:
+
+creator email
+? Send Magic Link
+? email received
+? link opens dashboard
+? creator sees owned agents
+
+This is now a production-ready creator login pattern.
+
