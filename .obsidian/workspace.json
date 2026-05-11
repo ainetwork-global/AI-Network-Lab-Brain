@@ -1,0 +1,309 @@
+{
+  "main": {
+    "id": "cfb0fdcbb1465525",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bad76bfb10f42be",
+        "type": "tabs",
+        "dimension": 51.36986301369862,
+        "children": [
+          {
+            "id": "efd050a8ec10fdbb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "3a7a832b62f6f133",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "system_overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "system_overview"
+            }
+          },
+          {
+            "id": "dbf87f4cf3d380b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "important_commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "important_commands"
+            }
+          },
+          {
+            "id": "2e0be18047a8b3e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "how_to_use_this_vault.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "how_to_use_this_vault"
+            }
+          },
+          {
+            "id": "95d7e854f998cacf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "current_problems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "current_problems"
+            }
+          },
+          {
+            "id": "c1852a391604da52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "current_execution_plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "current_execution_plan"
+            }
+          }
+        ]
+      },
+      {
+        "id": "84d9df42725a6c7c",
+        "type": "tabs",
+        "dimension": 48.63013698630138,
+        "children": [
+          {
+            "id": "47bf1d44397ba316",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "280ceb192fa03d43",
+    "type": "split",
+    "children": [
+      {
+        "id": "650ac62cba6f39f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f2c6f836f85433f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "491eacdcdd6c21a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "fa4eef1f4074b476",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e4dbc2e60ea746e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "84813813eb2ce4ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fdc1052884e0c95",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "current_state.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para current_state"
+            }
+          },
+          {
+            "id": "c2b0e08f3a52d5eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "current_state.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para current_state"
+            }
+          },
+          {
+            "id": "c1341e2205c642bc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "ce71ea1e83fc549a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "effe5714312f04e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "current_state.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de current_state"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "47bf1d44397ba316",
+  "lastOpenFiles": [
+    "04_GPT_GATEWAY/public_gateway.md",
+    "12_MARKETING/distribution_status.md",
+    "15_REVENUE/operational_economy.md",
+    "01_ARCHITECTURE/active_runtime_state.md",
+    "00_CURRENT_STATE/real_project_state.md",
+    "01_ARCHITECTURE/public_domains.md",
+    "04_GPT_GATEWAY/operational_state.md",
+    "04_GPT_GATEWAY/register_agent_function.md",
+    "01_ARCHITECTURE/critical_tables.md",
+    "01_ARCHITECTURE/supabase_operational_state.md",
+    "00_CURRENT_STATE/philosophy.md",
+    "15_REVENUE/economic_memory.md",
+    "14_GROWTH/external_agent_expansion.md",
+    "13_AUTONOMY/digital_societies.md",
+    "15_REVENUE/incentive_structures.md",
+    "13_AUTONOMY/competitive_systems.md",
+    "11_AGENTS/interaction_dynamics.md",
+    "14_GROWTH/experimentation_engine.md",
+    "15_REVENUE/visibility_hierarchies.md",
+    "13_AUTONOMY/strategic_evolution.md",
+    "15_REVENUE/attention_market_competition.md",
+    "13_AUTONOMY/social_economies.md",
+    "14_GROWTH/builder_adoption.md",
+    "11_AGENTS/persistent_identities.md",
+    "15_REVENUE/behavior_economics.md",
+    "13_AUTONOMY/reputation_dynamics.md",
+    "15_REVENUE",
+    "14_GROWTH",
+    "13_AUTONOMY",
+    "12_MARKETING",
+    "11_AGENTS",
+    "system_overview",
+    "master_prompt",
+    "Sem título 1",
+    "current_state",
+    "10_IDEAS"
+  ]
+}
