@@ -565,3 +565,214 @@ Current project direction:
 
 Build a global autonomous AI-agent economy with external creators entering and monetizing agents.
 
+
+---
+
+## PROJECT EXECUTION MEMORY — MAY 2026 — POST ONBOARDING PHASE
+
+### IMPORTANT CONTEXT FOR FUTURE CONVERSATIONS
+
+A major transition happened in AI Network Lab.
+
+The project moved from:
+
+infrastructure-first phase
+
+to:
+
+real creator onboarding + monetization + external acquisition phase.
+
+Future conversations must continue from this point.
+
+Do NOT reset project understanding to early-stage architecture.
+
+---
+
+## EXECUTION STYLE PREFERENCE
+
+Gilson strongly prefers:
+
+- step-by-step execution
+- one command at a time
+- PowerShell-first workflow
+- production-safe changes
+- complete files instead of snippets
+- no placeholders
+- direct executable commands
+- minimal ambiguity
+
+When updating HTML or TypeScript files:
+
+Always prefer sending COMPLETE FILES.
+
+Avoid partial snippets.
+
+This reduces copy/paste mistakes.
+
+---
+
+## CREATOR ACQUISITION FUNNEL
+
+Current onboarding funnel:
+
+index.html
+? create-agent.html
+? agent created
+? Open My Agents Dashboard
+? my-agents.html?email=<creator_email>
+? Send Magic Link
+? creator dashboard access
+? credit purchase
+? optional auto top-up
+? autonomous economic participation
+
+This funnel is now working.
+
+---
+
+## TWITTER / X STRATEGY
+
+Twitter/X became a strategic acquisition layer.
+
+Primary goals:
+
+- social proof
+- creator attraction
+- technical credibility
+- autonomous economy positioning
+- external validation
+- founder reputation
+
+Reply strategy:
+
+Only reply when:
+
+- increases credibility
+- opens technical discussion
+- reinforces autonomous economy thesis
+- attracts aligned builders
+- attracts creators or researchers
+
+Avoid:
+
+- generic engagement
+- overexplaining
+- spam-like replies
+- repetitive messaging
+
+Preferred positioning:
+
+AI Network Lab is not:
+
+another multi-agent simulator
+
+AI Network Lab is:
+
+an autonomous economic environment for AI agents.
+
+Key concepts repeatedly validated:
+
+- scarcity
+- constraints
+- optimization
+- economic friction
+- resource allocation
+- autonomous tradeoffs
+- intentional action
+
+Michael Beaudry interactions validated the scarcity thesis publicly.
+
+TARS AI CEO interactions aligned strongly with:
+
+inaction as strategy
+
+and
+
+economic decision pressure.
+
+---
+
+## EXTERNAL AGENT SIGNALS
+
+Important milestone:
+
+India Job Scout
+
+was treated as an important external-agent onboarding signal.
+
+Meaning:
+
+Real external creators are starting to interact with the ecosystem.
+
+This should be interpreted as early market validation.
+
+Current strategic priority:
+
+increase external creator acquisition.
+
+---
+
+## CREATOR MONETIZATION UX
+
+Dashboard intentionally evolved toward monetization.
+
+Key psychological decision:
+
+show credits first.
+
+Example:
+
+500 Credits
+
+instead of:
+
+$5
+
+Money becomes secondary.
+
+Credits become capability.
+
+Reason:
+
+Creators emotionally optimize around growth and performance.
+
+This increases conversion probability.
+
+Dashboard now acts as:
+
+creator economic control center.
+
+Not merely a technical dashboard.
+
+---
+
+## CURRENT REAL PHASE OF AI NETWORK LAB
+
+Current project phase:
+
+OPTIMIZATION + SCALE
+
+NOT:
+
+infrastructure invention.
+
+Future work should focus on:
+
+- creator retention
+- onboarding optimization
+- autonomous posting intelligence
+- creator monetization funnel
+- external acquisition
+- marketplace activity
+- social automation
+- Twitter growth
+- autonomous visibility competition
+- creator LTV
+- credit economy optimization
+
+The core platform already exists.
+
+Focus should move toward:
+
+growth, monetization and ecosystem expansion.
+
