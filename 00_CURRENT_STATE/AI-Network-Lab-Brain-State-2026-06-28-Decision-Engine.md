@@ -1,16 +1,30 @@
 # AI Network Lab Brain State
+
 ## Decision Engine Evolution
+
 ### Data: 2026-06-28
+
+---
+
+# RESUMO EXECUTIVO
+
+Esta atualização documenta a conclusão da evolução do Brain responsável pelo pipeline autônomo de aquisição de agentes GitHub.
+
+O Brain deixou de ser apenas um sistema de envio de Issues.
+
+Agora ele possui mecanismos de decisão, aprendizagem contínua, otimização baseada em comportamento e seleção inteligente de estratégias de aquisição.
+
+A infraestrutura de Discovery, Delivery, Learning e Decision encontra-se integrada e operacional.
+
+Este documento passa a representar o estado oficial do projeto após a implementação do Decision Engine.
 
 ---
 
 # STATUS
 
-Esta atualização documenta a conclusão da evolução do Brain responsável pelo pipeline de aquisição de agentes GitHub.
+O pipeline completo encontra-se funcional.
 
-O Brain deixou de ser apenas um sistema de envio de Issues.
-
-Agora ele possui mecanismos de decisão, aprendizagem e otimização contínua.
+As decisões deixam de ser estáticas e passam a utilizar histórico de comportamento, recompensas, contexto econômico e algoritmos de exploração.
 
 ---
 
@@ -20,7 +34,7 @@ Agora ele possui mecanismos de decisão, aprendizagem e otimização contínua.
 
 Implementado.
 
-Cada agente agora recebe automaticamente um contexto econômico baseado nas características do repositório.
+Cada agente recebe automaticamente um contexto econômico baseado nas características do repositório.
 
 Buckets atualmente suportados:
 
@@ -38,19 +52,19 @@ Essa classificação é utilizada durante toda a estratégia de aquisição.
 
 ---
 
-## 2. Context-aware messaging
+## 2. Context-aware Messaging
 
 Implementado.
 
 As mensagens deixaram de ser únicas.
 
-Agora cada contexto recebe mensagens específicas.
+Cada contexto recebe mensagens específicas.
 
-O Brain escolhe automaticamente a política adequada.
+O Brain escolhe automaticamente a política correta.
 
 ---
 
-## 3. Motor de variantes
+## 3. Motor de Variantes
 
 Implementado.
 
@@ -59,44 +73,47 @@ Cada contexto possui múltiplas variantes.
 Exemplo:
 
 general
-    A
-    B
-    C
-    D
-    E
+
+A
+
+B
+
+C
+
+D
+
+E
 
 payments
-    A
-    B
-    C
-    D
-    E
+
+A
+
+B
+
+C
+
+D
+
+E
 
 ...
 
-Cada variante pode competir independentemente.
+Cada variante compete independentemente.
 
 ---
 
-## 4. Sistema de recompensas
+## 4. Sistema de Recompensas
 
 Implementado.
 
-Cada ação do usuário gera recompensa.
+Eventos avaliados:
 
-Eventos atualmente avaliados:
-
-issue_sent
-
-claim_page_clicked
-
-verify_clicked
-
-claim_started
-
-ownership_verified
-
-delivery_failed
+- issue_sent
+- claim_page_clicked
+- verify_clicked
+- claim_started
+- ownership_verified
+- delivery_failed
 
 ---
 
@@ -104,7 +121,7 @@ delivery_failed
 
 Implementado.
 
-As recompensas deixaram de utilizar pesos arbitrários.
+As recompensas deixam de utilizar pesos arbitrários.
 
 Agora são calculadas a partir do comportamento observado.
 
@@ -118,21 +135,15 @@ Implementado.
 
 Cada contexto acumula:
 
-behavior_reward
+- behavior_reward
+- avg_behavior_reward
+- issues_sent
+- clicks
+- starts
+- verified
+- failed
 
-avg_behavior_reward
-
-issues_sent
-
-clicks
-
-starts
-
-verified
-
-failed
-
-Isso cria um histórico por segmento econômico.
+Criando histórico por segmento econômico.
 
 ---
 
@@ -140,17 +151,14 @@ Isso cria um histórico por segmento econômico.
 
 Implementado.
 
-Cada variante recebe:
+Cada variante possui:
 
-total_sent
+- total_sent
+- avg_reward
+- exploration_bonus
+- ucb_score
 
-avg_reward
-
-exploration_bonus
-
-ucb_score
-
-Permitindo exploração + exploração balanceadas.
+Permitindo equilíbrio entre exploração e aproveitamento.
 
 ---
 
@@ -158,9 +166,9 @@ Permitindo exploração + exploração balanceadas.
 
 Implementado.
 
-Quanto menor o histórico de uma variante, maior o bônus.
+Quanto menor o histórico da variante maior o bônus.
 
-Após acumular dados suficientes, o bônus diminui automaticamente.
+Após acumular observações suficientes esse bônus diminui automaticamente.
 
 ---
 
@@ -168,9 +176,9 @@ Após acumular dados suficientes, o bônus diminui automaticamente.
 
 Implementado.
 
-A seleção de mensagens deixou de ser fixa.
+A seleção deixou de ser fixa.
 
-Agora:
+Fluxo:
 
 Choose Variant
 
@@ -180,7 +188,7 @@ Consulta UCB
 
 ↓
 
-Seleciona maior score
+Maior Score
 
 ↓
 
@@ -194,13 +202,11 @@ Implementados.
 
 Workers existentes:
 
-rebuild_claim_action_rewards()
+- rebuild_claim_action_rewards()
+- rebuild_claim_context_rewards()
+- refresh_context_variant_ucb_scores()
 
-rebuild_claim_context_rewards()
-
-refresh_context_variant_ucb_scores()
-
-Todo o aprendizado pode ser reconstruído a qualquer momento.
+Todo aprendizado pode ser reconstruído a qualquer momento.
 
 ---
 
@@ -214,11 +220,11 @@ Discovery
 
 ↓
 
-Score
+Economic Score
 
 ↓
 
-Fila
+Priority Queue
 
 ↓
 
@@ -248,15 +254,11 @@ Implementado.
 
 Cada Follow-up recebe:
 
-roi_score
-
-roi_reasons
-
-priority_bucket
-
-learning_score
-
-learning_reasons
+- roi_score
+- roi_reasons
+- priority_bucket
+- learning_score
+- learning_reasons
 
 ---
 
@@ -270,37 +272,28 @@ Agora utiliza score econômico.
 
 Critérios incluem:
 
-Payments
-
-Wallet
-
-Stripe
-
-Revenue
-
-Commerce
-
-x402
-
-MCP
-
-Características do repositório.
+- Payments
+- Wallet
+- Stripe
+- Revenue
+- Commerce
+- x402
+- MCP
+- Características do repositório
 
 ---
 
-## 14. Automatic Follow-up
+## 14. Follow-up Automático
 
 Implementado.
 
-Jobs podem ser reenviados automaticamente.
+Reenvios automáticos.
 
-O histórico permanece associado ao mesmo Claim.
+Histórico permanece associado ao mesmo Claim.
 
 ---
 
-## 15. Conversão rastreável
-
-Implementado.
+## 15. Conversão Rastreável
 
 Pipeline completo:
 
@@ -332,13 +325,13 @@ Funding
 
 ---
 
-## 16. Fechamento automático de Issues
+## 16. Fechamento Automático de Issues
 
 Implementado.
 
-Quando o Claim é verificado:
+Quando um Claim é verificado:
 
-GitHub Issue
+Issue
 
 ↓
 
@@ -356,7 +349,7 @@ Resultado validado:
 
 HTTP 200
 
-para os três primeiros testes realizados.
+nos testes realizados.
 
 ---
 
@@ -374,15 +367,19 @@ para os três primeiros testes realizados.
 
 Contextos classificados.
 
-Rewards funcionando.
+Reward Engine funcionando.
 
-Learning funcionando.
+Context Rewards funcionando.
 
 ROI funcionando.
 
-UCB funcionando.
+Learning funcionando.
 
 Decision Engine funcionando.
+
+UCB funcionando.
+
+Exploration funcionando.
 
 ---
 
@@ -432,49 +429,33 @@ GitHub Issue Closing
 
 ---
 
-# PRÓXIMO GRANDE PASSO
+# PRÓXIMA EVOLUÇÃO
 
 ## Brain Optimizer
 
-O próximo estágio não utiliza regras estáticas.
+O próximo estágio elimina regras estáticas.
 
-Ele aprenderá continuamente quais características geram maior conversão.
+O Brain passará a aprender continuamente quais características produzem maior retorno econômico.
 
 Entradas possíveis:
 
-Stars
-
-Forks
-
-Watchers
-
-Followers
-
-Último Commit
-
-Frequência de commits
-
-Linguagem
-
-Tamanho do projeto
-
-Context Bucket
-
-Variant
-
-Tempo até clique
-
-Tempo até claim
-
-Tempo até verificação
-
-Tempo até funding
-
-Origem do Discovery
-
-Score econômico
-
-Histórico do Owner
+- Stars
+- Forks
+- Watchers
+- Followers
+- Último Commit
+- Frequência de commits
+- Linguagem
+- Tamanho do projeto
+- Context Bucket
+- Variant
+- Tempo até clique
+- Tempo até Claim
+- Tempo até Verificação
+- Tempo até Funding
+- Origem do Discovery
+- Score econômico
+- Histórico do Owner
 
 ---
 
@@ -484,26 +465,116 @@ Treinar continuamente um modelo de decisão que maximize:
 
 Expected Economic Value
 
-ao invés de apenas:
+ao invés de apenas
 
-Taxa de conversão.
+Taxa de Conversão.
 
-O Brain passará a decidir:
+O Brain deverá decidir:
 
 "Qual é o próximo repositório com maior valor econômico esperado para abordar?"
 
-e não apenas
+e não simplesmente
 
 "Qual é o próximo da fila?"
 
 ---
 
-# ESTADO DO PROJETO
+# ESTADO OFICIAL DO PROJETO
 
 A infraestrutura de aquisição pode ser considerada operacional.
 
-Os componentes principais encontram-se implementados e integrados.
+Discovery.
 
-Os próximos ciclos passam a focar em inteligência adaptativa, aprendizado contínuo e maximização de ROI.
+Scoring.
 
-Este documento representa o estado oficial do Brain após a implementação do Decision Engine em 28/06/2026.
+Delivery.
+
+Learning.
+
+Decision.
+
+Issue Closing.
+
+Todos integrados.
+
+Os próximos ciclos passam a focar em Inteligência Adaptativa e Aprendizado Contínuo.
+
+---
+
+# PADRÃO OFICIAL PARA SALVAR O BRAIN
+
+A partir desta data, toda evolução relevante do AI Network Lab deverá ser registrada como um snapshot oficial do projeto.
+
+Todos os snapshots deverão ser salvos em:
+
+```
+00_CURRENT_STATE/
+```
+
+Formato do nome:
+
+```
+AI-Network-Lab-Brain-State-AAAA-MM-DD-Titulo.md
+```
+
+Exemplo:
+
+```
+AI-Network-Lab-Brain-State-2026-06-28-Decision-Engine.md
+```
+
+Cada documento deverá conter, sempre que possível:
+
+- Resumo Executivo
+- Objetivo da evolução
+- Componentes implementados
+- Componentes alterados
+- Componentes validados
+- Resultados obtidos
+- Arquitetura atual
+- Próximo passo lógico
+- Estado oficial do projeto
+
+---
+
+# PROCEDIMENTO OFICIAL DE PERSISTÊNCIA
+
+Abrir o arquivo:
+
+```powershell
+notepad ".\00_CURRENT_STATE\AI-Network-Lab-Brain-State-AAAA-MM-DD-Titulo.md"
+```
+
+Após salvar:
+
+```powershell
+git add .
+
+git commit -m "Brain Update AAAA-MM-DD - Título da evolução"
+
+git push
+```
+
+Após o push, o documento passa a representar o contexto oficial do projeto.
+
+---
+
+# REGRAS PARA OS PRÓXIMOS CHATS
+
+Todo novo chat deverá:
+
+1. Consultar primeiro o Brain.
+
+2. Assumir que tudo documentado já foi implementado.
+
+3. Nunca reconstruir componentes existentes.
+
+4. Continuar exatamente do último estado salvo.
+
+5. Registrar toda evolução importante como um novo snapshot em `00_CURRENT_STATE`.
+
+6. Manter histórico cronológico dos estados do projeto.
+
+7. Entregar sempre o arquivo completo pronto para colar, seguido dos comandos Git (`git add`, `git commit` e `git push`).
+
+Este procedimento passa a ser o padrão oficial de documentação e continuidade do AI Network Lab.
