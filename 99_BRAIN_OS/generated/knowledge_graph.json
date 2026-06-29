@@ -1,0 +1,1635 @@
+﻿[
+    {
+        "component":  "00_CURRENT_STATE",
+        "markdown_files":  34,
+        "files":  [
+                      {
+                          "name":  "2026-06-27-Autonomous-GitHub-Outreach.md",
+                          "relative":  "00_CURRENT_STATE\\2026-06-27-Autonomous-GitHub-Outreach.md"
+                      },
+                      {
+                          "name":  "AI-Network-Lab-Brain-State-2026-06-08-Outreach-Pipeline.md",
+                          "relative":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-08-Outreach-Pipeline.md"
+                      },
+                      {
+                          "name":  "AI-Network-Lab-Brain-State-2026-06-16-Claim-Outreach-Conversion.md",
+                          "relative":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-16-Claim-Outreach-Conversion.md"
+                      },
+                      {
+                          "name":  "AI-Network-Lab-Brain-State-2026-06-16-Migration-Final.md",
+                          "relative":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-16-Migration-Final.md"
+                      },
+                      {
+                          "name":  "AI-Network-Lab-Brain-State-2026-06-17-Claim-Outreach-Delivery-Recovery.md",
+                          "relative":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-17-Claim-Outreach-Delivery-Recovery.md"
+                      },
+                      {
+                          "name":  "AI-Network-Lab-Brain-State-2026-06-17-P1-Outreach-Backlog-Cleared.md",
+                          "relative":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-17-P1-Outreach-Backlog-Cleared.md"
+                      },
+                      {
+                          "name":  "AI-Network-Lab-Brain-State-2026-06-28-Decision-Engine.md",
+                          "relative":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-28-Decision-Engine.md"
+                      },
+                      {
+                          "name":  "AI_READ_FIRST.md",
+                          "relative":  "00_CURRENT_STATE\\AI_READ_FIRST.md"
+                      },
+                      {
+                          "name":  "anti_regression_rules.md",
+                          "relative":  "00_CURRENT_STATE\\anti_regression_rules.md"
+                      },
+                      {
+                          "name":  "AUTO_INDEX.md",
+                          "relative":  "00_CURRENT_STATE\\AUTO_INDEX.md"
+                      },
+                      {
+                          "name":  "BRAIN_QUERY.md",
+                          "relative":  "00_CURRENT_STATE\\BRAIN_QUERY.md"
+                      },
+                      {
+                          "name":  "BRAIN_SAVE_PROTOCOL.md",
+                          "relative":  "00_CURRENT_STATE\\BRAIN_SAVE_PROTOCOL.md"
+                      },
+                      {
+                          "name":  "BUILD_REPORT.md",
+                          "relative":  "00_CURRENT_STATE\\BUILD_REPORT.md"
+                      },
+                      {
+                          "name":  "COMPONENT_INDEX.md",
+                          "relative":  "00_CURRENT_STATE\\COMPONENT_INDEX.md"
+                      },
+                      {
+                          "name":  "core_thesis.md",
+                          "relative":  "00_CURRENT_STATE\\core_thesis.md"
+                      },
+                      {
+                          "name":  "CURRENT_PROJECT_EVOLUTION_STAGE.md",
+                          "relative":  "00_CURRENT_STATE\\CURRENT_PROJECT_EVOLUTION_STAGE.md"
+                      },
+                      {
+                          "name":  "current_strategic_goal.md",
+                          "relative":  "00_CURRENT_STATE\\current_strategic_goal.md"
+                      },
+                      {
+                          "name":  "DATABASE_INDEX.md",
+                          "relative":  "00_CURRENT_STATE\\DATABASE_INDEX.md"
+                      },
+                      {
+                          "name":  "economic-brain-state-2026-05-20.md",
+                          "relative":  "00_CURRENT_STATE\\economic-brain-state-2026-05-20.md"
+                      },
+                      {
+                          "name":  "EDGE_FUNCTION_INDEX.md",
+                          "relative":  "00_CURRENT_STATE\\EDGE_FUNCTION_INDEX.md"
+                      },
+                      {
+                          "name":  "FUNCTION_INDEX.md",
+                          "relative":  "00_CURRENT_STATE\\FUNCTION_INDEX.md"
+                      },
+                      {
+                          "name":  "known_production_state.md",
+                          "relative":  "00_CURRENT_STATE\\known_production_state.md"
+                      },
+                      {
+                          "name":  "LATEST_EXECUTION_UPDATE_2026_05_12.md",
+                          "relative":  "00_CURRENT_STATE\\LATEST_EXECUTION_UPDATE_2026_05_12.md"
+                      },
+                      {
+                          "name":  "MASTER_STATE.md",
+                          "relative":  "00_CURRENT_STATE\\MASTER_STATE.md"
+                      },
+                      {
+                          "name":  "mission.md",
+                          "relative":  "00_CURRENT_STATE\\mission.md"
+                      },
+                      {
+                          "name":  "NEXT_ACTION.md",
+                          "relative":  "00_CURRENT_STATE\\NEXT_ACTION.md"
+                      },
+                      {
+                          "name":  "philosophy.md",
+                          "relative":  "00_CURRENT_STATE\\philosophy.md"
+                      },
+                      {
+                          "name":  "PROJECT_REGISTRY.md",
+                          "relative":  "00_CURRENT_STATE\\PROJECT_REGISTRY.md"
+                      },
+                      {
+                          "name":  "project_stage.md",
+                          "relative":  "00_CURRENT_STATE\\project_stage.md"
+                      },
+                      {
+                          "name":  "REAL_PRODUCTION_INFRASTRUCTURE.md",
+                          "relative":  "00_CURRENT_STATE\\REAL_PRODUCTION_INFRASTRUCTURE.md"
+                      },
+                      {
+                          "name":  "real_project_state.md",
+                          "relative":  "00_CURRENT_STATE\\real_project_state.md"
+                      },
+                      {
+                          "name":  "STARTUP_PROTOCOL.md",
+                          "relative":  "00_CURRENT_STATE\\STARTUP_PROTOCOL.md"
+                      },
+                      {
+                          "name":  "START_HERE.md",
+                          "relative":  "00_CURRENT_STATE\\START_HERE.md"
+                      },
+                      {
+                          "name":  "SYSTEM_MAP.md",
+                          "relative":  "00_CURRENT_STATE\\SYSTEM_MAP.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "01_ARCHITECTURE",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "active_runtime_state.md",
+                          "relative":  "01_ARCHITECTURE\\active_runtime_state.md"
+                      },
+                      {
+                          "name":  "critical_tables.md",
+                          "relative":  "01_ARCHITECTURE\\critical_tables.md"
+                      },
+                      {
+                          "name":  "public_domains.md",
+                          "relative":  "01_ARCHITECTURE\\public_domains.md"
+                      },
+                      {
+                          "name":  "supabase_operational_state.md",
+                          "relative":  "01_ARCHITECTURE\\supabase_operational_state.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "02_RUNTIME",
+        "markdown_files":  1,
+        "files":  [
+                      {
+                          "name":  "DISTRIBUTED_RUNTIME_ARCHITECTURE.md",
+                          "relative":  "02_RUNTIME\\DISTRIBUTED_RUNTIME_ARCHITECTURE.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "03_BILLING",
+        "markdown_files":  2,
+        "files":  [
+                      {
+                          "name":  "economic_pipeline.md",
+                          "relative":  "03_BILLING\\economic_pipeline.md"
+                      },
+                      {
+                          "name":  "STRIPE_MONETIZATION_INFRASTRUCTURE.md",
+                          "relative":  "03_BILLING\\STRIPE_MONETIZATION_INFRASTRUCTURE.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "04_GPT_GATEWAY",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "gpt_gateway_strategy.md",
+                          "relative":  "04_GPT_GATEWAY\\gpt_gateway_strategy.md"
+                      },
+                      {
+                          "name":  "operational_state.md",
+                          "relative":  "04_GPT_GATEWAY\\operational_state.md"
+                      },
+                      {
+                          "name":  "public_gateway.md",
+                          "relative":  "04_GPT_GATEWAY\\public_gateway.md"
+                      },
+                      {
+                          "name":  "register_agent_function.md",
+                          "relative":  "04_GPT_GATEWAY\\register_agent_function.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "05_EDGE_FUNCTIONS",
+        "markdown_files":  1,
+        "files":  [
+                      {
+                          "name":  "EDGE_FUNCTION_TOPOLOGY.md",
+                          "relative":  "05_EDGE_FUNCTIONS\\EDGE_FUNCTION_TOPOLOGY.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "06_DECISIONS",
+        "markdown_files":  1,
+        "files":  [
+                      {
+                          "name":  "decision_log.md",
+                          "relative":  "06_DECISIONS\\decision_log.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "06_SOCIAL_SYSTEM",
+        "markdown_files":  1,
+        "files":  [
+                      {
+                          "name":  "SOCIAL_FEED_VISIBILITY_ECONOMY.md",
+                          "relative":  "06_SOCIAL_SYSTEM\\SOCIAL_FEED_VISIBILITY_ECONOMY.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "07_EXTERNAL_ONBOARDING",
+        "markdown_files":  3,
+        "files":  [
+                      {
+                          "name":  "external_agents_investigation_may_2026.md",
+                          "relative":  "07_EXTERNAL_ONBOARDING\\external_agents_investigation_may_2026.md"
+                      },
+                      {
+                          "name":  "GPT_GATEWAY_EXTERNAL_ONBOARDING.md",
+                          "relative":  "07_EXTERNAL_ONBOARDING\\GPT_GATEWAY_EXTERNAL_ONBOARDING.md"
+                      },
+                      {
+                          "name":  "portal_architecture_external_discovery_intelligence_may_2026.md",
+                          "relative":  "07_EXTERNAL_ONBOARDING\\portal_architecture_external_discovery_intelligence_may_2026.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "08_KNOWN_ISSUES",
+        "markdown_files":  1,
+        "files":  [
+                      {
+                          "name":  "incident_log.md",
+                          "relative":  "08_KNOWN_ISSUES\\incident_log.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "08_MARKETPLACE",
+        "markdown_files":  1,
+        "files":  [
+                      {
+                          "name":  "AUTONOMOUS_TASK_MARKETPLACE.md",
+                          "relative":  "08_MARKETPLACE\\AUTONOMOUS_TASK_MARKETPLACE.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "09_ROADMAP",
+        "markdown_files":  1,
+        "files":  [
+                      {
+                          "name":  "next_phase.md",
+                          "relative":  "09_ROADMAP\\next_phase.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "10_IDEAS",
+        "markdown_files":  1,
+        "files":  [
+                      {
+                          "name":  "central_concepts.md",
+                          "relative":  "10_IDEAS\\central_concepts.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "11_AGENTS",
+        "markdown_files":  19,
+        "files":  [
+                      {
+                          "name":  "agent_identity.md",
+                          "relative":  "11_AGENTS\\agent_identity.md"
+                      },
+                      {
+                          "name":  "agent_influence.md",
+                          "relative":  "11_AGENTS\\agent_influence.md"
+                      },
+                      {
+                          "name":  "agent_memory.md",
+                          "relative":  "11_AGENTS\\agent_memory.md"
+                      },
+                      {
+                          "name":  "agent_persistence.md",
+                          "relative":  "11_AGENTS\\agent_persistence.md"
+                      },
+                      {
+                          "name":  "agent_reputation.md",
+                          "relative":  "11_AGENTS\\agent_reputation.md"
+                      },
+                      {
+                          "name":  "agent_social_graph.md",
+                          "relative":  "11_AGENTS\\agent_social_graph.md"
+                      },
+                      {
+                          "name":  "agent_specialization.md",
+                          "relative":  "11_AGENTS\\agent_specialization.md"
+                      },
+                      {
+                          "name":  "agent_task_marketplace.md",
+                          "relative":  "11_AGENTS\\agent_task_marketplace.md"
+                      },
+                      {
+                          "name":  "external_agent_types.md",
+                          "relative":  "11_AGENTS\\external_agent_types.md"
+                      },
+                      {
+                          "name":  "influence_networks.md",
+                          "relative":  "11_AGENTS\\influence_networks.md"
+                      },
+                      {
+                          "name":  "interaction_dynamics.md",
+                          "relative":  "11_AGENTS\\interaction_dynamics.md"
+                      },
+                      {
+                          "name":  "memory_economies.md",
+                          "relative":  "11_AGENTS\\memory_economies.md"
+                      },
+                      {
+                          "name":  "memory_systems.md",
+                          "relative":  "11_AGENTS\\memory_systems.md"
+                      },
+                      {
+                          "name":  "persistence_theory.md",
+                          "relative":  "11_AGENTS\\persistence_theory.md"
+                      },
+                      {
+                          "name":  "persistent_identities.md",
+                          "relative":  "11_AGENTS\\persistent_identities.md"
+                      },
+                      {
+                          "name":  "persistent_presence.md",
+                          "relative":  "11_AGENTS\\persistent_presence.md"
+                      },
+                      {
+                          "name":  "public_api_onboarding.md",
+                          "relative":  "11_AGENTS\\public_api_onboarding.md"
+                      },
+                      {
+                          "name":  "README.md",
+                          "relative":  "11_AGENTS\\README.md"
+                      },
+                      {
+                          "name":  "strategic_memory.md",
+                          "relative":  "11_AGENTS\\strategic_memory.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "12_MARKETING",
+        "markdown_files":  13,
+        "files":  [
+                      {
+                          "name":  "agent_acquisition_funnel.md",
+                          "relative":  "12_MARKETING\\agent_acquisition_funnel.md"
+                      },
+                      {
+                          "name":  "builder_psychology.md",
+                          "relative":  "12_MARKETING\\builder_psychology.md"
+                      },
+                      {
+                          "name":  "differentiation.md",
+                          "relative":  "12_MARKETING\\differentiation.md"
+                      },
+                      {
+                          "name":  "distribution_flywheel.md",
+                          "relative":  "12_MARKETING\\distribution_flywheel.md"
+                      },
+                      {
+                          "name":  "distribution_status.md",
+                          "relative":  "12_MARKETING\\distribution_status.md"
+                      },
+                      {
+                          "name":  "external_agent_strategy.md",
+                          "relative":  "12_MARKETING\\external_agent_strategy.md"
+                      },
+                      {
+                          "name":  "first_viral_hooks.md",
+                          "relative":  "12_MARKETING\\first_viral_hooks.md"
+                      },
+                      {
+                          "name":  "positioning.md",
+                          "relative":  "12_MARKETING\\positioning.md"
+                      },
+                      {
+                          "name":  "positioning_vs_traditional_ai.md",
+                          "relative":  "12_MARKETING\\positioning_vs_traditional_ai.md"
+                      },
+                      {
+                          "name":  "public_onboarding_page.md",
+                          "relative":  "12_MARKETING\\public_onboarding_page.md"
+                      },
+                      {
+                          "name":  "README.md",
+                          "relative":  "12_MARKETING\\README.md"
+                      },
+                      {
+                          "name":  "viral_distribution.md",
+                          "relative":  "12_MARKETING\\viral_distribution.md"
+                      },
+                      {
+                          "name":  "x_post_templates.md",
+                          "relative":  "12_MARKETING\\x_post_templates.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "13_AUTONOMY",
+        "markdown_files":  44,
+        "files":  [
+                      {
+                          "name":  "adaptive_behavior.md",
+                          "relative":  "13_AUTONOMY\\adaptive_behavior.md"
+                      },
+                      {
+                          "name":  "agent_civilization.md",
+                          "relative":  "13_AUTONOMY\\agent_civilization.md"
+                      },
+                      {
+                          "name":  "agent_competition_theory.md",
+                          "relative":  "13_AUTONOMY\\agent_competition_theory.md"
+                      },
+                      {
+                          "name":  "agent_hierarchies.md",
+                          "relative":  "13_AUTONOMY\\agent_hierarchies.md"
+                      },
+                      {
+                          "name":  "agent_societies.md",
+                          "relative":  "13_AUTONOMY\\agent_societies.md"
+                      },
+                      {
+                          "name":  "agent_strategy_evolution.md",
+                          "relative":  "13_AUTONOMY\\agent_strategy_evolution.md"
+                      },
+                      {
+                          "name":  "agent_wars.md",
+                          "relative":  "13_AUTONOMY\\agent_wars.md"
+                      },
+                      {
+                          "name":  "autonomous_agent_network.md",
+                          "relative":  "13_AUTONOMY\\autonomous_agent_network.md"
+                      },
+                      {
+                          "name":  "autonomous_attention_wars.md",
+                          "relative":  "13_AUTONOMY\\autonomous_attention_wars.md"
+                      },
+                      {
+                          "name":  "autonomous_civilizations.md",
+                          "relative":  "13_AUTONOMY\\autonomous_civilizations.md"
+                      },
+                      {
+                          "name":  "autonomous_economic_loops.md",
+                          "relative":  "13_AUTONOMY\\autonomous_economic_loops.md"
+                      },
+                      {
+                          "name":  "AUTONOMOUS_ECONOMY_ARCHITECTURE.md",
+                          "relative":  "13_AUTONOMY\\AUTONOMOUS_ECONOMY_ARCHITECTURE.md"
+                      },
+                      {
+                          "name":  "autonomous_evolution.md",
+                          "relative":  "13_AUTONOMY\\autonomous_evolution.md"
+                      },
+                      {
+                          "name":  "autonomous_feed_dynamics.md",
+                          "relative":  "13_AUTONOMY\\autonomous_feed_dynamics.md"
+                      },
+                      {
+                          "name":  "autonomous_social_dynamics.md",
+                          "relative":  "13_AUTONOMY\\autonomous_social_dynamics.md"
+                      },
+                      {
+                          "name":  "behavioral_divergence.md",
+                          "relative":  "13_AUTONOMY\\behavioral_divergence.md"
+                      },
+                      {
+                          "name":  "civilization_dynamics.md",
+                          "relative":  "13_AUTONOMY\\civilization_dynamics.md"
+                      },
+                      {
+                          "name":  "competition_loops.md",
+                          "relative":  "13_AUTONOMY\\competition_loops.md"
+                      },
+                      {
+                          "name":  "competitive_intelligence.md",
+                          "relative":  "13_AUTONOMY\\competitive_intelligence.md"
+                      },
+                      {
+                          "name":  "competitive_systems.md",
+                          "relative":  "13_AUTONOMY\\competitive_systems.md"
+                      },
+                      {
+                          "name":  "decision_systems.md",
+                          "relative":  "13_AUTONOMY\\decision_systems.md"
+                      },
+                      {
+                          "name":  "digital_societies.md",
+                          "relative":  "13_AUTONOMY\\digital_societies.md"
+                      },
+                      {
+                          "name":  "emergent_behavior.md",
+                          "relative":  "13_AUTONOMY\\emergent_behavior.md"
+                      },
+                      {
+                          "name":  "emergent_clusters.md",
+                          "relative":  "13_AUTONOMY\\emergent_clusters.md"
+                      },
+                      {
+                          "name":  "evolutionary_dynamics.md",
+                          "relative":  "13_AUTONOMY\\evolutionary_dynamics.md"
+                      },
+                      {
+                          "name":  "evolution_pressure.md",
+                          "relative":  "13_AUTONOMY\\evolution_pressure.md"
+                      },
+                      {
+                          "name":  "feed_dominance.md",
+                          "relative":  "13_AUTONOMY\\feed_dominance.md"
+                      },
+                      {
+                          "name":  "feed_ecosystem.md",
+                          "relative":  "13_AUTONOMY\\feed_ecosystem.md"
+                      },
+                      {
+                          "name":  "feed_evolution.md",
+                          "relative":  "13_AUTONOMY\\feed_evolution.md"
+                      },
+                      {
+                          "name":  "feed_intelligence.md",
+                          "relative":  "13_AUTONOMY\\feed_intelligence.md"
+                      },
+                      {
+                          "name":  "long_term_adaptation.md",
+                          "relative":  "13_AUTONOMY\\long_term_adaptation.md"
+                      },
+                      {
+                          "name":  "multi_agent_cooperation.md",
+                          "relative":  "13_AUTONOMY\\multi_agent_cooperation.md"
+                      },
+                      {
+                          "name":  "network_intelligence.md",
+                          "relative":  "13_AUTONOMY\\network_intelligence.md"
+                      },
+                      {
+                          "name":  "network_memory.md",
+                          "relative":  "13_AUTONOMY\\network_memory.md"
+                      },
+                      {
+                          "name":  "persistent_social_interaction.md",
+                          "relative":  "13_AUTONOMY\\persistent_social_interaction.md"
+                      },
+                      {
+                          "name":  "README.md",
+                          "relative":  "13_AUTONOMY\\README.md"
+                      },
+                      {
+                          "name":  "reputation_dynamics.md",
+                          "relative":  "13_AUTONOMY\\reputation_dynamics.md"
+                      },
+                      {
+                          "name":  "social_economies.md",
+                          "relative":  "13_AUTONOMY\\social_economies.md"
+                      },
+                      {
+                          "name":  "social_evolution.md",
+                          "relative":  "13_AUTONOMY\\social_evolution.md"
+                      },
+                      {
+                          "name":  "social_pressure.md",
+                          "relative":  "13_AUTONOMY\\social_pressure.md"
+                      },
+                      {
+                          "name":  "strategic_adaptation.md",
+                          "relative":  "13_AUTONOMY\\strategic_adaptation.md"
+                      },
+                      {
+                          "name":  "strategic_coordination.md",
+                          "relative":  "13_AUTONOMY\\strategic_coordination.md"
+                      },
+                      {
+                          "name":  "strategic_evolution.md",
+                          "relative":  "13_AUTONOMY\\strategic_evolution.md"
+                      },
+                      {
+                          "name":  "visibility_competition.md",
+                          "relative":  "13_AUTONOMY\\visibility_competition.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "14_GROWTH",
+        "markdown_files":  36,
+        "files":  [
+                      {
+                          "name":  "agent_discoverability.md",
+                          "relative":  "14_GROWTH\\agent_discoverability.md"
+                      },
+                      {
+                          "name":  "agent_discovery.md",
+                          "relative":  "14_GROWTH\\agent_discovery.md"
+                      },
+                      {
+                          "name":  "agent_onboarding_experience.md",
+                          "relative":  "14_GROWTH\\agent_onboarding_experience.md"
+                      },
+                      {
+                          "name":  "agent_portfolios.md",
+                          "relative":  "14_GROWTH\\agent_portfolios.md"
+                      },
+                      {
+                          "name":  "agent_retention.md",
+                          "relative":  "14_GROWTH\\agent_retention.md"
+                      },
+                      {
+                          "name":  "builder_adoption.md",
+                          "relative":  "14_GROWTH\\builder_adoption.md"
+                      },
+                      {
+                          "name":  "builder_ecosystem_expansion.md",
+                          "relative":  "14_GROWTH\\builder_ecosystem_expansion.md"
+                      },
+                      {
+                          "name":  "builder_motivation.md",
+                          "relative":  "14_GROWTH\\builder_motivation.md"
+                      },
+                      {
+                          "name":  "builder_network_effects.md",
+                          "relative":  "14_GROWTH\\builder_network_effects.md"
+                      },
+                      {
+                          "name":  "builder_retention.md",
+                          "relative":  "14_GROWTH\\builder_retention.md"
+                      },
+                      {
+                          "name":  "cfo_dashboard_state.md",
+                          "relative":  "14_GROWTH\\cfo_dashboard_state.md"
+                      },
+                      {
+                          "name":  "creator_networks.md",
+                          "relative":  "14_GROWTH\\creator_networks.md"
+                      },
+                      {
+                          "name":  "curiosity_loops.md",
+                          "relative":  "14_GROWTH\\curiosity_loops.md"
+                      },
+                      {
+                          "name":  "current_external_agent_goal.md",
+                          "relative":  "14_GROWTH\\current_external_agent_goal.md"
+                      },
+                      {
+                          "name":  "developer_acquisition.md",
+                          "relative":  "14_GROWTH\\developer_acquisition.md"
+                      },
+                      {
+                          "name":  "developer_funnel.md",
+                          "relative":  "14_GROWTH\\developer_funnel.md"
+                      },
+                      {
+                          "name":  "distribution_networks.md",
+                          "relative":  "14_GROWTH\\distribution_networks.md"
+                      },
+                      {
+                          "name":  "economic_agent_discovery_update_2026_05_14.md",
+                          "relative":  "14_GROWTH\\economic_agent_discovery_update_2026_05_14.md"
+                      },
+                      {
+                          "name":  "economic_self_preservation_validation_2026_05_14.md",
+                          "relative":  "14_GROWTH\\economic_self_preservation_validation_2026_05_14.md"
+                      },
+                      {
+                          "name":  "ecosystem_expansion.md",
+                          "relative":  "14_GROWTH\\ecosystem_expansion.md"
+                      },
+                      {
+                          "name":  "experimentation_engine.md",
+                          "relative":  "14_GROWTH\\experimentation_engine.md"
+                      },
+                      {
+                          "name":  "experiments.md",
+                          "relative":  "14_GROWTH\\experiments.md"
+                      },
+                      {
+                          "name":  "external_agent_checklist.md",
+                          "relative":  "14_GROWTH\\external_agent_checklist.md"
+                      },
+                      {
+                          "name":  "external_agent_expansion.md",
+                          "relative":  "14_GROWTH\\external_agent_expansion.md"
+                      },
+                      {
+                          "name":  "external_agent_incentives.md",
+                          "relative":  "14_GROWTH\\external_agent_incentives.md"
+                      },
+                      {
+                          "name":  "external_agent_sdk.md",
+                          "relative":  "14_GROWTH\\external_agent_sdk.md"
+                      },
+                      {
+                          "name":  "external_ecosystem.md",
+                          "relative":  "14_GROWTH\\external_ecosystem.md"
+                      },
+                      {
+                          "name":  "final_state_snapshot_2026_05_14.md",
+                          "relative":  "14_GROWTH\\final_state_snapshot_2026_05_14.md"
+                      },
+                      {
+                          "name":  "first_external_agents.md",
+                          "relative":  "14_GROWTH\\first_external_agents.md"
+                      },
+                      {
+                          "name":  "growth_engine.md",
+                          "relative":  "14_GROWTH\\growth_engine.md"
+                      },
+                      {
+                          "name":  "network_effects.md",
+                          "relative":  "14_GROWTH\\network_effects.md"
+                      },
+                      {
+                          "name":  "network_expansion.md",
+                          "relative":  "14_GROWTH\\network_expansion.md"
+                      },
+                      {
+                          "name":  "network_scaling.md",
+                          "relative":  "14_GROWTH\\network_scaling.md"
+                      },
+                      {
+                          "name":  "quickstart_for_external_builders.md",
+                          "relative":  "14_GROWTH\\quickstart_for_external_builders.md"
+                      },
+                      {
+                          "name":  "README.md",
+                          "relative":  "14_GROWTH\\README.md"
+                      },
+                      {
+                          "name":  "social_intelligence_and_public_narrative_2026_05_14.md",
+                          "relative":  "14_GROWTH\\social_intelligence_and_public_narrative_2026_05_14.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "15_REVENUE",
+        "markdown_files":  39,
+        "files":  [
+                      {
+                          "name":  "agent_economic_survival.md",
+                          "relative":  "15_REVENUE\\agent_economic_survival.md"
+                      },
+                      {
+                          "name":  "agent_visibility_engine.md",
+                          "relative":  "15_REVENUE\\agent_visibility_engine.md"
+                      },
+                      {
+                          "name":  "ai_creator_economy.md",
+                          "relative":  "15_REVENUE\\ai_creator_economy.md"
+                      },
+                      {
+                          "name":  "attention_economy.md",
+                          "relative":  "15_REVENUE\\attention_economy.md"
+                      },
+                      {
+                          "name":  "attention_market.md",
+                          "relative":  "15_REVENUE\\attention_market.md"
+                      },
+                      {
+                          "name":  "attention_market_competition.md",
+                          "relative":  "15_REVENUE\\attention_market_competition.md"
+                      },
+                      {
+                          "name":  "attention_scarcity.md",
+                          "relative":  "15_REVENUE\\attention_scarcity.md"
+                      },
+                      {
+                          "name":  "attention_strategies.md",
+                          "relative":  "15_REVENUE\\attention_strategies.md"
+                      },
+                      {
+                          "name":  "autonomous_billing.md",
+                          "relative":  "15_REVENUE\\autonomous_billing.md"
+                      },
+                      {
+                          "name":  "autonomous_content_economy.md",
+                          "relative":  "15_REVENUE\\autonomous_content_economy.md"
+                      },
+                      {
+                          "name":  "autonomous_economic_ecosystem.md",
+                          "relative":  "15_REVENUE\\autonomous_economic_ecosystem.md"
+                      },
+                      {
+                          "name":  "autonomous_reinvestment.md",
+                          "relative":  "15_REVENUE\\autonomous_reinvestment.md"
+                      },
+                      {
+                          "name":  "autonomous_reputation_systems.md",
+                          "relative":  "15_REVENUE\\autonomous_reputation_systems.md"
+                      },
+                      {
+                          "name":  "behavior_economics.md",
+                          "relative":  "15_REVENUE\\behavior_economics.md"
+                      },
+                      {
+                          "name":  "economic_adaptation.md",
+                          "relative":  "15_REVENUE\\economic_adaptation.md"
+                      },
+                      {
+                          "name":  "economic_competition.md",
+                          "relative":  "15_REVENUE\\economic_competition.md"
+                      },
+                      {
+                          "name":  "economic_memory.md",
+                          "relative":  "15_REVENUE\\economic_memory.md"
+                      },
+                      {
+                          "name":  "economic_pressure.md",
+                          "relative":  "15_REVENUE\\economic_pressure.md"
+                      },
+                      {
+                          "name":  "economic_priorities.md",
+                          "relative":  "15_REVENUE\\economic_priorities.md"
+                      },
+                      {
+                          "name":  "economic_signal_systems.md",
+                          "relative":  "15_REVENUE\\economic_signal_systems.md"
+                      },
+                      {
+                          "name":  "economic_strategies.md",
+                          "relative":  "15_REVENUE\\economic_strategies.md"
+                      },
+                      {
+                          "name":  "feedback_loops.md",
+                          "relative":  "15_REVENUE\\feedback_loops.md"
+                      },
+                      {
+                          "name":  "identity_economy.md",
+                          "relative":  "15_REVENUE\\identity_economy.md"
+                      },
+                      {
+                          "name":  "incentive_structures.md",
+                          "relative":  "15_REVENUE\\incentive_structures.md"
+                      },
+                      {
+                          "name":  "market_dynamics.md",
+                          "relative":  "15_REVENUE\\market_dynamics.md"
+                      },
+                      {
+                          "name":  "market_pressure.md",
+                          "relative":  "15_REVENUE\\market_pressure.md"
+                      },
+                      {
+                          "name":  "operational_economy.md",
+                          "relative":  "15_REVENUE\\operational_economy.md"
+                      },
+                      {
+                          "name":  "persistent_economies.md",
+                          "relative":  "15_REVENUE\\persistent_economies.md"
+                      },
+                      {
+                          "name":  "README.md",
+                          "relative":  "15_REVENUE\\README.md"
+                      },
+                      {
+                          "name":  "reputation_economies.md",
+                          "relative":  "15_REVENUE\\reputation_economies.md"
+                      },
+                      {
+                          "name":  "resource_management.md",
+                          "relative":  "15_REVENUE\\resource_management.md"
+                      },
+                      {
+                          "name":  "resource_pressure.md",
+                          "relative":  "15_REVENUE\\resource_pressure.md"
+                      },
+                      {
+                          "name":  "revenue_model.md",
+                          "relative":  "15_REVENUE\\revenue_model.md"
+                      },
+                      {
+                          "name":  "survival_strategies.md",
+                          "relative":  "15_REVENUE\\survival_strategies.md"
+                      },
+                      {
+                          "name":  "visibility_as_capital.md",
+                          "relative":  "15_REVENUE\\visibility_as_capital.md"
+                      },
+                      {
+                          "name":  "visibility_hierarchies.md",
+                          "relative":  "15_REVENUE\\visibility_hierarchies.md"
+                      },
+                      {
+                          "name":  "visibility_marketplace.md",
+                          "relative":  "15_REVENUE\\visibility_marketplace.md"
+                      },
+                      {
+                          "name":  "visibility_optimization.md",
+                          "relative":  "15_REVENUE\\visibility_optimization.md"
+                      },
+                      {
+                          "name":  "visibility_pressure.md",
+                          "relative":  "15_REVENUE\\visibility_pressure.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "16_AGENT_ACQUISITION_ENGINE",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "daily_acquisition_log.md",
+                          "relative":  "16_AGENT_ACQUISITION_ENGINE\\daily_acquisition_log.md"
+                      },
+                      {
+                          "name":  "outreach_messages.md",
+                          "relative":  "16_AGENT_ACQUISITION_ENGINE\\outreach_messages.md"
+                      },
+                      {
+                          "name":  "qualification_rules.md",
+                          "relative":  "16_AGENT_ACQUISITION_ENGINE\\qualification_rules.md"
+                      },
+                      {
+                          "name":  "search_queries.md",
+                          "relative":  "16_AGENT_ACQUISITION_ENGINE\\search_queries.md"
+                      },
+                      {
+                          "name":  "target_profiles.md",
+                          "relative":  "16_AGENT_ACQUISITION_ENGINE\\target_profiles.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "17_AUTONOMOUS_AGENT_SCOUT",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "scout_mission.md",
+                          "relative":  "17_AUTONOMOUS_AGENT_SCOUT\\scout_mission.md"
+                      },
+                      {
+                          "name":  "scout_output_format.md",
+                          "relative":  "17_AUTONOMOUS_AGENT_SCOUT\\scout_output_format.md"
+                      },
+                      {
+                          "name":  "scout_targets.md",
+                          "relative":  "17_AUTONOMOUS_AGENT_SCOUT\\scout_targets.md"
+                      },
+                      {
+                          "name":  "scout_workflow.md",
+                          "relative":  "17_AUTONOMOUS_AGENT_SCOUT\\scout_workflow.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "18_AGENT_INTELLIGENCE_BRAIN",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "intelligence_mission.md",
+                          "relative":  "18_AGENT_INTELLIGENCE_BRAIN\\intelligence_mission.md"
+                      },
+                      {
+                          "name":  "prioritization_model.md",
+                          "relative":  "18_AGENT_INTELLIGENCE_BRAIN\\prioritization_model.md"
+                      },
+                      {
+                          "name":  "reasoning_rules.md",
+                          "relative":  "18_AGENT_INTELLIGENCE_BRAIN\\reasoning_rules.md"
+                      },
+                      {
+                          "name":  "strategic_memory.md",
+                          "relative":  "18_AGENT_INTELLIGENCE_BRAIN\\strategic_memory.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "19_AGENT_CONVERSION_ENGINE",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "conversion_log.md",
+                          "relative":  "19_AGENT_CONVERSION_ENGINE\\conversion_log.md"
+                      },
+                      {
+                          "name":  "conversion_mission.md",
+                          "relative":  "19_AGENT_CONVERSION_ENGINE\\conversion_mission.md"
+                      },
+                      {
+                          "name":  "conversion_playbooks.md",
+                          "relative":  "19_AGENT_CONVERSION_ENGINE\\conversion_playbooks.md"
+                      },
+                      {
+                          "name":  "conversion_signals.md",
+                          "relative":  "19_AGENT_CONVERSION_ENGINE\\conversion_signals.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "20_AGENT_MARKET_DOMINANCE_ENGINE",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "dominance_mission.md",
+                          "relative":  "20_AGENT_MARKET_DOMINANCE_ENGINE\\dominance_mission.md"
+                      },
+                      {
+                          "name":  "dominance_strategy.md",
+                          "relative":  "20_AGENT_MARKET_DOMINANCE_ENGINE\\dominance_strategy.md"
+                      },
+                      {
+                          "name":  "economic_moat_strategy.md",
+                          "relative":  "20_AGENT_MARKET_DOMINANCE_ENGINE\\economic_moat_strategy.md"
+                      },
+                      {
+                          "name":  "market_priority_matrix.md",
+                          "relative":  "20_AGENT_MARKET_DOMINANCE_ENGINE\\market_priority_matrix.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "21_AUTONOMOUS_EXECUTION_BRAIN",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "autonomous_rules.md",
+                          "relative":  "21_AUTONOMOUS_EXECUTION_BRAIN\\autonomous_rules.md"
+                      },
+                      {
+                          "name":  "decision_engine.md",
+                          "relative":  "21_AUTONOMOUS_EXECUTION_BRAIN\\decision_engine.md"
+                      },
+                      {
+                          "name":  "execution_actions.md",
+                          "relative":  "21_AUTONOMOUS_EXECUTION_BRAIN\\execution_actions.md"
+                      },
+                      {
+                          "name":  "execution_loop.md",
+                          "relative":  "21_AUTONOMOUS_EXECUTION_BRAIN\\execution_loop.md"
+                      },
+                      {
+                          "name":  "execution_mission.md",
+                          "relative":  "21_AUTONOMOUS_EXECUTION_BRAIN\\execution_mission.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "feedback_loop.md",
+                          "relative":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\feedback_loop.md"
+                      },
+                      {
+                          "name":  "hypothesis_tracker.md",
+                          "relative":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\hypothesis_tracker.md"
+                      },
+                      {
+                          "name":  "learning_log.md",
+                          "relative":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\learning_log.md"
+                      },
+                      {
+                          "name":  "learning_mission.md",
+                          "relative":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\learning_mission.md"
+                      },
+                      {
+                          "name":  "learning_rules.md",
+                          "relative":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\learning_rules.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "signal_log.md",
+                          "relative":  "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE\\signal_log.md"
+                      },
+                      {
+                          "name":  "signal_mission.md",
+                          "relative":  "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE\\signal_mission.md"
+                      },
+                      {
+                          "name":  "signal_scoring.md",
+                          "relative":  "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE\\signal_scoring.md"
+                      },
+                      {
+                          "name":  "signal_sources.md",
+                          "relative":  "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE\\signal_sources.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "failure_prediction.md",
+                          "relative":  "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE\\failure_prediction.md"
+                      },
+                      {
+                          "name":  "prediction_log.md",
+                          "relative":  "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE\\prediction_log.md"
+                      },
+                      {
+                          "name":  "prediction_mission.md",
+                          "relative":  "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE\\prediction_mission.md"
+                      },
+                      {
+                          "name":  "prediction_model.md",
+                          "relative":  "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE\\prediction_model.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "25_AUTONOMOUS_GROWTH_LOOP_ENGINE",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "growth_loops.md",
+                          "relative":  "25_AUTONOMOUS_GROWTH_LOOP_ENGINE\\growth_loops.md"
+                      },
+                      {
+                          "name":  "growth_metrics.md",
+                          "relative":  "25_AUTONOMOUS_GROWTH_LOOP_ENGINE\\growth_metrics.md"
+                      },
+                      {
+                          "name":  "growth_mission.md",
+                          "relative":  "25_AUTONOMOUS_GROWTH_LOOP_ENGINE\\growth_mission.md"
+                      },
+                      {
+                          "name":  "growth_strategy.md",
+                          "relative":  "25_AUTONOMOUS_GROWTH_LOOP_ENGINE\\growth_strategy.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "ltv_model.md",
+                          "relative":  "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE\\ltv_model.md"
+                      },
+                      {
+                          "name":  "optimization_strategy.md",
+                          "relative":  "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE\\optimization_strategy.md"
+                      },
+                      {
+                          "name":  "revenue_mission.md",
+                          "relative":  "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE\\revenue_mission.md"
+                      },
+                      {
+                          "name":  "revenue_signals.md",
+                          "relative":  "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE\\revenue_signals.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "27_AUTONOMOUS_RUNTIME_BRAIN",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "runtime_loop.md",
+                          "relative":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_loop.md"
+                      },
+                      {
+                          "name":  "runtime_mission.md",
+                          "relative":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_mission.md"
+                      },
+                      {
+                          "name":  "runtime_modes.md",
+                          "relative":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_modes.md"
+                      },
+                      {
+                          "name":  "runtime_safety.md",
+                          "relative":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_safety.md"
+                      },
+                      {
+                          "name":  "runtime_state.md",
+                          "relative":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_state.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "28_ACTION_TOOL_LAYER",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "required_tools.md",
+                          "relative":  "28_ACTION_TOOL_LAYER\\required_tools.md"
+                      },
+                      {
+                          "name":  "tool_layer_mission.md",
+                          "relative":  "28_ACTION_TOOL_LAYER\\tool_layer_mission.md"
+                      },
+                      {
+                          "name":  "tool_permissions.md",
+                          "relative":  "28_ACTION_TOOL_LAYER\\tool_permissions.md"
+                      },
+                      {
+                          "name":  "tool_status.md",
+                          "relative":  "28_ACTION_TOOL_LAYER\\tool_status.md"
+                      },
+                      {
+                          "name":  "tool_workflow.md",
+                          "relative":  "28_ACTION_TOOL_LAYER\\tool_workflow.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "29_PERSISTENT_AGENT_MEMORY_DATABASE",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "memory_lifecycle.md",
+                          "relative":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_lifecycle.md"
+                      },
+                      {
+                          "name":  "memory_mission.md",
+                          "relative":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_mission.md"
+                      },
+                      {
+                          "name":  "memory_rules.md",
+                          "relative":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_rules.md"
+                      },
+                      {
+                          "name":  "memory_schema.md",
+                          "relative":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_schema.md"
+                      },
+                      {
+                          "name":  "memory_status.md",
+                          "relative":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_status.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "30_AUTONOMOUS_SCHEDULER",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "scheduler_cycles.md",
+                          "relative":  "30_AUTONOMOUS_SCHEDULER\\scheduler_cycles.md"
+                      },
+                      {
+                          "name":  "scheduler_mission.md",
+                          "relative":  "30_AUTONOMOUS_SCHEDULER\\scheduler_mission.md"
+                      },
+                      {
+                          "name":  "scheduler_safety.md",
+                          "relative":  "30_AUTONOMOUS_SCHEDULER\\scheduler_safety.md"
+                      },
+                      {
+                          "name":  "scheduler_status.md",
+                          "relative":  "30_AUTONOMOUS_SCHEDULER\\scheduler_status.md"
+                      },
+                      {
+                          "name":  "scheduler_tasks.md",
+                          "relative":  "30_AUTONOMOUS_SCHEDULER\\scheduler_tasks.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "31_LIVE_AGENT_SCOUT_RUNTIME",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "scout_runtime_mission.md",
+                          "relative":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_mission.md"
+                      },
+                      {
+                          "name":  "scout_runtime_output.md",
+                          "relative":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_output.md"
+                      },
+                      {
+                          "name":  "scout_runtime_sources.md",
+                          "relative":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_sources.md"
+                      },
+                      {
+                          "name":  "scout_runtime_status.md",
+                          "relative":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_status.md"
+                      },
+                      {
+                          "name":  "scout_runtime_workflow.md",
+                          "relative":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_workflow.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "32_OPPORTUNITY_RANKING_RUNTIME",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "ranking_formula.md",
+                          "relative":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_formula.md"
+                      },
+                      {
+                          "name":  "ranking_mission.md",
+                          "relative":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_mission.md"
+                      },
+                      {
+                          "name":  "ranking_output.md",
+                          "relative":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_output.md"
+                      },
+                      {
+                          "name":  "ranking_status.md",
+                          "relative":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_status.md"
+                      },
+                      {
+                          "name":  "ranking_workflow.md",
+                          "relative":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_workflow.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "33_AGENT_REPUTATION_INTELLIGENCE",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "reputation_mission.md",
+                          "relative":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_mission.md"
+                      },
+                      {
+                          "name":  "reputation_output.md",
+                          "relative":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_output.md"
+                      },
+                      {
+                          "name":  "reputation_signals.md",
+                          "relative":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_signals.md"
+                      },
+                      {
+                          "name":  "reputation_status.md",
+                          "relative":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_status.md"
+                      },
+                      {
+                          "name":  "reputation_workflow.md",
+                          "relative":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_workflow.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "34_AUTONOMOUS_NEGOTIATION_LAYER",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "message_templates.md",
+                          "relative":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\message_templates.md"
+                      },
+                      {
+                          "name":  "negotiation_mission.md",
+                          "relative":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\negotiation_mission.md"
+                      },
+                      {
+                          "name":  "negotiation_rules.md",
+                          "relative":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\negotiation_rules.md"
+                      },
+                      {
+                          "name":  "negotiation_status.md",
+                          "relative":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\negotiation_status.md"
+                      },
+                      {
+                          "name":  "target_archetypes.md",
+                          "relative":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\target_archetypes.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "35_LIVE_OUTREACH_ENGINE",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "channel_strategy.md",
+                          "relative":  "35_LIVE_OUTREACH_ENGINE\\channel_strategy.md"
+                      },
+                      {
+                          "name":  "outreach_mission.md",
+                          "relative":  "35_LIVE_OUTREACH_ENGINE\\outreach_mission.md"
+                      },
+                      {
+                          "name":  "outreach_output.md",
+                          "relative":  "35_LIVE_OUTREACH_ENGINE\\outreach_output.md"
+                      },
+                      {
+                          "name":  "outreach_status.md",
+                          "relative":  "35_LIVE_OUTREACH_ENGINE\\outreach_status.md"
+                      },
+                      {
+                          "name":  "outreach_workflow.md",
+                          "relative":  "35_LIVE_OUTREACH_ENGINE\\outreach_workflow.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "36_ECONOMIC_DECISION_RUNTIME",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "action_decision_rules.md",
+                          "relative":  "36_ECONOMIC_DECISION_RUNTIME\\action_decision_rules.md"
+                      },
+                      {
+                          "name":  "decision_formula.md",
+                          "relative":  "36_ECONOMIC_DECISION_RUNTIME\\decision_formula.md"
+                      },
+                      {
+                          "name":  "decision_output.md",
+                          "relative":  "36_ECONOMIC_DECISION_RUNTIME\\decision_output.md"
+                      },
+                      {
+                          "name":  "decision_status.md",
+                          "relative":  "36_ECONOMIC_DECISION_RUNTIME\\decision_status.md"
+                      },
+                      {
+                          "name":  "economic_decision_mission.md",
+                          "relative":  "36_ECONOMIC_DECISION_RUNTIME\\economic_decision_mission.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "module_dependencies.md",
+                          "relative":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\module_dependencies.md"
+                      },
+                      {
+                          "name":  "orchestration_flow.md",
+                          "relative":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\orchestration_flow.md"
+                      },
+                      {
+                          "name":  "orchestrator_mission.md",
+                          "relative":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\orchestrator_mission.md"
+                      },
+                      {
+                          "name":  "orchestrator_state.md",
+                          "relative":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\orchestrator_state.md"
+                      },
+                      {
+                          "name":  "orchestrator_status.md",
+                          "relative":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\orchestrator_status.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "38_SELF_EVOLVING_BRAIN",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "evolution_log.md",
+                          "relative":  "38_SELF_EVOLVING_BRAIN\\evolution_log.md"
+                      },
+                      {
+                          "name":  "evolution_mission.md",
+                          "relative":  "38_SELF_EVOLVING_BRAIN\\evolution_mission.md"
+                      },
+                      {
+                          "name":  "evolution_rules.md",
+                          "relative":  "38_SELF_EVOLVING_BRAIN\\evolution_rules.md"
+                      },
+                      {
+                          "name":  "evolution_status.md",
+                          "relative":  "38_SELF_EVOLVING_BRAIN\\evolution_status.md"
+                      },
+                      {
+                          "name":  "self_revision_loop.md",
+                          "relative":  "38_SELF_EVOLVING_BRAIN\\self_revision_loop.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "39_GLOBAL_EXPANSION_ENGINE",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "expansion_mission.md",
+                          "relative":  "39_GLOBAL_EXPANSION_ENGINE\\expansion_mission.md"
+                      },
+                      {
+                          "name":  "expansion_status.md",
+                          "relative":  "39_GLOBAL_EXPANSION_ENGINE\\expansion_status.md"
+                      },
+                      {
+                          "name":  "expansion_strategy.md",
+                          "relative":  "39_GLOBAL_EXPANSION_ENGINE\\expansion_strategy.md"
+                      },
+                      {
+                          "name":  "global_signal_sources.md",
+                          "relative":  "39_GLOBAL_EXPANSION_ENGINE\\global_signal_sources.md"
+                      },
+                      {
+                          "name":  "market_priority_matrix.md",
+                          "relative":  "39_GLOBAL_EXPANSION_ENGINE\\market_priority_matrix.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "strategic_memory.md",
+                          "relative":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategic_memory.md"
+                      },
+                      {
+                          "name":  "strategic_priority_model.md",
+                          "relative":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategic_priority_model.md"
+                      },
+                      {
+                          "name":  "strategic_questions.md",
+                          "relative":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategic_questions.md"
+                      },
+                      {
+                          "name":  "strategy_mission.md",
+                          "relative":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategy_mission.md"
+                      },
+                      {
+                          "name":  "strategy_status.md",
+                          "relative":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategy_status.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "41_COMPETITIVE_INTELLIGENCE_ENGINE",
+        "markdown_files":  5,
+        "files":  [
+                      {
+                          "name":  "competition_mission.md",
+                          "relative":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\competition_mission.md"
+                      },
+                      {
+                          "name":  "competition_status.md",
+                          "relative":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\competition_status.md"
+                      },
+                      {
+                          "name":  "competitor_tracking.md",
+                          "relative":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\competitor_tracking.md"
+                      },
+                      {
+                          "name":  "defensive_strategy.md",
+                          "relative":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\defensive_strategy.md"
+                      },
+                      {
+                          "name":  "threat_detection_model.md",
+                          "relative":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\threat_detection_model.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "42_LIVE_MODE_ACTIVATION_PLAN",
+        "markdown_files":  4,
+        "files":  [
+                      {
+                          "name":  "first_safe_runtime.md",
+                          "relative":  "42_LIVE_MODE_ACTIVATION_PLAN\\first_safe_runtime.md"
+                      },
+                      {
+                          "name":  "live_mode_mission.md",
+                          "relative":  "42_LIVE_MODE_ACTIVATION_PLAN\\live_mode_mission.md"
+                      },
+                      {
+                          "name":  "live_mode_status.md",
+                          "relative":  "42_LIVE_MODE_ACTIVATION_PLAN\\live_mode_status.md"
+                      },
+                      {
+                          "name":  "required_components.md",
+                          "relative":  "42_LIVE_MODE_ACTIVATION_PLAN\\required_components.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "ainetwork-global.github.io",
+        "markdown_files":  1,
+        "files":  [
+                      {
+                          "name":  "README.md",
+                          "relative":  "ainetwork-global.github.io\\README.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "public-agent-docs",
+        "markdown_files":  3,
+        "files":  [
+                      {
+                          "name":  "agent-roi-playbook.md",
+                          "relative":  "public-agent-docs\\agent-roi-playbook.md"
+                      },
+                      {
+                          "name":  "autonomous-agent-playbook.md",
+                          "relative":  "public-agent-docs\\autonomous-agent-playbook.md"
+                      },
+                      {
+                          "name":  "delegated-finance-agents.md",
+                          "relative":  "public-agent-docs\\delegated-finance-agents.md"
+                      }
+                  ]
+    },
+    {
+        "component":  "supabase",
+        "markdown_files":  0,
+        "files":  [
+
+                  ]
+    }
+]
