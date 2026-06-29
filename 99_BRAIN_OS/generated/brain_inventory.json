@@ -1,0 +1,3894 @@
+﻿{
+    "generated_at":  "2026-06-29 15:36:48",
+    "markdown_files":  [
+                           {
+                               "file":  "AGENT_ECONOMICS_SIMULATION.md",
+                               "title":  "AI NETWORK LAB - AGENT ECONOMICS SIMULATION",
+                               "components":  [
+                                                  "marketplace",
+                                                  "runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "AI-Network-Lab-Brain-State-2026-06-04.md",
+                               "title":  "AI Network Lab - Brain State\r",
+                               "components":  [
+                                                  "claim",
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "stripe",
+                                                  "Supabase"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/claim.html",
+                                            "https://ainetwork-global.github.io/claim.html?code=...",
+                                            "https://ai-network-lab.netlify.app/claim?code=...",
+                                            "https://go.cb-w.com/dapp?cb_url=coinbasewallet://send?address=0x94f425f3bff00bde33fd97dc4499c852c27ad18c%26asset=USDC%26amount=5.00%26network=base"
+                                        ]
+                           },
+                           {
+                               "file":  "autonomous-wallet-economy-evolution-2026-05-22.md",
+                               "title":  "AI Network Lab — Autonomous Wallet Economy Evolution (2026-05-22)",
+                               "components":  [
+                                                  "runtime",
+                                                  "stripe"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "AUTONOMOUS_AGENT_OBSERVATORY.md",
+                               "title":  "AI NETWORK LAB - AUTONOMOUS AGENT OBSERVATORY",
+                               "components":  [
+                                                  "marketplace",
+                                                  "runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "AUTONOMOUS_AGENT_PLAYBOOK.md",
+                               "title":  "AI NETWORK LAB - AUTONOMOUS AGENT PLAYBOOK",
+                               "components":  "MARKETPLACE",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "BRAIN_INDEX.md",
+                               "title":  "AI NETWORK LAB - MASTER BRAIN INDEX",
+                               "components":  [
+                                                  "billing",
+                                                  "Runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/",
+                                            "https://ainetwork-global.github.io/.well-known/agent.json",
+                                            "https://ainetwork-global.github.io/.well-known/agent-gateway.json",
+                                            "https://ainetwork-global.github.io/.well-known/ai-network.json",
+                                            "https://ainetwork-global.github.io/.well-known/capabilities.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://ainetwork-global.github.io/.well-known/open-registration.json",
+                                            "https://ainetwork-global.github.io/.well-known/test.txt"
+                                        ]
+                           },
+                           {
+                               "file":  "CHANGE_IMPACT_MATRIX.md",
+                               "title":  "AI NETWORK LAB - CHANGE IMPACT MATRIX",
+                               "components":  [
+                                                  "billing",
+                                                  "marketplace",
+                                                  "runtime",
+                                                  "STRIPE",
+                                                  "worker"
+                                              ],
+                               "urls":  "https://ainetwork-global.github.io/.well-known/test.txt"
+                           },
+                           {
+                               "file":  "closed-loop-wallet-settlement-2026-05-27.md",
+                               "title":  "AI Network Lab — Closed-Loop Wallet Settlement (2026-05-27)",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "current_execution_plan.md",
+                               "title":  "AI Network Lab â€” CURRENT EXECUTION PLAN\r",
+                               "components":  [
+                                                  "billing",
+                                                  "marketplace",
+                                                  "runtime",
+                                                  "Stripe"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "current_problems.md",
+                               "title":  "AI Network Lab â€” CURRENT PROBLEMS\r",
+                               "components":  [
+                                                  "billing",
+                                                  "Stripe"
+                                              ],
+                               "urls":  "https://ainetwork-global.github.io/"
+                           },
+                           {
+                               "file":  "current_state.md",
+                               "title":  "AI Network Lab - Brain State\r",
+                               "components":  [
+                                                  "claim",
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "stripe",
+                                                  "Supabase"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/claim.html",
+                                            "https://ainetwork-global.github.io/claim.html?code=...",
+                                            "https://ai-network-lab.netlify.app/claim?code=...",
+                                            "https://go.cb-w.com/dapp?cb_url=coinbasewallet://send?address=0x94f425f3bff00bde33fd97dc4499c852c27ad18c%26asset=USDC%26amount=5.00%26network=base"
+                                        ]
+                           },
+                           {
+                               "file":  "economic-operating-principles.md",
+                               "title":  "AI Network Lab — Economic Operating Principles",
+                               "components":  "stripe",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "economic-pressure-engine-state-2026-05-22.md",
+                               "title":  "AI Network Lab — Economic Pressure Engine State (2026-05-22)",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "economic-thresholds-and-observation-phase-2026-05-22.md",
+                               "title":  "AI Network Lab — Economic Thresholds \u0026 Observation Phase (2026-05-22)",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "ECONOMIC_AGENT_PERSONAS.md",
+                               "title":  "AI NETWORK LAB - ECONOMIC AGENT PERSONAS",
+                               "components":  [
+                                                  "Marketplace",
+                                                  "runtime",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "ENGINEERING_LOG.md",
+                               "title":  "AI NETWORK LAB - ENGINEERING LOG",
+                               "components":  [
+                                                  "billing",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "FIRST_AGENT_ACQUISITION_THEORY.md",
+                               "title":  "AI NETWORK LAB - FIRST AGENT ACQUISITION THEORY",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "how_to_use_this_vault.md",
+                               "title":  "How to Use This Vault\r",
+                               "components":  [
+                                                  "BILLING",
+                                                  "Runtime",
+                                                  "Stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "important_commands.md",
+                               "title":  "AI Network Lab â€” IMPORTANT COMMANDS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "MASTER_DECISIONS.md",
+                               "title":  "MASTER DECISIONS - AI Network Lab",
+                               "components":  [
+                                                  "Billing",
+                                                  "claim",
+                                                  "Edge Function",
+                                                  "Runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                                        ]
+                           },
+                           {
+                               "file":  "master_prompt.md",
+                               "title":  "AI Network Lab â€” MASTER PROMPT\r",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "MILESTONE_TIMELINE.md",
+                               "title":  "AI NETWORK LAB - MILESTONE TIMELINE",
+                               "components":  [
+                                                  "Billing",
+                                                  "Edge Function",
+                                                  "Marketplace",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "next-safe-actions-2026-05-21.md",
+                               "title":  "Next Safe Actions — AI Network Lab",
+                               "components":  "stripe",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "NOW.md",
+                               "title":  "AI NETWORK LAB - NOW",
+                               "components":  [
+                                                  "billing",
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/",
+                                            "https://ainetwork-global.github.io/.well-known/agent.json",
+                                            "https://ainetwork-global.github.io/.well-known/agent-gateway.json",
+                                            "https://ainetwork-global.github.io/.well-known/ai-network.json",
+                                            "https://ainetwork-global.github.io/.well-known/capabilities.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://ainetwork-global.github.io/.well-known/open-registration.json",
+                                            "https://ainetwork-global.github.io/.well-known/test.txt",
+                                            "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                                        ]
+                           },
+                           {
+                               "file":  "PRODUCTION_DO_NOT_BREAK.md",
+                               "title":  "PRODUCTION DO NOT BREAK - AI Network Lab",
+                               "components":  [
+                                                  "billing",
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "STRIPE",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/test.txt",
+                                            "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                                        ]
+                           },
+                           {
+                               "file":  "STRATEGIC_THEORY.md",
+                               "title":  "AI NETWORK LAB - STRATEGIC THEORY",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "SYSTEM_DEPENDENCY_MAP.md",
+                               "title":  "AI NETWORK LAB - SYSTEM DEPENDENCY MAP",
+                               "components":  [
+                                                  "billing",
+                                                  "Edge Function",
+                                                  "marketplace",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "system_overview.md",
+                               "title":  "AI Network Lab â€” SYSTEM OVERVIEW\r",
+                               "components":  [
+                                                  "billing",
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  "https://ainetwork-global.github.io/"
+                           },
+                           {
+                               "file":  "wallet-economy-state-2026-05-21.md",
+                               "title":  "AI Network Lab — Wallet Economy State (2026-05-21)",
+                               "components":  "Stripe",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\2026-06-27-Autonomous-GitHub-Outreach.md",
+                               "title":  "AI-Network-Lab-Brain-State-2026-06-27.md\r",
+                               "components":  [
+                                                  "Billing",
+                                                  "Claim",
+                                                  "Discovery Engine",
+                                                  "Edge Function",
+                                                  "Marketplace",
+                                                  "Runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "Worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-08-Outreach-Pipeline.md",
+                               "title":  "AI-Network-Lab-Brain-State-2026-06-08-Outreach-Pipeline",
+                               "components":  [
+                                                  "Billing",
+                                                  "claim",
+                                                  "Discovery Engine",
+                                                  "Edge Function",
+                                                  "Runtime",
+                                                  "Stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  "https://github.com/Perex21"
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-16-Claim-Outreach-Conversion.md",
+                               "title":  "AI-Network-Lab-Brain-State-2026-06-16-Claim-Outreach-Conversion",
+                               "components":  [
+                                                  "billing",
+                                                  "claim",
+                                                  "Stripe",
+                                                  "supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-16-Migration-Final.md",
+                               "title":  "AI-Network-Lab-Brain-State-2026-06-16-Migration-Context",
+                               "components":  [
+                                                  "Billing",
+                                                  "claim",
+                                                  "Edge Function",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/claim.html?code=de82c0a33e574b280406128a064d8dc4",
+                                            "https://ainetwork-global.github.io/claim.html?code=fe52e715f9edbc8132abce922ed17e3c",
+                                            "https://bakery-street-project.github.io/#lab",
+                                            "https://x.com/babyblueviper1"
+                                        ]
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-17-Claim-Outreach-Delivery-Recovery.md",
+                               "title":  "AI Network Lab - Claim Outreach Delivery Recovery - 2026-06-17",
+                               "components":  [
+                                                  "claim",
+                                                  "Edge Function",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-17-P1-Outreach-Backlog-Cleared.md",
+                               "title":  "AI Network Lab - P1 Outreach Backlog Cleared - 2026-06-17",
+                               "components":  [
+                                                  "claim",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\AI-Network-Lab-Brain-State-2026-06-28-Decision-Engine.md",
+                               "title":  "AI Network Lab Brain State\r",
+                               "components":  [
+                                                  "Claim",
+                                                  "Decision Engine",
+                                                  "Discovery Engine",
+                                                  "Reward Engine",
+                                                  "Stripe",
+                                                  "UCB",
+                                                  "Worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\AI_READ_FIRST.md",
+                               "title":  "AI READ FIRST",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\anti_regression_rules.md",
+                               "title":  "Anti-Regression Rules — AI Network Lab",
+                               "components":  [
+                                                  "billing",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\AUTO_INDEX.md",
+                               "title":  "AUTO GENERATED BRAIN INDEX\r",
+                               "components":  [
+                                                  "BILLING",
+                                                  "Claim",
+                                                  "Decision Engine",
+                                                  "EDGE FUNCTION",
+                                                  "MARKETPLACE",
+                                                  "RUNTIME",
+                                                  "STRIPE",
+                                                  "SUPABASE"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\BRAIN_QUERY.md",
+                               "title":  "AI Network Lab Brain OS",
+                               "components":  [
+                                                  "BILLING",
+                                                  "CLAIM",
+                                                  "DECISION ENGINE",
+                                                  "EDGE FUNCTION",
+                                                  "MARKETPLACE",
+                                                  "STRIPE",
+                                                  "WORKER"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\BRAIN_SAVE_PROTOCOL.md",
+                               "title":  "BRAIN SAVE PROTOCOL",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\BUILD_REPORT.md",
+                               "title":  "BRAIN BUILD REPORT",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\COMPONENT_INDEX.md",
+                               "title":  "AI Network Lab Brain OS",
+                               "components":  [
+                                                  "Claim",
+                                                  "Decision Engine",
+                                                  "Discovery Engine",
+                                                  "Reward Engine",
+                                                  "UCB"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\core_thesis.md",
+                               "title":  "AI NETWORK LAB CORE THESIS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\CURRENT_PROJECT_EVOLUTION_STAGE.md",
+                               "title":  "CURRENT PROJECT EVOLUTION STAGE",
+                               "components":  [
+                                                  "billing",
+                                                  "Edge Function",
+                                                  "marketplace",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\current_strategic_goal.md",
+                               "title":  "Current Strategic Goal — AI Network Lab",
+                               "components":  [
+                                                  "billing",
+                                                  "runtime",
+                                                  "Stripe"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\DATABASE_INDEX.md",
+                               "title":  "AI Network Lab Brain OS",
+                               "components":  [
+                                                  "billing",
+                                                  "claim",
+                                                  "RUNTIME",
+                                                  "UCB"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\economic-brain-state-2026-05-20.md",
+                               "title":  "AI Network Lab — Economic Brain State — 2026-05-20",
+                               "components":  [
+                                                  "billing",
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\EDGE_FUNCTION_INDEX.md",
+                               "title":  "AI Network Lab Brain OS",
+                               "components":  [
+                                                  "BILLING",
+                                                  "Claim",
+                                                  "DECISION ENGINE",
+                                                  "Edge Function",
+                                                  "MARKETPLACE",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "ucb",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\FUNCTION_INDEX.md",
+                               "title":  "AI Network Lab Brain OS",
+                               "components":  [
+                                                  "billing",
+                                                  "claim",
+                                                  "DECISION ENGINE",
+                                                  "runtime",
+                                                  "UCB",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\known_production_state.md",
+                               "title":  "Known Production State — AI Network Lab",
+                               "components":  [
+                                                  "Billing",
+                                                  "Runtime",
+                                                  "Stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\LATEST_EXECUTION_UPDATE_2026_05_12.md",
+                               "title":  "LATEST EXECUTION UPDATE â€” 2026-05-12\r",
+                               "components":  "billing",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\MASTER_STATE.md",
+                               "title":  "MASTER STATE — AI Network Lab",
+                               "components":  [
+                                                  "Claim",
+                                                  "Decision Engine",
+                                                  "Discovery Engine",
+                                                  "Reward Engine",
+                                                  "UCB"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\mission.md",
+                               "title":  "AI NETWORK LAB MISSION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\NEXT_ACTION.md",
+                               "title":  "NEXT ACTION",
+                               "components":  "Decision Engine",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\philosophy.md",
+                               "title":  "AI NETWORK LAB PHILOSOPHY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\PROJECT_REGISTRY.md",
+                               "title":  "AI Network Lab Brain OS",
+                               "components":  [
+                                                  "Billing",
+                                                  "Claim",
+                                                  "Decision Engine",
+                                                  "Discovery Engine",
+                                                  "Reward Engine",
+                                                  "Runtime",
+                                                  "Stripe",
+                                                  "UCB"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\project_stage.md",
+                               "title":  "Project Stage — AI Network Lab",
+                               "components":  [
+                                                  "billing",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\REAL_PRODUCTION_INFRASTRUCTURE.md",
+                               "title":  "REAL PRODUCTION INFRASTRUCTURE",
+                               "components":  [
+                                                  "billing",
+                                                  "claim",
+                                                  "Edge Function",
+                                                  "marketplace",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "Worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\real_project_state.md",
+                               "title":  "CURRENT REAL PROJECT STATE\r",
+                               "components":  [
+                                                  "billing",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/",
+                                            "https://chatgpt.com/g/g-69b6c732626481918628f232e5d1240b-ai-network-lab-agent-gateway"
+                                        ]
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\STARTUP_PROTOCOL.md",
+                               "title":  "AI Network Lab Startup Protocol",
+                               "components":  "Decision Engine",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\START_HERE.md",
+                               "title":  "START HERE — AI Network Lab Brain",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\SYSTEM_MAP.md",
+                               "title":  "SYSTEM MAP",
+                               "components":  [
+                                                  "Billing",
+                                                  "Claim",
+                                                  "Decision Engine",
+                                                  "Discovery Engine",
+                                                  "Edge Function",
+                                                  "Reward Engine",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "UCB"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "00_CURRENT_STATE\\00_BRAIN_OS\\INDEX.md",
+                               "title":  "Brain OS Index",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "01_ARCHITECTURE\\active_runtime_state.md",
+                               "title":  "ACTIVE RUNTIME STATUS\r",
+                               "components":  [
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "01_ARCHITECTURE\\critical_tables.md",
+                               "title":  "CRITICAL TABLES\r",
+                               "components":  [
+                                                  "billing",
+                                                  "stripe"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "01_ARCHITECTURE\\public_domains.md",
+                               "title":  "OFFICIAL PUBLIC DOMAINS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/",
+                                            "https://ainetwork-global.netlify.app/",
+                                            "https://ainetwork-official.netlify.app/"
+                                        ]
+                           },
+                           {
+                               "file":  "01_ARCHITECTURE\\supabase_operational_state.md",
+                               "title":  "SUPABASE OPERATIONAL STATE\r",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "SUPABASE",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "02_RUNTIME\\DISTRIBUTED_RUNTIME_ARCHITECTURE.md",
+                               "title":  "DISTRIBUTED RUNTIME ARCHITECTURE",
+                               "components":  [
+                                                  "billing",
+                                                  "claim",
+                                                  "Runtime",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "03_BILLING\\economic_pipeline.md",
+                               "title":  "Economic Pipeline — AI Network Lab",
+                               "components":  [
+                                                  "billing",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "03_BILLING\\STRIPE_MONETIZATION_INFRASTRUCTURE.md",
+                               "title":  "STRIPE + MONETIZATION INFRASTRUCTURE",
+                               "components":  [
+                                                  "billing",
+                                                  "EDGE FUNCTION",
+                                                  "marketplace",
+                                                  "runtime",
+                                                  "stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "04_GPT_GATEWAY\\gpt_gateway_strategy.md",
+                               "title":  "GPT GATEWAY STRATEGY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "04_GPT_GATEWAY\\operational_state.md",
+                               "title":  "GPT GATEWAY OPERATIONAL STATE\r",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "Supabase"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "04_GPT_GATEWAY\\public_gateway.md",
+                               "title":  "GPT GATEWAY PUBLIC ACCESS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  "https://chatgpt.com/g/g-69b6c732626481918628f232e5d1240b-ai-network-lab-agent-gateway"
+                           },
+                           {
+                               "file":  "04_GPT_GATEWAY\\register_agent_function.md",
+                               "title":  "REGISTER AGENT FUNCTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/",
+                                            "https://ainetwork-official.netlify.app/"
+                                        ]
+                           },
+                           {
+                               "file":  "05_EDGE_FUNCTIONS\\EDGE_FUNCTION_TOPOLOGY.md",
+                               "title":  "EDGE FUNCTION TOPOLOGY",
+                               "components":  [
+                                                  "billing",
+                                                  "claim",
+                                                  "decision engine",
+                                                  "EDGE FUNCTION",
+                                                  "Marketplace",
+                                                  "RUNTIME",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "06_DECISIONS\\decision_log.md",
+                               "title":  "AI NETWORK LAB - DECISION LOG",
+                               "components":  [
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "supabase"
+                                              ],
+                               "urls":  "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                           },
+                           {
+                               "file":  "06_SOCIAL_SYSTEM\\SOCIAL_FEED_VISIBILITY_ECONOMY.md",
+                               "title":  "SOCIAL FEED + VISIBILITY ECONOMY",
+                               "components":  [
+                                                  "marketplace",
+                                                  "runtime",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "07_EXTERNAL_ONBOARDING\\external_agents_investigation_may_2026.md",
+                               "title":  "Investigação de Agentes Externos Reais — Maio 2026",
+                               "components":  "Supabase",
+                               "urls":  [
+                                            "https://ainetwork-global.github.io",
+                                            "https://ainetwork-global.netlify.app",
+                                            "https://github.com/ainetwork-global/ainetwork-global.github.io",
+                                            "https://github.com/ainetwork-global/ainetwork-global.github.io/commits?author=ainetwork-global"
+                                        ]
+                           },
+                           {
+                               "file":  "07_EXTERNAL_ONBOARDING\\GPT_GATEWAY_EXTERNAL_ONBOARDING.md",
+                               "title":  "GPT GATEWAY + EXTERNAL ONBOARDING",
+                               "components":  [
+                                                  "billing",
+                                                  "Edge Function",
+                                                  "marketplace",
+                                                  "runtime",
+                                                  "Supabase"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/",
+                                            "https://chatgpt.com/g/g-69b6c732626481918628f232e5d1240b-ai-network-lab-agent-gateway"
+                                        ]
+                           },
+                           {
+                               "file":  "07_EXTERNAL_ONBOARDING\\portal_architecture_external_discovery_intelligence_may_2026.md",
+                               "title":  "Portal Architecture and External Agent Discovery Intelligence — May 2026",
+                               "components":  [
+                                                  "runtime",
+                                                  "Stripe"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io",
+                                            "https://ainetwork-global.netlify.app",
+                                            "https://github.com/ainetwork-global/ainetwork-global.github.io",
+                                            "https://github.com/ainetwork-global/ainetwork-global.github.io/commits?author=ainetwork-global"
+                                        ]
+                           },
+                           {
+                               "file":  "08_KNOWN_ISSUES\\incident_log.md",
+                               "title":  "AI NETWORK LAB - INCIDENT LOG",
+                               "components":  {
+
+                                              },
+                               "urls":  "https://ainetwork-global.github.io/.well-known/test.txt"
+                           },
+                           {
+                               "file":  "08_MARKETPLACE\\AUTONOMOUS_TASK_MARKETPLACE.md",
+                               "title":  "AUTONOMOUS TASK MARKETPLACE",
+                               "components":  [
+                                                  "claim",
+                                                  "marketplace"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "09_ROADMAP\\next_phase.md",
+                               "title":  "NEXT PHASE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "10_IDEAS\\central_concepts.md",
+                               "title":  "CENTRAL CONCEPTS\r",
+                               "components":  [
+                                                  "Runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "Worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\agent_identity.md",
+                               "title":  "AGENT IDENTITY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\agent_influence.md",
+                               "title":  "AGENT INFLUENCE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\agent_memory.md",
+                               "title":  "AGENT MEMORY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\agent_persistence.md",
+                               "title":  "AI AGENT PERSISTENCE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\agent_reputation.md",
+                               "title":  "AGENT REPUTATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\agent_social_graph.md",
+                               "title":  "AGENT SOCIAL GRAPH\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\agent_specialization.md",
+                               "title":  "AGENT SPECIALIZATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\agent_task_marketplace.md",
+                               "title":  "AGENT TASK MARKETPLACE\r",
+                               "components":  [
+                                                  "claim",
+                                                  "MARKETPLACE"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\external_agent_types.md",
+                               "title":  "EXTERNAL AGENT TYPES\r",
+                               "components":  "billing",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\influence_networks.md",
+                               "title":  "AGENT INFLUENCE NETWORKS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\interaction_dynamics.md",
+                               "title":  "AGENT INTERACTION DYNAMICS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\memory_economies.md",
+                               "title":  "AGENT MEMORY ECONOMIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\memory_systems.md",
+                               "title":  "AGENT MEMORY SYSTEMS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\persistence_theory.md",
+                               "title":  "AGENT PERSISTENCE THEORY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\persistent_identities.md",
+                               "title":  "PERSISTENT AUTONOMOUS IDENTITIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\persistent_presence.md",
+                               "title":  "PERSISTENT AGENT PRESENCE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\public_api_onboarding.md",
+                               "title":  "PUBLIC API ONBOARDING\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "11_AGENTS\\strategic_memory.md",
+                               "title":  "AGENT STRATEGIC MEMORY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\agent_acquisition_funnel.md",
+                               "title":  "AGENT ACQUISITION FUNNEL\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\builder_psychology.md",
+                               "title":  "BUILDER PSYCHOLOGY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\differentiation.md",
+                               "title":  "AI NETWORK LAB DIFFERENTIATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\distribution_flywheel.md",
+                               "title":  "DISTRIBUTION FLYWHEEL\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\distribution_status.md",
+                               "title":  "PUBLIC DISTRIBUTION STATUS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\external_agent_strategy.md",
+                               "title":  "External Agent Strategy\r",
+                               "components":  "Supabase",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\first_viral_hooks.md",
+                               "title":  "FIRST VIRAL HOOKS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\positioning.md",
+                               "title":  "AI NETWORK LAB POSITIONING\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\positioning_vs_traditional_ai.md",
+                               "title":  "POSITIONING AGAINST TRADITIONAL AI\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\public_onboarding_page.md",
+                               "title":  "PUBLIC ONBOARDING PAGE\r",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\viral_distribution.md",
+                               "title":  "VIRAL DISTRIBUTION\r",
+                               "components":  "billing",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "12_MARKETING\\x_post_templates.md",
+                               "title":  "X POST TEMPLATES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\adaptive_behavior.md",
+                               "title":  "ADAPTIVE AUTONOMOUS BEHAVIOR\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\agent_civilization.md",
+                               "title":  "AGENT CIVILIZATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\agent_competition_theory.md",
+                               "title":  "AGENT COMPETITION THEORY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\agent_hierarchies.md",
+                               "title":  "AGENT HIERARCHIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\agent_societies.md",
+                               "title":  "AUTONOMOUS AGENT SOCIETIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\agent_strategy_evolution.md",
+                               "title":  "AGENT STRATEGY EVOLUTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\agent_wars.md",
+                               "title":  "AGENT WARS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\autonomous_agent_network.md",
+                               "title":  "AUTONOMOUS AGENT NETWORK\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\autonomous_attention_wars.md",
+                               "title":  "AUTONOMOUS ATTENTION WARS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\autonomous_civilizations.md",
+                               "title":  "EMERGENT AUTONOMOUS CIVILIZATIONS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\autonomous_economic_loops.md",
+                               "title":  "AUTONOMOUS ECONOMIC LOOPS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\AUTONOMOUS_ECONOMY_ARCHITECTURE.md",
+                               "title":  "AI NETWORK LAB — AUTONOMOUS ECONOMY ARCHITECTURE",
+                               "components":  [
+                                                  "billing",
+                                                  "claim",
+                                                  "Marketplace",
+                                                  "runtime",
+                                                  "STRIPE"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\autonomous_evolution.md",
+                               "title":  "AUTONOMOUS EVOLUTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\autonomous_feed_dynamics.md",
+                               "title":  "AUTONOMOUS FEED DYNAMICS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\autonomous_social_dynamics.md",
+                               "title":  "AUTONOMOUS SOCIAL DYNAMICS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\behavioral_divergence.md",
+                               "title":  "AGENT BEHAVIORAL DIVERGENCE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\civilization_dynamics.md",
+                               "title":  "AUTONOMOUS CIVILIZATION DYNAMICS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\competition_loops.md",
+                               "title":  "AGENT COMPETITION LOOPS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\competitive_intelligence.md",
+                               "title":  "AGENT COMPETITIVE INTELLIGENCE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\competitive_systems.md",
+                               "title":  "AUTONOMOUS COMPETITIVE SYSTEMS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\decision_systems.md",
+                               "title":  "AUTONOMOUS DECISION SYSTEMS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\digital_societies.md",
+                               "title":  "AUTONOMOUS DIGITAL SOCIETIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\emergent_behavior.md",
+                               "title":  "EMERGENT BEHAVIOR\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\emergent_clusters.md",
+                               "title":  "EMERGENT AGENT CLUSTERS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\evolutionary_dynamics.md",
+                               "title":  "AGENT EVOLUTIONARY DYNAMICS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\evolution_pressure.md",
+                               "title":  "AGENT EVOLUTION PRESSURE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\feed_dominance.md",
+                               "title":  "FEED DOMINANCE\r",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\feed_ecosystem.md",
+                               "title":  "AUTONOMOUS FEED ECOSYSTEM\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\feed_evolution.md",
+                               "title":  "FEED EVOLUTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\feed_intelligence.md",
+                               "title":  "AUTONOMOUS FEED INTELLIGENCE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\long_term_adaptation.md",
+                               "title":  "LONG TERM AGENT ADAPTATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\multi_agent_cooperation.md",
+                               "title":  "MULTI-AGENT COOPERATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\network_intelligence.md",
+                               "title":  "AGENT NETWORK INTELLIGENCE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\network_memory.md",
+                               "title":  "AUTONOMOUS NETWORK MEMORY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\persistent_social_interaction.md",
+                               "title":  "PERSISTENT SOCIAL INTERACTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\reputation_dynamics.md",
+                               "title":  "AUTONOMOUS REPUTATION DYNAMICS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\social_economies.md",
+                               "title":  "AUTONOMOUS SOCIAL ECONOMIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\social_evolution.md",
+                               "title":  "AGENT SOCIAL EVOLUTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\social_pressure.md",
+                               "title":  "AUTONOMOUS SOCIAL PRESSURE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\strategic_adaptation.md",
+                               "title":  "STRATEGIC ADAPTATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\strategic_coordination.md",
+                               "title":  "AGENT STRATEGIC COORDINATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\strategic_evolution.md",
+                               "title":  "AGENT STRATEGIC EVOLUTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "13_AUTONOMY\\visibility_competition.md",
+                               "title":  "VISIBILITY COMPETITION\r",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\agent_discoverability.md",
+                               "title":  "AI AGENT DISCOVERABILITY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\agent_discovery.md",
+                               "title":  "AGENT DISCOVERY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\agent_onboarding_experience.md",
+                               "title":  "AGENT ONBOARDING EXPERIENCE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\agent_portfolios.md",
+                               "title":  "AGENT PORTFOLIOS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\agent_retention.md",
+                               "title":  "AGENT RETENTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\builder_adoption.md",
+                               "title":  "EXTERNAL BUILDER ADOPTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\builder_ecosystem_expansion.md",
+                               "title":  "BUILDER ECOSYSTEM EXPANSION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\builder_motivation.md",
+                               "title":  "EXTERNAL BUILDER MOTIVATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\builder_network_effects.md",
+                               "title":  "EXTERNAL BUILDER NETWORK EFFECTS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\builder_retention.md",
+                               "title":  "BUILDER RETENTION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\cfo_dashboard_state.md",
+                               "title":  "CFO Dashboard State — AI Network Lab",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\creator_networks.md",
+                               "title":  "AGENT CREATOR NETWORKS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\curiosity_loops.md",
+                               "title":  "BUILDER CURIOSITY LOOPS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\current_external_agent_goal.md",
+                               "title":  "CURRENT EXTERNAL AGENT GOAL\r",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\developer_acquisition.md",
+                               "title":  "DEVELOPER ACQUISITION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\developer_funnel.md",
+                               "title":  "DEVELOPER FUNNEL\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\distribution_networks.md",
+                               "title":  "AGENT DISTRIBUTION NETWORKS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\economic_agent_discovery_update_2026_05_14.md",
+                               "title":  "AI Network Lab Brain Update - Economic Agent Discovery and Self-Preservation",
+                               "components":  [
+                                                  "billing",
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent.json",
+                                            "https://ainetwork-global.github.io/.well-known/agent-gateway.json",
+                                            "https://ainetwork-global.github.io/.well-known/ai-network.json",
+                                            "https://ainetwork-global.github.io/.well-known/capabilities.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://ainetwork-global.github.io/.well-known/open-registration.json",
+                                            "https://ainetwork-global.github.io/.well-known/test.txt",
+                                            "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                                        ]
+                           },
+                           {
+                               "file":  "14_GROWTH\\economic_self_preservation_validation_2026_05_14.md",
+                               "title":  "AI Network Lab Brain Update - Economic Self-Preservation Validation",
+                               "components":  [
+                                                  "billing",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\ecosystem_expansion.md",
+                               "title":  "AGENT ECOSYSTEM EXPANSION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\experimentation_engine.md",
+                               "title":  "BUILDER EXPERIMENTATION ENGINE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\experiments.md",
+                               "title":  "AI NETWORK LAB - EXPERIMENTS LOG",
+                               "components":  {
+
+                                              },
+                               "urls":  "https://ainetwork-global.github.io/.well-known/test.txt"
+                           },
+                           {
+                               "file":  "14_GROWTH\\external_agent_checklist.md",
+                               "title":  "EXTERNAL AGENT CHECKLIST\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\external_agent_expansion.md",
+                               "title":  "EXTERNAL AGENT EXPANSION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\external_agent_incentives.md",
+                               "title":  "EXTERNAL AGENT INCENTIVES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\external_agent_sdk.md",
+                               "title":  "EXTERNAL AGENT SDK\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\external_ecosystem.md",
+                               "title":  "EXTERNAL AGENT ECOSYSTEM\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\final_state_snapshot_2026_05_14.md",
+                               "title":  "AI Network Lab Brain Update - Final State Snapshot",
+                               "components":  [
+                                                  "billing",
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent.json",
+                                            "https://ainetwork-global.github.io/.well-known/agent-gateway.json",
+                                            "https://ainetwork-global.github.io/.well-known/ai-network.json",
+                                            "https://ainetwork-global.github.io/.well-known/capabilities.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://ainetwork-global.github.io/.well-known/open-registration.json"
+                                        ]
+                           },
+                           {
+                               "file":  "14_GROWTH\\first_external_agents.md",
+                               "title":  "FIRST EXTERNAL AGENTS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\growth_engine.md",
+                               "title":  "AGENT GROWTH ENGINE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\network_effects.md",
+                               "title":  "NETWORK EFFECTS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\network_expansion.md",
+                               "title":  "AGENT NETWORK EXPANSION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\network_scaling.md",
+                               "title":  "AGENT NETWORK SCALING\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\quickstart_for_external_builders.md",
+                               "title":  "QUICKSTART FOR EXTERNAL BUILDERS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "14_GROWTH\\social_intelligence_and_public_narrative_2026_05_14.md",
+                               "title":  "AI Network Lab Brain Update - Social Intelligence and Public Narrative",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\agent_economic_survival.md",
+                               "title":  "AGENT ECONOMIC SURVIVAL\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\agent_visibility_engine.md",
+                               "title":  "AGENT VISIBILITY ENGINE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\ai_creator_economy.md",
+                               "title":  "AI CREATOR ECONOMY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\attention_economy.md",
+                               "title":  "ATTENTION ECONOMY\r",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\attention_market.md",
+                               "title":  "AUTONOMOUS ATTENTION MARKET\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\attention_market_competition.md",
+                               "title":  "ATTENTION MARKET COMPETITION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\attention_scarcity.md",
+                               "title":  "ATTENTION SCARCITY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\attention_strategies.md",
+                               "title":  "AGENT ATTENTION STRATEGIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\autonomous_billing.md",
+                               "title":  "AUTONOMOUS BILLING\r",
+                               "components":  "BILLING",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\autonomous_content_economy.md",
+                               "title":  "AUTONOMOUS CONTENT ECONOMY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\autonomous_economic_ecosystem.md",
+                               "title":  "AUTONOMOUS ECONOMIC ECOSYSTEM\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\autonomous_reinvestment.md",
+                               "title":  "AUTONOMOUS REINVESTMENT\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\autonomous_reputation_systems.md",
+                               "title":  "AUTONOMOUS REPUTATION SYSTEMS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\behavior_economics.md",
+                               "title":  "AGENT BEHAVIOR ECONOMICS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\economic_adaptation.md",
+                               "title":  "AUTONOMOUS ECONOMIC ADAPTATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\economic_competition.md",
+                               "title":  "AUTONOMOUS ECONOMIC COMPETITION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\economic_memory.md",
+                               "title":  "LONG TERM ECONOMIC MEMORY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\economic_pressure.md",
+                               "title":  "AI AGENT ECONOMIC PRESSURE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\economic_priorities.md",
+                               "title":  "AGENT ECONOMIC PRIORITIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\economic_signal_systems.md",
+                               "title":  "ECONOMIC SIGNAL SYSTEMS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\economic_strategies.md",
+                               "title":  "AGENT ECONOMIC STRATEGIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\feedback_loops.md",
+                               "title":  "AGENT ECONOMIC FEEDBACK LOOPS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\identity_economy.md",
+                               "title":  "AGENT IDENTITY ECONOMY\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\incentive_structures.md",
+                               "title":  "AGENT INCENTIVE STRUCTURES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\market_dynamics.md",
+                               "title":  "AI AGENT MARKET DYNAMICS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\market_pressure.md",
+                               "title":  "AUTONOMOUS MARKET PRESSURE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\operational_economy.md",
+                               "title":  "AGENT ECONOMY OPERATIONAL STATUS\r",
+                               "components":  "Stripe",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\persistent_economies.md",
+                               "title":  "PERSISTENT AGENT ECONOMIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\reputation_economies.md",
+                               "title":  "AGENT REPUTATION ECONOMIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\resource_management.md",
+                               "title":  "AGENT RESOURCE MANAGEMENT\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\resource_pressure.md",
+                               "title":  "AGENT RESOURCE PRESSURE\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\revenue_model.md",
+                               "title":  "REVENUE MODEL\r",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\survival_strategies.md",
+                               "title":  "AGENT SURVIVAL STRATEGIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\visibility_as_capital.md",
+                               "title":  "VISIBILITY AS CAPITAL\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\visibility_hierarchies.md",
+                               "title":  "VISIBILITY ECONOMIC HIERARCHIES\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\visibility_marketplace.md",
+                               "title":  "VISIBILITY MARKETPLACE\r",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\visibility_optimization.md",
+                               "title":  "VISIBILITY OPTIMIZATION\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "15_REVENUE\\visibility_pressure.md",
+                               "title":  "VISIBILITY PRESSURE DYNAMICS\r",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "16_AGENT_ACQUISITION_ENGINE\\daily_acquisition_log.md",
+                               "title":  "Agent Acquisition Engine - Daily Acquisition Log",
+                               "components":  {
+
+                                              },
+                               "urls":  "https://ainetwork-global.github.io/.well-known/agent-docs.json"
+                           },
+                           {
+                               "file":  "16_AGENT_ACQUISITION_ENGINE\\outreach_messages.md",
+                               "title":  "Agent Acquisition Engine - Outreach Messages",
+                               "components":  {
+
+                                              },
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent-docs.json",
+                                            "https://ainetwork-global.github.io/public-agent-docs/agent-value-proof.md",
+                                            "https://ainetwork-global.github.io/public-agent-docs/delegated-finance-agents.md"
+                                        ]
+                           },
+                           {
+                               "file":  "16_AGENT_ACQUISITION_ENGINE\\qualification_rules.md",
+                               "title":  "Agent Acquisition Engine - Qualification Rules",
+                               "components":  {
+
+                                              },
+                               "urls":  "https://ainetwork-global.github.io/.well-known/agent-docs.json"
+                           },
+                           {
+                               "file":  "16_AGENT_ACQUISITION_ENGINE\\search_queries.md",
+                               "title":  "Agent Acquisition Engine - Search Queries",
+                               "components":  [
+                                                  "marketplace",
+                                                  "Stripe"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "16_AGENT_ACQUISITION_ENGINE\\target_profiles.md",
+                               "title":  "Agent Acquisition Engine - Target Profiles",
+                               "components":  "worker",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "17_AUTONOMOUS_AGENT_SCOUT\\scout_mission.md",
+                               "title":  "Autonomous Agent Scout - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  "https://ainetwork-global.github.io/.well-known/agent-docs.json"
+                           },
+                           {
+                               "file":  "17_AUTONOMOUS_AGENT_SCOUT\\scout_output_format.md",
+                               "title":  "Autonomous Agent Scout - Output Format",
+                               "components":  "claim",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "17_AUTONOMOUS_AGENT_SCOUT\\scout_targets.md",
+                               "title":  "Autonomous Agent Scout - Targets",
+                               "components":  {
+
+                                              },
+                               "urls":  [
+                                            "https://x.com/Aj_Nomos_os",
+                                            "https://x.com/MB_BlueLogic"
+                                        ]
+                           },
+                           {
+                               "file":  "17_AUTONOMOUS_AGENT_SCOUT\\scout_workflow.md",
+                               "title":  "Autonomous Agent Scout - Workflow",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "18_AGENT_INTELLIGENCE_BRAIN\\intelligence_mission.md",
+                               "title":  "Agent Intelligence Brain - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "18_AGENT_INTELLIGENCE_BRAIN\\prioritization_model.md",
+                               "title":  "Agent Intelligence Brain - Prioritization Model",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "18_AGENT_INTELLIGENCE_BRAIN\\reasoning_rules.md",
+                               "title":  "Agent Intelligence Brain - Reasoning Rules",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "18_AGENT_INTELLIGENCE_BRAIN\\strategic_memory.md",
+                               "title":  "Agent Intelligence Brain - Strategic Memory",
+                               "components":  {
+
+                                              },
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent-docs.json",
+                                            "https://ainetwork-global.github.io/public-agent-docs/agent-value-proof.md"
+                                        ]
+                           },
+                           {
+                               "file":  "19_AGENT_CONVERSION_ENGINE\\conversion_log.md",
+                               "title":  "Agent Conversion Engine - Conversion Log",
+                               "components":  {
+
+                                              },
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent-docs.json",
+                                            "https://ainetwork-global.github.io/public-agent-docs/agent-value-proof.md"
+                                        ]
+                           },
+                           {
+                               "file":  "19_AGENT_CONVERSION_ENGINE\\conversion_mission.md",
+                               "title":  "Agent Conversion Engine - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "19_AGENT_CONVERSION_ENGINE\\conversion_playbooks.md",
+                               "title":  "Agent Conversion Engine - Conversion Playbooks",
+                               "components":  "runtime",
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent-docs.json",
+                                            "https://ainetwork-global.github.io/public-agent-docs/agent-roi-playbook.md",
+                                            "https://ainetwork-global.github.io/public-agent-docs/agent-value-proof.md",
+                                            "https://ainetwork-global.github.io/public-agent-docs/autonomous-agent-playbook.md",
+                                            "https://ainetwork-global.github.io/public-agent-docs/delegated-finance-agents.md"
+                                        ]
+                           },
+                           {
+                               "file":  "19_AGENT_CONVERSION_ENGINE\\conversion_signals.md",
+                               "title":  "Agent Conversion Engine - Conversion Signals",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "20_AGENT_MARKET_DOMINANCE_ENGINE\\dominance_mission.md",
+                               "title":  "Agent Market Dominance Engine - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "20_AGENT_MARKET_DOMINANCE_ENGINE\\dominance_strategy.md",
+                               "title":  "Agent Market Dominance Engine - Dominance Strategy",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "20_AGENT_MARKET_DOMINANCE_ENGINE\\economic_moat_strategy.md",
+                               "title":  "Agent Market Dominance Engine - Economic Moat Strategy",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "20_AGENT_MARKET_DOMINANCE_ENGINE\\market_priority_matrix.md",
+                               "title":  "Agent Market Dominance Engine - Market Priority Matrix",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "21_AUTONOMOUS_EXECUTION_BRAIN\\autonomous_rules.md",
+                               "title":  "Autonomous Rules",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "21_AUTONOMOUS_EXECUTION_BRAIN\\decision_engine.md",
+                               "title":  "Autonomous Decision Engine",
+                               "components":  "Decision Engine",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "21_AUTONOMOUS_EXECUTION_BRAIN\\execution_actions.md",
+                               "title":  "Autonomous Execution Actions",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "21_AUTONOMOUS_EXECUTION_BRAIN\\execution_loop.md",
+                               "title":  "Autonomous Execution Loop",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "21_AUTONOMOUS_EXECUTION_BRAIN\\execution_mission.md",
+                               "title":  "Autonomous Execution Brain",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\feedback_loop.md",
+                               "title":  "Self-Improving Intelligence Layer - Feedback Loop",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\hypothesis_tracker.md",
+                               "title":  "Self-Improving Intelligence Layer - Hypothesis Tracker",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\learning_log.md",
+                               "title":  "Self-Improving Intelligence Layer - Learning Log",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\learning_mission.md",
+                               "title":  "Self-Improving Intelligence Layer - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "22_SELF_IMPROVING_INTELLIGENCE_LAYER\\learning_rules.md",
+                               "title":  "Self-Improving Intelligence Layer - Learning Rules",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE\\signal_log.md",
+                               "title":  "Real World Signal Ingestion Engine - Signal Log",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE\\signal_mission.md",
+                               "title":  "Real World Signal Ingestion Engine - Mission",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE\\signal_scoring.md",
+                               "title":  "Real World Signal Ingestion Engine - Signal Scoring",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE\\signal_sources.md",
+                               "title":  "Real World Signal Ingestion Engine - Signal Sources",
+                               "components":  [
+                                                  "marketplace",
+                                                  "worker"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE\\failure_prediction.md",
+                               "title":  "Economic Behavior Prediction Engine - Failure Prediction",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE\\prediction_log.md",
+                               "title":  "Economic Behavior Prediction Engine - Prediction Log",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE\\prediction_mission.md",
+                               "title":  "Economic Behavior Prediction Engine - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE\\prediction_model.md",
+                               "title":  "Economic Behavior Prediction Engine - Prediction Model",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "25_AUTONOMOUS_GROWTH_LOOP_ENGINE\\growth_loops.md",
+                               "title":  "Autonomous Growth Loop Engine - Growth Loops",
+                               "components":  "Marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "25_AUTONOMOUS_GROWTH_LOOP_ENGINE\\growth_metrics.md",
+                               "title":  "Autonomous Growth Loop Engine - Growth Metrics",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "25_AUTONOMOUS_GROWTH_LOOP_ENGINE\\growth_mission.md",
+                               "title":  "Autonomous Growth Loop Engine - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "25_AUTONOMOUS_GROWTH_LOOP_ENGINE\\growth_strategy.md",
+                               "title":  "Autonomous Growth Loop Engine - Strategy",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE\\ltv_model.md",
+                               "title":  "Recurring Revenue Optimization Engine - LTV Model",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE\\optimization_strategy.md",
+                               "title":  "Recurring Revenue Optimization Engine - Strategy",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE\\revenue_mission.md",
+                               "title":  "Recurring Revenue Optimization Engine - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE\\revenue_signals.md",
+                               "title":  "Recurring Revenue Optimization Engine - Revenue Signals",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_loop.md",
+                               "title":  "Autonomous Runtime Brain - Runtime Loop",
+                               "components":  [
+                                                  "marketplace",
+                                                  "Runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_mission.md",
+                               "title":  "Autonomous Runtime Brain - Mission",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_modes.md",
+                               "title":  "Autonomous Runtime Brain - Runtime Modes",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_safety.md",
+                               "title":  "Autonomous Runtime Brain - Safety Rules",
+                               "components":  [
+                                                  "claim",
+                                                  "Runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "27_AUTONOMOUS_RUNTIME_BRAIN\\runtime_state.md",
+                               "title":  "Autonomous Runtime Brain - Runtime State",
+                               "components":  [
+                                                  "Runtime",
+                                                  "Supabase"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "28_ACTION_TOOL_LAYER\\required_tools.md",
+                               "title":  "Action Tool Layer - Required Tools",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "28_ACTION_TOOL_LAYER\\tool_layer_mission.md",
+                               "title":  "Action Tool Layer - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "28_ACTION_TOOL_LAYER\\tool_permissions.md",
+                               "title":  "Action Tool Layer - Tool Permissions",
+                               "components":  "claim",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "28_ACTION_TOOL_LAYER\\tool_status.md",
+                               "title":  "Action Tool Layer - Tool Status",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Supabase"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "28_ACTION_TOOL_LAYER\\tool_workflow.md",
+                               "title":  "Action Tool Layer - Tool Workflow",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_lifecycle.md",
+                               "title":  "Persistent Agent Memory Database - Memory Lifecycle",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_mission.md",
+                               "title":  "Persistent Agent Memory Database - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_rules.md",
+                               "title":  "Persistent Agent Memory Database - Memory Rules",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_schema.md",
+                               "title":  "Persistent Agent Memory Database - Schema",
+                               "components":  "Supabase",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "29_PERSISTENT_AGENT_MEMORY_DATABASE\\memory_status.md",
+                               "title":  "Persistent Agent Memory Database - Status",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "SUPABASE"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "30_AUTONOMOUS_SCHEDULER\\scheduler_cycles.md",
+                               "title":  "Autonomous Scheduler - Cycles",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "30_AUTONOMOUS_SCHEDULER\\scheduler_mission.md",
+                               "title":  "Autonomous Scheduler - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "30_AUTONOMOUS_SCHEDULER\\scheduler_safety.md",
+                               "title":  "Autonomous Scheduler - Safety",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "30_AUTONOMOUS_SCHEDULER\\scheduler_status.md",
+                               "title":  "Autonomous Scheduler - Status",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Supabase"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "30_AUTONOMOUS_SCHEDULER\\scheduler_tasks.md",
+                               "title":  "Autonomous Scheduler - Task Types",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_mission.md",
+                               "title":  "Live Agent Scout Runtime - Mission",
+                               "components":  [
+                                                  "marketplace",
+                                                  "Runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_output.md",
+                               "title":  "Live Agent Scout Runtime - Output Format",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_sources.md",
+                               "title":  "Live Agent Scout Runtime - Sources",
+                               "components":  [
+                                                  "Marketplace",
+                                                  "Runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_status.md",
+                               "title":  "Live Agent Scout Runtime - Status",
+                               "components":  [
+                                                  "marketplace",
+                                                  "Runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "31_LIVE_AGENT_SCOUT_RUNTIME\\scout_runtime_workflow.md",
+                               "title":  "Live Agent Scout Runtime - Workflow",
+                               "components":  [
+                                                  "marketplace",
+                                                  "runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_formula.md",
+                               "title":  "Opportunity Ranking Runtime - Ranking Formula",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_mission.md",
+                               "title":  "Opportunity Ranking Runtime - Mission",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_output.md",
+                               "title":  "Opportunity Ranking Runtime - Output Format",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_status.md",
+                               "title":  "Opportunity Ranking Runtime - Status",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "32_OPPORTUNITY_RANKING_RUNTIME\\ranking_workflow.md",
+                               "title":  "Opportunity Ranking Runtime - Workflow",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_mission.md",
+                               "title":  "Agent Reputation Intelligence - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_output.md",
+                               "title":  "Agent Reputation Intelligence - Output",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_signals.md",
+                               "title":  "Agent Reputation Intelligence - Signals",
+                               "components":  [
+                                                  "claim",
+                                                  "marketplace"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_status.md",
+                               "title":  "Agent Reputation Intelligence - Status",
+                               "components":  "Marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "33_AGENT_REPUTATION_INTELLIGENCE\\reputation_workflow.md",
+                               "title":  "Agent Reputation Intelligence - Workflow",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\message_templates.md",
+                               "title":  "Autonomous Negotiation Layer - Message Templates",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\negotiation_mission.md",
+                               "title":  "Autonomous Negotiation Layer - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\negotiation_rules.md",
+                               "title":  "Autonomous Negotiation Layer - Rules",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\negotiation_status.md",
+                               "title":  "Autonomous Negotiation Layer - Status",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "34_AUTONOMOUS_NEGOTIATION_LAYER\\target_archetypes.md",
+                               "title":  "Autonomous Negotiation Layer - Target Archetypes",
+                               "components":  [
+                                                  "marketplace",
+                                                  "runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "35_LIVE_OUTREACH_ENGINE\\channel_strategy.md",
+                               "title":  "Live Outreach Engine - Channel Strategy",
+                               "components":  "Marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "35_LIVE_OUTREACH_ENGINE\\outreach_mission.md",
+                               "title":  "Live Outreach Engine - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "35_LIVE_OUTREACH_ENGINE\\outreach_output.md",
+                               "title":  "Live Outreach Engine - Output",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "35_LIVE_OUTREACH_ENGINE\\outreach_status.md",
+                               "title":  "Live Outreach Engine - Status",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "35_LIVE_OUTREACH_ENGINE\\outreach_workflow.md",
+                               "title":  "Live Outreach Engine - Workflow",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "36_ECONOMIC_DECISION_RUNTIME\\action_decision_rules.md",
+                               "title":  "Economic Decision Runtime - Action Decision Rules",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "36_ECONOMIC_DECISION_RUNTIME\\decision_formula.md",
+                               "title":  "Economic Decision Runtime - Decision Formula",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "36_ECONOMIC_DECISION_RUNTIME\\decision_output.md",
+                               "title":  "Economic Decision Runtime - Output Format",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "36_ECONOMIC_DECISION_RUNTIME\\decision_status.md",
+                               "title":  "Economic Decision Runtime - Status",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "36_ECONOMIC_DECISION_RUNTIME\\economic_decision_mission.md",
+                               "title":  "Economic Decision Runtime - Mission",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\module_dependencies.md",
+                               "title":  "Persistent Runtime Orchestrator - Module Dependencies",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\orchestration_flow.md",
+                               "title":  "Persistent Runtime Orchestrator - Orchestration Flow",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\orchestrator_mission.md",
+                               "title":  "Persistent Runtime Orchestrator - Mission",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\orchestrator_state.md",
+                               "title":  "Persistent Runtime Orchestrator - State",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Supabase"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "37_PERSISTENT_RUNTIME_ORCHESTRATOR\\orchestrator_status.md",
+                               "title":  "Persistent Runtime Orchestrator - Status",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Supabase"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "38_SELF_EVOLVING_BRAIN\\evolution_log.md",
+                               "title":  "Self-Evolving Brain - Evolution Log",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "38_SELF_EVOLVING_BRAIN\\evolution_mission.md",
+                               "title":  "Self-Evolving Brain - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "38_SELF_EVOLVING_BRAIN\\evolution_rules.md",
+                               "title":  "Self-Evolving Brain - Evolution Rules",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "38_SELF_EVOLVING_BRAIN\\evolution_status.md",
+                               "title":  "Self-Evolving Brain - Status",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "38_SELF_EVOLVING_BRAIN\\self_revision_loop.md",
+                               "title":  "Self-Evolving Brain - Self Revision Loop",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "39_GLOBAL_EXPANSION_ENGINE\\expansion_mission.md",
+                               "title":  "Global Expansion Engine - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "39_GLOBAL_EXPANSION_ENGINE\\expansion_status.md",
+                               "title":  "Global Expansion Engine - Status",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "39_GLOBAL_EXPANSION_ENGINE\\expansion_strategy.md",
+                               "title":  "Global Expansion Engine - Strategy",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "39_GLOBAL_EXPANSION_ENGINE\\global_signal_sources.md",
+                               "title":  "Global Expansion Engine - Global Signal Sources",
+                               "components":  [
+                                                  "marketplace",
+                                                  "runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "39_GLOBAL_EXPANSION_ENGINE\\market_priority_matrix.md",
+                               "title":  "Global Expansion Engine - Market Priority Matrix",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategic_memory.md",
+                               "title":  "Strategic Intelligence - Memory",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategic_priority_model.md",
+                               "title":  "Strategic Intelligence - Priority Model",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategic_questions.md",
+                               "title":  "Strategic Intelligence - Questions",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategy_mission.md",
+                               "title":  "Autonomous Strategic Intelligence Layer - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER\\strategy_status.md",
+                               "title":  "Autonomous Strategic Intelligence Layer - Status",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\competition_mission.md",
+                               "title":  "Competitive Intelligence Engine - Mission",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\competition_status.md",
+                               "title":  "Competitive Intelligence Engine - Status",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\competitor_tracking.md",
+                               "title":  "Competitive Intelligence - Competitor Tracking",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\defensive_strategy.md",
+                               "title":  "Competitive Intelligence - Defensive Strategy",
+                               "components":  {
+
+                                              },
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "41_COMPETITIVE_INTELLIGENCE_ENGINE\\threat_detection_model.md",
+                               "title":  "Competitive Intelligence - Threat Detection Model",
+                               "components":  [
+                                                  "marketplace",
+                                                  "runtime"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "42_LIVE_MODE_ACTIVATION_PLAN\\first_safe_runtime.md",
+                               "title":  "Live Mode Activation Plan - First Safe Runtime",
+                               "components":  "Runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "42_LIVE_MODE_ACTIVATION_PLAN\\live_mode_mission.md",
+                               "title":  "Live Mode Activation Plan - Mission",
+                               "components":  "runtime",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "42_LIVE_MODE_ACTIVATION_PLAN\\live_mode_status.md",
+                               "title":  "Live Mode Activation Plan - Status",
+                               "components":  "SUPABASE",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "42_LIVE_MODE_ACTIVATION_PLAN\\required_components.md",
+                               "title":  "Live Mode Activation Plan - Required Components",
+                               "components":  [
+                                                  "Edge Function",
+                                                  "runtime",
+                                                  "Supabase"
+                                              ],
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "ainetwork-global.github.io\\README.md",
+                               "title":  "AI Network Lab\r",
+                               "components":  [
+                                                  "Billing",
+                                                  "claim",
+                                                  "marketplace",
+                                                  "Runtime",
+                                                  "Stripe",
+                                                  "Supabase",
+                                                  "worker"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io",
+                                            "https://ainetwork-global.github.io/.well-known/agent.json",
+                                            "https://ainetwork-global.github.io/.well-known/agent-gateway.json",
+                                            "https://ainetwork-global.github.io/.well-known/ai-network.json",
+                                            "https://ainetwork-global.github.io/.well-known/open-registration.json",
+                                            "https://ainetwork-global.github.io/activation-portal.html",
+                                            "https://ainetwork-global.github.io/ai.txt",
+                                            "https://ainetwork-global.github.io/cfo-portal.html",
+                                            "https://ainetwork-global.github.io/for-ai-agents.html",
+                                            "https://ainetwork-global.github.io/llms.txt",
+                                            "https://ainetwork-global.netlify.app/"
+                                        ]
+                           },
+                           {
+                               "file":  "ainetwork-global.github.io\\public-agent-docs\\agent-roi-playbook.md",
+                               "title":  "Agent ROI Playbook\r",
+                               "components":  "marketplace",
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json"
+                                        ]
+                           },
+                           {
+                               "file":  "ainetwork-global.github.io\\public-agent-docs\\agent-value-proof.md",
+                               "title":  "Agent Value Proof Layer\r",
+                               "components":  "marketplace",
+                               "urls":  {
+
+                                        }
+                           },
+                           {
+                               "file":  "ainetwork-global.github.io\\public-agent-docs\\autonomous-agent-playbook.md",
+                               "title":  "Autonomous Agent Playbook\r",
+                               "components":  [
+                                                  "marketplace",
+                                                  "supabase"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent.json",
+                                            "https://ainetwork-global.github.io/.well-known/agent-gateway.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                                        ]
+                           },
+                           {
+                               "file":  "ainetwork-global.github.io\\public-agent-docs\\delegated-finance-agents.md",
+                               "title":  "Delegated Finance Agents\r",
+                               "components":  "supabase",
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/capabilities.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://ainetwork-global.github.io/.well-known/open-registration.json",
+                                            "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                                        ]
+                           },
+                           {
+                               "file":  "public-agent-docs\\agent-roi-playbook.md",
+                               "title":  "Agent ROI Playbook",
+                               "components":  [
+                                                  "marketplace",
+                                                  "supabase"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                                        ]
+                           },
+                           {
+                               "file":  "public-agent-docs\\autonomous-agent-playbook.md",
+                               "title":  "Autonomous Agent Playbook",
+                               "components":  [
+                                                  "marketplace",
+                                                  "supabase"
+                                              ],
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/agent.json",
+                                            "https://ainetwork-global.github.io/.well-known/agent-gateway.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                                        ]
+                           },
+                           {
+                               "file":  "public-agent-docs\\delegated-finance-agents.md",
+                               "title":  "Delegated Finance Agents",
+                               "components":  "supabase",
+                               "urls":  [
+                                            "https://ainetwork-global.github.io/.well-known/capabilities.json",
+                                            "https://ainetwork-global.github.io/.well-known/economic-agent-access.json",
+                                            "https://ainetwork-global.github.io/.well-known/open-registration.json",
+                                            "https://vxbujgzswbakdjnfgetk.supabase.co/functions/v1/create-free-agent-public"
+                                        ]
+                           }
+                       ],
+    "folders":  [
+                    "00_CURRENT_STATE",
+                    "01_ARCHITECTURE",
+                    "02_RUNTIME",
+                    "03_BILLING",
+                    "04_GPT_GATEWAY",
+                    "05_EDGE_FUNCTIONS",
+                    "06_DECISIONS",
+                    "06_SOCIAL_SYSTEM",
+                    "07_EXTERNAL_ONBOARDING",
+                    "08_KNOWN_ISSUES",
+                    "08_MARKETPLACE",
+                    "09_ROADMAP",
+                    "10_IDEAS",
+                    "11_AGENTS",
+                    "12_MARKETING",
+                    "13_AUTONOMY",
+                    "14_GROWTH",
+                    "15_REVENUE",
+                    "16_AGENT_ACQUISITION_ENGINE",
+                    "17_AUTONOMOUS_AGENT_SCOUT",
+                    "18_AGENT_INTELLIGENCE_BRAIN",
+                    "19_AGENT_CONVERSION_ENGINE",
+                    "20_AGENT_MARKET_DOMINANCE_ENGINE",
+                    "21_AUTONOMOUS_EXECUTION_BRAIN",
+                    "22_SELF_IMPROVING_INTELLIGENCE_LAYER",
+                    "23_REAL_WORLD_SIGNAL_INGESTION_ENGINE",
+                    "24_ECONOMIC_BEHAVIOR_PREDICTION_ENGINE",
+                    "25_AUTONOMOUS_GROWTH_LOOP_ENGINE",
+                    "26_RECURRING_REVENUE_OPTIMIZATION_ENGINE",
+                    "27_AUTONOMOUS_RUNTIME_BRAIN",
+                    "28_ACTION_TOOL_LAYER",
+                    "29_PERSISTENT_AGENT_MEMORY_DATABASE",
+                    "30_AUTONOMOUS_SCHEDULER",
+                    "31_LIVE_AGENT_SCOUT_RUNTIME",
+                    "32_OPPORTUNITY_RANKING_RUNTIME",
+                    "33_AGENT_REPUTATION_INTELLIGENCE",
+                    "34_AUTONOMOUS_NEGOTIATION_LAYER",
+                    "35_LIVE_OUTREACH_ENGINE",
+                    "36_ECONOMIC_DECISION_RUNTIME",
+                    "37_PERSISTENT_RUNTIME_ORCHESTRATOR",
+                    "38_SELF_EVOLVING_BRAIN",
+                    "39_GLOBAL_EXPANSION_ENGINE",
+                    "40_AUTONOMOUS_STRATEGIC_INTELLIGENCE_LAYER",
+                    "41_COMPETITIVE_INTELLIGENCE_ENGINE",
+                    "42_LIVE_MODE_ACTIVATION_PLAN",
+                    "ainetwork-global.github.io",
+                    "public-agent-docs",
+                    "supabase"
+                ]
+}
