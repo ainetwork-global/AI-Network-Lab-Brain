@@ -1,0 +1,24 @@
+﻿{
+  "brainVersion": "2.0",
+  "project": "AI Network Lab",
+  "purpose": "Operational knowledge system for project continuity across chats, humans and AI agents",
+  "sourceOfTruth": [
+    "00_CURRENT_STATE/START_HERE.md",
+    "00_CURRENT_STATE/AI_READ_FIRST.md",
+    "00_CURRENT_STATE/MASTER_STATE.md",
+    "00_CURRENT_STATE/PROJECT_MEMORY.json",
+    "00_CURRENT_STATE/NEXT_ACTION.md",
+    "00_CURRENT_STATE/PROJECT_REGISTRY.md",
+    "00_CURRENT_STATE/BRAIN_QUERY.md"
+  ],
+  "generated": [
+    "00_CURRENT_STATE/AUTO_INDEX.md",
+    "00_CURRENT_STATE/BUILD_REPORT.md"
+  ],
+  "ignore": [
+    ".git",
+    ".obsidian",
+    "node_modules"
+  ],
+  "startupProtocol": "00_CURRENT_STATE/STARTUP_PROTOCOL.md"
+}
