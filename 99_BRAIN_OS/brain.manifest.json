@@ -1,0 +1,29 @@
+﻿{
+  "brain": {
+    "name": "AI Network Lab Brain",
+    "version": "2.0",
+    "mode": "Knowledge Operating System"
+  },
+
+  "startup": {
+    "protocol": "00_CURRENT_STATE/STARTUP_PROTOCOL.md",
+    "source_of_truth": [
+      "00_CURRENT_STATE/START_HERE.md",
+      "00_CURRENT_STATE/MASTER_STATE.md",
+      "00_CURRENT_STATE/PROJECT_MEMORY.json",
+      "00_CURRENT_STATE/NEXT_ACTION.md",
+      "00_CURRENT_STATE/PROJECT_REGISTRY.md"
+    ]
+  },
+
+  "generated": {
+    "knowledge_model": "99_BRAIN_OS/generated/knowledge_model.json",
+    "auto_index": "00_CURRENT_STATE/AUTO_INDEX.md",
+    "build_report": "00_CURRENT_STATE/BUILD_REPORT.md"
+  },
+
+  "brain_os": {
+    "cli": "99_BRAIN_OS/Brain.ps1",
+    "builder": "99_BRAIN_OS/BUILD_BRAIN.ps1"
+  }
+}
