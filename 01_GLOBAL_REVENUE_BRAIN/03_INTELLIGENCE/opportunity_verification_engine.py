@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import argparse
 import csv
@@ -15,6 +15,7 @@ from typing import Any
 from urllib.parse import urlparse
 
 import requests
+from contextual_reward_parser import parse_reward as parse_contextual_reward
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 
@@ -772,7 +773,7 @@ def verify_opportunity(row: sqlite3.Row, timeout: int) -> VerificationResult:
         weight for term, weight in NEGATIVE_TERMS.items() if term in lowered
     )
 
-    reward_amount, reward_currency, explicit_reward = parse_reward(combined_text)
+    reward_amount, reward_currency, explicit_reward = parse_contextual_reward(combined_text)
     deadline = parse_deadline(combined_text)
     requirements = extract_requirements(combined_text)
     country_restrictions = extract_country_restrictions(combined_text)
