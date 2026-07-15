@@ -1,0 +1,30 @@
+﻿{
+  "project": "Global Revenue Brain",
+  "version": "0.1.0",
+  "mode": "approval_required",
+  "capital_policy": {
+    "allow_initial_spend": false,
+    "maximum_initial_spend": 0
+  },
+  "execution_policy": {
+    "automatic_research": true,
+    "automatic_scoring": true,
+    "automatic_document_preparation": true,
+    "automatic_application": false,
+    "automatic_financial_transactions": false,
+    "automatic_contract_acceptance": false,
+    "automatic_wallet_signing": false,
+    "require_human_approval_before_submission": true
+  },
+  "safety_policy": {
+    "allow_illegal_activity": false,
+    "allow_credential_abuse": false,
+    "allow_fake_accounts": false,
+    "allow_terms_of_service_evasion": false,
+    "allow_unauthorized_security_testing": false,
+    "allow_market_manipulation": false,
+    "allow_fraud": false
+  },
+  "primary_kpi": "confirmed_revenue",
+  "default_currency": "USD"
+}
