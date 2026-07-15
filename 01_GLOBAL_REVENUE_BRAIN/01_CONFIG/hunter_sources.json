@@ -1,0 +1,120 @@
+﻿{
+  "system": {
+    "name": "Global Revenue Hunter",
+    "version": "1.0.0",
+    "default_currency": "USD",
+    "maximum_results_per_query": 30,
+    "request_timeout_seconds": 20,
+    "minimum_score_for_review": 25,
+    "minimum_score_for_priority": 55,
+    "allow_initial_capital": false
+  },
+  "github_queries": [
+    {
+      "name": "GitHub Bounty Issues",
+      "category": "open_source_bounty",
+      "query": "is:issue is:open label:bounty archived:false"
+    },
+    {
+      "name": "GitHub Reward Issues",
+      "category": "open_source_bounty",
+      "query": "is:issue is:open label:reward archived:false"
+    },
+    {
+      "name": "GitHub Paid Issues",
+      "category": "paid_development",
+      "query": "is:issue is:open \"paid\" in:title,body archived:false"
+    },
+    {
+      "name": "GitHub Prize Issues",
+      "category": "competition",
+      "query": "is:issue is:open \"prize\" in:title,body archived:false"
+    },
+    {
+      "name": "GitHub Grant Issues",
+      "category": "grant",
+      "query": "is:issue is:open \"grant\" in:title archived:false"
+    },
+    {
+      "name": "Crypto Bounties",
+      "category": "crypto_bounty",
+      "query": "is:issue is:open bounty blockchain in:title,body archived:false"
+    },
+    {
+      "name": "AI Agent Bounties",
+      "category": "ai_bounty",
+      "query": "is:issue is:open bounty \"AI agent\" in:title,body archived:false"
+    },
+    {
+      "name": "MCP Paid Opportunities",
+      "category": "ai_integration",
+      "query": "is:issue is:open MCP paid in:title,body archived:false"
+    }
+  ],
+  "rss_sources": [
+    {
+      "name": "HackerOne Blog",
+      "category": "bug_bounty",
+      "url": "https://www.hackerone.com/blog.rss"
+    },
+    {
+      "name": "Gitcoin Blog",
+      "category": "web3_grant",
+      "url": "https://www.gitcoin.co/blog/rss.xml"
+    },
+    {
+      "name": "Devpost Blog",
+      "category": "hackathon",
+      "url": "https://info.devpost.com/blog/rss.xml"
+    },
+    {
+      "name": "Mozilla Blog",
+      "category": "open_source",
+      "url": "https://blog.mozilla.org/en/feed/"
+    },
+    {
+      "name": "Open Source Initiative",
+      "category": "open_source",
+      "url": "https://opensource.org/feed/"
+    }
+  ],
+  "positive_keywords": {
+    "bounty": 25,
+    "reward": 22,
+    "paid": 22,
+    "payment": 18,
+    "prize": 20,
+    "grant": 22,
+    "cash": 18,
+    "usd": 16,
+    "usdc": 16,
+    "stipend": 18,
+    "compensation": 20,
+    "sponsor": 10,
+    "hackathon": 12,
+    "contest": 12,
+    "freelance": 15,
+    "contract": 15,
+    "commission": 15,
+    "affiliate": 12,
+    "airdrop": 8,
+    "testnet reward": 10,
+    "open source bounty": 25
+  },
+  "negative_keywords": {
+    "unpaid": -35,
+    "volunteer only": -30,
+    "no compensation": -35,
+    "investment required": -40,
+    "deposit required": -40,
+    "entry fee": -30,
+    "purchase required": -35,
+    "guaranteed profit": -35,
+    "send crypto": -40,
+    "seed phrase": -60,
+    "private key": -60,
+    "casino": -45,
+    "betting": -45,
+    "loan required": -35
+  }
+}

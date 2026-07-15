@@ -1,0 +1,6 @@
+﻿.venv/
+__pycache__/
+*.pyc
+09_LOGS/*.log
+11_DATA/*.db-wal
+11_DATA/*.db-shm
