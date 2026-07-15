@@ -1,0 +1,49 @@
+﻿{
+  "version": "1.0.0",
+  "policy": {
+    "staging_only": true,
+    "minimum_candidate_score": 45,
+    "request_timeout_seconds": 25,
+    "maximum_links_per_source": 100,
+    "require_official_domain": true,
+    "allow_initial_capital": false
+  },
+  "sources": [
+    {
+      "name": "Immunefi Bug Bounties",
+      "category": "authorized_bug_bounty",
+      "url": "https://immunefi.com/bug-bounty/",
+      "allowed_domains": ["immunefi.com"],
+      "required_path_terms": ["/bug-bounty/"],
+      "positive_terms": ["bug bounty", "maximum bounty", "rewards", "in scope"],
+      "risk_level": "high_skill"
+    },
+    {
+      "name": "Sherlock Audit Contests",
+      "category": "authorized_security_contest",
+      "url": "https://audits.sherlock.xyz/contests",
+      "allowed_domains": ["audits.sherlock.xyz", "sherlock.xyz"],
+      "required_path_terms": ["/contests", "/contest"],
+      "positive_terms": ["contest", "usdc", "reward", "audit"],
+      "risk_level": "high_skill"
+    },
+    {
+      "name": "Devpost Hackathons",
+      "category": "hackathon",
+      "url": "https://devpost.com/hackathons",
+      "allowed_domains": ["devpost.com"],
+      "required_path_terms": [],
+      "positive_terms": ["hackathon", "prize", "cash", "submission", "participants"],
+      "risk_level": "medium"
+    },
+    {
+      "name": "Grants.gov Opportunities",
+      "category": "grant",
+      "url": "https://www.grants.gov/search-grants",
+      "allowed_domains": ["grants.gov", "www.grants.gov"],
+      "required_path_terms": ["/search-results-detail/", "/search-grants"],
+      "positive_terms": ["opportunity", "grant", "award", "closing date", "eligibility"],
+      "risk_level": "eligibility_review"
+    }
+  ]
+}
