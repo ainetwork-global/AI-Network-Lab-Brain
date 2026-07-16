@@ -1,0 +1,215 @@
+===== GLOBAL PAID WORK DISCOVERY =====
+Arbeitnow: 500 received
+Remotive: 39 received
+Remote OK: 100 received
+GitHub paid issues: 239 received
+
+===== PAID WORK SUMMARY =====
+Collected: 878
+Actionable review: 473
+Manual review: 133
+Low priority: 461
+Rejected: 5
+Errors: 0
+
+===== TOP 20 PAID WORK =====
+
+1. Tech Lead Full-Stack Rails Engineer
+   source: remotive
+   organization: Mitre Media
+   status: actionable_review
+   score: 100.0
+   automation fit: 95.0%
+   salary/evidence: $170k - $200k
+   location: USA, Canada, USA timezones
+   url: https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746
+
+2. Supply Chain Systems Analyst
+   source: remoteok
+   organization: Wing
+   status: actionable_review
+   score: 100.0
+   automation fit: 90.0%
+   salary/evidence: $140,000
+   location: Palo Alto, Palo Alto, California, United States
+   url: https://remoteOK.com/remote-jobs/remote-supply-chain-systems-analyst-wing-1134803
+
+3. Customer Success Manager Enterprise
+   source: remoteok
+   organization: PointClickCare
+   status: actionable_review
+   score: 100.0
+   automation fit: 100.0%
+   salary/evidence: $112,000 - $125,000
+   location: Mississauga, Mississauga, Ontario, Canada
+   url: https://remoteOK.com/remote-jobs/remote-customer-success-manager-enterprise-pointclickcare-1134869
+
+4. Medical Records and Health Information Manager
+   source: remoteok
+   organization: Backpack Healthcare
+   status: actionable_review
+   score: 100.0
+   automation fit: 70.0%
+   salary/evidence: USD 75000 - USD 80000
+   location: Worldwide
+   url: https://remoteOK.com/remote-jobs/remote-medical-records-and-health-information-manager-backpack-healthcare-1134824
+
+5. Jr Creative Strategist
+   source: remoteok
+   organization: Trivium Group
+   status: actionable_review
+   score: 100.0
+   automation fit: 100.0%
+   salary/evidence: $50,000-$65,000
+   location: Toronto, Toronto, Ontario, Canada
+   url: https://remoteOK.com/remote-jobs/remote-jr-creative-strategist-trivium-group-1134870
+
+6. Product Sales Specialist - Pet Health
+   source: remotive
+   organization: Tribe Wellness
+   status: actionable_review
+   score: 100.0
+   automation fit: 90.0%
+   salary/evidence: $55k - $100k
+   location: USA, CST (UTC-6)
+   url: https://remotive.com/remote-jobs/sales/product-sales-specialist-pet-health-2091048
+
+7. Client Success Coach (CSM)
+   source: remotive
+   organization: Impact Clients
+   status: actionable_review
+   score: 100.0
+   automation fit: 90.0%
+   salary/evidence: $120k - $220k
+   location: Northern America, Europe, South Africa
+   url: https://remotive.com/remote-jobs/customer-service/client-success-coach-csm-2091039
+
+8. Virtual Executive Assistant
+   source: remoteok
+   organization: Zirtual
+   status: actionable_review
+   score: 100.0
+   automation fit: 80.0%
+   salary/evidence: $1,500-$3,800,
+   location: Saskatoon, Saskatoon, Saskatchewan, Canada
+   url: https://remoteOK.com/remote-jobs/remote-virtual-executive-assistant-zirtual-1134902
+
+9. Talent Acquisition Partner
+   source: arbeitnow
+   organization: SumUp
+   status: actionable_review
+   score: 100.0
+   automation fit: 80.0%
+   salary/evidence: €2000
+   location: Berlin, Berlin, Germany
+   url: https://www.arbeitnow.com/jobs/companies/sumup/talent-acquisition-partner-berlin-405782
+
+10. Podcaster and Content Creator Psychology Today
+   source: remoteok
+   organization: Psychology Today
+   status: actionable_review
+   score: 100.0
+   automation fit: 90.0%
+   salary/evidence: $2,000
+   location: New York, New York, New York, United States
+   url: https://remoteOK.com/remote-jobs/remote-podcaster-and-content-creator-psychology-today-psychology-today-1134808
+
+11. Pixel Art Creation with high Creative Thinking
+   source: github_paid_issues
+   organization: SecureBananaLabs/bug-bounty
+   status: actionable_review
+   score: 100.0
+   automation fit: 95.0%
+   salary/evidence: $780
+   location: Online
+   url: https://github.com/SecureBananaLabs/bug-bounty/issues/80
+
+12. Low Handing Fruit Automation
+   source: github_paid_issues
+   organization: SecureBananaLabs/bug-bounty
+   status: actionable_review
+   score: 100.0
+   automation fit: 100.0%
+   salary/evidence: $700
+   location: Online
+   url: https://github.com/SecureBananaLabs/bug-bounty/issues/743
+
+13. Product Manager AI
+   source: remoteok
+   organization: YipitData
+   status: actionable_review
+   score: 100.0
+   automation fit: 80.0%
+   salary/evidence: $475
+   location: US Remote
+   url: https://remoteOK.com/remote-jobs/remote-product-manager-ai-yipitdata-1134770
+
+14. Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture
+   source: github_paid_issues
+   organization: johncollinsgit/TimberLine
+   status: actionable_review
+   score: 100.0
+   automation fit: 95.0%
+   salary/evidence: $299
+   location: Online
+   url: https://github.com/johncollinsgit/TimberLine/issues/70
+
+15. [$250] Web-Expense details-distance and rate menu items are shown after created unreported expense
+   source: github_paid_issues
+   organization: Expensify/App
+   status: actionable_review
+   score: 100.0
+   automation fit: 100.0%
+   salary/evidence: $250
+   location: Online
+   url: https://github.com/Expensify/App/issues/96343
+
+16. [$250] Spends - feed:xxxx auto selected to Bank Account instead of Expensify Card
+   source: github_paid_issues
+   organization: Expensify/App
+   status: actionable_review
+   score: 100.0
+   automation fit: 100.0%
+   salary/evidence: $250
+   location: Online
+   url: https://github.com/Expensify/App/issues/96342
+
+17. [$250] Attachment - Landscape pdf file preview is truncated in "Share to Expensify" page
+   source: github_paid_issues
+   organization: Expensify/App
+   status: actionable_review
+   score: 100.0
+   automation fit: 100.0%
+   salary/evidence: $250
+   location: Online
+   url: https://github.com/Expensify/App/issues/89905
+
+18. [$250] Chat - Live markdown in composer is removed if the text exceeds 4000 characters
+   source: github_paid_issues
+   organization: Expensify/App
+   status: actionable_review
+   score: 100.0
+   automation fit: 100.0%
+   salary/evidence: $250
+   location: Online
+   url: https://github.com/Expensify/App/issues/95210
+
+19. [$250] Card - Error shows up when resolving fraud alert action
+   source: github_paid_issues
+   organization: Expensify/App
+   status: actionable_review
+   score: 100.0
+   automation fit: 100.0%
+   salary/evidence: $250
+   location: Online
+   url: https://github.com/Expensify/App/issues/96341
+
+20. [$250] Unable to enter decimal amounts for XAF (FCFA) currency in New Expensify
+   source: github_paid_issues
+   organization: Expensify/App
+   status: actionable_review
+   score: 100.0
+   automation fit: 100.0%
+   salary/evidence: $250
+   location: Online
+   url: https://github.com/Expensify/App/issues/95007

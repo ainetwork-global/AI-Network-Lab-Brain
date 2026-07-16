@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-07-16T19:03:13.173768+00:00
+Gerado em: 2026-07-16T20:24:07.601867+00:00
 
 ## Objetivo
 
@@ -11,10 +11,10 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 ## Resumo
 
 - Total coletado nesta execução: **878**
-- Actionable review: **333**
-- Manual review: **131**
-- Low priority: **410**
-- Rejected: **4**
+- Actionable review: **473**
+- Manual review: **133**
+- Low priority: **461**
+- Rejected: **5**
 - Erros: **0**
 
 ## Fontes
@@ -138,7 +138,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, llm, backend; Executável digitalmente: api, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/customer-service/client-success-coach-csm-2091039
 
-### 8. Talent Acquisition Partner
+### 8. Virtual Executive Assistant
+
+- Fonte: remoteok
+- Contratante: Zirtual
+- Localização: Saskatoon, Saskatoon, Saskatchewan, Canada
+- Tipo: remote
+- Remuneração: USD 1,500.00–3,800.00
+- Evidência de pagamento: $1,500-$3,800,
+- Execução remota: sim
+- Compatibilidade com automação: 80.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: ai, workflow; Executável digitalmente: data, research; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://remoteOK.com/remote-jobs/remote-virtual-executive-assistant-zirtual-1134902
+
+### 9. Talent Acquisition Partner
 
 - Fonte: arbeitnow
 - Contratante: SumUp
@@ -154,7 +170,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/sumup/talent-acquisition-partner-berlin-405782
 
-### 9. Podcaster and Content Creator Psychology Today
+### 10. Podcaster and Content Creator Psychology Today
 
 - Fonte: remoteok
 - Contratante: Psychology Today
@@ -170,7 +186,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, testing, ai; Executável digitalmente: api, data, testing, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-podcaster-and-content-creator-psychology-today-psychology-today-1134808
 
-### 10. Pixel Art Creation with high Creative Thinking
+### 11. Pixel Art Creation with high Creative Thinking
 
 - Fonte: github_paid_issues
 - Contratante: SecureBananaLabs/bug-bounty
@@ -186,7 +202,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, ai, agent; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/80
 
-### 11. Low Handing Fruit Automation
+### 12. Low Handing Fruit Automation
 
 - Fonte: github_paid_issues
 - Contratante: SecureBananaLabs/bug-bounty
@@ -202,7 +218,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, documentation, ai, agent, github; Executável digitalmente: automation, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
 
-### 12. Product Manager AI
+### 13. Product Manager AI
 
 - Fonte: remoteok
 - Contratante: YipitData
@@ -218,7 +234,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-product-manager-ai-yipitdata-1134770
 
-### 13. Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture
+### 14. Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture
 
 - Fonte: github_paid_issues
 - Contratante: johncollinsgit/TimberLine
@@ -234,7 +250,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, llm, agent, workflow; Executável digitalmente: script, api, integration, data, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/johncollinsgit/TimberLine/issues/70
 
-### 14. [$250] Web-Expense details-distance and rate menu items are shown after created unreported expense
+### 15. [$250] Web-Expense details-distance and rate menu items are shown after created unreported expense
 
 - Fonte: github_paid_issues
 - Contratante: Expensify/App
@@ -250,7 +266,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/Expensify/App/issues/96343
 
-### 15. [$250] Spends - feed:xxxx auto selected to Bank Account instead of Expensify Card
+### 16. [$250] Spends - feed:xxxx auto selected to Bank Account instead of Expensify Card
 
 - Fonte: github_paid_issues
 - Contratante: Expensify/App
@@ -266,7 +282,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/Expensify/App/issues/96342
 
-### 16. [$250] Attachment - Landscape pdf file preview is truncated in "Share to Expensify" page
+### 17. [$250] Attachment - Landscape pdf file preview is truncated in "Share to Expensify" page
 
 - Fonte: github_paid_issues
 - Contratante: Expensify/App
@@ -282,7 +298,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/Expensify/App/issues/89905
 
-### 17. [$250] Chat - Live markdown in composer is removed if the text exceeds 4000 characters
+### 18. [$250] Chat - Live markdown in composer is removed if the text exceeds 4000 characters
 
 - Fonte: github_paid_issues
 - Contratante: Expensify/App
@@ -298,7 +314,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, testing, qa, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/Expensify/App/issues/95210
 
-### 18. [$250] Card - Error shows up when resolving fraud alert action
+### 19. [$250] Card - Error shows up when resolving fraud alert action
 
 - Fonte: github_paid_issues
 - Contratante: Expensify/App
@@ -314,7 +330,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/Expensify/App/issues/96341
 
-### 19. [$250] Unable to enter decimal amounts for XAF (FCFA) currency in New Expensify
+### 20. [$250] Unable to enter decimal amounts for XAF (FCFA) currency in New Expensify
 
 - Fonte: github_paid_issues
 - Contratante: Expensify/App
@@ -330,7 +346,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/Expensify/App/issues/95007
 
-### 20. [$250] chat-Tapping invalid deeplink directs to hmm not here briefly & not directs frm self dm
+### 21. [$250] chat-Tapping invalid deeplink directs to hmm not here briefly & not directs frm self dm
 
 - Fonte: github_paid_issues
 - Contratante: Expensify/App
@@ -346,7 +362,103 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/Expensify/App/issues/96314
 
-### 21. Staff Software Engineer - AI Data Platform & Snowflake (d/f/m, Berlin)
+### 22. [$250] Expense - user don't navigate back to main chat after merge the expenses
+
+- Fonte: github_paid_issues
+- Contratante: Expensify/App
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 250.00
+- Evidência de pagamento: $250
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/Expensify/App/issues/96347
+
+### 23. [Due for payment 2026-07-21] [$250] Add card status to Expensify Card table
+
+- Fonte: github_paid_issues
+- Contratante: Expensify/App
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 250.00
+- Evidência de pagamento: $250
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: automation, ai, backend; Executável digitalmente: automation, backend; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/Expensify/App/issues/95638
+
+### 24. [$250] Insufficient spacing between Card name and Issue card button when window is resized
+
+- Fonte: github_paid_issues
+- Contratante: Expensify/App
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 250.00
+- Evidência de pagamento: $250
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/Expensify/App/issues/94988
+
+### 25. [$250] No Cards Displayed During Corporate Card Feed Connection
+
+- Fonte: github_paid_issues
+- Contratante: Expensify/App
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 250.00
+- Evidência de pagamento: $250
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/Expensify/App/issues/95763
+
+### 26. [$250] Public room-anon user first time tapping on sign in button or a thread open public room
+
+- Fonte: github_paid_issues
+- Contratante: Expensify/App
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 250.00
+- Evidência de pagamento: $250
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/Expensify/App/issues/96346
+
+### 27. [BOUNTY $200] WORKFLOW: n8n + Claude Code — automated weekly dev summary
+
+- Fonte: github_paid_issues
+- Contratante: claude-builders-bounty/claude-builders-bounty
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 200.00
+- Evidência de pagamento: $200
+- Execução remota: sim
+- Compatibilidade com automação: 95.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: api, script, ai, workflow, github; Executável digitalmente: script, api; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5
+
+### 28. Staff Software Engineer - AI Data Platform & Snowflake (d/f/m, Berlin)
 
 - Fonte: arbeitnow
 - Contratante: Monda Labs
@@ -362,7 +474,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, ai, agent; Executável digitalmente: python, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/monda-labs/staff-software-engineer-ai-data-platform-snowflake-berlin-75874
 
-### 22. Product Associate, Fund Finance @ b2venture (m/f/d)
+### 29. Product Associate, Fund Finance @ b2venture (m/f/d)
 
 - Fonte: arbeitnow
 - Contratante: b2venture GmbH
@@ -378,7 +490,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, database, sql, testing, ai, workflow; Executável digitalmente: automation, api, data, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/b2venture-gmbh/product-associate-fund-finance-at-b2venture-berlin-77618
 
-### 23. Staff Software Engineer, Product (Belo Horizonte)
+### 30. Staff Software Engineer, Product (Belo Horizonte)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -394,7 +506,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-belo-horizonte-2091056
 
-### 24. Staff Software Engineer, Product (Montevideo)
+### 31. Staff Software Engineer, Product (Montevideo)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -410,7 +522,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-montevideo-2091058
 
-### 25. Staff Software Engineer, Product (São Paulo)
+### 32. Staff Software Engineer, Product (São Paulo)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -426,7 +538,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-sao-paulo-2091055
 
-### 26. Staff Software Engineer, Product (Mexico City)
+### 33. Staff Software Engineer, Product (Mexico City)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -442,7 +554,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-mexico-city-2091050
 
-### 27. Staff Software Engineer, Product (Campinas)
+### 34. Staff Software Engineer, Product (Campinas)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -458,7 +570,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-campinas-2091049
 
-### 28. Staff Software Engineer, Product (Florianópolis)
+### 35. Staff Software Engineer, Product (Florianópolis)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -474,7 +586,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-florianopolis-2091059
 
-### 29. Staff Product Engineer (Mexico City)
+### 36. Staff Product Engineer (Mexico City)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -490,7 +602,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/product/staff-product-engineer-mexico-city-2091057
 
-### 30. Staff Product Engineer (Montevideo)
+### 37. Staff Product Engineer (Montevideo)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -506,7 +618,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/product/staff-product-engineer-montevideo-2091054
 
-### 31. Staff Product Engineer (Campinas)
+### 38. Staff Product Engineer (Campinas)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -522,7 +634,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/product/staff-product-engineer-campinas-2091053
 
-### 32. Staff Product Engineer (Belo Horizonte)
+### 39. Staff Product Engineer (Belo Horizonte)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -538,7 +650,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/product/staff-product-engineer-belo-horizonte-2091052
 
-### 33. Staff Product Engineer (Florianópolis)
+### 40. Staff Product Engineer (Florianópolis)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -554,7 +666,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/product/staff-product-engineer-florianopolis-2091051
 
-### 34. Staff Product Engineer (São Paulo)
+### 41. Staff Product Engineer (São Paulo)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -570,7 +682,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, agent, workflow, github; Executável digitalmente: script, api, integration, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/product/staff-product-engineer-sao-paulo-2091000
 
-### 35. Senior Quality Engineer (Florianópolis)
+### 42. Senior Quality Engineer (Florianópolis)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -586,7 +698,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, script, sql, testing, qa, ai; Executável digitalmente: script, automation, api, integration, data, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/qa/senior-quality-engineer-florianopolis-2090994
 
-### 36. Senior Quality Engineer (São Paulo)
+### 43. Senior Quality Engineer (São Paulo)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -602,7 +714,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, script, sql, testing, qa, ai; Executável digitalmente: script, automation, api, integration, data, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/qa/senior-quality-engineer-sao-paulo-2090995
 
-### 37. Senior Quality Engineer (Belo Horizonte)
+### 44. Senior Quality Engineer (Belo Horizonte)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -618,7 +730,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, script, sql, testing, qa, ai; Executável digitalmente: script, automation, api, integration, data, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/qa/senior-quality-engineer-belo-horizonte-2090996
 
-### 38. Senior Quality Engineer (Campinas)
+### 45. Senior Quality Engineer (Campinas)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -634,7 +746,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, script, sql, testing, qa, ai; Executável digitalmente: script, automation, api, integration, data, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/qa/senior-quality-engineer-campinas-2090998
 
-### 39. Senior Quality Engineer (Porto Alegre)
+### 46. Senior Quality Engineer (Porto Alegre)
 
 - Fonte: remotive
 - Contratante: LawnStarter
@@ -650,7 +762,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, script, sql, testing, qa, ai; Executável digitalmente: script, automation, api, integration, data, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/qa/senior-quality-engineer-porto-alegre-2090997
 
-### 40. Chain Account Manager
+### 47. Chain Account Manager
 
 - Fonte: remoteok
 - Contratante: CELSIUS
@@ -666,7 +778,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-chain-account-manager-celsius-1134880
 
-### 41. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
+### 48. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
 
 - Fonte: github_paid_issues
 - Contratante: moorcheh-ai/memanto
@@ -682,7 +794,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, api, script, documentation, ai, llm, agent, workflow; Executável digitalmente: python, script, api, data, documentation, research, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/moorcheh-ai/memanto/issues/770
 
-### 42. Senior Engineering Manager, Supply Domain (all genders)
+### 49. Senior Engineering Manager, Supply Domain (all genders)
 
 - Fonte: arbeitnow
 - Contratante: Distribusion Technologies
@@ -698,7 +810,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, api, integration, database, ai; Executável digitalmente: python, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/distribusion-technologies/senior-engineering-manager-supply-domain-all-genders-berlin-309048
 
-### 43. Engineering Manager, Search Engine (all genders)
+### 50. Engineering Manager, Search Engine (all genders)
 
 - Fonte: arbeitnow
 - Contratante: Distribusion Technologies
@@ -713,115 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: job_application
 - Motivo: Capacidades compatíveis: api, ai, backend; Executável digitalmente: api, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/distribusion-technologies/engineering-manager-search-engine-all-genders-berlin-247347
-
-### 44. [Bug] Inconsistency in the subscription flow depending on the user's login state
-
-- Fonte: github_paid_issues
-- Contratante: paypal/paypal-js
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 60.00
-- Evidência de pagamento: $60.00
-- Execução remota: sim
-- Compatibilidade com automação: 95.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: integration, script, ai; Executável digitalmente: script, integration; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/paypal/paypal-js/issues/975
-
-### 45. (Senior) IT Operations Engineer (gn)
-
-- Fonte: arbeitnow
-- Contratante: Bikeleasing-Service GmbH & Co. KG
-- Localização: Berlin
-- Tipo: ['professional / experienced']
-- Remuneração: EUR 50.00
-- Evidência de pagamento: €50
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: job_application
-- Motivo: Capacidades compatíveis: automation, api, scripting, script, ai, workflow; Executável digitalmente: script, automation, api; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.com/jobs/companies/bikeleasing-service-gmbh-co-kg/senior-it-operations-engineer-gn-berlin-34428
-
-### 46. Lead IT Operations Engineer (gn)
-
-- Fonte: arbeitnow
-- Contratante: Bikeleasing-Service GmbH & Co. KG
-- Localização: Uslar
-- Tipo: ['professional / experienced']
-- Remuneração: EUR 50.00
-- Evidência de pagamento: €50
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: job_application
-- Motivo: Capacidades compatíveis: automation, api, scripting, script, documentation, ai, workflow; Executável digitalmente: script, automation, api, documentation; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.com/jobs/companies/bikeleasing-service-gmbh-co-kg/lead-it-operations-engineer-gn-uslar-379734
-
-### 47. [BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history
-
-- Fonte: github_paid_issues
-- Contratante: claude-builders-bounty/claude-builders-bounty
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 50.00
-- Evidência de pagamento: $50
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: python, script, ai, github; Executável digitalmente: python, script; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1
-
-### 48. Video Podcast Editor
-
-- Fonte: remoteok
-- Contratante: Betches Media
-- Localização: New York, New York, New York, United States
-- Tipo: remote
-- Remuneração: USD 40.00–45.00
-- Evidência de pagamento: $40 - $45,
-- Execução remota: sim
-- Compatibilidade com automação: 95.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: job_application
-- Motivo: Capacidades compatíveis: api, script, ai, workflow; Executável digitalmente: script, api, research; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://remoteOK.com/remote-jobs/remote-video-podcast-editor-betches-media-1134873
-
-### 49. Accountant
-
-- Fonte: remoteok
-- Contratante: City of Greater Sudbury
-- Localização: Greater Sudbury,
-- Tipo: remote
-- Remuneração: USD 35.12
-- Evidência de pagamento: $35.12
-- Execução remota: sim
-- Compatibilidade com automação: 95.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: job_application
-- Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script, data; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://remoteOK.com/remote-jobs/remote-accountant-city-of-greater-sudbury-1134903
-
-### 50. Customer Support Associate
-
-- Fonte: remoteok
-- Contratante: Habitat Learn
-- Localização: Toronto, Toronto, Ontario, Canada
-- Tipo: remote
-- Remuneração: USD 23.00
-- Evidência de pagamento: $23
-- Execução remota: sim
-- Compatibilidade com automação: 95.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://remoteOK.com/remote-jobs/remote-customer-support-associate-habitat-learn-1134917
