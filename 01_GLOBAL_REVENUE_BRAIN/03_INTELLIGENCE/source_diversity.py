@@ -1,39 +1,28 @@
 ﻿import sqlite3
 
 conn = sqlite3.connect("11_DATA/global_revenue_brain.db")
-conn.row_factory = sqlite3.Row
 
 print()
 print("===== SOURCE DIVERSITY =====")
 
-queries = [
-
-("GitHub",
-"""
+github_sources = conn.execute("""
 SELECT COUNT(DISTINCT source)
 FROM opportunity_verifications
-"""
-),
+""").fetchone()[0]
 
-("Official",
-"""
-SELECT COUNT(DISTINCT source)
+official_sources = conn.execute("""
+SELECT COUNT(DISTINCT source_name)
 FROM official_source_candidates
-"""
-),
+""").fetchone()[0]
 
-("Algora",
-"""
+algora_orgs = conn.execute("""
 SELECT COUNT(DISTINCT organization)
 FROM algora_open_bounties
-"""
-)
+""").fetchone()[0]
 
-]
-
-for name,sql in queries:
-    total = conn.execute(sql).fetchone()[0]
-    print(f"{name}: {total}")
+print(f"GitHub: {github_sources}")
+print(f"Official: {official_sources}")
+print(f"Algora: {algora_orgs}")
 
 print()
 print("===== OFFICIAL SOURCES =====")
@@ -41,16 +30,18 @@ print("===== OFFICIAL SOURCES =====")
 for row in conn.execute("""
 
 SELECT
-source,
+
+source_name,
 COUNT(*) total
 
 FROM official_source_candidates
 
-GROUP BY source
+GROUP BY source_name
 
 ORDER BY total DESC
 
 """):
+
     print(row)
 
 conn.close()
