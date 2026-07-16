@@ -1,34 +1,70 @@
-﻿# EXECUTION CANDIDATE RANKING
+# Global Revenue Brain — Execution Candidate Ranking
 
-CURRENT_BEST_TARGET
+Gerado em: 2026-07-16T21:47:23.059686+00:00
 
-O Brain deverá manter apenas uma oportunidade como prioridade máxima.
+Nenhuma ação externa foi realizada.
 
-Critérios:
+## Resumo
 
-1. Probabilidade real de pagamento
-2. Evidências verificadas
-3. Valor esperado
-4. Valor por hora
-5. Complexidade técnica
-6. Tempo estimado até receber
-7. Facilidade de submissão
-8. Necessidade de aprovação humana
-9. Histórico do contratante
-10. Histórico aprendido pelo Brain
+- Candidatos elegíveis: **4**
+- CURRENT_BEST_TARGET: **definido**
 
-Sempre que novas oportunidades forem descobertas:
+## CURRENT_BEST_TARGET
 
-- recalcular toda a fila;
-- atualizar o ranking;
-- substituir o CURRENT_BEST_TARGET quando existir opção melhor;
-- nunca perder o histórico.
+### Low Handing Fruit Automation
 
-Resultado esperado:
+- Solicitante: SecureBananaLabs/bug-bounty
+- Repositório: SecureBananaLabs/bug-bounty
+- Issue: #743
+- Recompensa: USD 700.0
+- Probabilidade de pagamento: **94.0%**
+- Valor esperado: 658.0
+- Valor/hora ajustado: 158.43
+- Readiness: 92.0
+- Velocidade de caixa: 100.0
+- Risco: 13.0
+- Score final: **86.61**
+- Próxima ação: **request_human_approval_to_begin**
+- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
 
-CURRENT_BEST_TARGET
-TOP 10
-TOP 50
-TOP 100
+## TOP 10
 
-A fila deverá permanecer dinâmica.
+### 1. Low Handing Fruit Automation
+
+- Recompensa: USD 700.0
+- Probabilidade: 94.0%
+- Valor esperado: 658.0
+- Score final: **86.61**
+- Status do plano: ready_for_human_approval
+- Próxima ação: request_human_approval_to_begin
+- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
+
+### 2. Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture
+
+- Recompensa: USD 299.0
+- Probabilidade: 34.39%
+- Valor esperado: 102.83
+- Score final: **18.73**
+- Status do plano: not_started
+- Próxima ação: keep_in_observation
+- URL: https://github.com/johncollinsgit/TimberLine/issues/70
+
+### 3. [Bug] Inconsistency in the subscription flow depending on the user's login state
+
+- Recompensa: USD 60.0
+- Probabilidade: 29.76%
+- Valor esperado: 17.86
+- Score final: **11.52**
+- Status do plano: not_started
+- Próxima ação: keep_in_observation
+- URL: https://github.com/paypal/paypal-js/issues/975
+
+### 4. Mixed-content copy bypasses table sanitizer, preserves dark theme, and blanks headers
+
+- Recompensa: USD 40.0
+- Probabilidade: 28.77%
+- Valor esperado: 11.51
+- Score final: **9.43**
+- Status do plano: not_started
+- Próxima ação: keep_in_observation
+- URL: https://github.com/nesquena/hermes-webui/issues/6063
