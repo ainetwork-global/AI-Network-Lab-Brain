@@ -1,0 +1,10 @@
+﻿id,title,url,organization,reward_amount,reward_currency,start_date,end_date,location,online,participants,status,skills,candidate_score,verification_status
+3,Global AI Hackathon Series with Qwen Cloud,https://qwencloud-hackathon.devpost.com/,Alibaba Cloud,,USD,,,,0,8015,unknown,"ai, cloud",56.0,staged
+9,YouCam API Skin AI & Apparel VTO Hackathon,https://youcam-api.devpost.com/,Perfect Corp,,USD,,,,0,251,unknown,"ai, api",56.0,staged
+5,Arm Create: AI Optimization Challenge,https://arm-ai-optimization-challenge.devpost.com/,arm,,USD,,,,0,1423,unknown,ai,53.0,staged
+7,Build with DataHub: The Agent Hackathon,https://datahub.devpost.com/,DataHub,,USD,,,,0,752,unknown,agent,53.0,staged
+4,CockroachDB × AWS Hackathon - Build with Agentic Memory,https://cockroachdb-ai.devpost.com/,Cockroach Labs,,USD,,,,0,1535,unknown,agent,53.0,staged
+8,Africa Deep Tech Challenge 2026,https://adtc-2026.devpost.com/,Africa Deep Tech Foundation,,USD,,,,0,935,unknown,,50.0,staged
+6,Backblaze Generative Media Hackathon: Build with Genblaze on B2,https://backblaze-generative-media.devpost.com/,Backblaze,,USD,,,,0,794,unknown,,50.0,staged
+2,Build with Gemini XPRIZE,https://xprize.devpost.com/,XPRIZE,,USD,,,,0,19791,unknown,,50.0,staged
+1,OpenAI Build Week,https://openai.devpost.com/,OpenAI,,USD,2021-07-13,,,0,24637,unknown,,50.0,staged
