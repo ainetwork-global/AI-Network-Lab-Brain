@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-07-17T11:11:30.714557+00:00",
+  "repository": "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository",
+  "branch": "main",
+  "commit": "cac7dea1bd31a7b12c4f02a1a8f6a78139aefd14",
+  "files_analyzed": 74,
+  "findings_total": 12,
+  "top_candidates": [
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/paymentController.js",
+      "line": 5,
+      "score": 87.0,
+      "line_content": "return ok(res, await createPaymentIntent(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createPaymentIntent } from \"../services/paymentService.js\";\n\nexport async function createPayment(req, res) {\n  return ok(res, await createPaymentIntent(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/messageController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await sendMessage(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { listMessages, sendMessage } from \"../services/messageService.js\";\n\nexport async function getMessages(req, res) {\n  return ok(res, await listMessages());\n}\n\nexport async function postMessage(req, res) {\n  return ok(res, await sendMessage(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/notificationController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await createNotification(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createNotification, listNotifications } from \"../services/notificationService.js\";\n\nexport async function getNotifications(req, res) {\n  return ok(res, await listNotifications());\n}\n\nexport async function postNotification(req, res) {\n  return ok(res, await createNotification(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/proposalController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await createProposal(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createProposal, listProposals } from \"../services/proposalService.js\";\n\nexport async function getProposals(req, res) {\n  return ok(res, await listProposals());\n}\n\nexport async function postProposal(req, res) {\n  return ok(res, await createProposal(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/reviewController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await createReview(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createReview, listReviews } from \"../services/reviewService.js\";\n\nexport async function getReviews(req, res) {\n  return ok(res, await listReviews());\n}\n\nexport async function postReview(req, res) {\n  return ok(res, await createReview(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/userController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await createUser(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createUser, listUsers } from \"../services/userService.js\";\n\nexport async function getUsers(req, res) {\n  return ok(res, await listUsers());\n}\n\nexport async function postUser(req, res) {\n  return ok(res, await createUser(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "empty_upload_acceptance",
+      "candidate_title": "Upload possivelmente aceita arquivo vazio ou ausente",
+      "file": "apps/api/src/controllers/uploadController.js",
+      "line": 5,
+      "score": 85.0,
+      "line_content": "filename: req.file?.originalname ?? null,",
+      "context": "import { ok } from \"../utils/response.js\";\n\nexport async function uploadFile(req, res) {\n  return ok(res, {\n    filename: req.file?.originalname ?? null,\n    status: req.file ? \"uploaded\" : \"no-file\"\n  }, 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "todo_business_logic",
+      "candidate_title": "Lógica de produção marcada como TODO/FIXME",
+      "file": "apps/api/src/config/db.js",
+      "line": 2,
+      "score": 80.0,
+      "line_content": "// TODO: wire Prisma client from @freelanceflow/db package",
+      "context": "export async function connectDb() {\n  // TODO: wire Prisma client from @freelanceflow/db package\n  return { connected: true, driver: \"prisma-placeholder\" };\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "todo_business_logic",
+      "candidate_title": "Lógica de produção marcada como TODO/FIXME",
+      "file": "apps/api/src/services/paymentService.js",
+      "line": 2,
+      "score": 80.0,
+      "line_content": "// TODO: integrate Stripe SDK and return client secret.",
+      "context": "export async function createPaymentIntent(payload) {\n  // TODO: integrate Stripe SDK and return client secret.\n  return {\n    paymentId: `pay_${Date.now()}`,\n    amount: payload.amount,\n    currency: payload.currency ?? \"usd\",\n    provider: \"stripe\"\n  };\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "todo_business_logic",
+      "candidate_title": "Lógica de produção marcada como TODO/FIXME",
+      "file": "apps/api/src/services/searchService.js",
+      "line": 2,
+      "score": 80.0,
+      "line_content": "// TODO: use PostgreSQL full-text search + ranking.",
+      "context": "export async function globalSearch(query) {\n  // TODO: use PostgreSQL full-text search + ranking.\n  return {\n    query,\n    users: [],\n    jobs: [],\n    freelancers: []\n  };\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "todo_business_logic",
+      "candidate_title": "Lógica de produção marcada como TODO/FIXME",
+      "file": "apps/api/src/services/authService.js",
+      "line": 4,
+      "score": 80.0,
+      "line_content": "// TODO: persist new user via Prisma",
+      "context": "import { signAccessToken } from \"../utils/jwt.js\";\n\nexport async function registerUser(payload) {\n  // TODO: persist new user via Prisma\n  return {\n    id: `usr_${Date.now()}`,\n    email: payload.email,\n    role: payload.role,\n    token: signAccessToken({ sub: `usr_${Date.now()}`, role: payload.role })\n  };\n}\n",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    },
+    {
+      "rule_key": "unsafe_numeric_range",
+      "candidate_title": "Validação numérica possivelmente incompleta",
+      "file": "apps/api/src/validators/job.js",
+      "line": 6,
+      "score": 77.0,
+      "line_content": "budgetMin: z.number().nonnegative(),",
+      "context": "import { z } from \"zod\";\n\nexport const createJobSchema = z.object({\n  title: z.string().min(4),\n  description: z.string().min(10),\n  budgetMin: z.number().nonnegative(),\n  budgetMax: z.number().nonnegative(),\n  categoryId: z.string().min(1),\n  skills: z.array(z.string().min(1)).default([])\n});\n\nexport const updateJobSchema = createJobSchema.partial();",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false
+    }
+  ],
+  "rule_counts": {
+    "todo_business_logic": 5,
+    "raw_body_to_service": 6,
+    "empty_upload_acceptance": 2,
+    "unsafe_numeric_range": 2
+  },
+  "package_files": [
+    {
+      "file": "package.json",
+      "name": "freelance-platform-monorepo",
+      "scripts": {
+        "build": "echo \"Run package-specific builds (e.g. npm run build -w apps/web)\"",
+        "lint": "echo \"No root lint configured\"",
+        "test": "npm run test -w apps/api"
+      },
+      "dependencies": [],
+      "dev_dependencies": []
+    },
+    {
+      "file": "apps/api/package.json",
+      "name": "@freelanceflow/api",
+      "scripts": {
+        "dev": "node src/server.js",
+        "start": "node src/server.js",
+        "test": "node --test src/tests"
+      },
+      "dependencies": [
+        "cors",
+        "express",
+        "express-rate-limit",
+        "helmet",
+        "jsonwebtoken",
+        "multer",
+        "zod"
+      ],
+      "dev_dependencies": []
+    },
+    {
+      "file": "apps/web/package.json",
+      "name": "@freelanceflow/web",
+      "scripts": {
+        "dev": "next dev -p 3000",
+        "build": "next build",
+        "start": "next start -p 3000"
+      },
+      "dependencies": [
+        "next",
+        "react",
+        "react-dom"
+      ],
+      "dev_dependencies": [
+        "@types/node",
+        "@types/react",
+        "typescript"
+      ]
+    },
+    {
+      "file": "packages/db/package.json",
+      "name": "@freelanceflow/db",
+      "scripts": {
+        "generate": "prisma generate",
+        "migrate": "prisma migrate dev"
+      },
+      "dependencies": [
+        "@prisma/client"
+      ],
+      "dev_dependencies": [
+        "prisma"
+      ]
+    },
+    {
+      "file": "packages/ui/package.json",
+      "name": "@freelanceflow/ui",
+      "scripts": {},
+      "dependencies": [],
+      "dev_dependencies": []
+    }
+  ],
+  "existing_local_issue_titles": [],
+  "external_action_performed": false,
+  "issue_created": false,
+  "fork_created": false,
+  "pull_request_created": false,
+  "recommended_next_action": "manually_select_one_candidate_for_local_reproduction"
+}
