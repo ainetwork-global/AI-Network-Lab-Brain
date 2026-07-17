@@ -1,37 +1,37 @@
 ﻿# NEXT EXECUTION
 
 Status:
-AWAITING_HUMAN_APPROVAL
+READY_TO_EXECUTE
 
 Source:
-Execution Candidate Ranking
+Economic Ranking + Live Validation
 
 Title:
-Low Handing Fruit Automation
+[Bug] Inconsistency in the subscription flow depending on the user's login state
 
 Organization:
-SecureBananaLabs/bug-bounty
+paypal/paypal-js
 
 Repository:
-SecureBananaLabs/bug-bounty
+paypal/paypal-js
 
 Issue:
-743
+975
 
 Reward:
-USD 700.00
+USD 60.00
 
 Payment probability:
-100.0%
+29.76%
 
 Final execution score:
-91.02
+13.52
 
 Recommended action:
-request_human_approval_to_begin
+keep_in_observation
 
 URL:
-https://github.com/SecureBananaLabs/bug-bounty/issues/743
+https://github.com/paypal/paypal-js/issues/975
 
 ## Checklist obrigatório antes da execução
 
@@ -40,8 +40,12 @@ https://github.com/SecureBananaLabs/bug-bounty/issues/743
 [ ] Confirmar que a recompensa continua válida
 [ ] Confirmar regras para reivindicar ou reservar a tarefa
 [ ] Verificar se já existe outro executor trabalhando nela
-[ ] Solicitar aprovação humana para começar
+[ ] Solicitar aprovação humana quando necessário
+[ ] Preparar o ambiente local do repositório
+[ ] Reproduzir tecnicamente o problema
+[ ] Definir o plano mínimo de implementação
 [ ] Produzir os entregáveis
+[ ] Executar testes
 [ ] Revisar tecnicamente
 [ ] Submeter manualmente
 [ ] Registrar o resultado e eventual pagamento

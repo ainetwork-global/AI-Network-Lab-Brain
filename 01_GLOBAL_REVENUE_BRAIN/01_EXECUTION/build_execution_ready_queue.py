@@ -1,45 +1,40 @@
 ﻿import csv
 from pathlib import Path
-from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parent.parent
 
-INPUT = ROOT / "04_OPPORTUNITIES" / "execution_candidate_ranking.csv"
-OUTPUT = ROOT / "04_OPPORTUNITIES" / "EXECUTION_READY_QUEUE.csv"
+RANKING_INPUT = (
+    ROOT
+    / "04_OPPORTUNITIES"
+    / "execution_candidate_ranking.csv"
+)
 
-OUTPUT_FIELDS = [
+LIVE_INPUT = (
+    ROOT
+    / "04_OPPORTUNITIES"
+    / "live_validated_opportunities.csv"
+)
+
+OUTPUT = (
+    ROOT
+    / "04_OPPORTUNITIES"
+    / "EXECUTION_READY_QUEUE.csv"
+)
+
+FIELDS = [
+    "task_id",
     "source",
-    "platform",
     "task_title",
-    "description",
-    "url",
-    "country",
-    "language",
-    "currency",
-    "payment_type",
     "reward",
-    "estimated_hours",
-    "required_skills",
-    "execution_probability",
-    "payment_probability",
-    "receipt_probability",
-    "competition_score",
-    "expected_roi",
-    "repeatability",
-    "requires_human_action",
-    "status",
-    "discovered_at",
-    "last_checked",
-    "payment_verification_score",
-    "deliverables",
+    "url",
     "execution_status",
     "rank_position",
     "is_current_best_target",
-    "organization",
-    "repository",
-    "issue_number",
+    "reward_currency",
     "reward_amount",
+    "payment_probability",
     "expected_cash_value",
+    "estimated_hours",
     "probability_adjusted_value_per_hour",
     "planning_status",
     "readiness_score",
@@ -47,160 +42,249 @@ OUTPUT_FIELDS = [
     "execution_risk",
     "final_execution_score",
     "recommended_action",
+    "organization",
+    "repository",
+    "issue_number",
+    "live_validation_status",
+    "live_validation_score",
+    "live_validation_reason",
+    "github_state",
+    "reward_mentioned_live",
+    "assignee_count",
+    "claim_signal",
+    "completion_signal",
+    "validated_at",
 ]
 
-def as_float(value, default=0.0):
+STATUS_PRIORITY = {
+    "READY_TO_EXECUTE": 0,
+    "HUMAN_REVIEW_REQUIRED": 1,
+    "AWAITING_HUMAN_APPROVAL": 2,
+    "OBSERVATION": 3,
+    "INVALID": 9,
+}
+
+
+def text(value):
+    return str(value or "").strip()
+
+
+def number(value, default=0.0):
     try:
-        return float(str(value).strip())
+        return float(text(value))
     except (TypeError, ValueError):
         return default
 
-def as_int(value, default=999999):
+
+def integer(value, default=999999):
     try:
-        return int(float(str(value).strip()))
+        return int(float(text(value)))
     except (TypeError, ValueError):
         return default
 
-def classify_deliverables(title):
-    text = (title or "").lower()
-    deliverables = []
 
-    if any(term in text for term in ("python", "script", "automation")):
-        deliverables.append("python_code")
+def issue_key(repository, issue_number):
+    return (
+        text(repository).lower(),
+        text(issue_number),
+    )
 
-    if any(term in text for term in ("readme", "documentation", "docs")):
-        deliverables.append("documentation")
 
-    if any(term in text for term in ("bug", "fix", "issue")):
-        deliverables.append("bug_fix")
+if not RANKING_INPUT.exists():
+    raise FileNotFoundError(
+        f"Ranking não encontrado: {RANKING_INPUT}"
+    )
 
-    if any(term in text for term in ("test", "testing")):
-        deliverables.append("tests")
+if not LIVE_INPUT.exists():
+    raise FileNotFoundError(
+        f"Validação ao vivo não encontrada: {LIVE_INPUT}"
+    )
 
-    if any(term in text for term in ("proposal", "agreement", "architecture")):
-        deliverables.append("proposal_or_architecture")
-
-    if not deliverables:
-        deliverables.append("manual_review")
-
-    return ";".join(deliverables)
-
-if not INPUT.exists():
-    raise FileNotFoundError(f"Ranking não encontrado: {INPUT}")
-
-with INPUT.open("r", encoding="utf-8-sig", newline="") as file:
+with RANKING_INPUT.open(
+    "r",
+    encoding="utf-8-sig",
+    newline="",
+) as file:
     ranking_rows = list(csv.DictReader(file))
 
-ranking_rows.sort(
+with LIVE_INPUT.open(
+    "r",
+    encoding="utf-8-sig",
+    newline="",
+) as file:
+    live_rows = list(csv.DictReader(file))
+
+live_index = {
+    issue_key(
+        row.get("repository"),
+        row.get("issue_number"),
+    ): row
+    for row in live_rows
+}
+
+queue = []
+
+for index, candidate in enumerate(ranking_rows, 1):
+    key = issue_key(
+        candidate.get("repository"),
+        candidate.get("issue_number"),
+    )
+
+    live = live_index.get(key, {})
+
+    live_status = text(
+        live.get("live_validation_status")
+    )
+
+    recommended_action = text(
+        candidate.get("recommended_action")
+    )
+
+    if live_status == "READY_TO_EXECUTE":
+        execution_status = "READY_TO_EXECUTE"
+
+    elif live_status == "INVALID":
+        execution_status = "INVALID"
+
+    elif live_status == "HUMAN_REVIEW_REQUIRED":
+        execution_status = "HUMAN_REVIEW_REQUIRED"
+
+    elif recommended_action == "request_human_approval_to_begin":
+        execution_status = "AWAITING_HUMAN_APPROVAL"
+
+    else:
+        execution_status = "OBSERVATION"
+
+    currency = text(candidate.get("reward_currency"))
+    reward_amount = number(candidate.get("reward_amount"))
+
+    if currency and reward_amount:
+        reward = f"{currency} {reward_amount:.2f}"
+    else:
+        reward = ""
+
+    queue.append({
+        "task_id": index,
+        "source": "Economic Ranking + Live Validation",
+        "task_title": candidate.get("title", ""),
+        "reward": reward,
+        "url": candidate.get("source_url", ""),
+        "execution_status": execution_status,
+        "rank_position": candidate.get("rank_position", ""),
+        "is_current_best_target": candidate.get(
+            "is_current_best_target",
+            "",
+        ),
+        "reward_currency": currency,
+        "reward_amount": candidate.get("reward_amount", ""),
+        "payment_probability": candidate.get(
+            "payment_probability",
+            "",
+        ),
+        "expected_cash_value": candidate.get(
+            "expected_cash_value",
+            "",
+        ),
+        "estimated_hours": candidate.get(
+            "estimated_hours",
+            "",
+        ),
+        "probability_adjusted_value_per_hour": candidate.get(
+            "probability_adjusted_value_per_hour",
+            "",
+        ),
+        "planning_status": candidate.get(
+            "planning_status",
+            "",
+        ),
+        "readiness_score": candidate.get(
+            "readiness_score",
+            "",
+        ),
+        "cash_conversion_speed": candidate.get(
+            "cash_conversion_speed",
+            "",
+        ),
+        "execution_risk": candidate.get(
+            "execution_risk",
+            "",
+        ),
+        "final_execution_score": candidate.get(
+            "final_execution_score",
+            "",
+        ),
+        "recommended_action": recommended_action,
+        "organization": candidate.get("organization", ""),
+        "repository": candidate.get("repository", ""),
+        "issue_number": candidate.get("issue_number", ""),
+        "live_validation_status": live_status,
+        "live_validation_score": live.get(
+            "live_validation_score",
+            "",
+        ),
+        "live_validation_reason": live.get(
+            "validation_reason",
+            "",
+        ),
+        "github_state": live.get("github_state", ""),
+        "reward_mentioned_live": live.get(
+            "reward_mentioned_live",
+            "",
+        ),
+        "assignee_count": live.get("assignee_count", ""),
+        "claim_signal": live.get("claim_signal", ""),
+        "completion_signal": live.get(
+            "completion_signal",
+            "",
+        ),
+        "validated_at": live.get("validated_at", ""),
+    })
+
+queue.sort(
     key=lambda row: (
-        as_int(row.get("rank_position")),
-        -as_float(row.get("final_execution_score")),
+        STATUS_PRIORITY.get(
+            row["execution_status"],
+            8,
+        ),
+        -number(row["final_execution_score"]),
+        integer(row["rank_position"]),
     )
 )
 
-now = datetime.now(timezone.utc).isoformat()
-execution_rows = []
-
-for row in ranking_rows:
-    title = (row.get("title") or "").strip()
-    currency = (row.get("reward_currency") or "unknown").strip()
-    reward_amount = as_float(row.get("reward_amount"))
-    payment_probability = as_float(row.get("payment_probability"))
-    expected_cash_value = as_float(row.get("expected_cash_value"))
-    final_score = as_float(row.get("final_execution_score"))
-    recommended_action = (row.get("recommended_action") or "").strip()
-    planning_status = (row.get("planning_status") or "").strip()
-
-    reward_text = (
-        f"{currency} {reward_amount:.2f}"
-        if reward_amount > 0
-        else ""
-    )
-
-    is_best = str(row.get("is_current_best_target") or "").strip() == "1"
-
-    if is_best:
-        execution_status = "AWAITING_HUMAN_APPROVAL"
-        status = "CURRENT_BEST_TARGET"
-    elif recommended_action == "request_human_approval_to_begin":
-        execution_status = "AWAITING_HUMAN_APPROVAL"
-        status = "RANKED_CANDIDATE"
-    else:
-        execution_status = "OBSERVATION"
-        status = "RANKED_CANDIDATE"
-
-    description = (
-        f"Organization: {row.get('organization', '')}; "
-        f"Repository: {row.get('repository', '')}; "
-        f"Issue: {row.get('issue_number', '')}; "
-        f"Expected cash value: {currency} {expected_cash_value:.2f}; "
-        f"Recommended action: {recommended_action}"
-    )
-
-    execution_rows.append({
-        "source": "Execution Candidate Ranking",
-        "platform": "GitHub",
-        "task_title": title,
-        "description": description,
-        "url": row.get("source_url", ""),
-        "country": "global",
-        "language": "unknown",
-        "currency": currency,
-        "payment_type": "bounty",
-        "reward": reward_text,
-        "estimated_hours": row.get("estimated_hours", ""),
-        "required_skills": "",
-        "execution_probability": "",
-        "payment_probability": row.get("payment_probability", ""),
-        "receipt_probability": row.get("payment_probability", ""),
-        "competition_score": "",
-        "expected_roi": row.get("probability_adjusted_value_per_hour", ""),
-        "repeatability": "",
-        "requires_human_action": "true",
-        "status": status,
-        "discovered_at": now,
-        "last_checked": now,
-        "payment_verification_score": round(payment_probability, 2),
-        "deliverables": classify_deliverables(title),
-        "execution_status": execution_status,
-        "rank_position": row.get("rank_position", ""),
-        "is_current_best_target": row.get("is_current_best_target", ""),
-        "organization": row.get("organization", ""),
-        "repository": row.get("repository", ""),
-        "issue_number": row.get("issue_number", ""),
-        "reward_amount": row.get("reward_amount", ""),
-        "expected_cash_value": row.get("expected_cash_value", ""),
-        "probability_adjusted_value_per_hour": row.get(
-            "probability_adjusted_value_per_hour", ""
-        ),
-        "planning_status": planning_status,
-        "readiness_score": row.get("readiness_score", ""),
-        "cash_conversion_speed": row.get("cash_conversion_speed", ""),
-        "execution_risk": row.get("execution_risk", ""),
-        "final_execution_score": final_score,
-        "recommended_action": recommended_action,
-    })
-
 OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 
-with OUTPUT.open("w", encoding="utf-8-sig", newline="") as file:
-    writer = csv.DictWriter(file, fieldnames=OUTPUT_FIELDS)
+with OUTPUT.open(
+    "w",
+    encoding="utf-8-sig",
+    newline="",
+) as file:
+    writer = csv.DictWriter(
+        file,
+        fieldnames=FIELDS,
+    )
     writer.writeheader()
-    writer.writerows(execution_rows)
+    writer.writerows(queue)
 
 print()
 print("=" * 70)
-print("EXECUTION READY QUEUE GERADA PELO RANKING")
+print("EXECUTION READY QUEUE COM VALIDAÇÃO AO VIVO")
 print("=" * 70)
-print("Candidatos:", len(execution_rows))
+print("Candidatos:", len(queue))
 print("Output:", OUTPUT)
 
-if execution_rows:
-    best = execution_rows[0]
+if queue:
+    first = queue[0]
+
     print()
-    print("Melhor alvo:")
-    print("Título:", best["task_title"])
-    print("Recompensa:", best["reward"])
-    print("Probabilidade de pagamento:", best["payment_probability"])
-    print("Score final:", best["final_execution_score"])
-    print("Ação:", best["recommended_action"])
+    print("Melhor alvo executável:")
+    print("Título:", first["task_title"])
+    print("Status:", first["execution_status"])
+    print("Recompensa:", first["reward"])
+    print(
+        "Score econômico:",
+        first["final_execution_score"],
+    )
+    print(
+        "Score ao vivo:",
+        first["live_validation_score"],
+    )
