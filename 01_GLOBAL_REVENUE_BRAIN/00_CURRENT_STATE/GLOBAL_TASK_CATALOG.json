@@ -1,0 +1,157 @@
+﻿[
+    {
+        "priority":  100,
+        "id":  "coding",
+        "keywords":  [
+                         "python",
+                         "javascript",
+                         "typescript",
+                         "backend",
+                         "frontend",
+                         "api",
+                         "bug",
+                         "fix",
+                         "feature"
+                     ]
+    },
+    {
+        "priority":  99,
+        "id":  "automation",
+        "keywords":  [
+                         "automation",
+                         "powershell",
+                         "script",
+                         "workflow",
+                         "bot",
+                         "integration"
+                     ]
+    },
+    {
+        "priority":  98,
+        "id":  "ai_agents",
+        "keywords":  [
+                         "ai agent",
+                         "mcp",
+                         "llm",
+                         "chatgpt",
+                         "gemini",
+                         "prompt",
+                         "rag"
+                     ]
+    },
+    {
+        "priority":  96,
+        "id":  "documentation",
+        "keywords":  [
+                         "documentation",
+                         "readme",
+                         "technical writing",
+                         "markdown"
+                     ]
+    },
+    {
+        "priority":  95,
+        "id":  "testing",
+        "keywords":  [
+                         "testing",
+                         "qa",
+                         "manual testing",
+                         "automation testing"
+                     ]
+    },
+    {
+        "priority":  94,
+        "id":  "data_labeling",
+        "keywords":  [
+                         "labeling",
+                         "annotation",
+                         "dataset",
+                         "rlhf",
+                         "evaluation"
+                     ]
+    },
+    {
+        "priority":  92,
+        "id":  "translation",
+        "keywords":  [
+                         "translation",
+                         "localization",
+                         "transcription"
+                     ]
+    },
+    {
+        "priority":  91,
+        "id":  "research",
+        "keywords":  [
+                         "research",
+                         "internet research",
+                         "market research"
+                     ]
+    },
+    {
+        "priority":  90,
+        "id":  "web_scraping",
+        "keywords":  [
+                         "scraping",
+                         "crawler",
+                         "parser"
+                     ]
+    },
+    {
+        "priority":  89,
+        "id":  "microtasks",
+        "keywords":  [
+                         "microtask",
+                         "survey",
+                         "simple task",
+                         "small task"
+                     ]
+    },
+    {
+        "priority":  88,
+        "id":  "bug_bounty",
+        "keywords":  [
+                         "bug bounty",
+                         "security",
+                         "vulnerability"
+                     ]
+    },
+    {
+        "priority":  87,
+        "id":  "hackathon",
+        "keywords":  [
+                         "hackathon",
+                         "competition",
+                         "challenge"
+                     ]
+    },
+    {
+        "priority":  86,
+        "id":  "design",
+        "keywords":  [
+                         "logo",
+                         "ui",
+                         "ux",
+                         "figma"
+                     ]
+    },
+    {
+        "priority":  84,
+        "id":  "video",
+        "keywords":  [
+                         "video editing",
+                         "youtube",
+                         "shorts"
+                     ]
+    },
+    {
+        "priority":  83,
+        "id":  "audio",
+        "keywords":  [
+                         "voice",
+                         "audio",
+                         "tts",
+                         "stt"
+                     ]
+    }
+]
