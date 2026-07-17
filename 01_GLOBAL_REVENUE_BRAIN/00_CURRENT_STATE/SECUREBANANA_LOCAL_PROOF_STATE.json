@@ -1,0 +1,503 @@
+{
+  "generated_at": "2026-07-17T11:20:57.359598+00:00",
+  "repository": "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository",
+  "commit": "cac7dea1bd31a7b12c4f02a1a8f6a78139aefd14",
+  "candidates_analyzed": 12,
+  "counts": {
+    "strong_static_evidence": 9,
+    "needs_runtime_reproduction": 3
+  },
+  "proofs": [
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/paymentController.js",
+      "line": 5,
+      "score": 87.0,
+      "line_content": "return ok(res, await createPaymentIntent(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createPaymentIntent } from \"../services/paymentService.js\";\n\nexport async function createPayment(req, res) {\n  return ok(res, await createPaymentIntent(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "strong_static_evidence",
+      "proof_score": 97.0,
+      "evidence": [
+        "req.body é encaminhado integralmente: createPaymentIntent(req.body)"
+      ],
+      "counter_evidence": [
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [
+        "apps/api/src/utils/response.js",
+        "apps/api/src/services/paymentService.js"
+      ],
+      "related_tests": [],
+      "suggested_local_test": "Enviar campo extra não documentado no payload e verificar se ele chega ao serviço ou persistência. O teste deve usar mocks locais e não chamar serviços externos.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\controllers\\paymentController.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/messageController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await sendMessage(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { listMessages, sendMessage } from \"../services/messageService.js\";\n\nexport async function getMessages(req, res) {\n  return ok(res, await listMessages());\n}\n\nexport async function postMessage(req, res) {\n  return ok(res, await sendMessage(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "strong_static_evidence",
+      "proof_score": 97.0,
+      "evidence": [
+        "req.body é encaminhado integralmente: sendMessage(req.body)"
+      ],
+      "counter_evidence": [
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [
+        "apps/api/src/utils/response.js",
+        "apps/api/src/services/messageService.js"
+      ],
+      "related_tests": [],
+      "suggested_local_test": "Enviar campo extra não documentado no payload e verificar se ele chega ao serviço ou persistência. O teste deve usar mocks locais e não chamar serviços externos.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\controllers\\messageController.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/notificationController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await createNotification(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createNotification, listNotifications } from \"../services/notificationService.js\";\n\nexport async function getNotifications(req, res) {\n  return ok(res, await listNotifications());\n}\n\nexport async function postNotification(req, res) {\n  return ok(res, await createNotification(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "strong_static_evidence",
+      "proof_score": 97.0,
+      "evidence": [
+        "req.body é encaminhado integralmente: createNotification(req.body)"
+      ],
+      "counter_evidence": [
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [
+        "apps/api/src/utils/response.js",
+        "apps/api/src/services/notificationService.js"
+      ],
+      "related_tests": [],
+      "suggested_local_test": "Enviar campo extra não documentado no payload e verificar se ele chega ao serviço ou persistência. O teste deve usar mocks locais e não chamar serviços externos.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\controllers\\notificationController.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/proposalController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await createProposal(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createProposal, listProposals } from \"../services/proposalService.js\";\n\nexport async function getProposals(req, res) {\n  return ok(res, await listProposals());\n}\n\nexport async function postProposal(req, res) {\n  return ok(res, await createProposal(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "strong_static_evidence",
+      "proof_score": 97.0,
+      "evidence": [
+        "req.body é encaminhado integralmente: createProposal(req.body)"
+      ],
+      "counter_evidence": [
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [
+        "apps/api/src/utils/response.js",
+        "apps/api/src/services/proposalService.js"
+      ],
+      "related_tests": [],
+      "suggested_local_test": "Enviar campo extra não documentado no payload e verificar se ele chega ao serviço ou persistência. O teste deve usar mocks locais e não chamar serviços externos.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\controllers\\proposalController.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/reviewController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await createReview(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createReview, listReviews } from \"../services/reviewService.js\";\n\nexport async function getReviews(req, res) {\n  return ok(res, await listReviews());\n}\n\nexport async function postReview(req, res) {\n  return ok(res, await createReview(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "strong_static_evidence",
+      "proof_score": 97.0,
+      "evidence": [
+        "req.body é encaminhado integralmente: createReview(req.body)"
+      ],
+      "counter_evidence": [
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [
+        "apps/api/src/utils/response.js",
+        "apps/api/src/services/reviewService.js"
+      ],
+      "related_tests": [],
+      "suggested_local_test": "Enviar campo extra não documentado no payload e verificar se ele chega ao serviço ou persistência. O teste deve usar mocks locais e não chamar serviços externos.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\controllers\\reviewController.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "raw_body_to_service",
+      "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+      "file": "apps/api/src/controllers/userController.js",
+      "line": 9,
+      "score": 87.0,
+      "line_content": "return ok(res, await createUser(req.body), 201);",
+      "context": "import { ok } from \"../utils/response.js\";\nimport { createUser, listUsers } from \"../services/userService.js\";\n\nexport async function getUsers(req, res) {\n  return ok(res, await listUsers());\n}\n\nexport async function postUser(req, res) {\n  return ok(res, await createUser(req.body), 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "strong_static_evidence",
+      "proof_score": 97.0,
+      "evidence": [
+        "req.body é encaminhado integralmente: createUser(req.body)"
+      ],
+      "counter_evidence": [
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [
+        "apps/api/src/utils/response.js",
+        "apps/api/src/services/userService.js"
+      ],
+      "related_tests": [],
+      "suggested_local_test": "Enviar campo extra não documentado no payload e verificar se ele chega ao serviço ou persistência. O teste deve usar mocks locais e não chamar serviços externos.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\controllers\\userController.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "empty_upload_acceptance",
+      "candidate_title": "Upload possivelmente aceita arquivo vazio ou ausente",
+      "file": "apps/api/src/controllers/uploadController.js",
+      "line": 5,
+      "score": 85.0,
+      "line_content": "filename: req.file?.originalname ?? null,",
+      "context": "import { ok } from \"../utils/response.js\";\n\nexport async function uploadFile(req, res) {\n  return ok(res, {\n    filename: req.file?.originalname ?? null,\n    status: req.file ? \"uploaded\" : \"no-file\"\n  }, 201);\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "strong_static_evidence",
+      "proof_score": 97.0,
+      "evidence": [
+        "Controller acessa req.file ou req.files.",
+        "Nenhuma guarda explícita foi localizada no controller."
+      ],
+      "counter_evidence": [
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [
+        "apps/api/src/utils/response.js"
+      ],
+      "related_tests": [],
+      "suggested_local_test": "Invocar o handler com req.file ausente, arquivo de tamanho zero e lista vazia; confirmar o status HTTP e se ocorre erro.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\controllers\\uploadController.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "unsafe_numeric_range",
+      "candidate_title": "Validação numérica possivelmente incompleta",
+      "file": "apps/api/src/validators/job.js",
+      "line": 6,
+      "score": 77.0,
+      "line_content": "budgetMin: z.number().nonnegative(),",
+      "context": "import { z } from \"zod\";\n\nexport const createJobSchema = z.object({\n  title: z.string().min(4),\n  description: z.string().min(10),\n  budgetMin: z.number().nonnegative(),\n  budgetMax: z.number().nonnegative(),\n  categoryId: z.string().min(1),\n  skills: z.array(z.string().min(1)).default([])\n});\n\nexport const updateJobSchema = createJobSchema.partial();",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "strong_static_evidence",
+      "proof_score": 92.0,
+      "evidence": [
+        "Campos mínimo e máximo estão presentes no mesmo fluxo.",
+        "Nenhuma validação cruzada foi localizada."
+      ],
+      "counter_evidence": [
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [],
+      "related_tests": [],
+      "suggested_local_test": "Validar payload com budgetMin maior que budgetMax e confirmar se o schema aceita a combinação inválida.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\validators\\job.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "todo_business_logic",
+      "candidate_title": "Lógica de produção marcada como TODO/FIXME",
+      "file": "apps/api/src/config/db.js",
+      "line": 2,
+      "score": 80.0,
+      "line_content": "// TODO: wire Prisma client from @freelanceflow/db package",
+      "context": "export async function connectDb() {\n  // TODO: wire Prisma client from @freelanceflow/db package\n  return { connected: true, driver: \"prisma-placeholder\" };\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "strong_static_evidence",
+      "proof_score": 90.0,
+      "evidence": [
+        "Marcadores encontrados: // TODO: wire Prisma client from @freelanceflow/db package",
+        "Arquivo possui pouquíssimas linhas executáveis."
+      ],
+      "counter_evidence": [
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [],
+      "related_tests": [],
+      "suggested_local_test": "Identificar qual rota ou serviço depende deste arquivo e executar o fluxo local para confirmar comportamento incompleto.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\config\\db.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "todo_business_logic",
+      "candidate_title": "Lógica de produção marcada como TODO/FIXME",
+      "file": "apps/api/src/services/paymentService.js",
+      "line": 2,
+      "score": 80.0,
+      "line_content": "// TODO: integrate Stripe SDK and return client secret.",
+      "context": "export async function createPaymentIntent(payload) {\n  // TODO: integrate Stripe SDK and return client secret.\n  return {\n    paymentId: `pay_${Date.now()}`,\n    amount: payload.amount,\n    currency: payload.currency ?? \"usd\",\n    provider: \"stripe\"\n  };\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "needs_runtime_reproduction",
+      "proof_score": 60.0,
+      "evidence": [
+        "Marcadores encontrados: // TODO: integrate Stripe SDK and return client secret."
+      ],
+      "counter_evidence": [
+        "O arquivo contém implementação além do TODO/FIXME.",
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [],
+      "related_tests": [],
+      "suggested_local_test": "Identificar qual rota ou serviço depende deste arquivo e executar o fluxo local para confirmar comportamento incompleto.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\services\\paymentService.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "todo_business_logic",
+      "candidate_title": "Lógica de produção marcada como TODO/FIXME",
+      "file": "apps/api/src/services/searchService.js",
+      "line": 2,
+      "score": 80.0,
+      "line_content": "// TODO: use PostgreSQL full-text search + ranking.",
+      "context": "export async function globalSearch(query) {\n  // TODO: use PostgreSQL full-text search + ranking.\n  return {\n    query,\n    users: [],\n    jobs: [],\n    freelancers: []\n  };\n}",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "needs_runtime_reproduction",
+      "proof_score": 60.0,
+      "evidence": [
+        "Marcadores encontrados: // TODO: use PostgreSQL full-text search + ranking."
+      ],
+      "counter_evidence": [
+        "O arquivo contém implementação além do TODO/FIXME.",
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [],
+      "related_tests": [],
+      "suggested_local_test": "Identificar qual rota ou serviço depende deste arquivo e executar o fluxo local para confirmar comportamento incompleto.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\services\\searchService.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    },
+    {
+      "rule_key": "todo_business_logic",
+      "candidate_title": "Lógica de produção marcada como TODO/FIXME",
+      "file": "apps/api/src/services/authService.js",
+      "line": 4,
+      "score": 80.0,
+      "line_content": "// TODO: persist new user via Prisma",
+      "context": "import { signAccessToken } from \"../utils/jwt.js\";\n\nexport async function registerUser(payload) {\n  // TODO: persist new user via Prisma\n  return {\n    id: `usr_${Date.now()}`,\n    email: payload.email,\n    role: payload.role,\n    token: signAccessToken({ sub: `usr_${Date.now()}`, role: payload.role })\n  };\n}\n",
+      "reproduction_status": "not_tested",
+      "duplicate_check_status": "not_verified_online",
+      "external_action_performed": false,
+      "proof_status": "needs_runtime_reproduction",
+      "proof_score": 60.0,
+      "evidence": [
+        "Marcadores encontrados: // TODO: persist new user via Prisma | // TODO: verify password hash against stored user record"
+      ],
+      "counter_evidence": [
+        "O arquivo contém implementação além do TODO/FIXME.",
+        "Sintaxe JavaScript válida."
+      ],
+      "related_files": [
+        "apps/api/src/utils/jwt.js"
+      ],
+      "related_tests": [],
+      "suggested_local_test": "Identificar qual rota ou serviço depende deste arquivo e executar o fluxo local para confirmar comportamento incompleto.",
+      "syntax_result": {
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\services\\authService.js"
+        ],
+        "return_code": 0,
+        "stdout": "",
+        "stderr": "",
+        "timed_out": false
+      },
+      "source_modified": false
+    }
+  ],
+  "recommended_candidate": {
+    "rule_key": "raw_body_to_service",
+    "candidate_title": "Objeto req.body encaminhado sem seleção explícita",
+    "file": "apps/api/src/controllers/paymentController.js",
+    "line": 5,
+    "score": 87.0,
+    "line_content": "return ok(res, await createPaymentIntent(req.body), 201);",
+    "context": "import { ok } from \"../utils/response.js\";\nimport { createPaymentIntent } from \"../services/paymentService.js\";\n\nexport async function createPayment(req, res) {\n  return ok(res, await createPaymentIntent(req.body), 201);\n}",
+    "reproduction_status": "not_tested",
+    "duplicate_check_status": "not_verified_online",
+    "external_action_performed": false,
+    "proof_status": "strong_static_evidence",
+    "proof_score": 97.0,
+    "evidence": [
+      "req.body é encaminhado integralmente: createPaymentIntent(req.body)"
+    ],
+    "counter_evidence": [
+      "Sintaxe JavaScript válida."
+    ],
+    "related_files": [
+      "apps/api/src/utils/response.js",
+      "apps/api/src/services/paymentService.js"
+    ],
+    "related_tests": [],
+    "suggested_local_test": "Enviar campo extra não documentado no payload e verificar se ele chega ao serviço ou persistência. O teste deve usar mocks locais e não chamar serviços externos.",
+    "syntax_result": {
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "--check",
+        "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\controllers\\paymentController.js"
+      ],
+      "return_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "timed_out": false
+    },
+    "source_modified": false
+  },
+  "external_action_performed": false,
+  "source_modified": false,
+  "issue_created": false,
+  "fork_created": false,
+  "pull_request_created": false
+}
