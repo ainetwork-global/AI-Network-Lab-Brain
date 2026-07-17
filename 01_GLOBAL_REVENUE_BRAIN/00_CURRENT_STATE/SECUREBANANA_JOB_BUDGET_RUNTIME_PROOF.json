@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-07-17T11:34:16.387844+00:00",
+  "repository": "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository",
+  "validator_file": "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\validators\\job.js",
+  "source_static_analysis": {
+    "budget_min_present": true,
+    "budget_max_present": true,
+    "cross_field_validation_detected": false
+  },
+  "environment": {
+    "package_root": "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api",
+    "node_modules_found": false,
+    "node_modules_path": null
+  },
+  "runtime_command": {
+    "command": [
+      "C:\\Program Files\\nodejs\\node.EXE",
+      "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\proof\\job-budget-range\\runtime-proof-runner.mjs"
+    ],
+    "return_code": 0,
+    "stdout": "PROOF_JSON_START\n{\n  \"validator_url\": \"file:///C:/Users/AP10/Revenue-Workspaces/SecureBananaLabs-bug-bounty-743/repository/apps/api/src/validators/job.js\",\n  \"module_loaded\": false,\n  \"export_names\": [],\n  \"schemas_tested\": [],\n  \"confirmed_bug\": false,\n  \"invalid_range_accepted\": false,\n  \"valid_range_accepted\": false,\n  \"runtime_status\": \"module_load_failed\",\n  \"error\": {\n    \"name\": \"Error\",\n    \"message\": \"Cannot find package 'zod' imported from C:\\\\Users\\\\AP10\\\\Revenue-Workspaces\\\\SecureBananaLabs-bug-bounty-743\\\\repository\\\\apps\\\\api\\\\src\\\\validators\\\\job.js\",\n    \"stack\": \"Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'zod' imported from C:\\\\Users\\\\AP10\\\\Revenue-Workspaces\\\\SecureBananaLabs-bug-bounty-743\\\\repository\\\\apps\\\\api\\\\src\\\\validators\\\\job.js\\n    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:301:9)\\n    at packageResolve (node:internal/modules/esm/resolve:768:81)\\n    at moduleResolve (node:internal/modules/esm/resolve:859:18)\\n    at defaultResolve (node:internal/modules/esm/resolve:992:11)\\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:691:20)\\n    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:708:38)\\n    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:740:52)\\n    at #resolve (node:internal/modules/esm/loader:673:17)\\n    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:593:35)\\n    at ModuleJob.syncLink (node:internal/modules/esm/module_job:163:33)\"\n  }\n}\nPROOF_JSON_END\n",
+    "stderr": "",
+    "timed_out": false
+  },
+  "runtime_proof": {
+    "validator_url": "file:///C:/Users/AP10/Revenue-Workspaces/SecureBananaLabs-bug-bounty-743/repository/apps/api/src/validators/job.js",
+    "module_loaded": false,
+    "export_names": [],
+    "schemas_tested": [],
+    "confirmed_bug": false,
+    "invalid_range_accepted": false,
+    "valid_range_accepted": false,
+    "runtime_status": "module_load_failed",
+    "error": {
+      "name": "Error",
+      "message": "Cannot find package 'zod' imported from C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\validators\\job.js",
+      "stack": "Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'zod' imported from C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\validators\\job.js\n    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:301:9)\n    at packageResolve (node:internal/modules/esm/resolve:768:81)\n    at moduleResolve (node:internal/modules/esm/resolve:859:18)\n    at defaultResolve (node:internal/modules/esm/resolve:992:11)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:691:20)\n    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:708:38)\n    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:740:52)\n    at #resolve (node:internal/modules/esm/loader:673:17)\n    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:593:35)\n    at ModuleJob.syncLink (node:internal/modules/esm/module_job:163:33)"
+    }
+  },
+  "decision": "BLOCKED_MODULE_LOAD",
+  "confidence": 35.0,
+  "recommended_next_action": "inspect_module_format_and_dependencies",
+  "source_modified": false,
+  "dependency_install_performed": false,
+  "external_publication_performed": false,
+  "issue_created": false,
+  "comment_created": false,
+  "fork_created": false,
+  "pull_request_created": false
+}
