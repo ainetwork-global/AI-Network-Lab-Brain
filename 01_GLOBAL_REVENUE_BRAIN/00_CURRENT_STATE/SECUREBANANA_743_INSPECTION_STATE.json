@@ -1,0 +1,604 @@
+{
+  "generated_at": "2026-07-17T10:51:57.110191+00:00",
+  "repository": "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository",
+  "remote": "https://github.com/SecureBananaLabs/bug-bounty.git",
+  "branch": "main",
+  "commit": "cac7dea1bd31a7b12c4f02a1a8f6a78139aefd14",
+  "files_analyzed": 77,
+  "languages": {
+    "TypeScript": 4,
+    "JavaScript": 45,
+    "CSS": 1,
+    "TypeScript/React": 17
+  },
+  "test_files": [
+    "apps/api/src/tests/health.test.js"
+  ],
+  "signals": [
+    {
+      "file": "leaderboard.json",
+      "line": 123,
+      "signal": "TODO",
+      "content": "\"TodouWisiper\": 1,"
+    },
+    {
+      "file": "package-lock.json",
+      "line": 1832,
+      "signal": "XXX",
+      "content": "\"integrity\": \"sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==\","
+    },
+    {
+      "file": "package-lock.json",
+      "line": 2173,
+      "signal": "HACK",
+      "content": "\"url\": \"https://github.com/sponsors/colinhacks\""
+    },
+    {
+      "file": "apps/api/src/server.js",
+      "line": 9,
+      "signal": "console.log",
+      "content": "console.log(`API listening on http://localhost:${env.port}`);"
+    },
+    {
+      "file": "apps/api/src/config/db.js",
+      "line": 2,
+      "signal": "TODO",
+      "content": "// TODO: wire Prisma client from @freelanceflow/db package"
+    },
+    {
+      "file": "apps/api/src/services/authService.js",
+      "line": 4,
+      "signal": "TODO",
+      "content": "// TODO: persist new user via Prisma"
+    },
+    {
+      "file": "apps/api/src/services/authService.js",
+      "line": 14,
+      "signal": "TODO",
+      "content": "// TODO: verify password hash against stored user record"
+    },
+    {
+      "file": "apps/api/src/services/authService.js",
+      "line": 14,
+      "signal": "pass",
+      "content": "// TODO: verify password hash against stored user record"
+    },
+    {
+      "file": "apps/api/src/services/paymentService.js",
+      "line": 2,
+      "signal": "TODO",
+      "content": "// TODO: integrate Stripe SDK and return client secret."
+    },
+    {
+      "file": "apps/api/src/services/searchService.js",
+      "line": 2,
+      "signal": "TODO",
+      "content": "// TODO: use PostgreSQL full-text search + ranking."
+    },
+    {
+      "file": "apps/api/src/validators/auth.js",
+      "line": 5,
+      "signal": "pass",
+      "content": "password: z.string().min(8),"
+    },
+    {
+      "file": "apps/api/src/validators/auth.js",
+      "line": 11,
+      "signal": "pass",
+      "content": "password: z.string().min(8)"
+    }
+  ],
+  "candidate_files": [
+    {
+      "file": "apps/api/src/services/authService.js",
+      "score": 59.0,
+      "lines": 23,
+      "signals": 3,
+      "reasons": [
+        "3 marcador(es) de manutenção",
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/validators/auth.js",
+      "score": 51.0,
+      "lines": 12,
+      "signals": 2,
+      "reasons": [
+        "2 marcador(es) de manutenção",
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/next.config.js",
+      "score": 45.0,
+      "lines": 4,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica",
+        "componente potencialmente isolado"
+      ]
+    },
+    {
+      "file": "apps/api/src/config/db.js",
+      "score": 43.0,
+      "lines": 4,
+      "signals": 1,
+      "reasons": [
+        "1 marcador(es) de manutenção",
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/services/paymentService.js",
+      "score": 43.0,
+      "lines": 9,
+      "signals": 1,
+      "reasons": [
+        "1 marcador(es) de manutenção",
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/services/searchService.js",
+      "score": 43.0,
+      "lines": 9,
+      "signals": 1,
+      "reasons": [
+        "1 marcador(es) de manutenção",
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/server.js",
+      "score": 43.0,
+      "lines": 13,
+      "signals": 1,
+      "reasons": [
+        "1 marcador(es) de manutenção",
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "packages/db/src/index.ts",
+      "score": 35.0,
+      "lines": 1,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "packages/ui/src/index.ts",
+      "score": 35.0,
+      "lines": 2,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/next-env.d.ts",
+      "score": 35.0,
+      "lines": 6,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/controllers/adminController.js",
+      "score": 35.0,
+      "lines": 6,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/controllers/paymentController.js",
+      "score": 35.0,
+      "lines": 6,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/controllers/searchController.js",
+      "score": 35.0,
+      "lines": 6,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/paymentRoutes.js",
+      "score": 35.0,
+      "lines": 6,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/searchRoutes.js",
+      "score": 35.0,
+      "lines": 6,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/config/env.js",
+      "score": 35.0,
+      "lines": 7,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/jobRoutes.js",
+      "score": 35.0,
+      "lines": 7,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/messageRoutes.js",
+      "score": 35.0,
+      "lines": 7,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/notificationRoutes.js",
+      "score": 35.0,
+      "lines": 7,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/proposalRoutes.js",
+      "score": 35.0,
+      "lines": 7,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/reviewRoutes.js",
+      "score": 35.0,
+      "lines": 7,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/userRoutes.js",
+      "score": 35.0,
+      "lines": 7,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/utils/response.js",
+      "score": 35.0,
+      "lines": 7,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/controllers/uploadController.js",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/middleware/rateLimit.js",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/adminRoutes.js",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/services/adminService.js",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/page.tsx",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/admin/page.tsx",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/billing/page.tsx",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/messaging/page.tsx",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/notifications/page.tsx",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/settings/page.tsx",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/dashboard/client/page.tsx",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/dashboard/freelancer/page.tsx",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/jobs/post/page.tsx",
+      "score": 35.0,
+      "lines": 8,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/authRoutes.js",
+      "score": 35.0,
+      "lines": 9,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/routes/uploadRoutes.js",
+      "score": 35.0,
+      "lines": 9,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/freelancers/[username]/page.tsx",
+      "score": 35.0,
+      "lines": 9,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/app/jobs/[id]/page.tsx",
+      "score": 35.0,
+      "lines": 9,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/controllers/messageController.js",
+      "score": 35.0,
+      "lines": 10,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/controllers/notificationController.js",
+      "score": 35.0,
+      "lines": 10,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/controllers/proposalController.js",
+      "score": 35.0,
+      "lines": 10,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/controllers/reviewController.js",
+      "score": 35.0,
+      "lines": 10,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/controllers/userController.js",
+      "score": 35.0,
+      "lines": 10,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/utils/jwt.js",
+      "score": 35.0,
+      "lines": 10,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/web/lib/mock.ts",
+      "score": 35.0,
+      "lines": 10,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "packages/ui/src/Card.tsx",
+      "score": 35.0,
+      "lines": 10,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/middleware/errorHandler.js",
+      "score": 35.0,
+      "lines": 11,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    },
+    {
+      "file": "apps/api/src/services/jobService.js",
+      "score": 35.0,
+      "lines": 11,
+      "signals": 0,
+      "reasons": [
+        "arquivo de escopo pequeno",
+        "arquivo executável ou de lógica"
+      ]
+    }
+  ],
+  "external_action_performed": false,
+  "issue_created": false,
+  "fork_created": false,
+  "pull_request_created": false
+}
