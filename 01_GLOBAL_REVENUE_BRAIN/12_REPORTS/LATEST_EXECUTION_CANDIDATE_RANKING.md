@@ -1,6 +1,6 @@
 # Global Revenue Brain — Execution Candidate Ranking
 
-Gerado em: 2026-07-16T21:52:00.871044+00:00
+Gerado em: 2026-07-16T22:09:55.181934+00:00
 
 Nenhuma ação externa foi realizada.
 
@@ -17,13 +17,13 @@ Nenhuma ação externa foi realizada.
 - Repositório: SecureBananaLabs/bug-bounty
 - Issue: #743
 - Recompensa: USD 700.0
-- Probabilidade de pagamento: **94.0%**
-- Valor esperado: 658.0
-- Valor/hora ajustado: 158.43
+- Probabilidade de pagamento: **100.0%**
+- Valor esperado: 700.0
+- Valor/hora ajustado: 175.0
 - Readiness: 92.0
 - Velocidade de caixa: 100.0
-- Risco: 13.0
-- Score final: **86.61**
+- Risco: 5.0
+- Score final: **91.02**
 - Próxima ação: **request_human_approval_to_begin**
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
 
@@ -32,9 +32,9 @@ Nenhuma ação externa foi realizada.
 ### 1. Low Handing Fruit Automation
 
 - Recompensa: USD 700.0
-- Probabilidade: 94.0%
-- Valor esperado: 658.0
-- Score final: **86.61**
+- Probabilidade: 100.0%
+- Valor esperado: 700.0
+- Score final: **91.02**
 - Status do plano: ready_for_human_approval
 - Próxima ação: request_human_approval_to_begin
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
@@ -44,7 +44,7 @@ Nenhuma ação externa foi realizada.
 - Recompensa: USD 299.0
 - Probabilidade: 34.39%
 - Valor esperado: 102.83
-- Score final: **18.73**
+- Score final: **20.73**
 - Status do plano: not_started
 - Próxima ação: keep_in_observation
 - URL: https://github.com/johncollinsgit/TimberLine/issues/70
@@ -54,7 +54,7 @@ Nenhuma ação externa foi realizada.
 - Recompensa: USD 60.0
 - Probabilidade: 29.76%
 - Valor esperado: 17.86
-- Score final: **11.52**
+- Score final: **13.52**
 - Status do plano: not_started
 - Próxima ação: keep_in_observation
 - URL: https://github.com/paypal/paypal-js/issues/975
@@ -64,7 +64,7 @@ Nenhuma ação externa foi realizada.
 - Recompensa: USD 40.0
 - Probabilidade: 28.77%
 - Valor esperado: 11.51
-- Score final: **9.43**
+- Score final: **11.43**
 - Status do plano: not_started
 - Próxima ação: keep_in_observation
 - URL: https://github.com/nesquena/hermes-webui/issues/6063

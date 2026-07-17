@@ -1,6 +1,6 @@
 # Global Revenue Brain — Payment Probability Ranking
 
-Gerado em: 2026-07-16T20:57:59.362618+00:00
+Gerado em: 2026-07-16T22:09:54.983968+00:00
 
 Nenhuma tarefa foi reivindicada ou executada.
 
@@ -15,8 +15,8 @@ Nenhuma tarefa foi reivindicada ou executada.
 
 ## Ações
 
-- Preparar plano técnico: **0**
-- Verificar claim/pagamento: **1**
+- Preparar plano técnico: **1**
+- Verificar claim/pagamento: **0**
 - Revisar evidências: **0**
 - Não executar: **59**
 
@@ -26,14 +26,14 @@ Nenhuma tarefa foi reivindicada ou executada.
 
 - Solicitante: SecureBananaLabs/bug-bounty
 - Recompensa: USD 700.0
-- Probabilidade de pagamento: **90.53%**
+- Probabilidade de pagamento: **100.0%**
 - Faixa: **very_high**
-- Valor esperado ajustado: USD 633.71
-- Valor/hora ajustado: 158.43
-- Prontidão de execução: 83.25%
-- Prioridade final: **91.44**
-- Próxima ação: **verify_claim_and_payment_terms**
-- Motivo: Tarefa continua aberta.; Valor numérico de recompensa encontrado.; Trecho de evidência da recompensa salvo.; Promessa explícita de pagamento encontrada.; Processo de claim ainda precisa ser confirmado.; Retorno estimado por hora é positivo.; Fonte ainda sem histórico suficiente.
+- Valor esperado ajustado: USD 700.0
+- Valor/hora ajustado: 175.0
+- Prontidão de execução: 98.25%
+- Prioridade final: **99.65**
+- Próxima ação: **prepare_execution_plan**
+- Motivo: Tarefa continua aberta.; Valor numérico de recompensa encontrado.; Trecho de evidência da recompensa salvo.; Promessa explícita de pagamento encontrada.; Processo de claim ou entrega identificado.; Retorno estimado por hora é positivo.; Fonte ainda sem histórico suficiente.
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
 
 ### 2. Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture
