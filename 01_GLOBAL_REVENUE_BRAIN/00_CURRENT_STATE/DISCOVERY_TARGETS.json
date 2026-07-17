@@ -1,0 +1,82 @@
+﻿[
+    {
+        "name":  "GitHub",
+        "type":  "api"
+    },
+    {
+        "name":  "Algora",
+        "type":  "public"
+    },
+    {
+        "name":  "Devpost",
+        "type":  "public"
+    },
+    {
+        "name":  "Immunefi",
+        "type":  "public"
+    },
+    {
+        "name":  "HackerOne",
+        "type":  "public"
+    },
+    {
+        "name":  "Bugcrowd",
+        "type":  "public"
+    },
+    {
+        "name":  "Gitcoin",
+        "type":  "public"
+    },
+    {
+        "name":  "Questbook",
+        "type":  "public"
+    },
+    {
+        "name":  "Layer3",
+        "type":  "public"
+    },
+    {
+        "name":  "Superteam",
+        "type":  "public"
+    },
+    {
+        "name":  "DoraHacks",
+        "type":  "public"
+    },
+    {
+        "name":  "Kaggle",
+        "type":  "public"
+    },
+    {
+        "name":  "Topcoder",
+        "type":  "public"
+    },
+    {
+        "name":  "ChallengeGov",
+        "type":  "public"
+    },
+    {
+        "name":  "HeroX",
+        "type":  "public"
+    },
+    {
+        "name":  "GrantsGov",
+        "type":  "api"
+    },
+    {
+        "name":  "WorldBank",
+        "type":  "public"
+    },
+    {
+        "name":  "UNGM",
+        "type":  "public"
+    },
+    {
+        "name":  "SAM",
+        "type":  "api"
+    },
+    {
+        "name":  "TED",
+        "type":  "api"
+    }
+]
