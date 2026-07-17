@@ -1,13 +1,26 @@
 ﻿{
-    "generated_at":  "2026-07-17T18:44:58.7162835Z",
+    "generated_at":  "2026-07-17T19:06:41.9130983Z",
     "overall_decision":  "GLOBAL_DISCOVERY_PARTIALLY_READY",
     "recommended_next_action":  "build_highest_priority_missing_source_adapter",
     "desired_sources_total":  18,
-    "active_sources_total":  4,
-    "missing_sources_total":  14,
+    "active_sources_total":  5,
+    "missing_sources_total":  13,
     "categories_total":  7,
     "geographic_scopes_total":  6,
     "active_sources":  [
+                           {
+                               "source_key":  "github",
+                               "category":  "engineering_bounties",
+                               "geographic_scope":  "global",
+                               "acquisition_method":  "api",
+                               "execution_priority":  90,
+                               "adapter_detected":  true,
+                               "adapter_files":  [
+                                                     "02_DISCOVERY\\global_paid_work_discovery.py"
+                                                 ],
+                               "enabled":  true,
+                               "operational_status":  "adapter_detected_requires_runtime_validation"
+                           },
                            {
                                "source_key":  "algora",
                                "category":  "engineering_bounties",
@@ -16,10 +29,20 @@
                                "execution_priority":  85,
                                "adapter_detected":  true,
                                "adapter_files":  [
-                                                     "02_DISCOVERY\\__pycache__\\algora_open_bounty_adapter.cpython-312.pyc",
-                                                     "02_DISCOVERY\\algora_open_bounty_adapter.py",
-                                                     "02_DISCOVERY\\algora_open_bounty_adapter.py.before-community-fix-20260715-174844.bak",
-                                                     "09_LOGS\\algora_adapter_error.txt"
+                                                     "02_DISCOVERY\\algora_open_bounty_adapter.py"
+                                                 ],
+                               "enabled":  true,
+                               "operational_status":  "adapter_detected_requires_runtime_validation"
+                           },
+                           {
+                               "source_key":  "immunefi",
+                               "category":  "security_bounties",
+                               "geographic_scope":  "global",
+                               "acquisition_method":  "public_web",
+                               "execution_priority":  85,
+                               "adapter_detected":  true,
+                               "adapter_files":  [
+                                                     "02_DISCOVERY\\official_source_adapters.py"
                                                  ],
                                "enabled":  true,
                                "operational_status":  "adapter_detected_requires_runtime_validation"
@@ -32,7 +55,6 @@
                                "execution_priority":  75,
                                "adapter_detected":  true,
                                "adapter_files":  [
-                                                     "02_DISCOVERY\\__pycache__\\devpost_official_adapter.cpython-312.pyc",
                                                      "02_DISCOVERY\\devpost_official_adapter.py"
                                                  ],
                                "enabled":  true,
@@ -46,69 +68,13 @@
                                "execution_priority":  70,
                                "adapter_detected":  true,
                                "adapter_files":  [
-                                                     "02_DISCOVERY\\__pycache__\\devpost_official_adapter.cpython-312.pyc",
-                                                     "02_DISCOVERY\\__pycache__\\official_source_adapters.cpython-312.pyc",
-                                                     "02_DISCOVERY\\devpost_official_adapter.py",
-                                                     "02_DISCOVERY\\official_source_adapters.py",
-                                                     "04_OPPORTUNITIES\\official_source_candidates.csv",
-                                                     "12_REPORTS\\LATEST_OFFICIAL_SOURCE_ADAPTERS.md"
-                                                 ],
-                               "enabled":  true,
-                               "operational_status":  "adapter_detected_requires_runtime_validation"
-                           },
-                           {
-                               "source_key":  "ycombinator_jobs",
-                               "category":  "startup_contracts",
-                               "geographic_scope":  "global",
-                               "acquisition_method":  "public_web",
-                               "execution_priority":  60,
-                               "adapter_detected":  true,
-                               "adapter_files":  [
-                                                     ".venv\\Lib\\site-packages\\pip\\_internal\\index\\__pycache__\\sources.cpython-312.pyc",
-                                                     ".venv\\Lib\\site-packages\\pip\\_internal\\metadata\\__pycache__\\pkg_resources.cpython-312.pyc",
-                                                     ".venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\__pycache__\\adapter.cpython-312.pyc",
-                                                     ".venv\\Lib\\site-packages\\pip\\_vendor\\distlib\\__pycache__\\resources.cpython-312.pyc",
-                                                     ".venv\\Lib\\site-packages\\pip\\_vendor\\requests\\__pycache__\\adapters.cpython-312.pyc",
-                                                     ".venv\\Lib\\site-packages\\requests\\__pycache__\\adapters.cpython-312.pyc",
-                                                     "01_EXECUTION\\__pycache__\\run_continuous_paid_discovery.cpython-312.pyc",
-                                                     "02_DISCOVERY\\__pycache__\\algora_open_bounty_adapter.cpython-312.pyc",
-                                                     "02_DISCOVERY\\__pycache__\\devpost_official_adapter.cpython-312.pyc",
-                                                     "02_DISCOVERY\\__pycache__\\global_paid_work_discovery.cpython-312.pyc",
-                                                     "02_DISCOVERY\\__pycache__\\high_trust_source_scanner.cpython-312.pyc",
-                                                     "02_DISCOVERY\\__pycache__\\official_source_adapters.cpython-312.pyc",
-                                                     "10_SCRIPTS\\__pycache__\\audit_discovery_sources.cpython-312.pyc"
+                                                     "02_DISCOVERY\\official_source_adapters.py"
                                                  ],
                                "enabled":  true,
                                "operational_status":  "adapter_detected_requires_runtime_validation"
                            }
                        ],
     "recommended_build_queue":  [
-                                    {
-                                        "source_key":  "github",
-                                        "category":  "engineering_bounties",
-                                        "geographic_scope":  "global",
-                                        "acquisition_method":  "api",
-                                        "execution_priority":  90,
-                                        "adapter_detected":  false,
-                                        "adapter_files":  [
-
-                                                          ],
-                                        "enabled":  false,
-                                        "operational_status":  "adapter_missing"
-                                    },
-                                    {
-                                        "source_key":  "immunefi",
-                                        "category":  "security_bounties",
-                                        "geographic_scope":  "global",
-                                        "acquisition_method":  "public_web",
-                                        "execution_priority":  85,
-                                        "adapter_detected":  false,
-                                        "adapter_files":  [
-
-                                                          ],
-                                        "enabled":  false,
-                                        "operational_status":  "adapter_missing"
-                                    },
                                     {
                                         "source_key":  "bugcrowd",
                                         "category":  "security_bounties",
@@ -201,10 +167,36 @@
                                         "operational_status":  "adapter_missing"
                                     },
                                     {
+                                        "source_key":  "ycombinator_jobs",
+                                        "category":  "startup_contracts",
+                                        "geographic_scope":  "global",
+                                        "acquisition_method":  "public_web",
+                                        "execution_priority":  60,
+                                        "adapter_detected":  false,
+                                        "adapter_files":  [
+
+                                                          ],
+                                        "enabled":  false,
+                                        "operational_status":  "adapter_missing"
+                                    },
+                                    {
                                         "source_key":  "latam_public_procurement",
                                         "category":  "rfp_and_procurement",
                                         "geographic_scope":  "latin_america",
                                         "acquisition_method":  "official_web",
+                                        "execution_priority":  60,
+                                        "adapter_detected":  false,
+                                        "adapter_files":  [
+
+                                                          ],
+                                        "enabled":  false,
+                                        "operational_status":  "adapter_missing"
+                                    },
+                                    {
+                                        "source_key":  "contra",
+                                        "category":  "freelance_projects",
+                                        "geographic_scope":  "global",
+                                        "acquisition_method":  "public_web",
                                         "execution_priority":  60,
                                         "adapter_detected":  false,
                                         "adapter_files":  [

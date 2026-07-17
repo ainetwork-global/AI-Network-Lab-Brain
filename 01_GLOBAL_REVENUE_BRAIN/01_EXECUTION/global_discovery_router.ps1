@@ -145,66 +145,235 @@ $DesiredSources = @(
     }
 )
 
-$SearchRoots = @(
-    (Join-Path $GlobalBrain "01_EXECUTION"),
-    (Join-Path $GlobalBrain "01_DISCOVERY"),
-    (Join-Path $GlobalBrain "02_DISCOVERY"),
-    $GlobalBrain
-) | Where-Object {
-    Test-Path $_
-} | Select-Object -Unique
+# Adapter detection must use real source-code evidence.
+# Never infer adapters from .venv, __pycache__, reports, logs,
+# generated CSV files, backups, or generic filename fragments.
 
-$AdapterFiles = @()
+$AdapterEvidenceRules = @{
+    github = @(
+        @{
+            relative_path = "02_DISCOVERY\global_paid_work_discovery.py"
+            required_markers = @(
+                "api.github.com",
+                "fetch_github_paid_issues"
+            )
+        }
+    )
 
-foreach ($Root in $SearchRoots) {
-    $AdapterFiles += @(
-        Get-ChildItem -Path $Root -Recurse -File -ErrorAction SilentlyContinue |
-        Where-Object {
-            $_.Name -match "(?i)(adapter|discovery|discover|source)"
+    algora = @(
+        @{
+            relative_path = "02_DISCOVERY\algora_open_bounty_adapter.py"
+            required_markers = @(
+                "algora"
+            )
+        }
+    )
+
+    immunefi = @(
+        @{
+            relative_path = "02_DISCOVERY\official_source_adapters.py"
+            required_markers = @(
+                "IMMUNEFI_LISTING",
+                "scan_immunefi"
+            )
+        }
+    )
+
+    devpost = @(
+        @{
+            relative_path = "02_DISCOVERY\devpost_official_adapter.py"
+            required_markers = @(
+                "devpost"
+            )
+        }
+    )
+
+    grants_gov = @(
+        @{
+            relative_path = "02_DISCOVERY\official_source_adapters.py"
+            required_markers = @(
+                "api.grants.gov",
+                "scan_grants"
+            )
+        }
+    )
+
+    hackerone = @(
+        @{
+            relative_path = "02_DISCOVERY\hackerone_adapter.py"
+            required_markers = @(
+                "hackerone"
+            )
+        }
+    )
+
+    bugcrowd = @(
+        @{
+            relative_path = "02_DISCOVERY\bugcrowd_adapter.py"
+            required_markers = @(
+                "bugcrowd"
+            )
+        }
+    )
+
+    eu_funding = @(
+        @{
+            relative_path = "02_DISCOVERY\eu_funding_adapter.py"
+            required_markers = @(
+                "eu_funding"
+            )
+        }
+    )
+
+    world_bank = @(
+        @{
+            relative_path = "02_DISCOVERY\world_bank_adapter.py"
+            required_markers = @(
+                "world_bank"
+            )
+        }
+    )
+
+    un_global_marketplace = @(
+        @{
+            relative_path = "02_DISCOVERY\un_global_marketplace_adapter.py"
+            required_markers = @(
+                "ungm"
+            )
+        }
+    )
+
+    upwork = @(
+        @{
+            relative_path = "02_DISCOVERY\upwork_adapter.py"
+            required_markers = @(
+                "upwork"
+            )
+        }
+    )
+
+    freelancer = @(
+        @{
+            relative_path = "02_DISCOVERY\freelancer_adapter.py"
+            required_markers = @(
+                "freelancer"
+            )
+        }
+    )
+
+    contra = @(
+        @{
+            relative_path = "02_DISCOVERY\contra_adapter.py"
+            required_markers = @(
+                "contra"
+            )
+        }
+    )
+
+    wellfound = @(
+        @{
+            relative_path = "02_DISCOVERY\wellfound_adapter.py"
+            required_markers = @(
+                "wellfound"
+            )
+        }
+    )
+
+    ycombinator_jobs = @(
+        @{
+            relative_path = "02_DISCOVERY\ycombinator_jobs_adapter.py"
+            required_markers = @(
+                "ycombinator",
+                "jobs"
+            )
+        }
+    )
+
+    latam_public_procurement = @(
+        @{
+            relative_path = "02_DISCOVERY\latam_public_procurement_adapter.py"
+            required_markers = @(
+                "latam_public_procurement"
+            )
+        }
+    )
+
+    africa_procurement = @(
+        @{
+            relative_path = "02_DISCOVERY\africa_procurement_adapter.py"
+            required_markers = @(
+                "africa_procurement"
+            )
+        }
+    )
+
+    asia_procurement = @(
+        @{
+            relative_path = "02_DISCOVERY\asia_procurement_adapter.py"
+            required_markers = @(
+                "asia_procurement"
+            )
         }
     )
 }
 
-$AdapterFiles = @(
-    $AdapterFiles |
-    Sort-Object FullName -Unique
-)
+function Test-AdapterEvidence {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$RelativePath,
+
+        [Parameter(Mandatory = $true)]
+        [string[]]$RequiredMarkers
+    )
+
+    $FullPath = Join-Path $GlobalBrain $RelativePath
+
+    if (-not (Test-Path $FullPath -PathType Leaf)) {
+        return $false
+    }
+
+    $Extension = [System.IO.Path]::GetExtension($FullPath).ToLowerInvariant()
+
+    if ($Extension -notin @(".py", ".ps1", ".js", ".ts")) {
+        return $false
+    }
+
+    $Content = Get-Content $FullPath -Raw -Encoding UTF8
+
+    foreach ($Marker in $RequiredMarkers) {
+        if ($Content.IndexOf(
+                $Marker,
+                [System.StringComparison]::OrdinalIgnoreCase
+            ) -lt 0) {
+            return $false
+        }
+    }
+
+    return $true
+}
 
 $Registry = New-Object System.Collections.Generic.List[object]
 
 foreach ($Source in $DesiredSources) {
-    $Aliases = switch ($Source.source_key) {
-        "grants_gov" { @("grants", "grants.gov", "official") }
-        "eu_funding" { @("eu", "europe", "funding") }
-        "un_global_marketplace" { @("ungm", "un_global", "united_nations") }
-        "ycombinator_jobs" { @("ycombinator", "yc_jobs", "yc") }
-        default { @($Source.source_key) }
+    $EvidenceFiles = New-Object System.Collections.Generic.List[string]
+    $Rules = @($AdapterEvidenceRules[$Source.source_key])
+
+    foreach ($Rule in $Rules) {
+        if ($null -eq $Rule) {
+            continue
+        }
+
+        $RelativePath = [string]$Rule.relative_path
+        $Markers = @($Rule.required_markers)
+
+        if (Test-AdapterEvidence `
+                -RelativePath $RelativePath `
+                -RequiredMarkers $Markers) {
+            $EvidenceFiles.Add($RelativePath)
+        }
     }
 
-    $Matches = @(
-        $AdapterFiles |
-        Where-Object {
-            $Name = $_.Name.ToLowerInvariant()
-
-            $Matched = $false
-
-            foreach ($Alias in $Aliases) {
-                if ($Name.Contains($Alias.ToLowerInvariant())) {
-                    $Matched = $true
-                    break
-                }
-            }
-
-            $Matched
-        }
-    )
-
-    $AdapterPaths = @(
-        $Matches |
-        ForEach-Object {
-            $_.FullName.Replace($GlobalBrain + "\", "")
-        }
-    )
+    $AdapterDetected = $EvidenceFiles.Count -gt 0
 
     $Registry.Add(
         [pscustomobject]@{
@@ -213,10 +382,10 @@ foreach ($Source in $DesiredSources) {
             geographic_scope = $Source.geographic_scope
             acquisition_method = $Source.acquisition_method
             execution_priority = $Source.execution_priority
-            adapter_detected = ($Matches.Count -gt 0)
-            adapter_files = $AdapterPaths
-            enabled = ($Matches.Count -gt 0)
-            operational_status = if ($Matches.Count -gt 0) {
+            adapter_detected = $AdapterDetected
+            adapter_files = @($EvidenceFiles)
+            enabled = $AdapterDetected
+            operational_status = if ($AdapterDetected) {
                 "adapter_detected_requires_runtime_validation"
             }
             else {
@@ -417,3 +586,4 @@ Write-Host "Payment requested: no"
 Write-Host "Registry:" $RegistryPath
 Write-Host "State:" $StatePath
 Write-Host "Report:" $ReportPath
+

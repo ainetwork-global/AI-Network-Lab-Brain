@@ -1,5 +1,5 @@
 ﻿{
-    "generated_at":  "2026-07-17T18:44:58.7162835Z",
+    "generated_at":  "2026-07-17T19:06:41.9130983Z",
     "purpose":  "global_web_revenue_discovery",
     "geographic_scope":  "worldwide",
     "github_role":  "one_source_among_many",
@@ -11,12 +11,12 @@
                          "geographic_scope":  "global",
                          "acquisition_method":  "api",
                          "execution_priority":  90,
-                         "adapter_detected":  false,
+                         "adapter_detected":  true,
                          "adapter_files":  [
-
+                                               "02_DISCOVERY\\global_paid_work_discovery.py"
                                            ],
-                         "enabled":  false,
-                         "operational_status":  "adapter_missing"
+                         "enabled":  true,
+                         "operational_status":  "adapter_detected_requires_runtime_validation"
                      },
                      {
                          "source_key":  "algora",
@@ -26,10 +26,7 @@
                          "execution_priority":  85,
                          "adapter_detected":  true,
                          "adapter_files":  [
-                                               "02_DISCOVERY\\__pycache__\\algora_open_bounty_adapter.cpython-312.pyc",
-                                               "02_DISCOVERY\\algora_open_bounty_adapter.py",
-                                               "02_DISCOVERY\\algora_open_bounty_adapter.py.before-community-fix-20260715-174844.bak",
-                                               "09_LOGS\\algora_adapter_error.txt"
+                                               "02_DISCOVERY\\algora_open_bounty_adapter.py"
                                            ],
                          "enabled":  true,
                          "operational_status":  "adapter_detected_requires_runtime_validation"
@@ -40,12 +37,12 @@
                          "geographic_scope":  "global",
                          "acquisition_method":  "public_web",
                          "execution_priority":  85,
-                         "adapter_detected":  false,
+                         "adapter_detected":  true,
                          "adapter_files":  [
-
+                                               "02_DISCOVERY\\official_source_adapters.py"
                                            ],
-                         "enabled":  false,
-                         "operational_status":  "adapter_missing"
+                         "enabled":  true,
+                         "operational_status":  "adapter_detected_requires_runtime_validation"
                      },
                      {
                          "source_key":  "hackerone",
@@ -81,7 +78,6 @@
                          "execution_priority":  75,
                          "adapter_detected":  true,
                          "adapter_files":  [
-                                               "02_DISCOVERY\\__pycache__\\devpost_official_adapter.cpython-312.pyc",
                                                "02_DISCOVERY\\devpost_official_adapter.py"
                                            ],
                          "enabled":  true,
@@ -95,12 +91,7 @@
                          "execution_priority":  70,
                          "adapter_detected":  true,
                          "adapter_files":  [
-                                               "02_DISCOVERY\\__pycache__\\devpost_official_adapter.cpython-312.pyc",
-                                               "02_DISCOVERY\\__pycache__\\official_source_adapters.cpython-312.pyc",
-                                               "02_DISCOVERY\\devpost_official_adapter.py",
-                                               "02_DISCOVERY\\official_source_adapters.py",
-                                               "04_OPPORTUNITIES\\official_source_candidates.csv",
-                                               "12_REPORTS\\LATEST_OFFICIAL_SOURCE_ADAPTERS.md"
+                                               "02_DISCOVERY\\official_source_adapters.py"
                                            ],
                          "enabled":  true,
                          "operational_status":  "adapter_detected_requires_runtime_validation"
@@ -202,24 +193,12 @@
                          "geographic_scope":  "global",
                          "acquisition_method":  "public_web",
                          "execution_priority":  60,
-                         "adapter_detected":  true,
+                         "adapter_detected":  false,
                          "adapter_files":  [
-                                               ".venv\\Lib\\site-packages\\pip\\_internal\\index\\__pycache__\\sources.cpython-312.pyc",
-                                               ".venv\\Lib\\site-packages\\pip\\_internal\\metadata\\__pycache__\\pkg_resources.cpython-312.pyc",
-                                               ".venv\\Lib\\site-packages\\pip\\_vendor\\cachecontrol\\__pycache__\\adapter.cpython-312.pyc",
-                                               ".venv\\Lib\\site-packages\\pip\\_vendor\\distlib\\__pycache__\\resources.cpython-312.pyc",
-                                               ".venv\\Lib\\site-packages\\pip\\_vendor\\requests\\__pycache__\\adapters.cpython-312.pyc",
-                                               ".venv\\Lib\\site-packages\\requests\\__pycache__\\adapters.cpython-312.pyc",
-                                               "01_EXECUTION\\__pycache__\\run_continuous_paid_discovery.cpython-312.pyc",
-                                               "02_DISCOVERY\\__pycache__\\algora_open_bounty_adapter.cpython-312.pyc",
-                                               "02_DISCOVERY\\__pycache__\\devpost_official_adapter.cpython-312.pyc",
-                                               "02_DISCOVERY\\__pycache__\\global_paid_work_discovery.cpython-312.pyc",
-                                               "02_DISCOVERY\\__pycache__\\high_trust_source_scanner.cpython-312.pyc",
-                                               "02_DISCOVERY\\__pycache__\\official_source_adapters.cpython-312.pyc",
-                                               "10_SCRIPTS\\__pycache__\\audit_discovery_sources.cpython-312.pyc"
+
                                            ],
-                         "enabled":  true,
-                         "operational_status":  "adapter_detected_requires_runtime_validation"
+                         "enabled":  false,
+                         "operational_status":  "adapter_missing"
                      },
                      {
                          "source_key":  "latam_public_procurement",
