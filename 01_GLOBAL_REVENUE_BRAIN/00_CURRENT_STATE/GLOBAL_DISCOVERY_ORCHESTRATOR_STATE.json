@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-07-17T19:45:09.518045",
+  "executed": [
+    {
+      "script": "02_DISCOVERY\\algora_open_bounty_adapter.py",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\02_DISCOVERY\\algora_open_bounty_adapter.py\", line 12, in <module>\n    import requests\nModuleNotFoundError: No module named 'requests'\n"
+    },
+    {
+      "script": "02_DISCOVERY\\build_discovery_queue.py",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\02_DISCOVERY\\build_discovery_queue.py\", line 8, in <module>\n    targets=json.loads(\n            ^^^^^^^^^^^\n  File \"C:\\Users\\AP10\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py\", line 335, in loads\n    raise JSONDecodeError(\"Unexpected UTF-8 BOM (decode using utf-8-sig)\",\njson.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)\n"
+    },
+    {
+      "script": "02_DISCOVERY\\devpost_official_adapter.py",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\02_DISCOVERY\\devpost_official_adapter.py\", line 13, in <module>\n    import requests\nModuleNotFoundError: No module named 'requests'\n"
+    },
+    {
+      "script": "02_DISCOVERY\\github_public_discovery.py",
+      "returncode": 0,
+      "stdout": "GitHub opportunities: 220\n",
+      "stderr": ""
+    },
+    {
+      "script": "02_DISCOVERY\\global_paid_work_discovery.py",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\02_DISCOVERY\\global_paid_work_discovery.py\", line 15, in <module>\n    import requests\nModuleNotFoundError: No module named 'requests'\n"
+    },
+    {
+      "script": "02_DISCOVERY\\official_source_adapters.py",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\02_DISCOVERY\\official_source_adapters.py\", line 12, in <module>\n    import requests\nModuleNotFoundError: No module named 'requests'\n"
+    }
+  ],
+  "failed": [],
+  "executed_count": 6,
+  "failed_count": 0
+}
