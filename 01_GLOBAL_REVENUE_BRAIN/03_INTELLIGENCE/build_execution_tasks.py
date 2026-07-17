@@ -1,6 +1,6 @@
 ﻿import sqlite3
 
-conn = sqlite3.connect("11_DATA/global_revenue_brain.db")
+conn = sqlite3.connect(r"C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\11_DATA\global_revenue_brain.db")
 
 conn.execute("""
 CREATE TABLE IF NOT EXISTS revenue_execution_tasks(
@@ -100,3 +100,4 @@ conn.execute(
 )
 
 conn.close()
+
