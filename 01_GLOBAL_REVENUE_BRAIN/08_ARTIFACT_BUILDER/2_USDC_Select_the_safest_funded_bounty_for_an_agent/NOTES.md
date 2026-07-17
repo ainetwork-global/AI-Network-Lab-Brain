@@ -1,0 +1,1 @@
+Observações durante a execução.

@@ -1,0 +1,1 @@
+- Levantar requisitos específicos da oportunidade.
