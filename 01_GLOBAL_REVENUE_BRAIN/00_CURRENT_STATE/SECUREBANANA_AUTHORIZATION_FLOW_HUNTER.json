@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-07-17T17:10:19.115535+00:00",
+  "repository": "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository",
+  "source_files_scanned": 44,
+  "findings_total": 0,
+  "high_priority_mutation_candidates": 0,
+  "read_authorization_candidates": 0,
+  "overall_decision": "NO_IDENTIFIER_BASED_FLOW_FOUND",
+  "recommended_candidate": null,
+  "recommended_next_action": "move_to_business_logic_analysis",
+  "findings": [],
+  "source_modified": false,
+  "dependency_install_performed": false,
+  "runtime_request_performed": false,
+  "external_publication_performed": false,
+  "issue_created": false,
+  "comment_created": false,
+  "fork_created": false,
+  "pull_request_created": false
+}
