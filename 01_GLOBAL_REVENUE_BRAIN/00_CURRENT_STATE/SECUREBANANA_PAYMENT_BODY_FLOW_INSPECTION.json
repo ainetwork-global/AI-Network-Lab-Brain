@@ -1,0 +1,38 @@
+﻿{
+    "generated_at":  "2026-07-17T12:54:38.8329515Z",
+    "repository":  "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository",
+    "controller":  "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\controllers\\paymentController.js",
+    "service":  "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\services\\paymentService.js",
+    "body_forwarded":  true,
+    "destructuring_detected":  false,
+    "whitelist_detected":  false,
+    "spread_detected":  false,
+    "direct_persistence_detected":  false,
+    "stripe_pass_through_detected":  false,
+    "todo_detected":  true,
+    "risk_score":  10,
+    "decision":  "PLACEHOLDER_IMPLEMENTATION",
+    "recommended_next_action":  "do_not_treat_body_forwarding_as_independent_bug",
+    "related_files":  [
+                          "apps\\api\\src\\controllers\\paymentController.js",
+                          "apps\\api\\src\\routes\\paymentRoutes.js",
+                          "apps\\api\\src\\services\\paymentService.js"
+                      ],
+    "discarded_duplicates":  [
+                                 {
+                                     "hypothesis":  "budgetMax lower than budgetMin",
+                                     "issue":  796
+                                 },
+                                 {
+                                     "hypothesis":  "upload succeeds without file",
+                                     "issue":  819
+                                 }
+                             ],
+    "source_modified":  false,
+    "dependency_install_performed":  false,
+    "external_action_performed":  false,
+    "issue_created":  false,
+    "comment_created":  false,
+    "fork_created":  false,
+    "pull_request_created":  false
+}
