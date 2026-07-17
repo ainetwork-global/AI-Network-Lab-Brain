@@ -1,0 +1,308 @@
+﻿{
+    "generated_at":  "2026-07-17T11:57:01.5990564Z",
+    "repository":  "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository",
+    "validator_source":  "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\src\\validators\\job.js",
+    "isolated_validator":  "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\proof\\job-budget-range-isolated\\job.js",
+    "zod_version":  "^3.23.8",
+    "zod_version_source":  "C:\\Users\\AP10\\Revenue-Workspaces\\SecureBananaLabs-bug-bounty-743\\repository\\apps\\api\\package.json",
+    "runtime_status":  "confirmed_invalid_budget_range_accepted",
+    "invalid_range_accepted":  true,
+    "valid_range_accepted":  true,
+    "confirmed_bug":  true,
+    "selected_schema":  "updateJobSchema",
+    "schemas_detected":  [
+                             "createJobSchema",
+                             "updateJobSchema"
+                         ],
+    "attempts":  [
+                     {
+                         "schema_name":  "createJobSchema",
+                         "payload_index":  1,
+                         "invalid_payload":  {
+                                                 "title":  "Local runtime proof job",
+                                                 "description":  "Tests invalid minimum and maximum budget ordering",
+                                                 "budgetMin":  1000,
+                                                 "budgetMax":  100
+                                             },
+                         "invalid_accepted":  false,
+                         "invalid_errors":  [
+                                                {
+                                                    "code":  "invalid_type",
+                                                    "expected":  "string",
+                                                    "received":  "undefined",
+                                                    "path":  [
+                                                                 "categoryId"
+                                                             ],
+                                                    "message":  "Required"
+                                                }
+                                            ],
+                         "invalid_parsed_data":  null,
+                         "valid_payload":  {
+                                               "title":  "Local runtime proof job",
+                                               "description":  "Tests invalid minimum and maximum budget ordering",
+                                               "budgetMin":  100,
+                                               "budgetMax":  1000
+                                           },
+                         "valid_accepted":  false,
+                         "valid_errors":  [
+                                              {
+                                                  "code":  "invalid_type",
+                                                  "expected":  "string",
+                                                  "received":  "undefined",
+                                                  "path":  [
+                                                               "categoryId"
+                                                           ],
+                                                  "message":  "Required"
+                                              }
+                                          ],
+                         "valid_parsed_data":  null
+                     },
+                     {
+                         "schema_name":  "createJobSchema",
+                         "payload_index":  2,
+                         "invalid_payload":  {
+                                                 "title":  "Local runtime proof job",
+                                                 "description":  "Tests invalid minimum and maximum budget ordering",
+                                                 "category":  "development",
+                                                 "budgetMin":  1000,
+                                                 "budgetMax":  100
+                                             },
+                         "invalid_accepted":  false,
+                         "invalid_errors":  [
+                                                {
+                                                    "code":  "invalid_type",
+                                                    "expected":  "string",
+                                                    "received":  "undefined",
+                                                    "path":  [
+                                                                 "categoryId"
+                                                             ],
+                                                    "message":  "Required"
+                                                }
+                                            ],
+                         "invalid_parsed_data":  null,
+                         "valid_payload":  {
+                                               "title":  "Local runtime proof job",
+                                               "description":  "Tests invalid minimum and maximum budget ordering",
+                                               "category":  "development",
+                                               "budgetMin":  100,
+                                               "budgetMax":  1000
+                                           },
+                         "valid_accepted":  false,
+                         "valid_errors":  [
+                                              {
+                                                  "code":  "invalid_type",
+                                                  "expected":  "string",
+                                                  "received":  "undefined",
+                                                  "path":  [
+                                                               "categoryId"
+                                                           ],
+                                                  "message":  "Required"
+                                              }
+                                          ],
+                         "valid_parsed_data":  null
+                     },
+                     {
+                         "schema_name":  "createJobSchema",
+                         "payload_index":  3,
+                         "invalid_payload":  {
+                                                 "title":  "Local runtime proof job",
+                                                 "description":  "Tests invalid minimum and maximum budget ordering",
+                                                 "category":  "development",
+                                                 "skills":  [
+                                                                "javascript"
+                                                            ],
+                                                 "budgetMin":  1000,
+                                                 "budgetMax":  100
+                                             },
+                         "invalid_accepted":  false,
+                         "invalid_errors":  [
+                                                {
+                                                    "code":  "invalid_type",
+                                                    "expected":  "string",
+                                                    "received":  "undefined",
+                                                    "path":  [
+                                                                 "categoryId"
+                                                             ],
+                                                    "message":  "Required"
+                                                }
+                                            ],
+                         "invalid_parsed_data":  null,
+                         "valid_payload":  {
+                                               "title":  "Local runtime proof job",
+                                               "description":  "Tests invalid minimum and maximum budget ordering",
+                                               "category":  "development",
+                                               "skills":  [
+                                                              "javascript"
+                                                          ],
+                                               "budgetMin":  100,
+                                               "budgetMax":  1000
+                                           },
+                         "valid_accepted":  false,
+                         "valid_errors":  [
+                                              {
+                                                  "code":  "invalid_type",
+                                                  "expected":  "string",
+                                                  "received":  "undefined",
+                                                  "path":  [
+                                                               "categoryId"
+                                                           ],
+                                                  "message":  "Required"
+                                              }
+                                          ],
+                         "valid_parsed_data":  null
+                     },
+                     {
+                         "schema_name":  "createJobSchema",
+                         "payload_index":  4,
+                         "invalid_payload":  {
+                                                 "title":  "Local runtime proof job",
+                                                 "description":  "Tests invalid minimum and maximum budget ordering",
+                                                 "category":  "development",
+                                                 "skills":  [
+                                                                "javascript"
+                                                            ],
+                                                 "location":  "remote",
+                                                 "jobType":  "fixed",
+                                                 "budgetMin":  1000,
+                                                 "budgetMax":  100
+                                             },
+                         "invalid_accepted":  false,
+                         "invalid_errors":  [
+                                                {
+                                                    "code":  "invalid_type",
+                                                    "expected":  "string",
+                                                    "received":  "undefined",
+                                                    "path":  [
+                                                                 "categoryId"
+                                                             ],
+                                                    "message":  "Required"
+                                                }
+                                            ],
+                         "invalid_parsed_data":  null,
+                         "valid_payload":  {
+                                               "title":  "Local runtime proof job",
+                                               "description":  "Tests invalid minimum and maximum budget ordering",
+                                               "category":  "development",
+                                               "skills":  [
+                                                              "javascript"
+                                                          ],
+                                               "location":  "remote",
+                                               "jobType":  "fixed",
+                                               "budgetMin":  100,
+                                               "budgetMax":  1000
+                                           },
+                         "valid_accepted":  false,
+                         "valid_errors":  [
+                                              {
+                                                  "code":  "invalid_type",
+                                                  "expected":  "string",
+                                                  "received":  "undefined",
+                                                  "path":  [
+                                                               "categoryId"
+                                                           ],
+                                                  "message":  "Required"
+                                              }
+                                          ],
+                         "valid_parsed_data":  null
+                     },
+                     {
+                         "schema_name":  "createJobSchema",
+                         "payload_index":  5,
+                         "invalid_payload":  {
+                                                 "title":  "Local runtime proof job",
+                                                 "description":  "Tests invalid minimum and maximum budget ordering",
+                                                 "category":  "development",
+                                                 "skills":  [
+                                                                "javascript"
+                                                            ],
+                                                 "location":  "remote",
+                                                 "jobType":  "fixed",
+                                                 "experienceLevel":  "intermediate",
+                                                 "budgetMin":  1000,
+                                                 "budgetMax":  100
+                                             },
+                         "invalid_accepted":  false,
+                         "invalid_errors":  [
+                                                {
+                                                    "code":  "invalid_type",
+                                                    "expected":  "string",
+                                                    "received":  "undefined",
+                                                    "path":  [
+                                                                 "categoryId"
+                                                             ],
+                                                    "message":  "Required"
+                                                }
+                                            ],
+                         "invalid_parsed_data":  null,
+                         "valid_payload":  {
+                                               "title":  "Local runtime proof job",
+                                               "description":  "Tests invalid minimum and maximum budget ordering",
+                                               "category":  "development",
+                                               "skills":  [
+                                                              "javascript"
+                                                          ],
+                                               "location":  "remote",
+                                               "jobType":  "fixed",
+                                               "experienceLevel":  "intermediate",
+                                               "budgetMin":  100,
+                                               "budgetMax":  1000
+                                           },
+                         "valid_accepted":  false,
+                         "valid_errors":  [
+                                              {
+                                                  "code":  "invalid_type",
+                                                  "expected":  "string",
+                                                  "received":  "undefined",
+                                                  "path":  [
+                                                               "categoryId"
+                                                           ],
+                                                  "message":  "Required"
+                                              }
+                                          ],
+                         "valid_parsed_data":  null
+                     },
+                     {
+                         "schema_name":  "updateJobSchema",
+                         "payload_index":  1,
+                         "invalid_payload":  {
+                                                 "title":  "Local runtime proof job",
+                                                 "description":  "Tests invalid minimum and maximum budget ordering",
+                                                 "budgetMin":  1000,
+                                                 "budgetMax":  100
+                                             },
+                         "invalid_accepted":  true,
+                         "invalid_errors":  null,
+                         "invalid_parsed_data":  {
+                                                     "title":  "Local runtime proof job",
+                                                     "description":  "Tests invalid minimum and maximum budget ordering",
+                                                     "budgetMin":  1000,
+                                                     "budgetMax":  100
+                                                 },
+                         "valid_payload":  {
+                                               "title":  "Local runtime proof job",
+                                               "description":  "Tests invalid minimum and maximum budget ordering",
+                                               "budgetMin":  100,
+                                               "budgetMax":  1000
+                                           },
+                         "valid_accepted":  true,
+                         "valid_errors":  null,
+                         "valid_parsed_data":  {
+                                                   "title":  "Local runtime proof job",
+                                                   "description":  "Tests invalid minimum and maximum budget ordering",
+                                                   "budgetMin":  100,
+                                                   "budgetMax":  1000
+                                               }
+                     }
+                 ],
+    "decision":  "RUNTIME_BUG_CONFIRMED",
+    "confidence":  98,
+    "recommended_next_action":  "check_online_duplicate_before_building_fix",
+    "original_source_modified":  false,
+    "repository_dependency_install":  false,
+    "isolated_dependency_install":  true,
+    "external_action_performed":  false,
+    "issue_created":  false,
+    "comment_created":  false,
+    "fork_created":  false,
+    "pull_request_created":  false
+}
