@@ -5,13 +5,13 @@ github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,295,[Bounty
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,309,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Bleichenbacher Oracl,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/309
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,310,"[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty $2,500] Optimise/i",https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/310
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,282,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/282
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,291,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Blind Command Inject,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/291
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,292,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Zip Slip → Arbitrary,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/292
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,291,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Blind Command Inject,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/291
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,290,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Web Cache Poisoning ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/290
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,286,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] JWT Kid Injection → ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/286
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,287,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserializa,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/287
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,293,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Session Fixation + S,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/293
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,297,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] LDAP Injection → Ano,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/297
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,293,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Session Fixation + S,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/293
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,300,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] MongoDB NoSQL Inject,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/300
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,305,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Server-Side Prototyp,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/305
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,304,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] GraphQL Batch Query ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/304
@@ -38,23 +38,23 @@ github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,257,[Bounty
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,262,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Server-Side Prototype Polluti,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/262
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,260,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] AWS IAM Privilege Escalation ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/260
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,264,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Log Injection → Log Forging →,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/264
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,265,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] MongoDB NoSQL Injection → Aut,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/265
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,266,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in Distributed,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/266
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,265,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] MongoDB NoSQL Injection → Aut,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/265
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,267,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] LDAP Injection → Anonymous Bi,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/267
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,273,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Session Fixation + Session ID,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/273
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,277,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization → Re,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/277
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,222,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete the firs,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/222
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,248,"[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty $1,500] Optimise `deg2rad` / `rad2de",https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/248
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,253,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Clickjacking via X-Frame-Opti,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/253
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,256,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] DNS Zone Transfer Enabled → I,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/256
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,253,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Clickjacking via X-Frame-Opti,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/253
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,259,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Blind SSRF via DNS Rebinding ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/259
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,261,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] GraphQL Batch Query + Rate Li,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/261
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,271,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] CL.TE HTTP Request Smuggling ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/271
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,281,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profi,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/281
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,275,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Blind Command Injection via E,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/275
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,274,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Web Cache Poisoning via Unkey,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/274
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,272,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Zip Slip → Arbitrary File Wri,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/272
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,271,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] CL.TE HTTP Request Smuggling ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/271
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,280,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] SSTI in Email Template Engine,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/280
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,281,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Mass Assignment in User Profi,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/281
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,279,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] JWT Kid Injection → Path Trav,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/279
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,276,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Timing Attack on Password Ver,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/276
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,278,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] IDOR in GraphQL Nested Query ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/278
@@ -67,8 +67,8 @@ github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,269,[Bounty
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,268,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] OAuth 2.0 CSRF → Account Take,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/268
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,229,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Java RMI Deserialization → Remote Code,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/229
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,226,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Timing Attack on Password Verification,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/226
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,238,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in Distributed Transact,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/238
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,237,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] LDAP Injection → Anonymous Bind Bypass,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/237
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,238,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in Distributed Transact,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/238
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,239,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/239
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,185,"[Bounty] [Bounty] [Bounty] [Bounty] [Bounty $1,500] Optimise `deg2rad` / `rad2deg` (fp32/",https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/185
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,215,[Bounty] [Bounty] [Bounty] [Bounty] [bounty][funding-pending]: complete the first permiss,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/215
@@ -76,9 +76,9 @@ github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,220,[Bounty
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,224,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] JWT Kid Injection → Path Traversal → S,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/224
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,225,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] SSTI in Email Template Engine → Sandbo,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/225
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,221,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Web Cache Deception → Session Token Le,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/221
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,231,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Session Fixation + Session ID in URL $,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/231
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,232,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Web Cache Poisoning via Unkeyed Header,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/232
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,228,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Blind Command Injection via Email Head,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/228
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,231,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Session Fixation + Session ID in URL $,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/231
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,241,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Log Injection → Log Forging → SIEM Poi,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/241
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,242,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Server-Side Prototype Pollution to RCE,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/242
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,243,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] GraphQL Batch Query + Rate Limit Bypas,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/243
@@ -95,8 +95,8 @@ github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,230,[Bounty
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,236,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] OAuth 2.0 CSRF → Account Takeover via ,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/236
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,245,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] Blind SSRF via DNS Rebinding Bypass $1,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/245
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,183,"[Bounty] [Bounty] [Bounty] [Bounty] [Bounty $2,500] Optimise/improve accuracy for pow(x, ",https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/183
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,196,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] MongoDB NoSQL Injection → Authentication Bypass,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/196
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,180,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] gRPC Reflection Enabled → Service Enumeration $,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/180
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,196,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] MongoDB NoSQL Injection → Authentication Bypass,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/196
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,202,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] CORS Misconfiguration + Origin Reflection → Cre,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/202
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,504,[Bounty] [zhangjiayang6835-cyber/bounty-plaza] [Bounty] [claude-builders-bounty/claude-bu,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/504
 github_search_api_candidates.csv,Dara-Pixel-Entertainment/Pixel-Entertainment,17,Reward Coins,https://github.com/Dara-Pixel-Entertainment/Pixel-Entertainment/issues/17
@@ -209,11 +209,11 @@ github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,207,[Bounty
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,251,[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [BUG] TOTP Secret Leaked via QR Code in Logs,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/251
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,191,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Blind SSRF via DNS Rebinding Bypass $150,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/191
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,186,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Bleichenbacher Oracle in RSA-OAEP Decryption $2,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/186
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,188,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/188
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,197,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via Cache $20,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/197
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,182,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] DNS Zone Transfer Enabled → Internal Network Ma,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/182
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,188,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Race Condition in /tmp File Handling (TOCTOU) $,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/188
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,194,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] GraphQL Batch Query + Rate Limit Bypass $150,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/194
+github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,197,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Python Pickle Deserialization RCE via Cache $20,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/197
 github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,179,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Clickjacking via X-Frame-Options Missing → Cryp,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/179
-github_search_api_candidates.csv,zhangjiayang6835-cyber/bounty-plaza,193,[Bounty] [Bounty] [Bounty] [Bounty] [BUG] Server-Side Prototype Pollution to RCE $200,https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/193
 github_search_api_candidates.csv,YuriSouzaDev/money-asaas,39,feat(payments): model Payment,https://github.com/YuriSouzaDev/money-asaas/issues/39
 github_search_api_candidates.csv,chase-sets/chase-sets,3992,[payment-ux] Epic: Payment Conversion & Payment Experience,https://github.com/chase-sets/chase-sets/issues/3992
 github_search_api_candidates.csv,omidmamadi/joosh-kesh,3,Payment,https://github.com/omidmamadi/joosh-kesh/issues/3
@@ -286,12 +286,12 @@ github_search_api_candidates.csv,tellmeY18/astro-medusa-starter,1,Razorpay Payme
 github_search_api_candidates.csv,Dara-Pixel-Entertainment/Pixel-Entertainment,5,Auto request payment monthly,https://github.com/Dara-Pixel-Entertainment/Pixel-Entertainment/issues/5
 github_search_api_candidates.csv,Teclia-Academy/Teclia-Academy,34,Payment data model,https://github.com/Teclia-Academy/Teclia-Academy/issues/34
 github_search_api_candidates.csv,cyberfly/ezjualan,1,implement payment gateway,https://github.com/cyberfly/ezjualan/issues/1
+github_search_api_candidates.csv,BlueprintFramework/hydrodactyl,15,Paymenter support,https://github.com/BlueprintFramework/hydrodactyl/issues/15
 github_search_api_candidates.csv,kamalnayanprofessional-star/Testing-repo,16,Payment Bug,https://github.com/kamalnayanprofessional-star/Testing-repo/issues/16
 github_search_api_candidates.csv,kamalnayanprofessional-star/Testing-repo,13,Payment Bug,https://github.com/kamalnayanprofessional-star/Testing-repo/issues/13
 github_search_api_candidates.csv,kamalnayanprofessional-star/Testing-repo,12,Payment Bug,https://github.com/kamalnayanprofessional-star/Testing-repo/issues/12
 github_search_api_candidates.csv,kamalnayanprofessional-star/Testing-repo,10,Payment Bug,https://github.com/kamalnayanprofessional-star/Testing-repo/issues/10
 github_search_api_candidates.csv,kamalnayanprofessional-star/Testing-repo,8,Payment Bug,https://github.com/kamalnayanprofessional-star/Testing-repo/issues/8
-github_search_api_candidates.csv,BlueprintFramework/hydrodactyl,15,Paymenter support,https://github.com/BlueprintFramework/hydrodactyl/issues/15
 github_search_api_candidates.csv,kamalnayanprofessional-star/Testing-repo,6,Payment Bug,https://github.com/kamalnayanprofessional-star/Testing-repo/issues/6
 github_search_api_candidates.csv,kamalnayanprofessional-star/Testing-repo,4,Payment Bug,https://github.com/kamalnayanprofessional-star/Testing-repo/issues/4
 github_search_api_candidates.csv,nasimhwb/neos-app,3,Enterprise payment checklist page for Zoho-synced payments,https://github.com/nasimhwb/neos-app/issues/3
@@ -405,13 +405,13 @@ github_search_api_candidates.csv,electricsheephq/evaos-code-review-bot-neondiff,
 github_search_api_candidates.csv,BGMLAI/gate.cat,9,"Growth: 10,000 downloads + 30 paid subscriptions/packs",https://github.com/BGMLAI/gate.cat/issues/9
 github_search_api_candidates.csv,LuDraGa/KeyboardASMR,13,Define free vs paid profile tier for v1,https://github.com/LuDraGa/KeyboardASMR/issues/13
 github_search_api_candidates.csv,bakeronchain/learnvault,1026,feat: Mentor booking & escrow-paid 1:1 sessions,https://github.com/bakeronchain/learnvault/issues/1026
-github_search_api_candidates.csv,kolojar/team-propaganda,17,Error when paid,https://github.com/kolojar/team-propaganda/issues/17
 github_search_api_candidates.csv,ethanrickyjrjr-wq/SWFL-Data-Gulf,119,TRIPWIRE RED — unauthorized paid activity or guard failure,https://github.com/ethanrickyjrjr-wq/SWFL-Data-Gulf/issues/119
+github_search_api_candidates.csv,kolojar/team-propaganda,17,Error when paid,https://github.com/kolojar/team-propaganda/issues/17
 github_search_api_candidates.csv,cyberfly/eventku,31,Integrate FPX payment gateway for paid event registration,https://github.com/cyberfly/eventku/issues/31
 github_search_api_candidates.csv,MLAI-AUS-Inc/mlai-au,1331,Clarify paid and free access eligibility thresholds,https://github.com/MLAI-AUS-Inc/mlai-au/issues/1331
 github_search_api_candidates.csv,unoverto/Gemini-Pro-1-Year-Activation,1,retard spam repo paid service,https://github.com/unoverto/Gemini-Pro-1-Year-Activation/issues/1
-github_search_api_candidates.csv,totfront/wear,13,Feature: Wardrobe & personalised outfit recommendations (paid tier),https://github.com/totfront/wear/issues/13
 github_search_api_candidates.csv,squeezy102/SqueezyPay,41,Bill: paid/unpaid status indicator,https://github.com/squeezy102/SqueezyPay/issues/41
+github_search_api_candidates.csv,totfront/wear,13,Feature: Wardrobe & personalised outfit recommendations (paid tier),https://github.com/totfront/wear/issues/13
 github_search_api_candidates.csv,atxinbao/agentflow,1037,V133-004 Paid Report SKU Product Source Loader,https://github.com/atxinbao/agentflow/issues/1037
 github_search_api_candidates.csv,bcgov/cas-registration,4899,Compliance/ Show that FAA interest was paid,https://github.com/bcgov/cas-registration/issues/4899
 github_search_api_candidates.csv,Creditra/Creditra-Contracts,619,Add good-first-issue: rustdoc for safe_mul_div,https://github.com/Creditra/Creditra-Contracts/issues/619
@@ -534,6 +534,7 @@ github_search_api_candidates.csv,UnsafeLabs/Bounty-Hunters,917,[ Crypto ] Fix in
 github_search_api_candidates.csv,UnsafeLabs/Bounty-Hunters,920,[ Crypto ] Fix cross-chain replay attack in CrossChainBridge signature verification,https://github.com/UnsafeLabs/Bounty-Hunters/issues/920
 github_search_api_candidates.csv,UnsafeLabs/Bounty-Hunters,919,[ Crypto ] Fix zero-fee flash loans and add pool drainage protection,https://github.com/UnsafeLabs/Bounty-Hunters/issues/919
 github_search_api_candidates.csv,nearai/house-of-stake-contracts,29,NEAR Staking for NEAR AI Cloud,https://github.com/nearai/house-of-stake-contracts/issues/29
+github_search_api_candidates.csv,Scroptss/Scropts-QOL,43,Loop Cryptokeys,https://github.com/Scroptss/Scropts-QOL/issues/43
 github_search_api_candidates.csv,agntdev/questchain,7,"[fix-e931abbf49cffde3] Fix: The prior 'Challenge' entity explicitly states 'reward_type' and does not include 'token' as an enumerated value (the prior only mentions 'points' and 'crypto' implicitly, but the CURRENT_DOC adds 'token' as a third reward type, introducing an element not covered by the upstream specification, ",https://github.com/agntdev/questchain/issues/7
 github_search_api_candidates.csv,ilkkanml/Mimar,3,M3 — Side Operations Slice: crypto mining + legal cyber ops,https://github.com/ilkkanml/Mimar/issues/3
 github_search_api_candidates.csv,Crypto-Moonboys/Crypto-Moonboys.github.io,903,Production HUD + Arcade OS Architecture (FINAL STABLE FOUNDATION),https://github.com/Crypto-Moonboys/Crypto-Moonboys.github.io/issues/903
@@ -544,7 +545,6 @@ github_search_api_candidates.csv,tia8910/Walletlens,892,[Trending] Only 4 of the
 github_search_api_candidates.csv,Nexussyn/ai-growth-engine,2,[AGENT-TASK] Implement referral reward loop — +20% conversion,https://github.com/Nexussyn/ai-growth-engine/issues/2
 github_search_api_candidates.csv,Orengo-group/proud-frontend,30,"[Page] Student Rewards page — points balance, reward history, and available rewards to claim",https://github.com/Orengo-group/proud-frontend/issues/30
 github_search_api_candidates.csv,Talenttrust/Talenttrust-Backend,610,Generate collision-resistant notification ids in the webhook transport,https://github.com/Talenttrust/Talenttrust-Backend/issues/610
-github_search_api_candidates.csv,Scroptss/Scropts-QOL,43,Loop Cryptokeys,https://github.com/Scroptss/Scropts-QOL/issues/43
 github_search_api_candidates.csv,CryptoGraveyard/website,8,"[Epic][P7] Media, livestream, and collectible roadmap",https://github.com/CryptoGraveyard/website/issues/8
 github_search_api_candidates.csv,vansh-09/BountyScout,369,🎯 Bounty Alert: 4 New Opportunityies found,https://github.com/vansh-09/BountyScout/issues/369
 github_search_api_candidates.csv,Scottcjn/rustchain-bounties,13477,[BOUNTY] feverdream: terminal client to spend RTC and commission a video,https://github.com/Scottcjn/rustchain-bounties/issues/13477

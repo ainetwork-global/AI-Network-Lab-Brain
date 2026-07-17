@@ -4,7 +4,7 @@
 
 $ErrorActionPreference = "Stop"
 
-$BrainRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
+$BrainRoot = Split-Path -Parent $PSScriptRoot
 $DiscoveryRoot = Join-Path $BrainRoot "02_DISCOVERY"
 $OpportunityRoot = Join-Path $BrainRoot "04_OPPORTUNITIES"
 $ReportRoot = Join-Path $BrainRoot "12_REPORTS"
