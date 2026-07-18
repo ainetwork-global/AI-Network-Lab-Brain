@@ -259,16 +259,16 @@ for ($Attempt = 1; $Attempt -le 15; $Attempt++) {
     }
 
     if (
-        $CompetitionLevel -eq "SATURATED" -or
-        $PrCount -ge 3 -or
-        $AttemptCount -ge 4
+        $CompetitionLevel -ne "LOW" -or
+        $PrCount -ge 2 -or
+        $AttemptCount -ge 2
     ) {
         Add-Rejection `
             -Repository $Repository `
             -IssueNumber $IssueNumber `
             -Score $Confidence `
-            -Code "SATURATED_COMPETITION" `
-            -Reason "A oportunidade apresenta concorrência excessiva." `
+            -Code "COMPETITION_ABOVE_LOW" `
+            -Reason "Somente oportunidades com concorrência LOW podem iniciar execução." `
             -Evidence "comments=$CommentCount; attempts=$AttemptCount; pr_references=$PrCount; score=$CompetitionScore"
 
         Write-Host ""
@@ -328,3 +328,4 @@ for ($Attempt = 1; $Attempt -le 15; $Attempt++) {
 }
 
 throw "Foram analisados 15 candidatos sem encontrar oportunidade elegível."
+

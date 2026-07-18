@@ -3,14 +3,14 @@
 Status: `AUTO_START_LOCAL_EXECUTION`
 
 - Repository: `zhangjiayang6835-cyber/bounty-plaza`
-- Issue: `310`
-- Title: [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty $2,500] Optimise/i
+- Issue: `255`
+- Title: [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty $2,500] Optimise/improve ac
 - Reward USD: `2500.0`
 - Estimated hours: `12.0`
 - Revenue per hour: `208.33`
 - Payment confidence: `87.5`
 - Source: `github_search_api_candidates.csv`
-- URL: `https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/310`
+- URL: `https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/255`
 
 ## Evidence
 

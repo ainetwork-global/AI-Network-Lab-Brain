@@ -3,3 +3,4 @@
 "2026-07-18 20:34:10","moorcheh-ai/memanto","770","95","SATURATED_COMPETITION","A issue já possui múltiplos participantes e vários PRs submetidos para a mesma bounty.","Comentários mencionam PRs 785, 792, 794, 796, 797 e 799, incluindo cinco PRs de segurança de um único participante."
 "2026-07-18 20:40:20","SecureBananaLabs/bug-bounty","743","92.0","SATURATED_COMPETITION","A oportunidade apresenta concorrência excessiva.","comments=1403; attempts=1309; pr_references=517; score=100"
 "2026-07-18 20:40:37","SecureBananaLabs/bug-bounty","80","87.69","SATURATED_COMPETITION","A oportunidade apresenta concorrência excessiva.","comments=447; attempts=394; pr_references=89; score=100"
+"2026-07-18 20:49:56","zhangjiayang6835-cyber/bounty-plaza","310","87.5","HIGH_COMPETITION","O candidato foi classificado com concorrência HIGH e não deve entrar em execução.","comments=5; attempts=3; pr_references=1; competition_score=36; competition_level=HIGH"
