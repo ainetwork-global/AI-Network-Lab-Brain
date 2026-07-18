@@ -314,9 +314,91 @@ try {
         throw "O alvo inválido de USD 700 voltou ao Worker."
     }
 
-    if ($NextContent -notmatch "READY_TO_EXECUTE") {
-        throw "O Worker não recebeu um alvo READY_TO_EXECUTE."
+    # ================================================================
+    # WORKER STATE VALIDATION
+    # ================================================================
+
+    if ([string]::IsNullOrWhiteSpace($NextContent)) {
+        throw "NEXT_EXECUTION.md não foi produzido ou está vazio."
     }
+
+    $WorkerState = ""
+
+    if (
+        $NextContent -match
+        "(?m)^Worker decision:\s*READY_TO_BEGIN\s*$"
+    ) {
+        $WorkerState = "READY_TO_BEGIN"
+    }
+    elseif (
+        $NextContent -match
+        "(?m)^Execution status:\s*READY_TO_EXECUTE\s*$"
+    ) {
+        $WorkerState = "READY_TO_EXECUTE"
+    }
+    elseif (
+        $NextContent -match
+        "(?m)^Worker decision:\s*AWAITING_HUMAN_APPROVAL\s*$"
+    ) {
+        $WorkerState = "AWAITING_HUMAN_APPROVAL"
+    }
+    elseif (
+        $NextContent -match
+        "(?m)^Execution status:\s*NO_ACTIONABLE_CANDIDATE\s*$"
+    ) {
+        $WorkerState = "NO_ACTIONABLE_CANDIDATE"
+    }
+    elseif (
+        $NextContent -match
+        "(?m)^Result:\s*NO_ACTIONABLE_CANDIDATE\s*$"
+    ) {
+        $WorkerState = "NO_ACTIONABLE_CANDIDATE"
+    }
+
+    switch ($WorkerState) {
+        "READY_TO_BEGIN" {
+            Write-RunLog `
+                "Worker encontrou oportunidade pronta para início." `
+                Green
+        }
+
+        "READY_TO_EXECUTE" {
+            Write-RunLog `
+                "Worker encontrou oportunidade pronta para execução." `
+                Green
+        }
+
+        "AWAITING_HUMAN_APPROVAL" {
+            Write-RunLog `
+                "Worker encontrou oportunidade aguardando aprovação humana." `
+                Yellow
+        }
+
+        "NO_ACTIONABLE_CANDIDATE" {
+            Write-RunLog `
+                "Worker concluiu o ciclo sem candidato executável." `
+                Yellow
+
+            Write-RunLog `
+                "Esse resultado é válido e não representa falha." `
+                Yellow
+        }
+
+        default {
+            Write-RunLog `
+                "Conteúdo não reconhecido recebido do Worker:" `
+                Red
+
+            Write-RunLog $NextContent Red
+
+            throw "O Worker retornou um estado inválido ou desconhecido."
+        }
+    }
+
+    Write-RunLog `
+        "Estado final do Worker: $WorkerState" `
+        Cyan
+
 
     $SuccessCount = @(
         $Results |
@@ -418,3 +500,4 @@ finally {
             -NoTypeInformation `
             -Encoding UTF8
 }
+

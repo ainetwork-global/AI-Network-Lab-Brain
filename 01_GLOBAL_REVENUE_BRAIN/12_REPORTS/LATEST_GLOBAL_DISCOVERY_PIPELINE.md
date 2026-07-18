@@ -1,10 +1,10 @@
 ﻿# GLOBAL DISCOVERY PIPELINE
 
-Generated: 2026-07-18 14:47:09
+Generated: 2026-07-18 15:46:19
 
 ## Summary
 
-- Duration seconds: 11.1
+- Duration seconds: 0.51
 - Unique discovered opportunities: 605
 - Intelligence-ranked opportunities: 605
 - Very high priority: 0
@@ -16,9 +16,9 @@ Generated: 2026-07-18 14:47:09
 
 | Step | Status | Seconds | Detail |
 |---|---:|---:|---|
-| GitHub Search API Discovery | SUCCESS | 9.58 |  |
-| Merge Discovery Sources | SUCCESS | 0.49 |  |
-| Discovery Intelligence | SUCCESS | 0.95 |  |
+| GitHub Search API Discovery | SKIPPED | 0 | Execução iniciada com -SkipGitHubSearch |
+| Merge Discovery Sources | SUCCESS | 0.23 |  |
+| Discovery Intelligence | SUCCESS | 0.21 |  |
 
 ## Top Discovery Candidates
 
@@ -49,4 +49,4 @@ Generated: 2026-07-18 14:47:09
 
 - GLOBAL_DISCOVERY_QUEUE.csv
 - DISCOVERY_INTELLIGENCE_QUEUE.csv
-- Log: global_discovery_pipeline_20260718_144658.log
+- Log: global_discovery_pipeline_20260718_154618.log

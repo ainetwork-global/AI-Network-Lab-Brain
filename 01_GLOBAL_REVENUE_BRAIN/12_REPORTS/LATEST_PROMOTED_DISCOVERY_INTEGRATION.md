@@ -1,6 +1,6 @@
 # PROMOTED DISCOVERY INTEGRATION
 
-Generated: 2026-07-18T17:47:12.236432+00:00
+Generated: 2026-07-18T18:46:20.409173+00:00
 
 ## Summary
 
@@ -8,10 +8,10 @@ Generated: 2026-07-18T17:47:12.236432+00:00
 - Eligible after minimum score: 25
 - Added to execution queue: 25
 - Duplicates skipped: 0
-- Total execution queue rows: 270
+- Total execution queue rows: 295
 - Minimum promotion score: 60.0
 - Maximum candidates this run: 50
-- Backup: C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\11_DATA\backups\execution_queues\GLOBAL_EXECUTION_QUEUE_20260718_144712.csv
+- Backup: C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\11_DATA\backups\execution_queues\GLOBAL_EXECUTION_QUEUE_20260718_154620.csv
 
 ## Added Opportunities
 

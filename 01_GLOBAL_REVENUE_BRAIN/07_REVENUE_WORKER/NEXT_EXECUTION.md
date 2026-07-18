@@ -1,51 +1,11 @@
-﻿# NEXT EXECUTION
+# NEXT EXECUTION
 
-Status:
-READY_TO_EXECUTE
+Generated: 2026-07-18T18:46:56.479858+00:00
 
-Source:
-Economic Ranking + Live Validation
+Execution status: NO_ACTIONABLE_CANDIDATE
 
-Title:
-[Bug] Inconsistency in the subscription flow depending on the user's login state
+Nenhuma oportunidade com ação executável ou aprovação humana pendente foi encontrada.
 
-Organization:
-paypal/paypal-js
+Oportunidades mantidas em observação: 3
 
-Repository:
-paypal/paypal-js
-
-Issue:
-975
-
-Reward:
-USD 60.00
-
-Payment probability:
-29.76%
-
-Final execution score:
-13.52
-
-Recommended action:
-keep_in_observation
-
-URL:
-https://github.com/paypal/paypal-js/issues/975
-
-## Checklist obrigatório antes da execução
-
-[ ] Abrir a documentação e a issue original
-[ ] Confirmar que a oportunidade continua aberta
-[ ] Confirmar que a recompensa continua válida
-[ ] Confirmar regras para reivindicar ou reservar a tarefa
-[ ] Verificar se já existe outro executor trabalhando nela
-[ ] Solicitar aprovação humana quando necessário
-[ ] Preparar o ambiente local do repositório
-[ ] Reproduzir tecnicamente o problema
-[ ] Definir o plano mínimo de implementação
-[ ] Produzir os entregáveis
-[ ] Executar testes
-[ ] Revisar tecnicamente
-[ ] Submeter manualmente
-[ ] Registrar o resultado e eventual pagamento
+Nenhuma tarefa deve ser iniciada automaticamente.
