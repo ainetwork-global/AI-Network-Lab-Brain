@@ -1,0 +1,8 @@
+﻿"stage","status","script","exit_code"
+"Opportunity Verification Engine","SUCCESS","C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\03_INTELLIGENCE\opportunity_verification_engine.py","0"
+"Opportunity Identity Normalization","SUCCESS","C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\03_INTELLIGENCE\normalize_opportunity_identity.py","0"
+"Execution Candidate Ranking","SUCCESS","C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\03_INTELLIGENCE\execution_candidate_ranking.py","0"
+"Opportunity Live Validator","SUCCESS","C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\03_INTELLIGENCE\opportunity_live_validator.py","0"
+"Build Execution Ready Queue","SUCCESS","C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\01_EXECUTION\build_execution_ready_queue.py","0"
+"Build Execution Kanban","SUCCESS","C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\06_OPERATIONS\build_execution_kanban.py","0"
+"Revenue Execution Worker","SUCCESS","C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\07_REVENUE_WORKER\revenue_execution_worker.py","0"

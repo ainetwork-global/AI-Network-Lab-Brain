@@ -1,4 +1,4 @@
-﻿param(
+param(
     [switch]$SkipDiscovery
 )
 
@@ -186,6 +186,13 @@ try {
         -Stage "Opportunity Verification Engine" `
         -CandidateNames @(
             "opportunity_verification_engine.py"
+        ) `
+        -Required $true
+
+    Invoke-PythonStage `
+        -Stage "Opportunity Identity Normalization" `
+        -CandidateNames @(
+            "normalize_opportunity_identity.py"
         ) `
         -Required $true
 

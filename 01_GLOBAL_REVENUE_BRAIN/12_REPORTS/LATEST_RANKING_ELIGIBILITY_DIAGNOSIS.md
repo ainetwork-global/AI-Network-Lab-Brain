@@ -1,23 +1,23 @@
 # RANKING ELIGIBILITY DIAGNOSIS
 
-Generated: 2026-07-18T19:24:01.259306+00:00
+Generated: 2026-07-18T19:45:46.884696+00:00
 
 ## Core Counts
 
 | Metric | Count |
 |---|---:|
-| Verified rows | 205 |
+| Verified rows | 211 |
 | Verified present in ranking | 0 |
-| Verified missing from ranking | 205 |
+| Verified missing from ranking | 211 |
 | Promoted unique identities | 25 |
-| Promoted found in execution queue | 0 |
-| Promoted missing from execution queue | 25 |
+| Promoted found in execution queue | 25 |
+| Promoted missing from execution queue | 0 |
 
 ## Verification Status: All
 
 | Status | Count |
 |---|---:|
-| rejected | 183 |
+| rejected | 189 |
 | actionable | 12 |
 | approval_required | 10 |
 
@@ -30,7 +30,7 @@ Generated: 2026-07-18T19:24:01.259306+00:00
 
 | Status | Count |
 |---|---:|
-| rejected | 183 |
+| rejected | 189 |
 | actionable | 12 |
 | approval_required | 10 |
 
@@ -38,7 +38,7 @@ Generated: 2026-07-18T19:24:01.259306+00:00
 
 | Reason | Count |
 |---|---:|
-| NO_REASON_FIELD | 205 |
+| NO_REASON_FIELD | 211 |
 
 ## Ranking Script Filter Lines
 
@@ -151,73 +151,48 @@ Generated: 2026-07-18T19:24:01.259306+00:00
 
 | Organization | Repository | Issue | Status | Reward | Reason | Title |
 |---|---|---:|---|---:|---|---|
-|  |  |  | actionable | 10000.0 |  | senddigidollar: integer-vs-decimal amount ambiguity is a 100× footgun |
-|  |  |  | actionable | 3000.0 |  | [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals |
-|  |  |  | actionable | 3000.0 |  | [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated |
-|  |  |  | actionable | 3000.0 |  | [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated |
-|  |  |  | actionable | 1000.0 |  | Calculate the exact value of PI |
-|  |  |  | actionable | 3500.0 |  | Approval: create Stripe Payment Links for paid audits |
-|  |  |  | actionable | 100.0 |  | [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge |
-|  |  |  | actionable | 150.0 |  | 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC |
-|  |  |  | actionable | 130.74 |  | Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses |
-|  |  |  | actionable | 28.4 |  | 🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC |
-|  |  |  | actionable | 55.0 |  | Ops dashboard |
-|  |  |  | actionable | 6.0 |  | Automatic authoritative external-billing Subscription adoption (CODEX... |
-|  |  |  | approval_required | 50000.0 |  | Grant Application - Educating Communities by Educating Their Leaders |
-|  |  |  | approval_required | 4167.0 |  | Tool discovery 2026-07-15: 6 candidates |
-|  |  |  | approval_required | 0.11 |  | [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary |
-|  |  |  | approval_required | 0.11 |  | [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary |
-|  |  |  | approval_required | 0.11 |  | [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary |
-|  |  |  | approval_required | 0.11 |  | [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop |
-|  |  |  | approval_required | 0.11 |  | [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet |
-|  |  |  | approval_required | 2.01 |  | [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop |
-|  |  |  | approval_required | 2.01 |  | [2 USDC autonomous bounty] Complete an independent-relayer paid loop |
-|  |  |  | approval_required | 2.0 |  | [2 USDC autonomous bounty] Complete a browser-wallet paid loop |
-|  |  |  | rejected | 2000.0 |  | chore(ci): retire qodana now that jscpd and cargo-machete cover its findings |
-|  |  |  | rejected | 99.0 |  | Wayfinder map: alpha → beta launch |
-|  |  |  | rejected |  |  | Security review request — volunteer peer review welcome (free) |
-|  |  |  | rejected |  |  | [BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project |
-|  |  |  | rejected |  |  | [security] Stripe webhook processes unsigned events when STRIPE_WEBHOOK_SECRET is unset (payment bypass) |
-|  |  |  | rejected |  |  | Epic: Ship the native purchase-to-first-review customer journey |
-|  |  |  | rejected |  |  | Claim MRG Tokens for Bug Bounty Reports - Comment New Bugs Here Before Opening a PR |
-|  |  |  | rejected |  |  | Register in Ecosystem Contributors — 3 RTC per registration |
-|  |  |  | rejected |  |  | [Open-Source-Bazaar/Open-Source-Bazaar.github.io] [Reward] Bot Killer |
-|  |  |  | rejected |  |  | [Open-Source-Bazaar/Open-Source-Bazaar.github.io] 开源市集代码贡献指南 |
-|  |  |  | rejected |  |  | [idea2app/MobX-GitHub] MobX-GitHub 新增 Git Tree API 封装类 |
-|  |  |  | rejected |  |  | [harnessclaw/harnessclaw] [Reward] HarnessClaw 体验测评（任一场景） #2 |
-|  |  |  | rejected |  |  | [cpagent78/crawler-network] [P3] 크롤러 피드백 API + 학습 로직 |
-|  |  |  | rejected |  |  | [Open-Source-Bazaar/Open-Source-Bazaar.github.io] 基于 OCToken NFT 机制实现【开放协作人奖】颁发程序 |
-|  |  |  | rejected |  |  | [Digital-Nomad-Home/LinJuLi-MiniApp] 开发开源悬赏平台的“权益商城”功能 |
-|  |  |  | rejected |  |  | [Digital-Nomad-Home/LinJuLi-MiniApp] 开发开源悬赏平台“代币交易所” 功能 |
-|  |  |  | rejected |  |  | [Digital-Nomad-Home/LinJuLi-MiniApp] 开源悬赏平台增加“交易”功能 |
-|  |  |  | rejected |  |  | [harnessclaw/harnessclaw] [Reward] HarnessClaw 体验测评（任一场景） #2 |
+| digibyte-core | digibyte | 424 | actionable | 10000.0 |  | senddigidollar: integer-vs-decimal amount ambiguity is a 100× footgun |
+| alexzzz430 | cognitive-os | 5 | actionable | 3000.0 |  | [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals |
+| vikingr2023 | awesome-agent-bounties | 167 | actionable | 3000.0 |  | [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated |
+| vikingr2023 | awesome-agent-bounties | 52 | actionable | 3000.0 |  | [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated |
+| xevrion-v2 | agent-playground | 17 | actionable | 1000.0 |  | Calculate the exact value of PI |
+| davidleeops | mcpscan | 3 | actionable | 3500.0 |  | Approval: create Stripe Payment Links for paid audits |
+| moorcheh-ai | memanto | 770 | actionable | 100.0 |  | [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge |
+| greyw0rks | bountyscout | 265 | actionable | 150.0 |  | 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC |
+| pedrazamiguez | split-trip | 1400 | actionable | 130.74 |  | Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses |
+| greyw0rks | bountyscout | 256 | actionable | 28.4 |  | 🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC |
+| modelmirrorai | fedcourtsai | 630 | actionable | 55.0 |  | Ops dashboard |
+| jaywedgeworth22 | api-usage-monitor | 285 | actionable | 6.0 |  | Automatic authoritative external-billing Subscription adoption (CODEX... |
+| zcashcommunitygrants | zcashcommunitygrants | 356 | approval_required | 50000.0 |  | Grant Application - Educating Communities by Educating Their Leaders |
+| tarronkayaua | aua-ai-hub | 21 | approval_required | 4167.0 |  | Tool discovery 2026-07-15: 6 candidates |
+| nspg13 | agent-bounties | 277 | approval_required | 0.11 |  | [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary |
+| nspg13 | agent-bounties | 276 | approval_required | 0.11 |  | [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary |
+| nspg13 | agent-bounties | 275 | approval_required | 0.11 |  | [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary |
+| nspg13 | agent-bounties | 274 | approval_required | 0.11 |  | [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop |
+| nspg13 | agent-bounties | 273 | approval_required | 0.11 |  | [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet |
+| nspg13 | agent-bounties | 249 | approval_required | 2.01 |  | [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop |
+| nspg13 | agent-bounties | 250 | approval_required | 2.01 |  | [2 USDC autonomous bounty] Complete an independent-relayer paid loop |
+| nspg13 | agent-bounties | 248 | approval_required | 2.0 |  | [2 USDC autonomous bounty] Complete a browser-wallet paid loop |
+| iamacoffeepot | aether | 3439 | rejected | 2000.0 |  | chore(ci): retire qodana now that jscpd and cargo-machete cover its findings |
+| cameronapak | dotflowy | 151 | rejected | 99.0 |  | Wayfinder map: alpha → beta launch |
+| edgarfloresguerra2011-a11y | marketnow | 2 | rejected |  |  | Security review request — volunteer peer review welcome (free) |
+| scottcjn | rustchain-bounties | 2180 | rejected |  |  | [BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project |
+| ryjoxtechnologies | octopoda-os | 25 | rejected |  |  | [security] Stripe webhook processes unsigned events when STRIPE_WEBHOOK_SECRET is unset (payment bypass) |
+| electricsheephq | evaos-code-review-bot-neondiff | 610 | rejected |  |  | Epic: Ship the native purchase-to-first-review customer journey |
+| mergeos-bounties | mergeos | 1 | rejected |  |  | Claim MRG Tokens for Bug Bounty Reports - Comment New Bugs Here Before Opening a PR |
+| scottcjn | rustchain-bounties | 1575 | rejected |  |  | Register in Ecosystem Contributors — 3 RTC per registration |
+| vikingr2023 | awesome-agent-bounties | 165 | rejected |  |  | [Open-Source-Bazaar/Open-Source-Bazaar.github.io] [Reward] Bot Killer |
+| vikingr2023 | awesome-agent-bounties | 166 | rejected |  |  | [Open-Source-Bazaar/Open-Source-Bazaar.github.io] 开源市集代码贡献指南 |
+| vikingr2023 | awesome-agent-bounties | 164 | rejected |  |  | [idea2app/MobX-GitHub] MobX-GitHub 新增 Git Tree API 封装类 |
+| vikingr2023 | awesome-agent-bounties | 168 | rejected |  |  | [harnessclaw/harnessclaw] [Reward] HarnessClaw 体验测评（任一场景） #2 |
+| vikingr2023 | awesome-agent-bounties | 58 | rejected |  |  | [cpagent78/crawler-network] [P3] 크롤러 피드백 API + 학습 로직 |
+| vikingr2023 | awesome-agent-bounties | 57 | rejected |  |  | [Open-Source-Bazaar/Open-Source-Bazaar.github.io] 基于 OCToken NFT 机制实现【开放协作人奖】颁发程序 |
+| vikingr2023 | awesome-agent-bounties | 56 | rejected |  |  | [Digital-Nomad-Home/LinJuLi-MiniApp] 开发开源悬赏平台的“权益商城”功能 |
+| vikingr2023 | awesome-agent-bounties | 55 | rejected |  |  | [Digital-Nomad-Home/LinJuLi-MiniApp] 开发开源悬赏平台“代币交易所” 功能 |
+| vikingr2023 | awesome-agent-bounties | 54 | rejected |  |  | [Digital-Nomad-Home/LinJuLi-MiniApp] 开源悬赏平台增加“交易”功能 |
+| vikingr2023 | awesome-agent-bounties | 53 | rejected |  |  | [harnessclaw/harnessclaw] [Reward] HarnessClaw 体验测评（任一场景） #2 |
 
 ## Promoted Identities Missing From Execution Queue
 
 | Organization | Repository | Issue |
 |---|---|---:|
-| cos301-se-2026 | spendsense | 230 |
-| dolr-ai | yral | 819 |
-| owowork | owowork-contract | 19 |
-| soneso | stellar-agent-wallet | 78 |
-| thxprotocol | monorepo-legacy | 882 |
-| unsafelabs | bounty-hunters | 914 |
-| zhangjiayang6835-cyber | bounty-plaza | 152 |
-| zhangjiayang6835-cyber | bounty-plaza | 183 |
-| zhangjiayang6835-cyber | bounty-plaza | 185 |
-| zhangjiayang6835-cyber | bounty-plaza | 186 |
-| zhangjiayang6835-cyber | bounty-plaza | 191 |
-| zhangjiayang6835-cyber | bounty-plaza | 193 |
-| zhangjiayang6835-cyber | bounty-plaza | 194 |
-| zhangjiayang6835-cyber | bounty-plaza | 197 |
-| zhangjiayang6835-cyber | bounty-plaza | 201 |
-| zhangjiayang6835-cyber | bounty-plaza | 213 |
-| zhangjiayang6835-cyber | bounty-plaza | 245 |
-| zhangjiayang6835-cyber | bounty-plaza | 248 |
-| zhangjiayang6835-cyber | bounty-plaza | 249 |
-| zhangjiayang6835-cyber | bounty-plaza | 254 |
-| zhangjiayang6835-cyber | bounty-plaza | 255 |
-| zhangjiayang6835-cyber | bounty-plaza | 310 |
-| zhangjiayang6835-cyber | bounty-plaza | 311 |
-| zhangjiayang6835-cyber | bounty-plaza | 490 |
-| zhangjiayang6835-cyber | bounty-plaza | 494 |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T19:24:01.259306+00:00",
+  "generated_at": "2026-07-18T19:45:46.884696+00:00",
   "files": {
     "verified": "C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\verified_opportunities.csv",
     "ranking": "C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\execution_candidate_ranking.csv",
@@ -8,37 +8,37 @@
     "ranking_script": "C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\03_INTELLIGENCE\\execution_candidate_ranking.py"
   },
   "counts": {
-    "verified_rows": 205,
-    "verified_unique": 205,
+    "verified_rows": 211,
+    "verified_unique": 211,
     "ranking_rows": 4,
     "ranking_unique": 4,
     "verified_present_in_ranking": 0,
-    "verified_missing_from_ranking": 205,
+    "verified_missing_from_ranking": 211,
     "promoted_rows": 25,
     "promoted_unique": 25,
-    "promoted_present_in_execution": 0,
-    "promoted_missing_from_execution": 25
+    "promoted_present_in_execution": 25,
+    "promoted_missing_from_execution": 0
   },
   "verified_status_distribution": {
     "all": {
       "actionable": 12,
       "approval_required": 10,
-      "rejected": 183
+      "rejected": 189
     },
     "ranked": {},
     "dropped": {
       "actionable": 12,
       "approval_required": 10,
-      "rejected": 183
+      "rejected": 189
     }
   },
   "dropped_reason_distribution": {
-    "NO_REASON_FIELD": 205
+    "NO_REASON_FIELD": 211
   },
   "verified_field_profiles": {
     "opportunity_id": {
-      "non_empty": 205,
-      "unique": 205,
+      "non_empty": 211,
+      "unique": 211,
       "top_values": [
         [
           "214",
@@ -90,12 +90,12 @@
         ]
       ],
       "numeric_min": 1.0,
-      "numeric_max": 230.0,
-      "numeric_avg": 118.1609756097561
+      "numeric_max": 253.0,
+      "numeric_avg": 121.4691943127962
     },
     "title": {
-      "non_empty": 205,
-      "unique": 196,
+      "non_empty": 211,
+      "unique": 202,
       "top_values": [
         [
           "langchain_community-0.0.26-py3-none-any.whl: 6 vulnerabilities (highest severity is: 8.4) reachable",
@@ -148,8 +148,8 @@
       ]
     },
     "category": {
-      "non_empty": 205,
-      "unique": 7,
+      "non_empty": 211,
+      "unique": 8,
       "top_values": [
         [
           "open_source_bounty",
@@ -164,12 +164,12 @@
           30
         ],
         [
-          "grant",
+          "ai_integration",
           29
         ],
         [
-          "ai_integration",
-          28
+          "grant",
+          29
         ],
         [
           "paid_development",
@@ -178,12 +178,16 @@
         [
           "ai_bounty",
           25
+        ],
+        [
+          "open_source",
+          5
         ]
       ]
     },
     "source": {
-      "non_empty": 205,
-      "unique": 8,
+      "non_empty": 211,
+      "unique": 10,
       "top_values": [
         [
           "Crypto Bounties",
@@ -194,12 +198,12 @@
           30
         ],
         [
-          "GitHub Grant Issues",
+          "MCP Paid Opportunities",
           29
         ],
         [
-          "MCP Paid Opportunities",
-          28
+          "GitHub Grant Issues",
+          29
         ],
         [
           "GitHub Paid Issues",
@@ -216,12 +220,20 @@
         [
           "GitHub Bounty Issues",
           18
+        ],
+        [
+          "Mozilla Blog",
+          4
+        ],
+        [
+          "Open Source Initiative",
+          1
         ]
       ]
     },
     "url": {
-      "non_empty": 205,
-      "unique": 205,
+      "non_empty": 211,
+      "unique": 211,
       "top_values": [
         [
           "https://github.com/DigiByte-Core/digibyte/issues/424",
@@ -350,8 +362,8 @@
       "top_values": []
     },
     "requirements": {
-      "non_empty": 200,
-      "unique": 142,
+      "non_empty": 202,
+      "unique": 144,
       "top_values": [
         [
           "signed in to change notification settings Fork 359 Star 230 Code Issues 2",
@@ -404,12 +416,12 @@
       ]
     },
     "capital_required": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 1,
       "top_values": [
         [
           "0",
-          205
+          211
         ]
       ],
       "numeric_min": 0.0,
@@ -417,16 +429,16 @@
       "numeric_avg": 0.0
     },
     "difficulty": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 3,
       "top_values": [
         [
           "baixa",
-          194
+          198
         ],
         [
           "média",
-          8
+          10
         ],
         [
           "alta",
@@ -435,16 +447,16 @@
       ]
     },
     "estimated_hours": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 3,
       "top_values": [
         [
           "8.0",
-          194
+          198
         ],
         [
           "30.0",
-          8
+          10
         ],
         [
           "80.0",
@@ -453,15 +465,15 @@
       ],
       "numeric_min": 8.0,
       "numeric_max": 80.0,
-      "numeric_avg": 9.91219512195122
+      "numeric_avg": 10.066350710900474
     },
     "risk_level": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 4,
       "top_values": [
         [
           "médio",
-          177
+          183
         ],
         [
           "baixo",
@@ -478,12 +490,12 @@
       ]
     },
     "success_probability": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 15,
       "top_values": [
         [
           "0.02",
-          181
+          187
         ],
         [
           "0.79",
@@ -532,15 +544,15 @@
       ],
       "numeric_min": 0.02,
       "numeric_max": 0.899,
-      "numeric_avg": 0.1078
+      "numeric_avg": 0.10530331753554503
     },
     "verification_score": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 19,
       "top_values": [
         [
           "0.0",
-          178
+          184
         ],
         [
           "71.85",
@@ -589,15 +601,15 @@
       ],
       "numeric_min": 0.0,
       "numeric_max": 85.7,
-      "numeric_avg": 8.501560975609756
+      "numeric_avg": 8.259810426540284
     },
     "recommended_action": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 5,
       "top_values": [
         [
           "Descartar como conteúdo informativo ou falso positivo.",
-          177
+          183
         ],
         [
           "Preparar candidatura, proposta ou prova de conceito.",
@@ -618,12 +630,12 @@
       ]
     },
     "recommendation_reason": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 5,
       "top_values": [
         [
           "Não foram encontrados sinais suficientes de uma oportunidade executável.",
-          177
+          183
         ],
         [
           "Link ativo, recompensa explícita e baixo risco identificado.",
@@ -644,12 +656,12 @@
       ]
     },
     "verification_status": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 3,
       "top_values": [
         [
           "rejected",
-          183
+          189
         ],
         [
           "actionable",
@@ -662,21 +674,21 @@
       ]
     },
     "human_approval_required": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 2,
       "top_values": [
         [
           "0",
-          127
+          132
         ],
         [
           "1",
-          78
+          79
         ]
       ],
       "numeric_min": 0.0,
       "numeric_max": 1.0,
-      "numeric_avg": 0.3804878048780488
+      "numeric_avg": 0.3744075829383886
     },
     "country_restrictions": {
       "non_empty": 14,
@@ -717,12 +729,12 @@
       ]
     },
     "kyc_required": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 2,
       "top_values": [
         [
           "0",
-          203
+          209
         ],
         [
           "1",
@@ -731,15 +743,15 @@
       ],
       "numeric_min": 0.0,
       "numeric_max": 1.0,
-      "numeric_avg": 0.00975609756097561
+      "numeric_avg": 0.009478672985781991
     },
     "payment_method": {
-      "non_empty": 205,
+      "non_empty": 206,
       "unique": 5,
       "top_values": [
         [
           "GitHub Sponsors",
-          156
+          157
         ],
         [
           "Criptomoeda, GitHub Sponsors",
@@ -760,12 +772,12 @@
       ]
     },
     "link_active": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 2,
       "top_values": [
         [
           "1",
-          200
+          206
         ],
         [
           "0",
@@ -774,15 +786,15 @@
       ],
       "numeric_min": 0.0,
       "numeric_max": 1.0,
-      "numeric_avg": 0.975609756097561
+      "numeric_avg": 0.976303317535545
     },
     "explicit_reward": {
-      "non_empty": 205,
+      "non_empty": 211,
       "unique": 2,
       "top_values": [
         [
           "0",
-          181
+          187
         ],
         [
           "1",
@@ -791,11 +803,11 @@
       ],
       "numeric_min": 0.0,
       "numeric_max": 1.0,
-      "numeric_avg": 0.11707317073170732
+      "numeric_avg": 0.11374407582938388
     },
     "verified_at": {
-      "non_empty": 205,
-      "unique": 205,
+      "non_empty": 211,
+      "unique": 211,
       "top_values": [
         [
           "2026-07-15T14:35:06.414234+00:00",
@@ -843,6 +855,279 @@
         ],
         [
           "2026-07-15T14:35:30.803994+00:00",
+          1
+        ]
+      ]
+    },
+    "canonical_key": {
+      "non_empty": 211,
+      "unique": 211,
+      "top_values": [
+        [
+          "github:digibyte-core/digibyte#424",
+          1
+        ],
+        [
+          "github:alexzzz430/cognitive-os#5",
+          1
+        ],
+        [
+          "github:vikingr2023/awesome-agent-bounties#167",
+          1
+        ],
+        [
+          "github:vikingr2023/awesome-agent-bounties#52",
+          1
+        ],
+        [
+          "github:xevrion-v2/agent-playground#17",
+          1
+        ],
+        [
+          "github:davidleeops/mcpscan#3",
+          1
+        ],
+        [
+          "github:moorcheh-ai/memanto#770",
+          1
+        ],
+        [
+          "github:greyw0rks/bountyscout#265",
+          1
+        ],
+        [
+          "github:pedrazamiguez/split-trip#1400",
+          1
+        ],
+        [
+          "github:greyw0rks/bountyscout#256",
+          1
+        ],
+        [
+          "github:modelmirrorai/fedcourtsai#630",
+          1
+        ],
+        [
+          "github:jaywedgeworth22/api-usage-monitor#285",
+          1
+        ]
+      ]
+    },
+    "organization": {
+      "non_empty": 206,
+      "unique": 108,
+      "top_values": [
+        [
+          "Scottcjn",
+          34
+        ],
+        [
+          "Vikingr2023",
+          16
+        ],
+        [
+          "andreivorobiev",
+          11
+        ],
+        [
+          "xevrion-v2",
+          10
+        ],
+        [
+          "NSPG13",
+          8
+        ],
+        [
+          "jaywedgeworth22",
+          7
+        ],
+        [
+          "genfeedai",
+          5
+        ],
+        [
+          "Tarsnap",
+          4
+        ],
+        [
+          "RyjoxTechnologies",
+          3
+        ],
+        [
+          "electricsheephq",
+          3
+        ],
+        [
+          "greyw0rks",
+          2
+        ],
+        [
+          "mergeos-bounties",
+          2
+        ]
+      ]
+    },
+    "repository_name": {
+      "non_empty": 206,
+      "unique": 106,
+      "top_values": [
+        [
+          "rustchain-bounties",
+          33
+        ],
+        [
+          "awesome-agent-bounties",
+          16
+        ],
+        [
+          "virtual-casino-simulator",
+          11
+        ],
+        [
+          "agent-playground",
+          10
+        ],
+        [
+          "agent-bounties",
+          8
+        ],
+        [
+          "api-usage-monitor",
+          7
+        ],
+        [
+          "genfeed.ai",
+          5
+        ],
+        [
+          "tarsnap",
+          4
+        ],
+        [
+          "Octopoda-OS",
+          3
+        ],
+        [
+          "evaos-code-review-bot-neondiff",
+          3
+        ],
+        [
+          "BountyScout",
+          3
+        ],
+        [
+          "AutoPrompt",
+          3
+        ]
+      ]
+    },
+    "issue_number": {
+      "non_empty": 206,
+      "unique": 187,
+      "top_values": [
+        [
+          "5",
+          3
+        ],
+        [
+          "2",
+          3
+        ],
+        [
+          "11",
+          3
+        ],
+        [
+          "17",
+          2
+        ],
+        [
+          "770",
+          2
+        ],
+        [
+          "249",
+          2
+        ],
+        [
+          "1",
+          2
+        ],
+        [
+          "54",
+          2
+        ],
+        [
+          "4",
+          2
+        ],
+        [
+          "10",
+          2
+        ],
+        [
+          "147",
+          2
+        ],
+        [
+          "170",
+          2
+        ]
+      ],
+      "numeric_min": 1.0,
+      "numeric_max": 235807.0,
+      "numeric_avg": 5068.834951456311
+    },
+    "source_url": {
+      "non_empty": 211,
+      "unique": 211,
+      "top_values": [
+        [
+          "https://github.com/DigiByte-Core/digibyte/issues/424",
+          1
+        ],
+        [
+          "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
+          1
+        ],
+        [
+          "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167",
+          1
+        ],
+        [
+          "https://github.com/Vikingr2023/awesome-agent-bounties/issues/52",
+          1
+        ],
+        [
+          "https://github.com/xevrion-v2/agent-playground/issues/17",
+          1
+        ],
+        [
+          "https://github.com/Davidleeops/mcpscan/issues/3",
+          1
+        ],
+        [
+          "https://github.com/moorcheh-ai/memanto/issues/770",
+          1
+        ],
+        [
+          "https://github.com/greyw0rks/bountyscout/issues/265",
+          1
+        ],
+        [
+          "https://github.com/pedrazamiguez/split-trip/issues/1400",
+          1
+        ],
+        [
+          "https://github.com/greyw0rks/bountyscout/issues/256",
+          1
+        ],
+        [
+          "https://github.com/ModelMirrorAI/fedcourtsai/issues/630",
+          1
+        ],
+        [
+          "https://github.com/jaywedgeworth22/api-usage-monitor/issues/285",
           1
         ]
       ]

@@ -1,6 +1,6 @@
 # REVENUE FUNNEL DIAGNOSIS
 
-Generated: 2026-07-18T19:08:31.999016+00:00
+Generated: 2026-07-18T19:45:46.626742+00:00
 
 ## Stage Counts
 
@@ -11,7 +11,7 @@ Generated: 2026-07-18T19:08:31.999016+00:00
 | promotion_decisions | 605 | 605 |
 | promoted | 25 | 25 |
 | execution_queue | 295 | 228 |
-| verified | 205 | 205 |
+| verified | 211 | 211 |
 | economic_ranking | 4 | 4 |
 | live_validation | 4 | 4 |
 | ready_queue | 4 | 4 |
@@ -22,7 +22,7 @@ Generated: 2026-07-18T19:08:31.999016+00:00
 |---|---:|
 | Promoted → Execution Queue | 25 |
 | Execution Queue → Verified | 218 |
-| Verified → Economic Ranking | 205 |
+| Verified → Economic Ranking | 211 |
 | Economic Ranking → Live Validation | 0 |
 | Live Validation → Ready Queue | 0 |
 
@@ -41,7 +41,7 @@ Generated: 2026-07-18T19:08:31.999016+00:00
 
 | Status | Count |
 |---|---:|
-| rejected | 183 |
+| rejected | 189 |
 | actionable | 12 |
 | approval_required | 10 |
 
