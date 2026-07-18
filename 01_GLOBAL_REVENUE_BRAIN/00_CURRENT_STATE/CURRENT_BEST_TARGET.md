@@ -1,24 +1,21 @@
-# CURRENT BEST TARGET
+# Current Best Target
 
-Atualizado em: 2026-07-18T20:20:07.339918+00:00
+Status: `AUTO_START_LOCAL_EXECUTION`
 
-## Low Handing Fruit Automation
+- Repository: `johncollinsgit/TimberLine`
+- Issue: `70`
+- Title: Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture
+- Reward USD: `299.0`
+- Estimated hours: `8.0`
+- Revenue per hour: `37.38`
+- Payment confidence: `91.0`
+- Source: `github_paid_issues`
+- URL: `https://github.com/johncollinsgit/TimberLine/issues/70`
 
-- Solicitante: SecureBananaLabs/bug-bounty
-- Repositório: SecureBananaLabs/bug-bounty
-- Issue: #743
-- Recompensa: USD 700.0
-- Probabilidade de pagamento: 100.0%
-- Valor esperado: 700.0
-- Valor/hora ajustado: 175.0
-- Score final: 91.02
-- Status do plano: ready_for_human_approval
-- Próxima ação: **request_human_approval_to_begin**
-- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
+## Evidence
 
-## Segurança operacional
+recompensa explícita: 299.00 | trabalho técnico: api, cli, documentation, implement, implementation | repositório e issue identificados | concorrência aparente baixa
 
-- Aprovação humana obrigatória: sim
-- Claim realizado: não
-- Código submetido: não
-- Ação externa realizada: não
+## Risks
+
+GitHub isolado, sem intermediador de pagamento comprovado

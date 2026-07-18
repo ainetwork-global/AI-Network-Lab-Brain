@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-18T22:46:30.334360+00:00",
+  "status": "READY_FOR_LOCAL_EXECUTION_START",
+  "repository": "johncollinsgit/TimberLine",
+  "issue_number": "70",
+  "title": "Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture",
+  "url": "https://github.com/johncollinsgit/TimberLine/issues/70",
+  "reward_usd": 299.0,
+  "estimated_hours": 8.0,
+  "payment_confidence_score": 91.0,
+  "positive_evidence": "recompensa explícita: 299.00 | trabalho técnico: api, cli, documentation, implement, implementation | repositório e issue identificados | concorrência aparente baixa",
+  "risk_evidence": "GitHub isolado, sem intermediador de pagamento comprovado",
+  "source_file": "01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\paid_task_execution_queue.csv"
+}
