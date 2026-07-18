@@ -2,19 +2,19 @@
 
 Status: `AUTO_START_LOCAL_EXECUTION`
 
-- Repository: `johncollinsgit/TimberLine`
-- Issue: `70`
-- Title: Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture
-- Reward USD: `299.0`
-- Estimated hours: `8.0`
-- Revenue per hour: `37.38`
-- Payment confidence: `91.0`
+- Repository: `moorcheh-ai/memanto`
+- Issue: `770`
+- Title: [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
+- Reward USD: `100.0`
+- Estimated hours: `4.0`
+- Revenue per hour: `25.0`
+- Payment confidence: `95.0`
 - Source: `github_paid_issues`
-- URL: `https://github.com/johncollinsgit/TimberLine/issues/70`
+- URL: `https://github.com/moorcheh-ai/memanto/issues/770`
 
 ## Evidence
 
-recompensa explícita: 299.00 | trabalho técnico: api, cli, documentation, implement, implementation | repositório e issue identificados | concorrência aparente baixa
+recompensa ao executor explicitamente associada: 100.00 | trabalho técnico: api, bug, cli, documentation, fix | repositório e issue identificados | concorrência aparente baixa
 
 ## Risks
 

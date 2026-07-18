@@ -80,14 +80,45 @@ GOOD_TECH = (
 PAYMENT_TERMS = (
     "bounty",
     "reward",
-    "usd",
-    "usdc",
-    "usdt",
-    "eur",
-    "payment",
-    "paid",
     "payout",
     "prize",
+    "paid to contributor",
+    "paid to the contributor",
+    "payment to contributor",
+    "payment to the contributor",
+    "reward for accepted pull request",
+    "reward for an accepted pull request",
+    "reward for accepted submission",
+    "payment after acceptance",
+)
+
+EXECUTOR_PAYMENT_PATTERNS = (
+    r"\bbounty\b.{0,100}(?:usd|usdc|usdt|\$|€|eur)\s*[0-9]",
+    r"(?:usd|usdc|usdt|\$|€|eur)\s*[0-9][0-9,]*(?:\.[0-9]+)?.{0,100}\bbounty\b",
+    r"\breward\b.{0,100}(?:usd|usdc|usdt|\$|€|eur)\s*[0-9]",
+    r"(?:usd|usdc|usdt|\$|€|eur)\s*[0-9][0-9,]*(?:\.[0-9]+)?.{0,100}\breward\b",
+    r"\bpayout\b.{0,100}(?:usd|usdc|usdt|\$|€|eur)\s*[0-9]",
+    r"\bpaid to (?:the )?(?:developer|contributor|submitter|winner)\b",
+    r"\bpayment (?:to|for) (?:the )?(?:developer|contributor|submitter|winner)\b",
+    r"\breward for (?:an? )?(?:accepted|merged) (?:pull request|pr|submission|solution)\b",
+)
+
+COMMERCIAL_PRICING_PATTERNS = (
+    r"\bonboarding\b",
+    r"\bsubscription\b",
+    r"\bmonthly\b",
+    r"\bper month\b",
+    r"/month\b",
+    r"\bbilling cycle\b",
+    r"\bpricing plan\b",
+    r"\bmerchant\b",
+    r"\bcustomer pays\b",
+    r"\bclient pays\b",
+    r"\bimplementation fee\b",
+    r"\bsubscription fee\b",
+    r"\bcommercial terms\b",
+    r"\bproposal pricing\b",
+    r"\bthird-party vendor fees\b",
 )
 
 TRUSTED_PAYMENT_SOURCES = (
@@ -306,20 +337,58 @@ def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
     activity = 0.0
     roi = 0.0
 
-    if reward is not None:
-        payment_evidence += 18
-        reasons.append(f"recompensa explícita: {reward:.2f}")
+    executor_payment_matches = [
+        pattern
+        for pattern in EXECUTOR_PAYMENT_PATTERNS
+        if re.search(pattern, text, flags=re.IGNORECASE | re.DOTALL)
+    ]
+
+    commercial_pricing_matches = [
+        pattern
+        for pattern in COMMERCIAL_PRICING_PATTERNS
+        if re.search(pattern, text, flags=re.IGNORECASE)
+    ]
+
+    trusted_source_signal = any(
+        source in text or source in source_name.lower() or source in url.lower()
+        for source in TRUSTED_PAYMENT_SOURCES
+    )
+
+    explicit_executor_payment = bool(executor_payment_matches)
+    commercial_pricing_risk = len(commercial_pricing_matches) >= 2
+
+    if reward is not None and explicit_executor_payment:
+        payment_evidence += 22
+        reasons.append(f"recompensa ao executor explicitamente associada: {reward:.2f}")
+
         if reward >= 100:
             payment_evidence += 4
+
         if reward >= 500:
             payment_evidence += 3
+    elif reward is not None and trusted_source_signal:
+        payment_evidence += 15
+        reasons.append(
+            f"valor monetário em plataforma de bounty reconhecida: {reward:.2f}"
+        )
+    elif reward is not None:
+        hard_rejections.append(
+            "valor monetário encontrado, mas não está explicitamente associado "
+            "ao pagamento do executor"
+        )
     else:
         hard_rejections.append("sem recompensa monetária identificável")
+
+    if commercial_pricing_risk and not explicit_executor_payment:
+        hard_rejections.append(
+            "valores aparentam ser preços comerciais, assinatura, onboarding "
+            "ou cobrança ao cliente"
+        )
 
     if any(term in text for term in PAYMENT_TERMS):
         payment_evidence += 5
     else:
-        penalties.append("texto sem termos claros de pagamento")
+        penalties.append("texto sem termos claros de pagamento ao executor")
 
     trusted_match = next(
         (
@@ -534,6 +603,47 @@ def load_candidates() -> list[tuple[dict[str, str], str]]:
                     candidates.append((row, str(path.relative_to(ROOT))))
         except Exception as exc:
             print(f"[WARN] Falha ao ler {path}: {exc}", file=sys.stderr)
+
+    false_positive_path = (
+        ROOT
+        / "01_GLOBAL_REVENUE_BRAIN"
+        / "06_REJECTIONS"
+        / "payment_false_positives.csv"
+    )
+
+    if false_positive_path.exists():
+        rejected_keys: set[str] = set()
+
+        try:
+            with false_positive_path.open(
+                "r",
+                encoding="utf-8-sig",
+                newline="",
+            ) as handle:
+                for rejected in csv.DictReader(handle):
+                    repository = str(rejected.get("repository", "")).lower().strip()
+                    issue = str(rejected.get("issue_number", "")).strip()
+
+                    if repository and issue:
+                        rejected_keys.add(f"{repository}#{issue}")
+        except Exception as exc:
+            print(
+                f"[WARN] Falha ao carregar falsos positivos: {exc}",
+                file=sys.stderr,
+            )
+
+        filtered: list[tuple[dict[str, str], str]] = []
+
+        for row, source_file in candidates:
+            repository = extract_repository(row).lower()
+            issue = extract_issue_number(row)
+
+            if repository and issue and f"{repository}#{issue}" in rejected_keys:
+                continue
+
+            filtered.append((row, source_file))
+
+        candidates = filtered
 
     return candidates
 
@@ -842,3 +952,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

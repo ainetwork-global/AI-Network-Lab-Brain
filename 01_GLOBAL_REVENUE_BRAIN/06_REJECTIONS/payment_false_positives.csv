@@ -1,0 +1,2 @@
+﻿"rejected_at","repository","issue_number","prior_score","rejection_code","rejection_reason","evidence"
+"2026-07-18 20:14:30","johncollinsgit/TimberLine","70","91","COMMERCIAL_PRICING_NOT_BOUNTY","Valores monetários são preços de onboarding e assinatura do cliente, não recompensa ao executor.","Issue descreve  onboarding, /month e /month, além de sete grandes workstreams, sem promessa de payout ao colaborador."

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-18T22:46:30.334360+00:00",
+  "generated_at": "2026-07-18T23:14:44.264787+00:00",
   "status": "READY_FOR_LOCAL_EXECUTION_START",
-  "repository": "johncollinsgit/TimberLine",
-  "issue_number": "70",
-  "title": "Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture",
-  "url": "https://github.com/johncollinsgit/TimberLine/issues/70",
-  "reward_usd": 299.0,
-  "estimated_hours": 8.0,
-  "payment_confidence_score": 91.0,
-  "positive_evidence": "recompensa explícita: 299.00 | trabalho técnico: api, cli, documentation, implement, implementation | repositório e issue identificados | concorrência aparente baixa",
+  "repository": "moorcheh-ai/memanto",
+  "issue_number": "770",
+  "title": "[BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge",
+  "url": "https://github.com/moorcheh-ai/memanto/issues/770",
+  "reward_usd": 100.0,
+  "estimated_hours": 4.0,
+  "payment_confidence_score": 95.0,
+  "positive_evidence": "recompensa ao executor explicitamente associada: 100.00 | trabalho técnico: api, bug, cli, documentation, fix | repositório e issue identificados | concorrência aparente baixa",
   "risk_evidence": "GitHub isolado, sem intermediador de pagamento comprovado",
   "source_file": "01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\paid_task_execution_queue.csv"
 }
