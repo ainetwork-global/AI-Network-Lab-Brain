@@ -1,0 +1,1261 @@
+{
+  "generated_at": "2026-07-18T19:24:01.259306+00:00",
+  "files": {
+    "verified": "C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\verified_opportunities.csv",
+    "ranking": "C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\execution_candidate_ranking.csv",
+    "promoted": "C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\DISCOVERY_PROMOTED_QUEUE.csv",
+    "execution": "C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\GLOBAL_EXECUTION_QUEUE.csv",
+    "ranking_script": "C:\\Users\\AP10\\AI-Network-Lab-Brain\\01_GLOBAL_REVENUE_BRAIN\\03_INTELLIGENCE\\execution_candidate_ranking.py"
+  },
+  "counts": {
+    "verified_rows": 205,
+    "verified_unique": 205,
+    "ranking_rows": 4,
+    "ranking_unique": 4,
+    "verified_present_in_ranking": 0,
+    "verified_missing_from_ranking": 205,
+    "promoted_rows": 25,
+    "promoted_unique": 25,
+    "promoted_present_in_execution": 0,
+    "promoted_missing_from_execution": 25
+  },
+  "verified_status_distribution": {
+    "all": {
+      "actionable": 12,
+      "approval_required": 10,
+      "rejected": 183
+    },
+    "ranked": {},
+    "dropped": {
+      "actionable": 12,
+      "approval_required": 10,
+      "rejected": 183
+    }
+  },
+  "dropped_reason_distribution": {
+    "NO_REASON_FIELD": 205
+  },
+  "verified_field_profiles": {
+    "opportunity_id": {
+      "non_empty": 205,
+      "unique": 205,
+      "top_values": [
+        [
+          "214",
+          1
+        ],
+        [
+          "32",
+          1
+        ],
+        [
+          "36",
+          1
+        ],
+        [
+          "38",
+          1
+        ],
+        [
+          "19",
+          1
+        ],
+        [
+          "213",
+          1
+        ],
+        [
+          "186",
+          1
+        ],
+        [
+          "188",
+          1
+        ],
+        [
+          "69",
+          1
+        ],
+        [
+          "204",
+          1
+        ],
+        [
+          "229",
+          1
+        ],
+        [
+          "86",
+          1
+        ]
+      ],
+      "numeric_min": 1.0,
+      "numeric_max": 230.0,
+      "numeric_avg": 118.1609756097561
+    },
+    "title": {
+      "non_empty": 205,
+      "unique": 196,
+      "top_values": [
+        [
+          "langchain_community-0.0.26-py3-none-any.whl: 6 vulnerabilities (highest severity is: 8.4) reachable",
+          3
+        ],
+        [
+          "[aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated",
+          2
+        ],
+        [
+          "[Open-Source-Bazaar/Open-Source-Bazaar.github.io] [Reward] Bot Killer",
+          2
+        ],
+        [
+          "[Open-Source-Bazaar/Open-Source-Bazaar.github.io] 开源市集代码贡献指南",
+          2
+        ],
+        [
+          "[idea2app/MobX-GitHub] MobX-GitHub 新增 Git Tree API 封装类",
+          2
+        ],
+        [
+          "[harnessclaw/harnessclaw] [Reward] HarnessClaw 体验测评（任一场景） #2",
+          2
+        ],
+        [
+          "🎯 Bounty Alert: 12 New Opportunityies found",
+          2
+        ],
+        [
+          "langchain_community-0.0.26-py3-none-any.whl: 6 vulnerabilities (highest severity is: 8.4) [main] (reachable)",
+          2
+        ],
+        [
+          "senddigidollar: integer-vs-decimal amount ambiguity is a 100× footgun",
+          1
+        ],
+        [
+          "[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals",
+          1
+        ],
+        [
+          "Calculate the exact value of PI",
+          1
+        ],
+        [
+          "Approval: create Stripe Payment Links for paid audits",
+          1
+        ]
+      ]
+    },
+    "category": {
+      "non_empty": 205,
+      "unique": 7,
+      "top_values": [
+        [
+          "open_source_bounty",
+          37
+        ],
+        [
+          "crypto_bounty",
+          30
+        ],
+        [
+          "competition",
+          30
+        ],
+        [
+          "grant",
+          29
+        ],
+        [
+          "ai_integration",
+          28
+        ],
+        [
+          "paid_development",
+          26
+        ],
+        [
+          "ai_bounty",
+          25
+        ]
+      ]
+    },
+    "source": {
+      "non_empty": 205,
+      "unique": 8,
+      "top_values": [
+        [
+          "Crypto Bounties",
+          30
+        ],
+        [
+          "GitHub Prize Issues",
+          30
+        ],
+        [
+          "GitHub Grant Issues",
+          29
+        ],
+        [
+          "MCP Paid Opportunities",
+          28
+        ],
+        [
+          "GitHub Paid Issues",
+          26
+        ],
+        [
+          "AI Agent Bounties",
+          25
+        ],
+        [
+          "GitHub Reward Issues",
+          19
+        ],
+        [
+          "GitHub Bounty Issues",
+          18
+        ]
+      ]
+    },
+    "url": {
+      "non_empty": 205,
+      "unique": 205,
+      "top_values": [
+        [
+          "https://github.com/DigiByte-Core/digibyte/issues/424",
+          1
+        ],
+        [
+          "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
+          1
+        ],
+        [
+          "https://github.com/Vikingr2023/awesome-agent-bounties/issues/167",
+          1
+        ],
+        [
+          "https://github.com/Vikingr2023/awesome-agent-bounties/issues/52",
+          1
+        ],
+        [
+          "https://github.com/xevrion-v2/agent-playground/issues/17",
+          1
+        ],
+        [
+          "https://github.com/Davidleeops/mcpscan/issues/3",
+          1
+        ],
+        [
+          "https://github.com/moorcheh-ai/memanto/issues/770",
+          1
+        ],
+        [
+          "https://github.com/greyw0rks/bountyscout/issues/265",
+          1
+        ],
+        [
+          "https://github.com/pedrazamiguez/split-trip/issues/1400",
+          1
+        ],
+        [
+          "https://github.com/greyw0rks/bountyscout/issues/256",
+          1
+        ],
+        [
+          "https://github.com/ModelMirrorAI/fedcourtsai/issues/630",
+          1
+        ],
+        [
+          "https://github.com/jaywedgeworth22/api-usage-monitor/issues/285",
+          1
+        ]
+      ]
+    },
+    "reward_amount": {
+      "non_empty": 24,
+      "unique": 17,
+      "top_values": [
+        [
+          "0.11",
+          5
+        ],
+        [
+          "3000.0",
+          3
+        ],
+        [
+          "2.01",
+          2
+        ],
+        [
+          "10000.0",
+          1
+        ],
+        [
+          "1000.0",
+          1
+        ],
+        [
+          "3500.0",
+          1
+        ],
+        [
+          "100.0",
+          1
+        ],
+        [
+          "150.0",
+          1
+        ],
+        [
+          "130.74",
+          1
+        ],
+        [
+          "28.4",
+          1
+        ],
+        [
+          "55.0",
+          1
+        ],
+        [
+          "6.0",
+          1
+        ]
+      ],
+      "numeric_min": 0.11,
+      "numeric_max": 50000.0,
+      "numeric_avg": 3343.4462500000004
+    },
+    "reward_currency": {
+      "non_empty": 24,
+      "unique": 2,
+      "top_values": [
+        [
+          "USD",
+          23
+        ],
+        [
+          "EUR",
+          1
+        ]
+      ]
+    },
+    "deadline": {
+      "non_empty": 0,
+      "unique": 0,
+      "top_values": []
+    },
+    "requirements": {
+      "non_empty": 200,
+      "unique": 142,
+      "top_values": [
+        [
+          "signed in to change notification settings Fork 359 Star 230 Code Issues 2",
+          24
+        ],
+        [
+          "IDs, or edits to shared catalog/router/shell/manifest/test-discovery files",
+          11
+        ],
+        [
+          "signed in to change notification settings Fork 439 Star 260 Code Issues 1",
+          8
+        ],
+        [
+          "signed in to change notification settings Fork 8 Star 0 Code Issues 271 Pull requests 4 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights [Open-Source-Bazaar/Open-Source-Bazaar",
+          5
+        ],
+        [
+          "signed in to change notification settings Fork 358 Star 230 Code Issues 2",
+          5
+        ],
+        [
+          "documented",
+          3
+        ],
+        [
+          "A wallet different from the creator owns the active canonical claim round",
+          3
+        ],
+        [
+          "and payment",
+          3
+        ],
+        [
+          "so the canonical parent verifier passes and emits BountySettled; the child solver must be a different wallet from the parent solver",
+          2
+        ],
+        [
+          "signed in to change notification settings Fork 356 Star 229 Code Issues 2",
+          2
+        ],
+        [
+          "signed in to change notification settings Fork 8 Star 0 Code Issues 271 Pull requests 4 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights [harnessclaw/harnessclaw] [Reward] HarnessClaw 体验测评（任一场景） #2",
+          2
+        ],
+        [
+          "signed in to change notification settings Fork 813 Star 4",
+          2
+        ]
+      ]
+    },
+    "capital_required": {
+      "non_empty": 205,
+      "unique": 1,
+      "top_values": [
+        [
+          "0",
+          205
+        ]
+      ],
+      "numeric_min": 0.0,
+      "numeric_max": 0.0,
+      "numeric_avg": 0.0
+    },
+    "difficulty": {
+      "non_empty": 205,
+      "unique": 3,
+      "top_values": [
+        [
+          "baixa",
+          194
+        ],
+        [
+          "média",
+          8
+        ],
+        [
+          "alta",
+          3
+        ]
+      ]
+    },
+    "estimated_hours": {
+      "non_empty": 205,
+      "unique": 3,
+      "top_values": [
+        [
+          "8.0",
+          194
+        ],
+        [
+          "30.0",
+          8
+        ],
+        [
+          "80.0",
+          3
+        ]
+      ],
+      "numeric_min": 8.0,
+      "numeric_max": 80.0,
+      "numeric_avg": 9.91219512195122
+    },
+    "risk_level": {
+      "non_empty": 205,
+      "unique": 4,
+      "top_values": [
+        [
+          "médio",
+          177
+        ],
+        [
+          "baixo",
+          22
+        ],
+        [
+          "alto",
+          5
+        ],
+        [
+          "crítico",
+          1
+        ]
+      ]
+    },
+    "success_probability": {
+      "non_empty": 205,
+      "unique": 15,
+      "top_values": [
+        [
+          "0.02",
+          181
+        ],
+        [
+          "0.79",
+          5
+        ],
+        [
+          "0.899",
+          3
+        ],
+        [
+          "0.789",
+          3
+        ],
+        [
+          "0.686",
+          2
+        ],
+        [
+          "0.768",
+          2
+        ],
+        [
+          "0.89",
+          1
+        ],
+        [
+          "0.886",
+          1
+        ],
+        [
+          "0.83",
+          1
+        ],
+        [
+          "0.827",
+          1
+        ],
+        [
+          "0.786",
+          1
+        ],
+        [
+          "0.771",
+          1
+        ]
+      ],
+      "numeric_min": 0.02,
+      "numeric_max": 0.899,
+      "numeric_avg": 0.1078
+    },
+    "verification_score": {
+      "non_empty": 205,
+      "unique": 19,
+      "top_values": [
+        [
+          "0.0",
+          178
+        ],
+        [
+          "71.85",
+          5
+        ],
+        [
+          "81.7",
+          3
+        ],
+        [
+          "71.7",
+          3
+        ],
+        [
+          "85.7",
+          2
+        ],
+        [
+          "80.95",
+          1
+        ],
+        [
+          "80.55",
+          1
+        ],
+        [
+          "76.85",
+          1
+        ],
+        [
+          "75.45",
+          1
+        ],
+        [
+          "75.17",
+          1
+        ],
+        [
+          "71.45",
+          1
+        ],
+        [
+          "70.1",
+          1
+        ]
+      ],
+      "numeric_min": 0.0,
+      "numeric_max": 85.7,
+      "numeric_avg": 8.501560975609756
+    },
+    "recommended_action": {
+      "non_empty": 205,
+      "unique": 5,
+      "top_values": [
+        [
+          "Descartar como conteúdo informativo ou falso positivo.",
+          177
+        ],
+        [
+          "Preparar candidatura, proposta ou prova de conceito.",
+          12
+        ],
+        [
+          "Revisar requisitos e autorizar a preparação.",
+          10
+        ],
+        [
+          "Rejeitar ou revisar manualmente o endereço.",
+          5
+        ],
+        [
+          "Rejeitar imediatamente.",
+          1
+        ]
+      ]
+    },
+    "recommendation_reason": {
+      "non_empty": 205,
+      "unique": 5,
+      "top_values": [
+        [
+          "Não foram encontrados sinais suficientes de uma oportunidade executável.",
+          177
+        ],
+        [
+          "Link ativo, recompensa explícita e baixo risco identificado.",
+          12
+        ],
+        [
+          "A oportunidade é promissora, mas exige ação humana sensível.",
+          10
+        ],
+        [
+          "O link não respondeu como uma oportunidade ativa.",
+          5
+        ],
+        [
+          "Foram encontrados sinais incompatíveis com as políticas de segurança.",
+          1
+        ]
+      ]
+    },
+    "verification_status": {
+      "non_empty": 205,
+      "unique": 3,
+      "top_values": [
+        [
+          "rejected",
+          183
+        ],
+        [
+          "actionable",
+          12
+        ],
+        [
+          "approval_required",
+          10
+        ]
+      ]
+    },
+    "human_approval_required": {
+      "non_empty": 205,
+      "unique": 2,
+      "top_values": [
+        [
+          "0",
+          127
+        ],
+        [
+          "1",
+          78
+        ]
+      ],
+      "numeric_min": 0.0,
+      "numeric_max": 1.0,
+      "numeric_avg": 0.3804878048780488
+    },
+    "country_restrictions": {
+      "non_empty": 14,
+      "unique": 8,
+      "top_values": [
+        [
+          "eligibility 1",
+          5
+        ],
+        [
+          "eligibility and payment",
+          3
+        ],
+        [
+          "Open Tool discovery 2026-07-15: 6 candidates #21 Copy link Description TarronKayAUA opened on Jul 15, 2026 Issue body actions This is the monthly propose-only tool dis",
+          1
+        ],
+        [
+          "eligibility needed) open_source_bounty GitHub Bounty Issues Frantic bounty #98 Write honestly about Frantic for runway (no cash eligibility needed) Worker price: $0 Slots:",
+          1
+        ],
+        [
+          "Open Token spend and dollar cost as a first-class measure: driver reports exact per-turn usage, Gateway persists and prices it #1608 Copy link Labels enhancement New f",
+          1
+        ],
+        [
+          "open to either)",
+          1
+        ],
+        [
+          "Eligibility",
+          1
+        ],
+        [
+          "eligibility for issue PRs \\(\\#178\\) - `da087f8` feat\\(agent\\): add recommendation confidence provenance \\(\\#226\\) - `bcf14e9` feat: add contributor evidence graph \\(\\#218\\",
+          1
+        ]
+      ]
+    },
+    "kyc_required": {
+      "non_empty": 205,
+      "unique": 2,
+      "top_values": [
+        [
+          "0",
+          203
+        ],
+        [
+          "1",
+          2
+        ]
+      ],
+      "numeric_min": 0.0,
+      "numeric_max": 1.0,
+      "numeric_avg": 0.00975609756097561
+    },
+    "payment_method": {
+      "non_empty": 205,
+      "unique": 5,
+      "top_values": [
+        [
+          "GitHub Sponsors",
+          156
+        ],
+        [
+          "Criptomoeda, GitHub Sponsors",
+          31
+        ],
+        [
+          "USDC, GitHub Sponsors",
+          9
+        ],
+        [
+          "Stripe, GitHub Sponsors",
+          8
+        ],
+        [
+          "GitHub Sponsors, Cartão-presente",
+          1
+        ]
+      ]
+    },
+    "link_active": {
+      "non_empty": 205,
+      "unique": 2,
+      "top_values": [
+        [
+          "1",
+          200
+        ],
+        [
+          "0",
+          5
+        ]
+      ],
+      "numeric_min": 0.0,
+      "numeric_max": 1.0,
+      "numeric_avg": 0.975609756097561
+    },
+    "explicit_reward": {
+      "non_empty": 205,
+      "unique": 2,
+      "top_values": [
+        [
+          "0",
+          181
+        ],
+        [
+          "1",
+          24
+        ]
+      ],
+      "numeric_min": 0.0,
+      "numeric_max": 1.0,
+      "numeric_avg": 0.11707317073170732
+    },
+    "verified_at": {
+      "non_empty": 205,
+      "unique": 205,
+      "top_values": [
+        [
+          "2026-07-15T14:35:06.414234+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:34:59.101626+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:35:00.891883+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:35:02.695054+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:35:12.991640+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:35:14.657370+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:34:51.132248+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:35:20.460486+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:35:24.022895+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:35:08.542812+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:35:27.350906+00:00",
+          1
+        ],
+        [
+          "2026-07-15T14:35:30.803994+00:00",
+          1
+        ]
+      ]
+    }
+  },
+  "ranking_filter_source_lines": [
+    {
+      "line": 38,
+      "content": "    return datetime.now("
+    },
+    {
+      "line": 47,
+      "content": "    return bool("
+    },
+    {
+      "line": 62,
+      "content": "    minimum: float = 0.0,"
+    },
+    {
+      "line": 65,
+      "content": "    return max("
+    },
+    {
+      "line": 66,
+      "content": "        minimum,"
+    },
+    {
+      "line": 80,
+      "content": "    if claim_found:"
+    },
+    {
+      "line": 83,
+      "content": "    if payment_found:"
+    },
+    {
+      "line": 86,
+      "content": "    if planning_status == \"ready_for_human_approval\":"
+    },
+    {
+      "line": 89,
+      "content": "    elif planning_status == \"requirements_review_required\":"
+    },
+    {
+      "line": 92,
+      "content": "    if estimated_hours <= 4:"
+    },
+    {
+      "line": 95,
+      "content": "    elif estimated_hours <= 8:"
+    },
+    {
+      "line": 98,
+      "content": "    elif estimated_hours <= 16:"
+    },
+    {
+      "line": 101,
+      "content": "    return round("
+    },
+    {
+      "line": 117,
+      "content": "    if truth_status == \"verified_execution_candidate\":"
+    },
+    {
+      "line": 120,
+      "content": "    elif truth_status == \"claim_process_review_required\":"
+    },
+    {
+      "line": 123,
+      "content": "    elif truth_status == \"payment_terms_review_required\":"
+    },
+    {
+      "line": 126,
+      "content": "    elif truth_status.startswith(\"rejected_\"):"
+    },
+    {
+      "line": 129,
+      "content": "    if planning_status == \"ready_for_human_approval\":"
+    },
+    {
+      "line": 132,
+      "content": "    elif planning_status == \"requirements_review_required\":"
+    },
+    {
+      "line": 135,
+      "content": "    elif planning_status in {"
+    },
+    {
+      "line": 141,
+      "content": "    if not claim_found:"
+    },
+    {
+      "line": 144,
+      "content": "    if not payment_found:"
+    },
+    {
+      "line": 147,
+      "content": "    if source_history_total <= 0:"
+    },
+    {
+      "line": 150,
+      "content": "    return round("
+    },
+    {
+      "line": 163,
+      "content": "    \"payment_probability_ranking\","
+    },
+    {
+      "line": 168,
+      "content": "    if not table_exists("
+    },
+    {
+      "line": 183,
+      "content": "    CREATE TABLE IF NOT EXISTS"
+    },
+    {
+      "line": 195,
+      "content": "        reward_amount REAL,"
+    },
+    {
+      "line": 196,
+      "content": "        reward_currency TEXT,"
+    },
+    {
+      "line": 197,
+      "content": "        payment_probability REAL,"
+    },
+    {
+      "line": 217,
+      "content": "        human_approval_required INTEGER"
+    },
+    {
+      "line": 224,
+      "content": "    CREATE INDEX IF NOT EXISTS"
+    },
+    {
+      "line": 234,
+      "content": "if has_plans:"
+    },
+    {
+      "line": 244,
+      "content": "            p.reward_amount,"
+    },
+    {
+      "line": 245,
+      "content": "            p.reward_currency,"
+    },
+    {
+      "line": 246,
+      "content": "            p.payment_probability,"
+    },
+    {
+      "line": 274,
+      "content": "        FROM payment_probability_ranking p"
+    },
+    {
+      "line": 279,
+      "content": "        WHERE COALESCE(p.reward_amount, 0) > 0"
+    },
+    {
+      "line": 280,
+      "content": "          AND COALESCE(p.payment_probability, 0) >= 25"
+    },
+    {
+      "line": 281,
+      "content": "          AND p.truth_status NOT LIKE 'rejected_%'"
+    },
+    {
+      "line": 298,
+      "content": "            p.reward_amount,"
+    },
+    {
+      "line": 299,
+      "content": "            p.reward_currency,"
+    },
+    {
+      "line": 300,
+      "content": "            p.payment_probability,"
+    },
+    {
+      "line": 318,
+      "content": "        FROM payment_probability_ranking p"
+    },
+    {
+      "line": 321,
+      "content": "        WHERE COALESCE(p.reward_amount, 0) > 0"
+    },
+    {
+      "line": 322,
+      "content": "          AND COALESCE(p.payment_probability, 0) >= 25"
+    },
+    {
+      "line": 323,
+      "content": "          AND p.truth_status NOT LIKE 'rejected_%'"
+    },
+    {
+      "line": 334,
+      "content": "print(\"Candidates eligible:\", len(rows))"
+    },
+    {
+      "line": 337,
+      "content": "    reward_amount = float("
+    },
+    {
+      "line": 338,
+      "content": "        row[\"reward_amount\"]"
+    },
+    {
+      "line": 342,
+      "content": "    payment_probability = float("
+    },
+    {
+      "line": 343,
+      "content": "        row[\"payment_probability\"]"
+    },
+    {
+      "line": 421,
+      "content": "        payment_probability * 0.45"
+    },
+    {
+      "line": 446,
+      "content": "            if estimated_hours <= 8"
+    },
+    {
+      "line": 454,
+      "content": "        + payment_probability * 0.20"
+    },
+    {
+      "line": 463,
+      "content": "    if ("
+    },
+    {
+      "line": 472,
+      "content": "    elif ("
+    },
+    {
+      "line": 480,
+      "content": "    elif ("
+    },
+    {
+      "line": 481,
+      "content": "        payment_probability >= 60"
+    },
+    {
+      "line": 499,
+      "content": "        \"reward_amount\": reward_amount,"
+    },
+    {
+      "line": 500,
+      "content": "        \"reward_currency\": row[\"reward_currency\"],"
+    },
+    {
+      "line": 501,
+      "content": "        \"payment_probability\": payment_probability,"
+    },
+    {
+      "line": 577,
+      "content": "            reward_amount,"
+    },
+    {
+      "line": 578,
+      "content": "            reward_currency,"
+    },
+    {
+      "line": 579,
+      "content": "            payment_probability,"
+    },
+    {
+      "line": 597,
+      "content": "            human_approval_required,"
+    },
+    {
+      "line": 620,
+      "content": "            reward_amount ="
+    },
+    {
+      "line": 621,
+      "content": "                excluded.reward_amount,"
+    },
+    {
+      "line": 622,
+      "content": "            reward_currency ="
+    },
+    {
+      "line": 623,
+      "content": "                excluded.reward_currency,"
+    },
+    {
+      "line": 624,
+      "content": "            payment_probability ="
+    },
+    {
+      "line": 625,
+      "content": "                excluded.payment_probability,"
+    },
+    {
+      "line": 660,
+      "content": "            human_approval_required = 1,"
+    },
+    {
+      "line": 674,
+      "content": "            item[\"reward_amount\"],"
+    },
+    {
+      "line": 675,
+      "content": "            item[\"reward_currency\"],"
+    },
+    {
+      "line": 676,
+      "content": "            item[\"payment_probability\"],"
+    },
+    {
+      "line": 716,
+      "content": "    \"reward_currency\","
+    },
+    {
+      "line": 717,
+      "content": "    \"reward_amount\","
+    },
+    {
+      "line": 718,
+      "content": "    \"payment_probability\","
+    },
+    {
+      "line": 754,
+      "content": "                if field not in {"
+    },
+    {
+      "line": 778,
+      "content": "    f\"**{'definido' if ranked_candidates else 'não definido'}**\","
+    },
+    {
+      "line": 782,
+      "content": "if ranked_candidates:"
+    },
+    {
+      "line": 794,
+      "content": "        f\"{best['reward_currency']} \""
+    },
+    {
+      "line": 795,
+      "content": "        f\"{best['reward_amount']}\","
+    },
+    {
+      "line": 797,
+      "content": "        f\"**{best['payment_probability']}%**\","
+    },
+    {
+      "line": 826,
+      "content": "            f\"{item['reward_currency']} \""
+    },
+    {
+      "line": 827,
+      "content": "            f\"{item['reward_amount']}\","
+    },
+    {
+      "line": 829,
+      "content": "            f\"{item['payment_probability']}%\","
+    },
+    {
+      "line": 852,
+      "content": "if ranked_candidates:"
+    },
+    {
+      "line": 866,
+      "content": "        f\"{best['reward_currency']} \""
+    },
+    {
+      "line": 867,
+      "content": "        f\"{best['reward_amount']}\","
+    },
+    {
+      "line": 869,
+      "content": "        f\"{best['payment_probability']}%\","
+    },
+    {
+      "line": 906,
+      "content": "    \"Eligible candidates:\","
+    },
+    {
+      "line": 910,
+      "content": "if ranked_candidates:"
+    },
+    {
+      "line": 921,
+      "content": "        \"Reward:\","
+    },
+    {
+      "line": 922,
+      "content": "        best[\"reward_currency\"],"
+    },
+    {
+      "line": 923,
+      "content": "        best[\"reward_amount\"],"
+    },
+    {
+      "line": 927,
+      "content": "        f\"{best['payment_probability']}%\","
+    },
+    {
+      "line": 980,
+      "content": "        \"   reward:\","
+    },
+    {
+      "line": 981,
+      "content": "        item[\"reward_currency\"],"
+    },
+    {
+      "line": 982,
+      "content": "        item[\"reward_amount\"],"
+    },
+    {
+      "line": 986,
+      "content": "        f\"{item['payment_probability']}%\","
+    }
+  ]
+}
