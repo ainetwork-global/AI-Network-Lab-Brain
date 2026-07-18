@@ -1,2 +1,5 @@
 ﻿"rejected_at","repository","issue_number","prior_score","rejection_code","rejection_reason","evidence"
 "2026-07-18 20:14:30","johncollinsgit/TimberLine","70","91","COMMERCIAL_PRICING_NOT_BOUNTY","Valores monetários são preços de onboarding e assinatura do cliente, não recompensa ao executor.","Issue descreve  onboarding, /month e /month, além de sete grandes workstreams, sem promessa de payout ao colaborador."
+"2026-07-18 20:34:10","moorcheh-ai/memanto","770","95","SATURATED_COMPETITION","A issue já possui múltiplos participantes e vários PRs submetidos para a mesma bounty.","Comentários mencionam PRs 785, 792, 794, 796, 797 e 799, incluindo cinco PRs de segurança de um único participante."
+"2026-07-18 20:40:20","SecureBananaLabs/bug-bounty","743","92.0","SATURATED_COMPETITION","A oportunidade apresenta concorrência excessiva.","comments=1403; attempts=1309; pr_references=517; score=100"
+"2026-07-18 20:40:37","SecureBananaLabs/bug-bounty","80","87.69","SATURATED_COMPETITION","A oportunidade apresenta concorrência excessiva.","comments=447; attempts=394; pr_references=89; score=100"

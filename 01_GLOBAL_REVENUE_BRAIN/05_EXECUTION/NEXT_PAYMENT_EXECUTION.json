@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-18T23:14:44.264787+00:00",
+  "generated_at": "2026-07-18T23:40:49.202061+00:00",
   "status": "READY_FOR_LOCAL_EXECUTION_START",
-  "repository": "moorcheh-ai/memanto",
-  "issue_number": "770",
-  "title": "[BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge",
-  "url": "https://github.com/moorcheh-ai/memanto/issues/770",
-  "reward_usd": 100.0,
-  "estimated_hours": 4.0,
-  "payment_confidence_score": 95.0,
-  "positive_evidence": "recompensa ao executor explicitamente associada: 100.00 | trabalho técnico: api, bug, cli, documentation, fix | repositório e issue identificados | concorrência aparente baixa",
+  "repository": "zhangjiayang6835-cyber/bounty-plaza",
+  "issue_number": "310",
+  "title": "[Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty $2,500] Optimise/i",
+  "url": "https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/310",
+  "reward_usd": 2500.0,
+  "estimated_hours": 12.0,
+  "payment_confidence_score": 87.5,
+  "positive_evidence": "recompensa ao executor explicitamente associada: 2500.00 | trabalho técnico: api | repositório e issue identificados | concorrência aparente baixa",
   "risk_evidence": "GitHub isolado, sem intermediador de pagamento comprovado",
-  "source_file": "01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\paid_task_execution_queue.csv"
+  "source_file": "01_GLOBAL_REVENUE_BRAIN\\04_OPPORTUNITIES\\DISCOVERY_PROMOTED_QUEUE.csv"
 }

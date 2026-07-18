@@ -2,19 +2,19 @@
 
 Status: `AUTO_START_LOCAL_EXECUTION`
 
-- Repository: `moorcheh-ai/memanto`
-- Issue: `770`
-- Title: [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
-- Reward USD: `100.0`
-- Estimated hours: `4.0`
-- Revenue per hour: `25.0`
-- Payment confidence: `95.0`
-- Source: `github_paid_issues`
-- URL: `https://github.com/moorcheh-ai/memanto/issues/770`
+- Repository: `zhangjiayang6835-cyber/bounty-plaza`
+- Issue: `310`
+- Title: [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty $2,500] Optimise/i
+- Reward USD: `2500.0`
+- Estimated hours: `12.0`
+- Revenue per hour: `208.33`
+- Payment confidence: `87.5`
+- Source: `github_search_api_candidates.csv`
+- URL: `https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/310`
 
 ## Evidence
 
-recompensa ao executor explicitamente associada: 100.00 | trabalho técnico: api, bug, cli, documentation, fix | repositório e issue identificados | concorrência aparente baixa
+recompensa ao executor explicitamente associada: 2500.00 | trabalho técnico: api | repositório e issue identificados | concorrência aparente baixa
 
 ## Risks
 
