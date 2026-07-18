@@ -1,24 +1,24 @@
 ﻿# GLOBAL DISCOVERY PIPELINE
 
-Generated: 2026-07-17 19:00:09
+Generated: 2026-07-18 14:47:09
 
 ## Summary
 
-- Duration seconds: 9.36
-- Unique discovered opportunities: 604
-- Intelligence-ranked opportunities: 604
+- Duration seconds: 11.1
+- Unique discovered opportunities: 605
+- Intelligence-ranked opportunities: 605
 - Very high priority: 0
 - High priority: 10
-- Medium priority: 356
-- Low priority: 238
+- Medium priority: 354
+- Low priority: 241
 
 ## Pipeline Steps
 
 | Step | Status | Seconds | Detail |
 |---|---:|---:|---|
-| GitHub Search API Discovery | SUCCESS | 8.42 |  |
-| Merge Discovery Sources | SUCCESS | 0.2 |  |
-| Discovery Intelligence | SUCCESS | 0.73 |  |
+| GitHub Search API Discovery | SUCCESS | 9.58 |  |
+| Merge Discovery Sources | SUCCESS | 0.49 |  |
+| Discovery Intelligence | SUCCESS | 0.95 |  |
 
 ## Top Discovery Candidates
 
@@ -34,14 +34,14 @@ Generated: 2026-07-17 19:00:09
 | 8 | Soneso/stellar-agent-wallet | 78 | 60 | HIGH | MPP: outbound transport integration (automatic paid retry) |
 | 9 | COS301-SE-2026/SpendSense | 230 | 60 | HIGH | Quiz reward service: characterise existing payment reward behaviour with tests |
 | 10 | owoWork/owoWork-contract | 19 | 60 | HIGH | Implement Reward/Payment System |
-| 11 | UnsafeLabs/Bounty-Hunters | 917 | 55 | MEDIUM | [ Crypto ] Fix integer overflow in TokenVesting calculation for large allocations |
-| 12 | UnsafeLabs/Bounty-Hunters | 916 | 55 | MEDIUM | [ Crypto ] Fix MultiSigWallet confirmation race condition during execution callback |
-| 13 | UnsafeLabs/Bounty-Hunters | 918 | 55 | MEDIUM | [ Crypto ] Fix first-depositor price manipulation in LiquidityPool |
-| 14 | UnsafeLabs/Bounty-Hunters | 920 | 55 | MEDIUM | [ Crypto ] Fix cross-chain replay attack in CrossChainBridge signature verification |
-| 15 | Scottcjn/legend-of-elya-n64 | 10 | 55 | MEDIUM | [BOUNTY] N64 RustChain Mining ROM — Mine Crypto on Nintendo 64 (200 RTC) |
-| 16 | Nexussyn/ai-growth-engine | 2 | 55 | MEDIUM | [AGENT-TASK] Implement referral reward loop — +20% conversion |
-| 17 | UnsafeLabs/Bounty-Hunters | 919 | 55 | MEDIUM | [ Crypto ] Fix zero-fee flash loans and add pool drainage protection |
-| 18 | cyberfly/eventku | 31 | 55 | MEDIUM | Integrate FPX payment gateway for paid event registration |
+| 11 | UnsafeLabs/Bounty-Hunters | 920 | 55 | MEDIUM | [ Crypto ] Fix cross-chain replay attack in CrossChainBridge signature verification |
+| 12 | UnsafeLabs/Bounty-Hunters | 917 | 55 | MEDIUM | [ Crypto ] Fix integer overflow in TokenVesting calculation for large allocations |
+| 13 | UnsafeLabs/Bounty-Hunters | 916 | 55 | MEDIUM | [ Crypto ] Fix MultiSigWallet confirmation race condition during execution callback |
+| 14 | Scottcjn/legend-of-elya-n64 | 10 | 55 | MEDIUM | [BOUNTY] N64 RustChain Mining ROM — Mine Crypto on Nintendo 64 (200 RTC) |
+| 15 | Nexussyn/ai-growth-engine | 2 | 55 | MEDIUM | [AGENT-TASK] Implement referral reward loop — +20% conversion |
+| 16 | UnsafeLabs/Bounty-Hunters | 919 | 55 | MEDIUM | [ Crypto ] Fix zero-fee flash loans and add pool drainage protection |
+| 17 | UnsafeLabs/Bounty-Hunters | 918 | 55 | MEDIUM | [ Crypto ] Fix first-depositor price manipulation in LiquidityPool |
+| 18 | UnsafeLabs/Bounty-Hunters | 911 | 55 | MEDIUM | [ Crypto ] Fix reentrancy vulnerability in StakingVault withdraw and claimRewards |
 | 19 | Davidleeops/mcpscan | 3 | 55 | MEDIUM | Approval: create Stripe Payment Links for paid audits |
 | 20 | phevenAm/honest-portal | 57 | 55 | MEDIUM | payment automatically marks session as paid |
 
@@ -49,4 +49,4 @@ Generated: 2026-07-17 19:00:09
 
 - GLOBAL_DISCOVERY_QUEUE.csv
 - DISCOVERY_INTELLIGENCE_QUEUE.csv
-- Log: global_discovery_pipeline_20260717_190000.log
+- Log: global_discovery_pipeline_20260718_144658.log

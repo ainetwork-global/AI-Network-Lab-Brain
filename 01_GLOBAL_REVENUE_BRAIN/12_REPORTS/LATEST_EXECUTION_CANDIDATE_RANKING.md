@@ -1,6 +1,6 @@
 # Global Revenue Brain — Execution Candidate Ranking
 
-Gerado em: 2026-07-18T17:15:52.464572+00:00
+Gerado em: 2026-07-18T17:47:56.012766+00:00
 
 Nenhuma ação externa foi realizada.
 
