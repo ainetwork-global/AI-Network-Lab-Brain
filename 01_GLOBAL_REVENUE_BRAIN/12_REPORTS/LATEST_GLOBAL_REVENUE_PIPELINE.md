@@ -1,6 +1,6 @@
 ﻿# GLOBAL REVENUE PIPELINE
 
-Generated at: 2026-07-18 16:45:46
+Generated at: 2026-07-18 17:20:15
 
 ## Pipeline status
 
@@ -36,4 +36,4 @@ Generated at: 2026-07-18 16:45:46
 ## Safety boundary
 
 Este pipeline identifica, classifica, valida e prepara oportunidades.
-Ele nÃ£o reivindica tarefas, nÃ£o envia cÃ³digo, nÃ£o cria propostas e nÃ£o realiza submissÃµes automaticamente.
+Ele não reivindica tarefas, não envia código, não cria propostas e não realiza submissões automaticamente.

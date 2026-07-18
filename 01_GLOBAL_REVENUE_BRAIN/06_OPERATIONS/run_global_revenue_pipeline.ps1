@@ -1,8 +1,27 @@
-param(
+﻿param(
     [switch]$SkipDiscovery
 )
 
 $ErrorActionPreference = "Stop"
+
+# UTF-8 obrigatório para Python e PowerShell.
+$env:PYTHONUTF8 = "1"
+$env:PYTHONIOENCODING = "utf-8"
+
+try {
+    [Console]::InputEncoding = `
+        [System.Text.UTF8Encoding]::new($false)
+
+    [Console]::OutputEncoding = `
+        [System.Text.UTF8Encoding]::new($false)
+}
+catch {
+    # O pipeline continua mesmo em hosts sem console completo.
+}
+
+$OutputEncoding = `
+    [System.Text.UTF8Encoding]::new($false)
+
 
 $OperationsDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Root = Split-Path -Parent $OperationsDir
