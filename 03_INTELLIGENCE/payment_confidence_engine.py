@@ -25,6 +25,8 @@ OUTPUT_HANDOFF = EXECUTION_DIR / "NEXT_PAYMENT_EXECUTION.json"
 
 MIN_CONFIDENCE = 80.0
 AUTO_START_CONFIDENCE = 85.0
+MIN_REWARD_USD = 25.0
+MIN_REVENUE_PER_HOUR = 10.0
 
 REJECTED_SOURCE_FILE = (
     ROOT
@@ -554,6 +556,20 @@ def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
 
     if reward is not None and estimated_hours > 0:
         revenue_per_hour = reward / estimated_hours
+
+        if reward < MIN_REWARD_USD:
+            hard_rejections.append(
+                f"recompensa abaixo do mínimo econômico: "
+                f"{reward:.2f} < {MIN_REWARD_USD:.2f}"
+            )
+
+        if revenue_per_hour < MIN_REVENUE_PER_HOUR:
+            hard_rejections.append(
+                f"retorno por hora abaixo do mínimo econômico: "
+                f"{revenue_per_hour:.2f} < "
+                f"{MIN_REVENUE_PER_HOUR:.2f}"
+            )
+
         if revenue_per_hour >= 100:
             roi = 12
         elif revenue_per_hour >= 50:
@@ -563,10 +579,13 @@ def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
         elif revenue_per_hour >= 10:
             roi = 5
         else:
-            roi = 2
-            penalties.append("retorno por hora baixo")
+            roi = 0
+            penalties.append("retorno por hora economicamente inviável")
     else:
         revenue_per_hour = 0.0
+        hard_rejections.append(
+            "não foi possível calcular retorno econômico por hora"
+        )
 
     activity += min(5.0, existing_score / 20.0)
 
@@ -1026,6 +1045,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
 
