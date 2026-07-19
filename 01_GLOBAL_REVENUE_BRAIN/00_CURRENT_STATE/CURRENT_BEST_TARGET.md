@@ -1,21 +1,21 @@
 # Current Best Target
 
-Status: `AUTO_START_LOCAL_EXECUTION`
+Status: `PAYMENT_VERIFIED_CANDIDATE`
 
-- Repository: `zhangjiayang6835-cyber/bounty-plaza`
-- Issue: `255`
-- Title: [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty] [Bounty $2,500] Optimise/improve ac
-- Reward USD: `2500.0`
-- Estimated hours: `12.0`
-- Revenue per hour: `208.33`
-- Payment confidence: `87.5`
-- Source: `github_search_api_candidates.csv`
-- URL: `https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/255`
+- Repository: `Nexussyn/ai-growth-platform`
+- Issue: `4`
+- Title: 🔍 [Agent Task] Add Algora bounty discovery to runtime-opportunity-scout
+- Reward USD: `3.0`
+- Estimated hours: `5.0`
+- Revenue per hour: `0.6`
+- Payment confidence: `81.46`
+- Source: `github_paid_issues`
+- URL: `https://github.com/Nexussyn/ai-growth-platform/issues/4`
 
 ## Evidence
 
-recompensa ao executor explicitamente associada: 2500.00 | trabalho técnico: api | repositório e issue identificados | concorrência aparente baixa
+valor monetário em plataforma de bounty reconhecida: 3.00 | plataforma de pagamento reconhecida: algora | trabalho técnico: api, integration | repositório e issue identificados | concorrência aparente baixa
 
 ## Risks
 
-GitHub isolado, sem intermediador de pagamento comprovado
+retorno por hora baixo

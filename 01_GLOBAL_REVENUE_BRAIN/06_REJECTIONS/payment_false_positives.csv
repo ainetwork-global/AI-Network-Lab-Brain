@@ -4,3 +4,4 @@
 "2026-07-18 20:40:20","SecureBananaLabs/bug-bounty","743","92.0","SATURATED_COMPETITION","A oportunidade apresenta concorrência excessiva.","comments=1403; attempts=1309; pr_references=517; score=100"
 "2026-07-18 20:40:37","SecureBananaLabs/bug-bounty","80","87.69","SATURATED_COMPETITION","A oportunidade apresenta concorrência excessiva.","comments=447; attempts=394; pr_references=89; score=100"
 "2026-07-18 20:49:56","zhangjiayang6835-cyber/bounty-plaza","310","87.5","HIGH_COMPETITION","O candidato foi classificado com concorrência HIGH e não deve entrar em execução.","comments=5; attempts=3; pr_references=1; competition_score=36; competition_level=HIGH"
+"2026-07-18 21:03:10","zhangjiayang6835-cyber/bounty-plaza","255","87.5","NON_CANONICAL_BOUNTY_MIRROR","A issue é um espelho/agregador e não representa a fonte oficial da recompensa.","O corpo aponta para tenstorrent/tt-metal#49625, contém cópias encadeadas de issues e não confirma pagamento direto ao executor."

@@ -26,6 +26,46 @@ OUTPUT_HANDOFF = EXECUTION_DIR / "NEXT_PAYMENT_EXECUTION.json"
 MIN_CONFIDENCE = 80.0
 AUTO_START_CONFIDENCE = 85.0
 
+REJECTED_SOURCE_FILE = (
+    ROOT
+    / "01_GLOBAL_REVENUE_BRAIN"
+    / "06_REJECTIONS"
+    / "rejected_source_repositories.csv"
+)
+
+MIRROR_SIGNAL_PATTERNS = (
+    r"\bsource url\b",
+    r"\boriginal issue\b",
+    r"\boriginal bounty\b",
+    r"\bmirrored from\b",
+    r"\bimported from\b",
+    r"\baggregated from\b",
+)
+
+def load_rejected_source_repositories() -> set[str]:
+    rejected: set[str] = set()
+
+    if not REJECTED_SOURCE_FILE.exists():
+        return rejected
+
+    try:
+        with REJECTED_SOURCE_FILE.open(
+            "r",
+            encoding="utf-8-sig",
+            newline="",
+        ) as handle:
+            for row in csv.DictReader(handle):
+                repository = str(row.get("repository", "")).strip().lower()
+
+                if repository:
+                    rejected.add(repository)
+    except Exception as exc:
+        print(
+            f"[WARN] Falha ao carregar fontes rejeitadas: {exc}",
+            file=sys.stderr,
+        )
+
+    return rejected
 CSV_PRIORITY = [
     "execution_candidate_ranking.csv",
     "payment_probability_ranking.csv",
@@ -311,6 +351,12 @@ def get_existing_score(row: dict[str, str]) -> float:
 def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
     text = joined_text(row)
     reward = extract_reward(row)
+
+    mirror_signal_count = sum(
+        1
+        for pattern in MIRROR_SIGNAL_PATTERNS
+        if re.search(pattern, text, flags=re.IGNORECASE)
+    )
     repository = extract_repository(row)
     issue_number = extract_issue_number(row)
     url = extract_url(row)
@@ -407,6 +453,11 @@ def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
         penalties.append("GitHub isolado, sem intermediador de pagamento comprovado")
     else:
         platform_trust = 3
+
+    if mirror_signal_count >= 2:
+        hard_rejections.append(
+            "oportunidade aparenta ser espelho ou agregação de fonte externa"
+        )
 
     bad_matches = [term for term in BAD_TEXT if term in text]
     if bad_matches:
@@ -562,6 +613,7 @@ def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
 
 def load_candidates() -> list[tuple[dict[str, str], str]]:
     candidates: list[tuple[dict[str, str], str]] = []
+    rejected_sources = load_rejected_source_repositories()
     visited: set[Path] = set()
 
     ordered_files: list[Path] = []
@@ -598,6 +650,11 @@ def load_candidates() -> list[tuple[dict[str, str], str]]:
                     row = normalized_row(raw)
 
                     if not any(row.values()):
+                        continue
+
+                    repository = extract_repository(row).lower()
+
+                    if repository and repository in rejected_sources:
                         continue
 
                     candidates.append((row, str(path.relative_to(ROOT))))
@@ -952,4 +1009,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
