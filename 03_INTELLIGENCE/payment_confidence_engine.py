@@ -383,6 +383,73 @@ def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
     penalties: list[str] = []
     hard_rejections: list[str] = []
 
+    live_competition_level = first_value(
+        row,
+        ["competition_level_live"],
+    ).strip().upper()
+
+    live_competition_score = parse_number(
+        first_value(
+            row,
+            ["competition_score_live"],
+        )
+    )
+
+    live_attempts = parse_number(
+        first_value(
+            row,
+            [
+                "attempts",
+                "attempt_count",
+                "live_attempts",
+            ],
+        )
+    ) or 0.0
+
+    live_pull_requests = parse_number(
+        first_value(
+            row,
+            [
+                "pull_requests",
+                "pr_count",
+                "live_pull_requests",
+            ],
+        )
+    ) or 0.0
+
+    if live_competition_level:
+        reasons.append(
+            f"concorrência ao vivo verificada: "
+            f"{live_competition_level}"
+        )
+
+        if live_competition_level != "LOW":
+            hard_rejections.append(
+                "concorrência ao vivo acima de LOW: "
+                f"{live_competition_level}"
+            )
+
+    if (
+        live_competition_score is not None
+        and live_competition_score >= 10
+    ):
+        hard_rejections.append(
+            "score de concorrência ao vivo acima do limite: "
+            f"{live_competition_score:.2f}"
+        )
+
+    if live_attempts >= 2:
+        hard_rejections.append(
+            "duas ou mais tentativas ao vivo detectadas: "
+            f"{live_attempts:.0f}"
+        )
+
+    if live_pull_requests >= 2:
+        hard_rejections.append(
+            "dois ou mais pull requests concorrentes detectados: "
+            f"{live_pull_requests:.0f}"
+        )
+
     payment_evidence = 0.0
     platform_trust = 0.0
     clarity = 0.0
@@ -1045,6 +1112,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
 
