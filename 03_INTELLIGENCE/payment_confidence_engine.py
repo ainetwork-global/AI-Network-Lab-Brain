@@ -357,6 +357,12 @@ def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
         for pattern in MIRROR_SIGNAL_PATTERNS
         if re.search(pattern, text, flags=re.IGNORECASE)
     )
+
+    mirror_signal_count = sum(
+        1
+        for pattern in MIRROR_SIGNAL_PATTERNS
+        if re.search(pattern, text, flags=re.IGNORECASE)
+    )
     repository = extract_repository(row)
     issue_number = extract_issue_number(row)
     url = extract_url(row)
@@ -453,6 +459,11 @@ def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
         penalties.append("GitHub isolado, sem intermediador de pagamento comprovado")
     else:
         platform_trust = 3
+
+    if mirror_signal_count >= 2:
+        hard_rejections.append(
+            "oportunidade aparenta ser espelho ou agregação de fonte externa"
+        )
 
     if mirror_signal_count >= 2:
         hard_rejections.append(
@@ -614,6 +625,7 @@ def score_candidate(row: dict[str, str], source_file: str) -> dict[str, Any]:
 def load_candidates() -> list[tuple[dict[str, str], str]]:
     candidates: list[tuple[dict[str, str], str]] = []
     rejected_sources = load_rejected_source_repositories()
+    rejected_sources = load_rejected_source_repositories()
     visited: set[Path] = set()
 
     ordered_files: list[Path] = []
@@ -650,6 +662,11 @@ def load_candidates() -> list[tuple[dict[str, str], str]]:
                     row = normalized_row(raw)
 
                     if not any(row.values()):
+                        continue
+
+                    repository = extract_repository(row).lower()
+
+                    if repository and repository in rejected_sources:
                         continue
 
                     repository = extract_repository(row).lower()
@@ -1009,5 +1026,6 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
