@@ -1,10 +1,10 @@
 # Latest Payment Confidence Report
 
-- Generated at: `2026-07-19T11:34:13.420537+00:00`
-- Unique candidates analyzed: **12195**
+- Generated at: `2026-07-19T11:44:42.259917+00:00`
+- Unique candidates analyzed: **12196**
 - Payment-verified candidates: **0**
 - Auto-start candidates: **0**
-- Rejected candidates: **12187**
+- Rejected candidates: **12188**
 - Minimum confidence: **80**
 - Local auto-start threshold: **85**
 
