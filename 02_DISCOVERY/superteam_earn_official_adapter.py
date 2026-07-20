@@ -45,12 +45,14 @@ STATE_FILE = (
     / "SUPERTEAM_EARN_SOURCE_STATE.md"
 )
 
-BASE_URL = "https://earn.superteam.fun"
+BASE_URL = "https://superteam.fun"
 
 SEED_URLS = [
+    "https://superteam.fun/earn/all",
+    "https://superteam.fun/earn/bounties",
+    "https://superteam.fun/earn/projects",
+    "https://superteam.fun/earn/grants",
     "https://earn.superteam.fun/all",
-    "https://earn.superteam.fun/all?tab=bounties",
-    "https://earn.superteam.fun/all?tab=projects",
     "https://earn.superteam.fun/regions/brazil/",
 ]
 
@@ -238,27 +240,40 @@ def normalize_url(value: str, base: str = BASE_URL) -> str:
     absolute = urljoin(base, value)
     parsed = urlparse(absolute)
 
-    if parsed.netloc.lower() != "earn.superteam.fun":
+    allowed_hosts = {
+        "superteam.fun",
+        "www.superteam.fun",
+        "earn.superteam.fun",
+    }
+
+    if parsed.netloc.lower() not in allowed_hosts:
         return ""
 
     clean_path = re.sub(r"/+", "/", parsed.path)
 
-    return f"https://earn.superteam.fun{clean_path}"
+    if clean_path.startswith("/listing/"):
+        clean_path = "/earn" + clean_path
+    elif clean_path.startswith("/listings/"):
+        clean_path = "/earn" + clean_path
+
+    query = f"?{parsed.query}" if parsed.query else ""
+
+    return f"https://superteam.fun{clean_path}{query}"
 
 
 def is_listing_url(url: str) -> bool:
-    path = urlparse(url).path.lower()
+    path = urlparse(url).path.lower().rstrip("/")
 
-    if "/listing/" in path:
-        return True
+    patterns = (
+        r"^/earn/listing/[^/]+$",
+        r"^/earn/listings/(?:bounty|project|grant)/[^/]+$",
+        r"^/earn/(?:bounty|project|grant)/[^/]+$",
+    )
 
-    if "/listings/bounty/" in path:
-        return True
-
-    if "/listings/project/" in path:
-        return True
-
-    return False
+    return any(
+        re.search(pattern, path, flags=re.IGNORECASE)
+        for pattern in patterns
+    )
 
 
 def discover_listing_urls() -> tuple[list[str], list[str]]:
@@ -284,11 +299,11 @@ def discover_listing_urls() -> tuple[list[str], list[str]]:
                 discovered.add(normalized)
 
         for pattern in (
-            r'https?://earn\.superteam\.fun/'
+            r'https?://(?:www\.)?(?:earn\.)?superteam\.fun/'
             r'(?:listing|listings/(?:bounty|project))/'
             r'[A-Za-z0-9_.~%/?=&+-]+',
             r'["\']('
-            r'/(?:listing|listings/(?:bounty|project))/'
+            r'/(?:earn/)?(?:listing|listings/(?:bounty|project|grant))/'
             r'[^"\'#?]+'
             r')["\']',
         ):
@@ -555,9 +570,9 @@ def parse_listing(url: str) -> dict[str, Any]:
 
     path = urlparse(url).path.lower()
 
-    if "/project/" in path or len(direct_signals) >= 2:
+    if "/project/" in path or "/projects/" in path or len(direct_signals) >= 2:
         opportunity_type = "project"
-    elif "/bounty/" in path or bounty_signals:
+    elif "/bounty/" in path or "/bounties/" in path or bounty_signals:
         opportunity_type = "bounty"
     else:
         opportunity_type = "unknown"
@@ -886,3 +901,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

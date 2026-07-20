@@ -2,7 +2,7 @@
 
 Status: `SUPERTEAM_OFFICIAL_ADAPTER_ACTIVE`
 
-- Last run: `2026-07-19T13:53:34.815733+00:00`
+- Last run: `2026-07-20T10:29:55.159043+00:00`
 - Listings discovered: `0`
 - Listings parsed: `0`
 - Eligible opportunities: `0`

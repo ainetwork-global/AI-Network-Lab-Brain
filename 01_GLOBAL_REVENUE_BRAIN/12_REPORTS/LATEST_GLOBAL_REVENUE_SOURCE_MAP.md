@@ -1,6 +1,6 @@
 # Latest Global Revenue Source Map
 
-- Generated: `2026-07-19T13:53:51.796759+00:00`
+- Generated: `2026-07-20T10:30:13.745790+00:00`
 - Sources mapped: **26**
 - Reachable during check: **23**
 - Adapter priorities: **18**
@@ -9,7 +9,7 @@
 
 | Rank | Score | Source | Category | Health | Adapter | Next action |
 |---:|---:|---|---|---|---|---|
-| 1 | 168.0 | Superteam Earn | crypto_bounty_and_grant | REACHABLE | ACTIVE_PARTIAL | IMPROVE_EXISTING_ADAPTER |
+| 1 | 160.0 | Superteam Earn | crypto_bounty_and_grant | REACHABLE | DISCOVERY_BLOCKED | IMPROVE_EXISTING_ADAPTER |
 | 2 | 153.0 | Algora | open_source_bounty | REACHABLE | ACTIVE_PARTIAL | IMPROVE_EXISTING_ADAPTER |
 | 3 | 146.0 | OnlyDust | open_source_rewards | REACHABLE | NOT_BUILT | BUILD_ADAPTER_NOW |
 | 4 | 111.0 | Immunefi | web3_security_bounty | REACHABLE | NOT_BUILT | VERIFY_THEN_BUILD |

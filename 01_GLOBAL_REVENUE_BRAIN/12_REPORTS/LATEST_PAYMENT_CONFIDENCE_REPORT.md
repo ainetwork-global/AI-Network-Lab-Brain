@@ -1,6 +1,6 @@
 # Latest Payment Confidence Report
 
-- Generated at: `2026-07-19T13:54:05.577345+00:00`
+- Generated at: `2026-07-20T10:30:33.005416+00:00`
 - Unique candidates analyzed: **12213**
 - Payment-verified candidates: **0**
 - Auto-start candidates: **0**
