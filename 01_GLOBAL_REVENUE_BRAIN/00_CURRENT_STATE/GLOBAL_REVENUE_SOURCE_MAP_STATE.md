@@ -4,11 +4,11 @@ Status: `GLOBAL_SOURCE_ROUTER_ACTIVE`
 
 - Sources mapped: `26`
 - Adapter candidates: `18`
-- Updated: `2026-07-19T13:12:14.785976+00:00`
+- Updated: `2026-07-20T10:30:13.747789+00:00`
 
 ## Next adapter priorities
 
-1. `Superteam Earn` — BUILD_ADAPTER_NOW — score `160.0`
+1. `Superteam Earn` — IMPROVE_EXISTING_ADAPTER — score `160.0`
 2. `Algora` — IMPROVE_EXISTING_ADAPTER — score `153.0`
 3. `OnlyDust` — BUILD_ADAPTER_NOW — score `146.0`
 4. `Immunefi` — VERIFY_THEN_BUILD — score `111.0`
