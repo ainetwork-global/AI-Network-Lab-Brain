@@ -1,0 +1,21 @@
+{
+  "total_assets": 16,
+  "assets": [
+    "https://onlydust.com/_next/static/chunks/12-9bb1f847fcc60239.js",
+    "https://onlydust.com/_next/static/chunks/152-b37750ab35774f68.js",
+    "https://onlydust.com/_next/static/chunks/3e3598ce-3cdf0f9778e947db.js",
+    "https://onlydust.com/_next/static/chunks/705-66affa6acbcdb455.js",
+    "https://onlydust.com/_next/static/chunks/775-33026f6797ee2e33.js",
+    "https://onlydust.com/_next/static/chunks/867-0b7eaa2c7987d7da.js",
+    "https://onlydust.com/_next/static/chunks/9de2bb02-9479e992d621bb6c.js",
+    "https://onlydust.com/_next/static/chunks/app/(default)/layout-d5d6a9a52870fa1c.js",
+    "https://onlydust.com/_next/static/chunks/app/error-9c16e21323d127c6.js",
+    "https://onlydust.com/_next/static/chunks/app/layout-87e379511297db6b.js",
+    "https://onlydust.com/_next/static/chunks/app/not-found-96d8586abd09446b.js",
+    "https://onlydust.com/_next/static/chunks/b888e4d7-72d53d6833644543.js",
+    "https://onlydust.com/_next/static/chunks/main-app-344ee5298fb6501f.js",
+    "https://onlydust.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "https://onlydust.com/_next/static/chunks/webpack-f9babcfc52f0f5f2.js",
+    "https://onlydust.com/manifest.json"
+  ]
+}
