@@ -7,6 +7,7 @@ import shlex
 import shutil
 import sqlite3
 import subprocess
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -79,8 +80,10 @@ def write_packet(workspace: Path, row: dict[str, str]) -> None:
 
 
 def detected_tests(source: Path) -> list[list[str]]:
+    if (source / "bun.lock").exists() or (source / "bun.lockb").exists():
+        return [["bun", "test"]]
     if (source / "package.json").exists():
-        return [["npm", "test", "--", "--runInBand"]]
+        return [["npm", "test"]]
     if (source / "pyproject.toml").exists() or (source / "pytest.ini").exists():
         return [["python", "-m", "pytest", "-q"]]
     if (source / "go.mod").exists():
@@ -96,6 +99,9 @@ def main() -> int:
 
     results: list[dict[str, str]] = []
     engine = os.environ.get("BRAIN_DEVELOPER_COMMAND", "").strip()
+    if not engine and os.environ.get("GEMINI_API_KEY"):
+        driver = ROOT / "01_EXECUTION" / "gemini_patch_driver.py"
+        engine = f"{sys.executable} {driver} --source {{source}} --prompt {{prompt}}"
     with sqlite3.connect(DB) as db:
         db.row_factory = sqlite3.Row
         operations = db.execute(
