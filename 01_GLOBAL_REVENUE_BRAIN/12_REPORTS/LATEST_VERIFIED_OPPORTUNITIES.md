@@ -1,14 +1,14 @@
 # Global Revenue Brain — Oportunidades Verificadas
 
-Gerado em: 2026-07-18T20:20:06.000153+00:00
+Gerado em: 2026-08-26T14:02:41.223598+00:00
 
 ## Resumo
 
-- Total verificado: **260**
-- Fila prioritária: **22**
-- rejected: **238**
-- actionable: **12**
-- approval_required: **10**
+- Total verificado: **310**
+- Fila prioritária: **29**
+- rejected: **281**
+- actionable: **15**
+- approval_required: **14**
 
 ## Fila prioritária
 
@@ -210,7 +210,29 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
 - Motivo: Link ativo, recompensa explícita e baixo risco identificado.
 
-### 10. 🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC
+### 10. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
+
+- Status: **actionable**
+- Categoria: competition
+- Fonte: GitHub Prize Issues
+- URL: https://github.com/moorcheh-ai/memanto/issues/1609
+- Recompensa: USD 200.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: baixo
+- Probabilidade estimada: 81.8%
+- Score de verificação: 74.35/100
+- KYC: não identificado
+- Aprovação humana: não
+- Forma de pagamento: GitHub Sponsors
+- Restrições geográficas: não identificadas
+- Requisitos: signed in to change notification settings Fork 631 Star 1
+- Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
+- Motivo: Link ativo, recompensa explícita e baixo risco identificado.
+
+### 11. 🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC
 
 - Status: **actionable**
 - Categoria: ai_bounty
@@ -232,7 +254,29 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
 - Motivo: Link ativo, recompensa explícita e baixo risco identificado.
 
-### 11. Ops dashboard
+### 12. [AGENT-TASK] Content-generation agent — auto-posts from bounty outcomes
+
+- Status: **actionable**
+- Categoria: ai_bounty
+- Fonte: AI Agent Bounties
+- URL: https://github.com/Nexussyn/ai-growth-engine/issues/5
+- Recompensa: USD 5.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: baixo
+- Probabilidade estimada: 78.6%
+- Score de verificação: 71.45/100
+- KYC: não identificado
+- Aprovação humana: não
+- Forma de pagamento: USDC, GitHub Sponsors
+- Restrições geográficas: não identificadas
+- Requisitos: signed in to change notification settings Fork 35 Star 6 Code Issues 5 Pull requests 71 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights [AGENT-TASK] Content-generation agent — auto-posts from boun
+- Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
+- Motivo: Link ativo, recompensa explícita e baixo risco identificado.
+
+### 13. Ops dashboard
 
 - Status: **actionable**
 - Categoria: ai_integration
@@ -254,7 +298,29 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
 - Motivo: Link ativo, recompensa explícita e baixo risco identificado.
 
-### 12. Automatic authoritative external-billing Subscription adoption (CODEX...
+### 14. [BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise)
+
+- Status: **actionable**
+- Categoria: open_source_bounty
+- Fonte: GitHub Bounty Issues
+- URL: https://github.com/illbnm/homelab-stack/issues/13
+- Recompensa: USD 80.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: baixo
+- Probabilidade estimada: 77.1%
+- Score de verificação: 70.06/100
+- KYC: não identificado
+- Aprovação humana: não
+- Forma de pagamento: USDT, GitHub Sponsors
+- Restrições geográficas: não identificadas
+- Requisitos: signed in to change notification settings Fork 112 Star 9 Code Issues 18 Pull requests 480 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights [BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise) #1
+- Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
+- Motivo: Link ativo, recompensa explícita e baixo risco identificado.
+
+### 15. Automatic authoritative external-billing Subscription adoption (CODEX...
 
 - Status: **actionable**
 - Categoria: paid_development
@@ -276,7 +342,7 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
 - Motivo: Link ativo, recompensa explícita e baixo risco identificado.
 
-### 13. Grant Application - Educating Communities by Educating Their Leaders
+### 16. Grant Application - Educating Communities by Educating Their Leaders
 
 - Status: **approval_required**
 - Categoria: grant
@@ -298,7 +364,29 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 14. Tool discovery 2026-07-15: 6 candidates
+### 17. Data Analytics Bounty
+
+- Status: **approval_required**
+- Categoria: crypto_bounty
+- Fonte: Crypto Bounties
+- URL: https://github.com/Honest-Protocol/Gitcoin_Metamorphosis/issues/3
+- Recompensa: USD 2,250.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: baixo
+- Probabilidade estimada: 89.9%
+- Score de verificação: 81.7/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: USDC, GitHub Sponsors
+- Restrições geográficas: não identificadas
+- Requisitos: Data analytics can be based on any tool the participant sees fit to utilize
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 18. Tool discovery 2026-07-15: 6 candidates
 
 - Status: **approval_required**
 - Categoria: paid_development
@@ -320,7 +408,29 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 15. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
+### 19. [BOUNTY $200] Testing — 自动化测试套件
+
+- Status: **approval_required**
+- Categoria: open_source_bounty
+- Fonte: GitHub Bounty Issues
+- URL: https://github.com/illbnm/homelab-stack/issues/14
+- Recompensa: USD 280.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: baixo
+- Probabilidade estimada: 83.7%
+- Score de verificação: 76.05/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: USDT, GitHub Sponsors
+- Restrições geográficas: não identificadas
+- Requisitos: signed in to change notification settings Fork 112 Star 9 Code Issues 18 Pull requests 480 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights [BOUNTY $200] Testing — 自动化测试套件 #14 New issue Copy link N
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 20. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -342,7 +452,7 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 16. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
+### 21. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -364,7 +474,7 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 17. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
+### 22. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -386,7 +496,7 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 18. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
+### 23. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
 
 - Status: **approval_required**
 - Categoria: open_source_bounty
@@ -408,7 +518,7 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 19. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
+### 24. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
 
 - Status: **approval_required**
 - Categoria: open_source_bounty
@@ -430,7 +540,7 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 20. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
+### 25. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -452,7 +562,7 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 21. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
+### 26. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -474,7 +584,7 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 22. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
+### 27. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -493,5 +603,49 @@ Gerado em: 2026-07-18T20:20:06.000153+00:00
 - Forma de pagamento: USDC, GitHub Sponsors
 - Restrições geográficas: eligibility and payment
 - Requisitos: and payment
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 28. P1 — First verified revenue: USD 10+
+
+- Status: **approval_required**
+- Categoria: ai_bounty
+- Fonte: AI Agent Bounties
+- URL: https://github.com/jadeldiaz01-png/AUREUS-2026-Autonomous-Universal-Revenue-Efficient-Utility-Scheduler/issues/2
+- Recompensa: USD 10.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: baixo
+- Probabilidade estimada: 78.9%
+- Score de verificação: 71.7/100
+- KYC: sim
+- Aprovação humana: sim
+- Forma de pagamento: GitHub Sponsors
+- Restrições geográficas: eligibility/onboarding is complete
+- Requisitos: signed in to change notification settings Fork 0 Star 0 Code Issues 1 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights P1 — First verified revenue: USD 10+ #2 New issue Copy link Ne
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 29. [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent
+
+- Status: **approval_required**
+- Categoria: ai_bounty
+- Fonte: AI Agent Bounties
+- URL: https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/834
+- Recompensa: USD 3.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: baixo
+- Probabilidade estimada: 78.8%
+- Score de verificação: 71.6/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: USDC, GitHub Sponsors
+- Restrições geográficas: não identificadas
+- Requisitos: signed in to change notification settings Fork 44 Star 7 Code Issues 405 Pull requests 218 Actions Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Security and quality Insights [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
