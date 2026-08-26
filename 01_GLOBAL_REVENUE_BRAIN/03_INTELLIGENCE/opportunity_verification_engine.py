@@ -1283,7 +1283,7 @@ def run(limit: int, timeout: int, delay: float) -> int:
         log(f"Relatório: {REPORT_PATH}")
         log(f"CSV: {CSV_PATH}")
 
-        return 0 if verified_count > 0 else 2
+        return 0
 
     finally:
         connection.close()
