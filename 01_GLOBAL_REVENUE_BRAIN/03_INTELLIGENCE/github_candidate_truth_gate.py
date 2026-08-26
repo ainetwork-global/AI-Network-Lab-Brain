@@ -16,7 +16,7 @@ REPORT = ROOT / "12_REPORTS" / "LATEST_LIVE_TRUTH_QUEUE.md"
 TARGET = ROOT / "00_CURRENT_STATE" / "CURRENT_BEST_TARGET.md"
 TODAY = datetime.now(timezone.utc).date()
 
-REWARD = re.compile(r"(?i)\b(bounty|reward|prize|payout|paid task|payment (?:is|will be|for)|usd for an accepted submission)\b")
+REWARD_OFFER = re.compile(r"(?i)(?:\\b(?:bounty|reward|prize|payout)\\b[^\\n]{0,80}(?:[$€£]|usd|usdc|eur|gbp|\\d)|(?:[$€£]|usd|usdc|eur|gbp)\\s*\\d[^\\n]{0,80}\\b(?:bounty|reward|prize|payout)\\b|usd for an accepted submission|payment (?:is|will be) [^\\n]{0,80}(?:[$€£]|usd|usdc|eur|gbp))")
 COST = re.compile(r"(?i)\b(claim bond|entry fee|application fee|deposit required|stake required|purchase required|subscription required|buy (?:a |the )?token|pay to (?:claim|join|apply))\b")
 DEADLINE = re.compile(r"(?i)\bdeadline\b[^\n]{0,80}?\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b")
 GITHUB_ISSUE = re.compile(r"https?://github\.com/([^/]+)/([^/]+)/(?:issues|pull)/(\d+)")
