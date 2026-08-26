@@ -4,3 +4,4 @@ __pycache__/
 09_LOGS/*.log
 11_DATA/*.db-wal
 11_DATA/*.db-shm
+08_WORKSPACES/*/source/\n
