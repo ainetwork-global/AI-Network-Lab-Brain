@@ -1,0 +1,50 @@
+{
+  "policy": {
+    "sensitive_credentials_in_repository": false,
+    "receive_requires_verified_profile": true,
+    "movement_requires_individual_human_approval": true,
+    "initial_cost_allowed": false
+  },
+  "profiles": [
+    {
+      "profile_key": "paypal_gilson",
+      "provider": "PayPal",
+      "rail": "paypal",
+      "currency": "MULTI",
+      "country": "BR",
+      "verification_status": "pending_user_access_recovery"
+    },
+    {
+      "profile_key": "algora_gilson",
+      "provider": "Algora",
+      "rail": "platform_payout",
+      "currency": "USD",
+      "country": "BR",
+      "verification_status": "account_exists_payout_setup_pending"
+    },
+    {
+      "profile_key": "coinbase_gilson",
+      "provider": "Coinbase",
+      "rail": "custodial_crypto",
+      "currency": "USDC",
+      "country": "BR",
+      "verification_status": "password_recovery_in_progress"
+    },
+    {
+      "profile_key": "base_gilson",
+      "provider": "Base",
+      "rail": "self_custody_wallet",
+      "currency": "USDC",
+      "country": "BR",
+      "verification_status": "account_exists_network_unverified"
+    },
+    {
+      "profile_key": "mercado_bitcoin_gilson",
+      "provider": "Mercado Bitcoin",
+      "rail": "custodial_crypto",
+      "currency": "USDC",
+      "country": "BR",
+      "verification_status": "account_exists_usdc_receive_network_unverified"
+    }
+  ]
+}

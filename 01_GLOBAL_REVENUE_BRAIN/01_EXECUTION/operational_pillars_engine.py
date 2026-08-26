@@ -14,6 +14,7 @@ APPROVAL_CSV = ROOT / "04_OPPORTUNITIES" / "HUMAN_APPROVAL_QUEUE.csv"
 OPERATIONS_CSV = ROOT / "04_OPPORTUNITIES" / "REVENUE_OPERATIONS.csv"
 REPORT = ROOT / "12_REPORTS" / "LATEST_OPERATIONAL_PILLARS.md"
 WORKSPACES = ROOT / "08_WORKSPACES"
+SETTLEMENT_CONFIG = ROOT / "01_CONFIG" / "settlement_profiles.json"
 
 
 def now() -> str:
@@ -102,6 +103,45 @@ def initialize(db: sqlite3.Connection) -> None:
         );
         """
     )
+    columns = {
+        row[1] for row in db.execute("PRAGMA table_info(settlement_profiles)")
+    }
+    if "verification_status" not in columns:
+        db.execute(
+            "ALTER TABLE settlement_profiles ADD COLUMN verification_status TEXT NOT NULL DEFAULT 'pending'"
+        )
+
+    if SETTLEMENT_CONFIG.exists():
+        config = json.loads(SETTLEMENT_CONFIG.read_text(encoding="utf-8-sig"))
+        for profile in config.get("profiles", []):
+            timestamp = now()
+            db.execute(
+                """
+                INSERT INTO settlement_profiles (
+                    profile_key, provider, rail, currency, country,
+                    verified, receive_enabled, movement_enabled,
+                    sensitive_data_location, verification_status,
+                    created_at, updated_at
+                ) VALUES (?, ?, ?, ?, ?, 0, 0, 0, NULL, ?, ?, ?)
+                ON CONFLICT(profile_key) DO UPDATE SET
+                    provider = excluded.provider,
+                    rail = excluded.rail,
+                    currency = excluded.currency,
+                    country = excluded.country,
+                    verification_status = excluded.verification_status,
+                    updated_at = excluded.updated_at
+                """,
+                (
+                    profile["profile_key"],
+                    profile["provider"],
+                    profile["rail"],
+                    profile.get("currency"),
+                    profile.get("country", "BR"),
+                    profile.get("verification_status", "pending"),
+                    timestamp,
+                    timestamp,
+                ),
+            )
     db.commit()
 
 
