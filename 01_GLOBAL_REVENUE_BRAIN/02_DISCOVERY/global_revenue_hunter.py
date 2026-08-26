@@ -6,7 +6,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -27,9 +27,34 @@ from opportunity_scorer import score_opportunity
 
 
 USER_AGENT = (
-    "Global-Revenue-Brain/1.0 "
+    "Global-Revenue-Brain/1.1 "
     "(legitimate-public-opportunity-research)"
 )
+
+MONEY_EVIDENCE = re.compile(
+    r"(?:US\\$|USD|USDC|EUR|GBP|\\$|€|£)\\s*\\d"
+    r"|\\d[\\d,.]*\\s*(?:USD|USDC|EUR|GBP)\\b",
+    re.IGNORECASE,
+)
+PAID_PLATFORM_EVIDENCE = re.compile(
+    r"\\b(?:algora|gitcoin|polar\\.sh|bounty)\\b",
+    re.IGNORECASE,
+)
+
+
+def has_explicit_reward_evidence(item: dict[str, Any]) -> bool:
+    """Keep discovery focused on issues with verifiable payment language."""
+    text = " ".join(
+        str(item.get(field, "") or "")
+        for field in ("title", "body", "html_url")
+    )
+    return bool(
+        MONEY_EVIDENCE.search(text)
+        or (
+            PAID_PLATFORM_EVIDENCE.search(text)
+            and re.search(r"\\b(?:reward|paid|payment|prize)\\b", text, re.I)
+        )
+    )
 
 
 def now_iso() -> str:
@@ -291,6 +316,13 @@ def scan_github(
     max_results = int(
         config["system"].get("maximum_results_per_query", 30)
     )
+    recent_days = max(
+        1,
+        int(config["system"].get("github_recent_update_days", 45)),
+    )
+    updated_after = (
+        datetime.now(timezone.utc) - timedelta(days=recent_days)
+    ).date().isoformat()
 
     timeout = int(
         config["system"].get("request_timeout_seconds", 20)
@@ -298,14 +330,17 @@ def scan_github(
 
     for source in config["github_queries"]:
         totals["sources"] += 1
-        source_key = build_key("github", source["name"], source["query"])
+        query = source["query"]
+        if "updated:" not in query:
+            query = f"{query} updated:>={updated_after}"
+        source_key = build_key("github", source["name"], query)
 
         try:
             response = requests.get(
                 "https://api.github.com/search/issues",
                 headers=headers,
                 params={
-                    "q": source["query"],
+                    "q": query,
                     "sort": "updated",
                     "order": "desc",
                     "per_page": max_results,
@@ -315,7 +350,13 @@ def scan_github(
 
             response.raise_for_status()
             payload = response.json()
-            items = payload.get("items", [])
+            raw_items = payload.get("items", [])
+            items = [
+                item
+                for item in raw_items
+                if has_explicit_reward_evidence(item)
+                and "pull_request" not in item
+            ]
 
             totals["found"] += len(items)
 
@@ -324,7 +365,8 @@ def scan_github(
                     github_item.get("repository_url", "")
                 )
 
-                repository = repository_url.rsplit("/", 1)[-1]
+                repository_parts = repository_url.rstrip("/").split("/")[-2:]
+                repository = "/".join(repository_parts)
 
                 item = {
                     "opportunity_key": build_key(
