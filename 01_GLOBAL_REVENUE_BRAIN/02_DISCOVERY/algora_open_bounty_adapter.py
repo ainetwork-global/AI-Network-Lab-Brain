@@ -278,14 +278,20 @@ def extract_bounties_from_page(
 
         combined = f"{title} {context}"
 
+        github_match = GITHUB_ISSUE_PATTERN.search(
+            f"{absolute} {context}"
+        )
+
+        # Algora pages contain footer prices, phone numbers and scheduling
+        # links. A paid coding bounty must resolve to an authoritative GitHub
+        # issue/PR; otherwise it is navigation content, not an opportunity.
+        if not github_match:
+            continue
+
         amount = parse_amount(combined)
 
         if amount is None:
             continue
-
-        github_match = GITHUB_ISSUE_PATTERN.search(
-            f"{absolute} {context}"
-        )
 
         github_url = None
         github_owner = None
@@ -433,6 +439,17 @@ def save_bounty(
 connection = sqlite3.connect(DATABASE)
 connection.row_factory = sqlite3.Row
 initialize_database(connection)
+
+# Every run is a fresh authoritative snapshot. Items are reopened only when
+# they are rediscovered on a currently open Algora page.
+connection.execute(
+    """
+    UPDATE algora_open_bounties
+    SET open_status = 0
+    WHERE open_status = 1
+    """
+)
+connection.commit()
 
 print()
 print("===== ALGORA OPEN BOUNTY ADAPTER =====")
