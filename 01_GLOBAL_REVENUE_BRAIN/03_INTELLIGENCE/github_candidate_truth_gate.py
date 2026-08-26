@@ -54,7 +54,7 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
         return "BLOCKED_CLOSED_OR_COMPLETED", "A API do GitHub informa que a oportunidade não está aberta.", state, comments
     if COST.search(text):
         return "BLOCKED_INITIAL_COST", "Exige depósito, taxa, bond, stake, compra ou assinatura.", state, comments
-    if not REWARD.search(text):
+    if not REWARD_OFFER.search(text):
         return "BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE", "O valor encontrado não aparece em contexto explícito de prêmio/pagamento.", state, comments
     deadline = DEADLINE.search(text)
     if deadline:
