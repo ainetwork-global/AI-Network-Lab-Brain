@@ -1,11 +1,11 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-26T16:36:51.538144+00:00`
+Generated at: `2026-08-26T17:07:53.494522+00:00`
 
-- Live candidates checked: **34**
+- Live candidates checked: **35**
 - Ready for technical review: **0**
 - Human/resource review required: **3**
-- Blocked: **31**
+- Blocked: **32**
 
 No claim, submission, contract, wallet signature, purchase, deposit, or financial transaction was performed.
 
@@ -99,7 +99,16 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 1000.0`
 - URL: https://github.com/xevrion-v2/agent-playground/issues/17
 
-## 11. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
+## 11. Kendraio App MusicBrainz integration (bounty)
+
+- Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
+- Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
+- Live GitHub state: `open`
+- Comments: `6`
+- Reward: `USD 500.0`
+- URL: https://github.com/kendraio/kendraio-app/issues/184
+
+## 12. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -108,7 +117,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 100.0`
 - URL: https://github.com/moorcheh-ai/memanto/issues/770
 
-## 12. [BOUNTY $200] Testing — 自动化测试套件
+## 13. [BOUNTY $200] Testing — 自动化测试套件
 
 - Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
 - Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
@@ -117,7 +126,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 280.0`
 - URL: https://github.com/illbnm/homelab-stack/issues/14
 
-## 13. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
+## 14. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
 
 - Truth status: `LIVE_CHECK_RETRY_REQUIRED`
 - Reason: Falha temporária na validação ao vivo: HTTPError.
@@ -126,7 +135,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 150.0`
 - URL: https://github.com/greyw0rks/bountyscout/issues/265
 
-## 14. Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses
+## 15. Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -135,7 +144,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `EUR 130.74`
 - URL: https://github.com/pedrazamiguez/split-trip/issues/1400
 
-## 15. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
+## 16. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
 
 - Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
 - Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
@@ -144,7 +153,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 200.0`
 - URL: https://github.com/moorcheh-ai/memanto/issues/1609
 
-## 16. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
+## 17. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -153,7 +162,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 0.11`
 - URL: https://github.com/NSPG13/agent-bounties/issues/273
 
-## 17. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
+## 18. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -162,7 +171,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 0.11`
 - URL: https://github.com/NSPG13/agent-bounties/issues/274
 
-## 18. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
+## 19. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -171,7 +180,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 0.11`
 - URL: https://github.com/NSPG13/agent-bounties/issues/275
 
-## 19. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
+## 20. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -180,7 +189,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 0.11`
 - URL: https://github.com/NSPG13/agent-bounties/issues/276
 
-## 20. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
+## 21. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -189,7 +198,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 0.11`
 - URL: https://github.com/NSPG13/agent-bounties/issues/277
 
-## 21. P1 — First verified revenue: USD 10+
+## 22. P1 — First verified revenue: USD 10+
 
 - Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
 - Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
@@ -198,7 +207,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 10.0`
 - URL: https://github.com/jadeldiaz01-png/AUREUS-2026-Autonomous-Universal-Revenue-Efficient-Utility-Scheduler/issues/2
 
-## 22. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
+## 23. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -207,7 +216,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 2.01`
 - URL: https://github.com/NSPG13/agent-bounties/issues/250
 
-## 23. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
+## 24. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -216,7 +225,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 2.01`
 - URL: https://github.com/NSPG13/agent-bounties/issues/249
 
-## 24. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
+## 25. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -224,12 +233,3 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Comments: `39`
 - Reward: `USD 2.0`
 - URL: https://github.com/NSPG13/agent-bounties/issues/248
-
-## 25. [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent
-
-- Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
-- Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
-- Live GitHub state: `open`
-- Comments: `9`
-- Reward: `USD 3.0`
-- URL: https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/834
