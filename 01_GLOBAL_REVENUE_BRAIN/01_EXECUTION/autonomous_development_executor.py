@@ -102,8 +102,8 @@ def main() -> int:
             """SELECT * FROM revenue_operations
                WHERE truth_status = 'READY_FOR_TECHNICAL_REVIEW'
                  AND development_status IN (
-                    'ready_for_autonomous_executor', 'waiting_for_model_runtime',
-                    'executor_retry_required'
+                    'workspace_prepared', 'ready_for_autonomous_executor',
+                    'waiting_for_model_runtime', 'executor_retry_required'
                  )
                ORDER BY reward_amount DESC, id LIMIT ?""",
             (MAX_TASKS,),
