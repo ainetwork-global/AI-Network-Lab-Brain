@@ -1,11 +1,11 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-26T19:45:04.087510+00:00`
+Generated at: `2026-08-26T19:51:19.592255+00:00`
 
-- Live candidates checked: **54**
+- Live candidates checked: **52**
 - Ready for technical review: **0**
 - Human/resource review required: **4**
-- Blocked: **50**
+- Blocked: **48**
 
 No claim, submission, contract, wallet signature, purchase, deposit, or financial transaction was performed.
 
