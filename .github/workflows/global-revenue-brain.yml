@@ -72,9 +72,6 @@ jobs:
           git config user.name "global-revenue-brain[bot]"
           git config user.email "global-revenue-brain[bot]@users.noreply.github.com"
           git add             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/priority_opportunities.csv             01_GLOBAL_REVENUE_BRAIN/11_DATA/global_revenue_brain.db             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_REVENUE_OPPORTUNITIES.md
-          if [ -f 01_GLOBAL_REVENUE_BRAIN/09_LOGS/scanner_errors.log ]; then
-            git add 01_GLOBAL_REVENUE_BRAIN/09_LOGS/scanner_errors.log
-          fi
           if git diff --cached --quiet; then
             echo "No intelligence changes to persist."
           else
