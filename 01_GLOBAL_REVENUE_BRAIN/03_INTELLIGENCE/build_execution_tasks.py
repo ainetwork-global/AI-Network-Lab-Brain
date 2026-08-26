@@ -1,6 +1,8 @@
 ﻿import sqlite3
+from pathlib import Path
 
-conn = sqlite3.connect(r"C:\Users\AP10\AI-Network-Lab-Brain\01_GLOBAL_REVENUE_BRAIN\11_DATA\global_revenue_brain.db")
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+conn = sqlite3.connect(PROJECT_ROOT / "11_DATA" / "global_revenue_brain.db")
 
 conn.execute("""
 CREATE TABLE IF NOT EXISTS revenue_execution_tasks(

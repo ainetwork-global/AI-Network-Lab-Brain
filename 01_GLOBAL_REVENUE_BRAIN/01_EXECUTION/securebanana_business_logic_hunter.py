@@ -760,7 +760,7 @@ lines.extend([
     "- Comentário criado: **não**",
     "- Fork criado: **não**",
     "- Pull request criado: **não**",
-]
+])
 
 REPORT_FILE.write_text(
     "\n".join(lines),

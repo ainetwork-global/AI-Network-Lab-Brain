@@ -6,7 +6,7 @@ from pathlib import Path
 URL_REGEX = re.compile(r'https?://[^\s"\']+')
 
 PATH_REGEX = re.compile(
-    r'/(?:api|graphql|projects|bounties|opportunities|tasks|grants|jobs|hackathons)[^"\''\s]*',
+    r"/(?:api|graphql|projects|bounties|opportunities|tasks|grants|jobs|hackathons)[^\\\"'\\s]*",
     re.IGNORECASE
 )
 
