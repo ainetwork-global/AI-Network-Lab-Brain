@@ -50,7 +50,21 @@ def main() -> int:
     )
 
     run_step(
-        "3. Geração da fila financeira prioritária",
+        "3. Descoberta oficial de bounties Algora",
+        PROJECT_ROOT
+        / "02_DISCOVERY"
+        / "algora_open_bounty_adapter.py",
+    )
+
+    run_step(
+        "4. Integração Algora na fila principal",
+        PROJECT_ROOT
+        / "02_DISCOVERY"
+        / "import_algora_into_opportunities.py",
+    )
+
+    run_step(
+        "5. Geração da fila financeira prioritária",
         PROJECT_ROOT
         / "03_INTELLIGENCE"
         / "generate_revenue_report.py",
