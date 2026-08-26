@@ -26,6 +26,8 @@ UNFUNDED = re.compile(r"(?is)\\bUNFUNDED\\b|cashier status:\\s*BLOCKED|no .?FUND
 FUNDING_EVIDENCE = re.compile(r"(?is)\\bFUNDED\\b[^\\n]{0,240}(?:basescan\\.org/(?:tx|address)/0x[a-f0-9]+|tx(?:id| hash)?\\s*[:=]\\s*0x[a-f0-9]{16,})")
 SELF_REVENUE_GOAL = re.compile(r"(?is)\\b(first verified revenue|objective.{0,80}(?:obtain|earn|generate) revenue|revenue definition|revenue target|goal.{0,80}(?:usd|usdc|revenue))\\b")
 
+ACTIVE_WORK = re.compile(r"(?is)(?:draft pull request|opened (?:a )?pull request|github\\.com/[^\\s]+/pull/\\d+)")
+
 FIELDS = ["truth_rank", "truth_status", "truth_reason", "live_state", "comments", "open_competing_prs"] 
 
 def api(path: str) -> dict:
@@ -98,6 +100,8 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
         return "BLOCKED_STALE_COMPETITION", "Competição antiga com anúncio de vencedor já previsto.", state, comments
     if re.search(r"(?i)\b(8|eight|10|ten)\s+(?:distinct\s+)?(?:ai\s+)?(?:systems|models|model families)\b", text):
         return "RESOURCE_AND_COMPETITION_REVIEW_REQUIRED", f"Demanda múltiplos modelos/serviços; há {comments} comentários concorrentes.", state, comments
+    if ACTIVE_WORK.search(comment_text) or issue.get("assignee"):
+        return "ACTIVE_WORK_CONFIRMATION_REQUIRED", "Há PR/trabalho ativo ou responsável atribuído; confirmar disponibilidade antes de desenvolver.", state, comments
     if comments >= 8:
         return "COMPETITION_REVIEW_REQUIRED", f"Há {comments} comentários; concorrência deve ser avaliada antes de investir trabalho.", state, comments
     if not row.get("payment_method", "").strip():
