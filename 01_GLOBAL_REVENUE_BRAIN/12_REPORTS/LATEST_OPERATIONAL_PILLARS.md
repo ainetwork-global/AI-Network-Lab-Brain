@@ -1,9 +1,9 @@
 # OPERATIONAL REVENUE PILLARS
 
-Generated: `2026-08-26T19:04:29.702615+00:00`
+Generated: `2026-08-26T19:10:03.576824+00:00`
 
 - Operations tracked: **6**
-- Pending individual approvals: **1**
+- Pending individual approvals: **0**
 - Settlement profiles configured: **7**
 
 ## Pillar status
@@ -17,11 +17,4 @@ Generated: `2026-08-26T19:04:29.702615+00:00`
 No external action, contract, publication, wallet signature, claim, submission, payment, withdrawal, or transfer was performed.
 
 ## Pending approvals
-
-### Approval 6 — START_DEVELOPMENT
-
-- Title: autorouting#92 Multilayer Ijump: Remove wild trace jumps
-- Reward: USD 50.0
-- Action: Autorizar início do desenvolvimento técnico isolado desta oportunidade.
-- Target: https://github.com/tscircuit/autorouting/issues/92
 

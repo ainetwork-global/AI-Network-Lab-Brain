@@ -1,11 +1,11 @@
 # Current Best Target
 
-Status: `READY_FOR_TECHNICAL_REVIEW`
+Status: `COMPETITION_REVIEW_REQUIRED`
 
-Title: autorouting#92 Multilayer Ijump: Remove wild trace jumps
-Reward: USD 50.0
-URL: https://github.com/tscircuit/autorouting/issues/92
+Title: [Bounty: 3 ETH] implement Goose class in SuperCollider
+Reward: ETH 3.0
+URL: https://github.com/dwebagents/AgentPipe/issues/131
 
-Reason: Aberta, prêmio contextual, sem custo inicial detectado e com rota de pagamento informada.
+Reason: Há 39 comentários; concorrência deve ser avaliada antes de investir trabalho.
 
 External action performed: `false`
