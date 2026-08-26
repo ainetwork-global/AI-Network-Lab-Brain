@@ -45,6 +45,14 @@
       "currency": "USDC",
       "country": "BR",
       "verification_status": "account_exists_usdc_receive_network_unverified"
+    },
+    {
+      "profile_key": "nomad_gilson",
+      "provider": "Nomad",
+      "rail": "international_bank_account",
+      "currency": "USD",
+      "country": "BR",
+      "verification_status": "account_exists_receiving_details_unverified"
     }
   ]
 }
