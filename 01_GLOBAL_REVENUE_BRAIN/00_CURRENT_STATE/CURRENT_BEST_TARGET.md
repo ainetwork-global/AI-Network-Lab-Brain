@@ -2,9 +2,9 @@
 
 Status: `READY_FOR_TECHNICAL_REVIEW`
 
-Title: Kendraio App MusicBrainz integration (bounty)
-Reward: USD 500.0
-URL: https://github.com/kendraio/kendraio-app/issues/184
+Title: autorouting#92 Multilayer Ijump: Remove wild trace jumps
+Reward: USD 50.0
+URL: https://github.com/tscircuit/autorouting/issues/92
 
 Reason: Aberta, prêmio contextual, sem custo inicial detectado e com rota de pagamento informada.
 

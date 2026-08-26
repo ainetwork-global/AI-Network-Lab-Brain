@@ -1,12 +1,12 @@
 # Global Revenue Hunter — Relatório Executivo
 
-Gerado em: `2026-08-26T18:55:59.651510+00:00`
+Gerado em: `2026-08-26T19:02:49.070757+00:00`
 
 ## Resumo
 
-- Oportunidades armazenadas: **907**
-- Oportunidades prioritárias: **139**
-- Oportunidades para revisão: **860**
+- Oportunidades armazenadas: **927**
+- Oportunidades prioritárias: **142**
+- Oportunidades para revisão: **880**
 - Oportunidades com risco elevado: **6**
 - Maior score encontrado: **78.50**
 
@@ -766,16 +766,16 @@ Gerado em: `2026-08-26T18:55:59.651510+00:00`
 
 | Fonte | Tipo | Itens | Erros consecutivos | Último sucesso |
 |---|---:|---:|---:|---|
-| AI Agent Bounties | github_api | 30 | 0 | 2026-08-26T18:55:43.561427+00:00 |
-| Crypto Bounties | github_api | 30 | 0 | 2026-08-26T18:55:42.663565+00:00 |
-| GitHub Bounty Issues | github_api | 30 | 0 | 2026-08-26T18:55:38.477482+00:00 |
-| GitHub Grant Issues | github_api | 30 | 0 | 2026-08-26T18:55:41.853691+00:00 |
-| GitHub Paid Issues | github_api | 30 | 0 | 2026-08-26T18:55:39.934077+00:00 |
-| GitHub Prize Issues | github_api | 30 | 0 | 2026-08-26T18:55:40.984511+00:00 |
-| GitHub Reward Issues | github_api | 30 | 0 | 2026-08-26T18:55:39.010972+00:00 |
-| MCP Paid Opportunities | github_api | 30 | 0 | 2026-08-26T18:55:44.367256+00:00 |
-| Mozilla Blog | rss | 20 | 0 | 2026-08-26T18:55:45.399521+00:00 |
-| Open Source Initiative | rss | 10 | 0 | 2026-08-26T18:55:45.829715+00:00 |
-| Devpost Blog | rss | 0 | 10 | - |
-| Gitcoin Blog | rss | 0 | 10 | - |
-| HackerOne Blog | rss | 0 | 10 | - |
+| AI Agent Bounties | github_api | 30 | 0 | 2026-08-26T19:02:28.224772+00:00 |
+| Crypto Bounties | github_api | 30 | 0 | 2026-08-26T19:02:27.113411+00:00 |
+| GitHub Bounty Issues | github_api | 30 | 0 | 2026-08-26T19:02:22.205457+00:00 |
+| GitHub Grant Issues | github_api | 30 | 0 | 2026-08-26T19:02:26.046014+00:00 |
+| GitHub Paid Issues | github_api | 30 | 0 | 2026-08-26T19:02:24.005211+00:00 |
+| GitHub Prize Issues | github_api | 30 | 0 | 2026-08-26T19:02:24.959500+00:00 |
+| GitHub Reward Issues | github_api | 30 | 0 | 2026-08-26T19:02:22.919653+00:00 |
+| MCP Paid Opportunities | github_api | 30 | 0 | 2026-08-26T19:02:29.171088+00:00 |
+| Mozilla Blog | rss | 20 | 0 | 2026-08-26T19:02:30.854627+00:00 |
+| Open Source Initiative | rss | 10 | 0 | 2026-08-26T19:02:31.394757+00:00 |
+| Devpost Blog | rss | 0 | 11 | - |
+| Gitcoin Blog | rss | 0 | 11 | - |
+| HackerOne Blog | rss | 0 | 11 | - |

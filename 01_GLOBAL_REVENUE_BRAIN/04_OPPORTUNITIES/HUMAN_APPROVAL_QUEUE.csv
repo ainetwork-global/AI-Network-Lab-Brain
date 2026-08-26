@@ -1,4 +1,2 @@
 ﻿approval_id,action_type,title,reward_amount,reward_currency,external_target,action_summary,status,requested_at
-1,START_DEVELOPMENT,Kendraio App MusicBrainz integration (bounty),500.0,USD,https://github.com/kendraio/kendraio-app/issues/184,Autorizar início do desenvolvimento técnico isolado desta oportunidade.,pending,2026-08-26T17:33:51.066989+00:00
-2,START_DEVELOPMENT,P1 — First verified revenue: USD 10+,10.0,USD,https://github.com/jadeldiaz01-png/AUREUS-2026-Autonomous-Universal-Revenue-Efficient-Utility-Scheduler/issues/2,Autorizar início do desenvolvimento técnico isolado desta oportunidade.,pending,2026-08-26T17:33:51.067303+00:00
 6,START_DEVELOPMENT,autorouting#92 Multilayer Ijump: Remove wild trace jumps,50.0,USD,https://github.com/tscircuit/autorouting/issues/92,Autorizar início do desenvolvimento técnico isolado desta oportunidade.,pending,2026-08-26T17:33:51.068416+00:00

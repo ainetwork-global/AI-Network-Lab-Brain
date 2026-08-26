@@ -1,9 +1,9 @@
 # OPERATIONAL REVENUE PILLARS
 
-Generated: `2026-08-26T18:57:27.689954+00:00`
+Generated: `2026-08-26T19:04:29.702615+00:00`
 
 - Operations tracked: **6**
-- Pending individual approvals: **3**
+- Pending individual approvals: **1**
 - Settlement profiles configured: **7**
 
 ## Pillar status
@@ -17,20 +17,6 @@ Generated: `2026-08-26T18:57:27.689954+00:00`
 No external action, contract, publication, wallet signature, claim, submission, payment, withdrawal, or transfer was performed.
 
 ## Pending approvals
-
-### Approval 1 — START_DEVELOPMENT
-
-- Title: Kendraio App MusicBrainz integration (bounty)
-- Reward: USD 500.0
-- Action: Autorizar início do desenvolvimento técnico isolado desta oportunidade.
-- Target: https://github.com/kendraio/kendraio-app/issues/184
-
-### Approval 2 — START_DEVELOPMENT
-
-- Title: P1 — First verified revenue: USD 10+
-- Reward: USD 10.0
-- Action: Autorizar início do desenvolvimento técnico isolado desta oportunidade.
-- Target: https://github.com/jadeldiaz01-png/AUREUS-2026-Autonomous-Universal-Revenue-Efficient-Utility-Scheduler/issues/2
 
 ### Approval 6 — START_DEVELOPMENT
 
