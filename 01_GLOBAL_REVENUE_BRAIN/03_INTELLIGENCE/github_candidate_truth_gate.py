@@ -11,12 +11,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "04_OPPORTUNITIES" / "VERIFIED_EXECUTION_QUEUE.csv"
+ALGORA_INPUT = ROOT / "04_OPPORTUNITIES" / "algora_open_bounties.csv"
 OUTPUT = ROOT / "04_OPPORTUNITIES" / "LIVE_TRUTH_EXECUTION_QUEUE.csv"
 REPORT = ROOT / "12_REPORTS" / "LATEST_LIVE_TRUTH_QUEUE.md"
 TARGET = ROOT / "00_CURRENT_STATE" / "CURRENT_BEST_TARGET.md"
 TODAY = datetime.now(timezone.utc).date()
 
-REWARD_OFFER = re.compile(r"(?i)(?:\\b(?:bounty|reward|prize|payout)\\b[^\\n]{0,80}(?:[$€£]|usd|usdc|eur|gbp|\\d)|(?:[$€£]|usd|usdc|eur|gbp)\\s*\\d[^\\n]{0,80}\\b(?:bounty|reward|prize|payout)\\b|usd for an accepted submission|payment (?:is|will be) [^\\n]{0,80}(?:[$€£]|usd|usdc|eur|gbp))")
+REWARD_OFFER = re.compile(r"(?i)(?:\b(?:bounty|reward|prize|payout)\b[^\n]{0,80}(?:[$€£]|usd|usdc|eur|gbp|\d)|(?:[$€£]|usd|usdc|eur|gbp)\s*\d[^\n]{0,80}\b(?:bounty|reward|prize|payout)\b|usd for an accepted submission|payment (?:is|will be) [^\n]{0,80}(?:[$€£]|usd|usdc|eur|gbp))")
 COST = re.compile(r"(?i)\b(claim bond|entry fee|application fee|deposit required|stake required|purchase required|subscription required|buy (?:a |the )?token|pay to (?:claim|join|apply))\b")
 DEADLINE = re.compile(r"(?i)\bdeadline\b[^\n]{0,80}?\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b")
 GITHUB_ISSUE = re.compile(r"https?://github\.com/([^/]+)/([^/]+)/(?:issues|pull)/(\d+)")
@@ -48,7 +49,27 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
 
     state = str(issue.get("state", "unknown")).lower()
     comments = int(issue.get("comments", 0) or 0)
-    text = f"{issue.get('title', '')}\n{issue.get('body', '')}"
+    try:
+        comment_rows = api(
+            f"/repos/{owner}/{repo}/issues/{number}/comments?per_page=100"
+        )
+    except (
+        urllib.error.URLError,
+        urllib.error.HTTPError,
+        TimeoutError,
+        json.JSONDecodeError,
+    ):
+        comment_rows = []
+    comment_text = "\n".join(
+        str(item.get("body", ""))
+        for item in comment_rows
+        if isinstance(item, dict)
+    )
+    text = (
+        f"{issue.get('title', '')}\n"
+        f"{issue.get('body', '')}\n"
+        f"{comment_text}"
+    )
 
     if state != "open":
         return "BLOCKED_CLOSED_OR_COMPLETED", "A API do GitHub informa que a oportunidade não está aberta.", state, comments
@@ -78,7 +99,49 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
 def main() -> int:
     with INPUT.open(encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.DictReader(handle))
-    candidates = [r for r in rows if r.get("queue_status", "").endswith("REVIEW_REQUIRED") or r.get("queue_status") == "READY_FOR_TECHNICAL_REVIEW"][:40]
+    candidates = [
+        r for r in rows
+        if r.get("queue_status", "").endswith("REVIEW_REQUIRED")
+        or r.get("queue_status") == "READY_FOR_TECHNICAL_REVIEW"
+    ]
+    known_urls = {r.get("url", "") for r in candidates}
+    if ALGORA_INPUT.exists():
+        with ALGORA_INPUT.open(
+            encoding="utf-8-sig",
+            newline="",
+        ) as handle:
+            for bounty in csv.DictReader(handle):
+                url = str(bounty.get("github_url") or "").strip()
+                if not url or url in known_urls:
+                    continue
+                candidates.append(
+                    {
+                        "rank": bounty.get("id", ""),
+                        "queue_status": "ALGORA_STAGED",
+                        "verification_score": bounty.get("candidate_score", ""),
+                        "priority_score": bounty.get("candidate_score", ""),
+                        "title": bounty.get("title", ""),
+                        "category": "coding_bounty",
+                        "source": "Algora Open Bounties",
+                        "url": url,
+                        "reward_amount": bounty.get("reward_amount", ""),
+                        "reward_currency": bounty.get("reward_currency", "USD"),
+                        "payment_method": "Algora",
+                        "difficulty": "",
+                        "estimated_hours": "",
+                        "risk_level": "baixo",
+                        "country_eligibility": "UNKNOWN_REVIEW_REQUIRED",
+                        "country_restrictions": "",
+                        "kyc_required": "1",
+                        "human_approval_required": "1",
+                        "verification_status": "algora_comment_validation",
+                        "recommended_action": "Review live bounty comments",
+                        "recommendation_reason": "Official Algora evidence is stored in GitHub comments.",
+                        "verified_at": "",
+                    }
+                )
+                known_urls.add(url)
+    candidates = candidates[:60]
     output = []
     for row in candidates:
         status, reason, state, comments = classify(row)
