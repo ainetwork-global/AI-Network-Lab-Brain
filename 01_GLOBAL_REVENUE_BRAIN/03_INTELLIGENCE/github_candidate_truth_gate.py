@@ -22,6 +22,10 @@ COST = re.compile(r"(?i)\b(claim bond|entry fee|application fee|deposit required
 DEADLINE = re.compile(r"(?i)\bdeadline\b[^\n]{0,80}?\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b")
 GITHUB_ISSUE = re.compile(r"https?://github\.com/([^/]+)/([^/]+)/(?:issues|pull)/(\d+)")
 
+UNFUNDED = re.compile(r"(?is)\\bUNFUNDED\\b|cashier status:\\s*BLOCKED|no .?FUNDED.? comment|deliver(?:y)? only after funding|awaiting funding")
+FUNDING_EVIDENCE = re.compile(r"(?is)\\bFUNDED\\b[^\\n]{0,240}(?:basescan\\.org/(?:tx|address)/0x[a-f0-9]+|tx(?:id| hash)?\\s*[:=]\\s*0x[a-f0-9]{16,})")
+SELF_REVENUE_GOAL = re.compile(r"(?is)\\b(first verified revenue|objective.{0,80}(?:obtain|earn|generate) revenue|revenue definition|revenue target|goal.{0,80}(?:usd|usdc|revenue))\\b")
+
 FIELDS = ["truth_rank", "truth_status", "truth_reason", "live_state", "comments", "open_competing_prs"] 
 
 def api(path: str) -> dict:
@@ -73,6 +77,10 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
 
     if state != "open":
         return "BLOCKED_CLOSED_OR_COMPLETED", "A API do GitHub informa que a oportunidade não está aberta.", state, comments
+    if SELF_REVENUE_GOAL.search(text):
+        return "BLOCKED_NOT_A_PAID_TASK", "A issue descreve uma meta interna de receita, não uma oferta de trabalho paga.", state, comments
+    if UNFUNDED.search(text) and not FUNDING_EVIDENCE.search(text):
+        return "BLOCKED_UNFUNDED", "O próprio protocolo informa que a recompensa ainda não foi financiada.", state, comments
     if COST.search(text):
         return "BLOCKED_INITIAL_COST", "Exige depósito, taxa, bond, stake, compra ou assinatura.", state, comments
     if not REWARD_OFFER.search(text):
