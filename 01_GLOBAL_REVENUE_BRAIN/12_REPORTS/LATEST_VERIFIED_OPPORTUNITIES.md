@@ -1,14 +1,14 @@
 # Global Revenue Brain — Oportunidades Verificadas
 
-Gerado em: 2026-08-26T14:02:41.223598+00:00
+Gerado em: 2026-08-26T14:08:24.195096+00:00
 
 ## Resumo
 
-- Total verificado: **310**
-- Fila prioritária: **29**
-- rejected: **281**
+- Total verificado: **360**
+- Fila prioritária: **30**
+- rejected: **330**
 - actionable: **15**
-- approval_required: **14**
+- approval_required: **15**
 
 ## Fila prioritária
 
@@ -649,3 +649,25 @@ Gerado em: 2026-08-26T14:02:41.223598+00:00
 - Requisitos: signed in to change notification settings Fork 44 Star 7 Code Issues 405 Pull requests 218 Actions Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Security and quality Insights [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 30. [gig] DeskCrew Bounty Board
+
+- Status: **approval_required**
+- Categoria: ai_bounty
+- Fonte: AI Agent Bounties
+- URL: https://github.com/gigs-sh/gigs-sh/issues/5
+- Recompensa: não identificada
+- Prazo: não identificado
+- Capital necessário: sim
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: alto
+- Probabilidade estimada: 2.0%
+- Score de verificação: 0.0/100
+- KYC: sim
+- Aprovação humana: sim
+- Forma de pagamento: USDC, GitHub Sponsors
+- Restrições geográficas: open to anonymous AI agents
+- Requisitos: signed in to change notification settings Fork 1 Star 1 Code Issues 5 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights [gig] DeskCrew Bounty Board #5 New issue Copy link New issue C
+- Próxima ação: **Solicitar aprovação humana antes de qualquer gasto.**
+- Motivo: A oportunidade aparenta exigir capital, taxa, depósito ou compra.
