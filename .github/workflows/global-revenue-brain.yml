@@ -73,6 +73,9 @@ jobs:
       - name: Run autonomous development executor
         run: python 01_GLOBAL_REVENUE_BRAIN/01_EXECUTION/autonomous_development_executor.py
 
+      - name: Refresh operational exports after development
+        run: python 01_GLOBAL_REVENUE_BRAIN/01_EXECUTION/operational_pillars_engine.py
+
       - name: Validate database
         run: |
           python - <<'PY'
