@@ -47,6 +47,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r 01_GLOBAL_REVENUE_BRAIN/01_CONFIG/requirements-lock.txt
 
+      - name: Verify Gemini connection once
+        run: python 01_GLOBAL_REVENUE_BRAIN/01_EXECUTION/gemini_smoke_check.py
+
       - name: Validate Python source
         run: |
           python - <<'PY'
@@ -113,6 +116,9 @@ jobs:
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_LIVE_TRUTH_QUEUE.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_OPERATIONAL_PILLARS.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_AUTONOMOUS_DEVELOPMENT.md
+          git add -A -- \
+            01_GLOBAL_REVENUE_BRAIN/01_CONFIG/GEMINI_SMOKE_PENDING \
+            01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_GEMINI_CONNECTION.md
           if git diff --cached --quiet; then
             echo "No intelligence changes to persist."
           else
