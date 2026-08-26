@@ -1,11 +1,11 @@
 # Current Best Target
 
-Status: `RESOURCE_AND_COMPETITION_REVIEW_REQUIRED`
+Status: `READY_FOR_TECHNICAL_REVIEW`
 
-Title: [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
-Reward: USD 3000.0
-URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/52
+Title: Kendraio App MusicBrainz integration (bounty)
+Reward: USD 500.0
+URL: https://github.com/kendraio/kendraio-app/issues/184
 
-Reason: Demanda múltiplos modelos/serviços; há 3 comentários concorrentes.
+Reason: Aberta, prêmio contextual, sem custo inicial detectado e com rota de pagamento informada.
 
 External action performed: `false`
