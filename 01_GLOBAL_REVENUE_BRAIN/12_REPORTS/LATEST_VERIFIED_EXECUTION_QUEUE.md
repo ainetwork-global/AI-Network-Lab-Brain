@@ -1,11 +1,11 @@
 # VERIFIED EXECUTION QUEUE
 
-Generated at: `2026-08-26T14:08:24.269361+00:00`
+Generated at: `2026-08-26T14:13:13.166087+00:00`
 
-- Verified records: **360**
+- Verified records: **410**
 - Ready for technical review: **0**
-- Human review required: **29**
-- Blocked: **331**
+- Human review required: **30**
+- Blocked: **380**
 
 No claim, submission, contract acceptance, wallet signature, or financial transaction was performed.
 
@@ -275,13 +275,13 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/Nexussyn/ai-growth-engine/issues/5
 
-### 25. Ops dashboard
+### 25. [Bug] fix.py is a stale hardcoded stub
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
-- Priority score: `78.16`
-- Verification score: `70.1`
-- Reward: `USD 55.0`
-- Payment method: `GitHub Sponsors`
+- Priority score: `78.65`
+- Verification score: `70.64`
+- Reward: `USD 10.0`
+- Payment method: `USDC, GitHub Sponsors`
 - Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
 - Risk: `baixo`
-- URL: https://github.com/ModelMirrorAI/fedcourtsai/issues/630
+- URL: https://github.com/Hazyshades/Sendly-Test-Repo/issues/82

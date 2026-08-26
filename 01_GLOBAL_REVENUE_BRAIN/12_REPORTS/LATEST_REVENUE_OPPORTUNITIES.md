@@ -1,12 +1,12 @@
 # Global Revenue Hunter — Relatório Executivo
 
-Gerado em: `2026-08-26T14:07:39.183460+00:00`
+Gerado em: `2026-08-26T14:12:17.351049+00:00`
 
 ## Resumo
 
-- Oportunidades armazenadas: **543**
-- Oportunidades prioritárias: **72**
-- Oportunidades para revisão: **498**
+- Oportunidades armazenadas: **567**
+- Oportunidades prioritárias: **76**
+- Oportunidades para revisão: **521**
 - Oportunidades com risco elevado: **3**
 - Maior score encontrado: **78.50**
 
@@ -507,7 +507,22 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4
 - **Justificativa:** +25 palavra positiva: bounty | +18 palavra positiva: payment | valor financeiro detectado: USD 150.00 | +20 categoria: open_source_bounty | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 34. Issue #42 — Invoice Dashboard & Reminders
+### 34. [Bug] fix.py is a stale hardcoded stub
+
+- **Score final:** 66.4
+- **Categoria:** open_source_bounty
+- **Fonte:** GitHub Bounty Issues
+- **Valor estimado:** USD 10.00
+- **Score financeiro:** 82.0
+- **Confiança:** 65.0
+- **Automação:** 40.0
+- **Risco:** 0.0
+- **Repositório:** Sendly-Test-Repo
+- **Autor:** Hazyshades
+- **URL:** https://github.com/Hazyshades/Sendly-Test-Repo/issues/82
+- **Justificativa:** +22 palavra positiva: reward | +16 palavra positiva: usd | +16 palavra positiva: usdc | valor financeiro detectado: USD 10.00 | +20 categoria: open_source_bounty | +15 fonte estruturada GitHub | +20 análise automatizável
+
+### 35. Issue #42 — Invoice Dashboard & Reminders
 
 - **Score final:** 66.25
 - **Categoria:** paid_development
@@ -522,7 +537,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/FinChippay/Finchippay-Solution/issues/602
 - **Justificativa:** +22 palavra positiva: paid | +18 palavra positiva: payment | +22 palavra positiva: grant | +15 palavra positiva: freelance | +18 categoria: paid_development | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 35. Approval: create Stripe Payment Links for paid audits
+### 36. Approval: create Stripe Payment Links for paid audits
 
 - **Score final:** 65.5
 - **Categoria:** ai_integration
@@ -537,7 +552,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/Davidleeops/mcpscan/issues/3
 - **Justificativa:** +22 palavra positiva: paid | +18 palavra positiva: payment | valor financeiro detectado: USD 3500.00 | +18 categoria: ai_integration | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 36. [BOUNTY: 5 RTC] Post RustChain to Hacker News, Reddit, or Lobsters (With Proof)
+### 37. [BOUNTY: 5 RTC] Post RustChain to Hacker News, Reddit, or Lobsters (With Proof)
 
 - **Score final:** 65.15
 - **Categoria:** ai_bounty
@@ -552,7 +567,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/Scottcjn/rustchain-bounties/issues/2866
 - **Justificativa:** +25 palavra positiva: bounty | +22 palavra positiva: reward | +22 palavra positiva: paid | +18 categoria: ai_bounty | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 37. [BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project
+### 38. [BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project
 
 - **Score final:** 65.15
 - **Categoria:** ai_integration
@@ -567,7 +582,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/Scottcjn/rustchain-bounties/issues/2180
 - **Justificativa:** +25 palavra positiva: bounty | +22 palavra positiva: reward | +22 palavra positiva: paid | +18 categoria: ai_integration | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 38. Milestone 7 — OpenRouter Infrastructure
+### 39. Milestone 7 — OpenRouter Infrastructure
 
 - **Score final:** 65.05
 - **Categoria:** paid_development
@@ -582,7 +597,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/Shlomi-Hazan/ase26-the-tribunal/issues/11
 - **Justificativa:** +22 palavra positiva: paid | +16 palavra positiva: usd | +15 palavra positiva: contract | valor financeiro detectado: USD 5.00 | +18 categoria: paid_development | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 39. 🐛 [Bounty] - Unauthenticated Mass Exposure of Cardano Treasury Budget Proposals, Financial Data, and Admin Credentials via Misconfigured Strapi Public Role
+### 40. 🐛 [Bounty] - Unauthenticated Mass Exposure of Cardano Treasury Budget Proposals, Financial Data, and Admin Credentials via Misconfigured Strapi Public Role
 
 - **Score final:** 64.6
 - **Categoria:** crypto_bounty
@@ -597,7 +612,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/IntersectMBO/govtool/issues/4159
 - **Justificativa:** +25 palavra positiva: bounty | +16 palavra positiva: usd | +15 palavra positiva: contract | valor financeiro detectado: USD 10.00 | +14 categoria: crypto_bounty | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 40. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
+### 41. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
 
 - **Score final:** 64.5
 - **Categoria:** ai_bounty
@@ -612,7 +627,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/greyw0rks/bountyscout/issues/265
 - **Justificativa:** +25 palavra positiva: bounty | +22 palavra positiva: reward | +22 palavra positiva: grant | +18 palavra positiva: cash | valor financeiro detectado: USD 150.00 | +18 categoria: ai_bounty | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 41. Document trustline requirements across onboarding and both example integrations
+### 42. Document trustline requirements across onboarding and both example integrations
 
 - **Score final:** 64.0
 - **Categoria:** ai_integration
@@ -627,7 +642,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/accensa/x402-facilitator-stellar/issues/160
 - **Justificativa:** +22 palavra positiva: paid | +18 palavra positiva: payment | +16 palavra positiva: usd | +16 palavra positiva: usdc | +18 categoria: ai_integration | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 42. [BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history
+### 43. [BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history
 
 - **Score final:** 63.95
 - **Categoria:** open_source_bounty
@@ -642,7 +657,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1
 - **Justificativa:** +25 palavra positiva: bounty | +18 palavra positiva: payment | valor financeiro detectado: USD 50.00 | +20 categoria: open_source_bounty | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 43. Verify Cloud production E2E: signup → billing → credits → publish
+### 44. Verify Cloud production E2E: signup → billing → credits → publish
 
 - **Score final:** 63.5
 - **Categoria:** ai_integration
@@ -657,7 +672,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/genfeedai/genfeed.ai/issues/334
 - **Justificativa:** +22 palavra positiva: paid | +22 palavra positiva: grant | valor financeiro detectado: USD 39.00 | +18 categoria: ai_integration | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 44. AI Supervisor control board for Proffera workers
+### 45. AI Supervisor control board for Proffera workers
 
 - **Score final:** 63.35
 - **Categoria:** paid_development
@@ -672,7 +687,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/ibboabdoli-ai/Proffera/issues/548
 - **Justificativa:** +22 palavra positiva: paid | +18 palavra positiva: payment | +10 palavra positiva: sponsor | +15 palavra positiva: contract | +18 categoria: paid_development | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 45. Bounty issue template omits required /bounty marker
+### 46. Bounty issue template omits required /bounty marker
 
 - **Score final:** 62.35
 - **Categoria:** ai_bounty
@@ -687,7 +702,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/xevrion-v2/agent-playground/issues/687
 - **Justificativa:** +25 palavra positiva: bounty | +22 palavra positiva: reward | valor financeiro detectado: USD 50.00 | +18 categoria: ai_bounty | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 46. [security] Stripe webhook processes unsigned events when STRIPE_WEBHOOK_SECRET is unset (payment bypass)
+### 47. [security] Stripe webhook processes unsigned events when STRIPE_WEBHOOK_SECRET is unset (payment bypass)
 
 - **Score final:** 62.0
 - **Categoria:** paid_development
@@ -702,7 +717,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/RyjoxTechnologies/Octopoda-OS/issues/25
 - **Justificativa:** +22 palavra positiva: paid | +18 palavra positiva: payment | +22 palavra positiva: grant | +18 categoria: paid_development | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 47. Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses
+### 48. Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses
 
 - **Score final:** 61.7
 - **Categoria:** paid_development
@@ -717,7 +732,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/pedrazamiguez/split-trip/issues/1400
 - **Justificativa:** +22 palavra positiva: paid | +18 palavra positiva: payment | valor financeiro detectado: USD 1.76 | +18 categoria: paid_development | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 48. Tool discovery 2026-07-15: 6 candidates
+### 49. Tool discovery 2026-07-15: 6 candidates
 
 - **Score final:** 61.45
 - **Categoria:** paid_development
@@ -732,7 +747,7 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/TarronKayAUA/aua-ai-hub/issues/21
 - **Justificativa:** +22 palavra positiva: paid | +16 palavra positiva: usd | valor financeiro detectado: USD 907.00 | +18 categoria: paid_development | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 49. 🌐 AI 官方内容追踪报告 2026-08-26
+### 50. 🌐 AI 官方内容追踪报告 2026-08-26
 
 - **Score final:** 61.0
 - **Categoria:** ai_bounty
@@ -747,35 +762,20 @@ Gerado em: `2026-08-26T14:07:39.183460+00:00`
 - **URL:** https://github.com/96loveslife/big_model_radar/issues/387
 - **Justificativa:** +22 palavra positiva: grant | valor financeiro detectado: USD 13000.00 | +18 categoria: ai_bounty | +15 fonte estruturada GitHub | +20 análise automatizável
 
-### 50. Ops dashboard
-
-- **Score final:** 61.0
-- **Categoria:** ai_integration
-- **Fonte:** MCP Paid Opportunities
-- **Valor estimado:** USD 55.00
-- **Score financeiro:** 70.0
-- **Confiança:** 65.0
-- **Automação:** 40.0
-- **Risco:** 0.0
-- **Repositório:** fedcourtsai
-- **Autor:** github-actions[bot]
-- **URL:** https://github.com/ModelMirrorAI/fedcourtsai/issues/630
-- **Justificativa:** +22 palavra positiva: paid | +22 palavra positiva: grant | valor financeiro detectado: USD 55.00 | +18 categoria: ai_integration | +15 fonte estruturada GitHub | +20 análise automatizável
-
 ## Saúde das fontes
 
 | Fonte | Tipo | Itens | Erros consecutivos | Último sucesso |
 |---|---:|---:|---:|---|
-| AI Agent Bounties | github_api | 30 | 0 | 2026-08-26T14:07:36.893015+00:00 |
-| Crypto Bounties | github_api | 30 | 0 | 2026-08-26T14:07:36.192301+00:00 |
-| GitHub Bounty Issues | github_api | 30 | 0 | 2026-08-26T14:07:32.160319+00:00 |
-| GitHub Grant Issues | github_api | 30 | 0 | 2026-08-26T14:07:35.369111+00:00 |
-| GitHub Paid Issues | github_api | 30 | 0 | 2026-08-26T14:07:33.796190+00:00 |
-| GitHub Prize Issues | github_api | 30 | 0 | 2026-08-26T14:07:34.476553+00:00 |
-| GitHub Reward Issues | github_api | 30 | 0 | 2026-08-26T14:07:32.841232+00:00 |
-| MCP Paid Opportunities | github_api | 30 | 0 | 2026-08-26T14:07:37.676867+00:00 |
-| Mozilla Blog | rss | 20 | 0 | 2026-08-26T14:07:38.741240+00:00 |
-| Open Source Initiative | rss | 10 | 0 | 2026-08-26T14:07:39.121109+00:00 |
-| Devpost Blog | rss | 0 | 4 | - |
-| Gitcoin Blog | rss | 0 | 4 | - |
-| HackerOne Blog | rss | 0 | 4 | - |
+| AI Agent Bounties | github_api | 30 | 0 | 2026-08-26T14:12:14.723355+00:00 |
+| Crypto Bounties | github_api | 30 | 0 | 2026-08-26T14:12:13.644527+00:00 |
+| GitHub Bounty Issues | github_api | 30 | 0 | 2026-08-26T14:12:08.691951+00:00 |
+| GitHub Grant Issues | github_api | 30 | 0 | 2026-08-26T14:12:12.675928+00:00 |
+| GitHub Paid Issues | github_api | 30 | 0 | 2026-08-26T14:12:10.695361+00:00 |
+| GitHub Prize Issues | github_api | 30 | 0 | 2026-08-26T14:12:11.695791+00:00 |
+| GitHub Reward Issues | github_api | 30 | 0 | 2026-08-26T14:12:09.651413+00:00 |
+| MCP Paid Opportunities | github_api | 30 | 0 | 2026-08-26T14:12:15.819510+00:00 |
+| Mozilla Blog | rss | 20 | 0 | 2026-08-26T14:12:17.048099+00:00 |
+| Open Source Initiative | rss | 10 | 0 | 2026-08-26T14:12:17.279727+00:00 |
+| Devpost Blog | rss | 0 | 5 | - |
+| Gitcoin Blog | rss | 0 | 5 | - |
+| HackerOne Blog | rss | 0 | 5 | - |

@@ -1,13 +1,13 @@
 # Global Revenue Brain — Oportunidades Verificadas
 
-Gerado em: 2026-08-26T14:08:24.195096+00:00
+Gerado em: 2026-08-26T14:13:13.087743+00:00
 
 ## Resumo
 
-- Total verificado: **360**
-- Fila prioritária: **30**
-- rejected: **330**
-- actionable: **15**
+- Total verificado: **410**
+- Fila prioritária: **31**
+- rejected: **379**
+- actionable: **16**
 - approval_required: **15**
 
 ## Fila prioritária
@@ -276,7 +276,29 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
 - Motivo: Link ativo, recompensa explícita e baixo risco identificado.
 
-### 13. Ops dashboard
+### 13. [Bug] fix.py is a stale hardcoded stub
+
+- Status: **actionable**
+- Categoria: open_source_bounty
+- Fonte: GitHub Bounty Issues
+- URL: https://github.com/Hazyshades/Sendly-Test-Repo/issues/82
+- Recompensa: USD 10.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: baixo
+- Probabilidade estimada: 77.7%
+- Score de verificação: 70.64/100
+- KYC: não identificado
+- Aprovação humana: não
+- Forma de pagamento: USDC, GitHub Sponsors
+- Restrições geográficas: não identificadas
+- Requisitos: signed in to change notification settings Fork 41 Star 1 Code Issues 13 Pull requests 67 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights [Bug] fix
+- Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
+- Motivo: Link ativo, recompensa explícita e baixo risco identificado.
+
+### 14. Ops dashboard
 
 - Status: **actionable**
 - Categoria: ai_integration
@@ -298,7 +320,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
 - Motivo: Link ativo, recompensa explícita e baixo risco identificado.
 
-### 14. [BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise)
+### 15. [BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise)
 
 - Status: **actionable**
 - Categoria: open_source_bounty
@@ -320,7 +342,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
 - Motivo: Link ativo, recompensa explícita e baixo risco identificado.
 
-### 15. Automatic authoritative external-billing Subscription adoption (CODEX...
+### 16. Automatic authoritative external-billing Subscription adoption (CODEX...
 
 - Status: **actionable**
 - Categoria: paid_development
@@ -342,7 +364,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
 - Motivo: Link ativo, recompensa explícita e baixo risco identificado.
 
-### 16. Grant Application - Educating Communities by Educating Their Leaders
+### 17. Grant Application - Educating Communities by Educating Their Leaders
 
 - Status: **approval_required**
 - Categoria: grant
@@ -364,7 +386,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 17. Data Analytics Bounty
+### 18. Data Analytics Bounty
 
 - Status: **approval_required**
 - Categoria: crypto_bounty
@@ -386,7 +408,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 18. Tool discovery 2026-07-15: 6 candidates
+### 19. Tool discovery 2026-07-15: 6 candidates
 
 - Status: **approval_required**
 - Categoria: paid_development
@@ -408,7 +430,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 19. [BOUNTY $200] Testing — 自动化测试套件
+### 20. [BOUNTY $200] Testing — 自动化测试套件
 
 - Status: **approval_required**
 - Categoria: open_source_bounty
@@ -430,7 +452,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 20. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
+### 21. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -452,7 +474,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 21. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
+### 22. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -474,7 +496,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 22. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
+### 23. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -496,7 +518,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 23. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
+### 24. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
 
 - Status: **approval_required**
 - Categoria: open_source_bounty
@@ -518,7 +540,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 24. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
+### 25. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
 
 - Status: **approval_required**
 - Categoria: open_source_bounty
@@ -540,7 +562,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 25. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
+### 26. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -562,7 +584,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 26. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
+### 27. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -584,7 +606,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 27. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
+### 28. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -606,7 +628,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 28. P1 — First verified revenue: USD 10+
+### 29. P1 — First verified revenue: USD 10+
 
 - Status: **approval_required**
 - Categoria: ai_bounty
@@ -628,7 +650,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 29. [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent
+### 30. [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent
 
 - Status: **approval_required**
 - Categoria: ai_bounty
@@ -650,7 +672,7 @@ Gerado em: 2026-08-26T14:08:24.195096+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 30. [gig] DeskCrew Bounty Board
+### 31. [gig] DeskCrew Bounty Board
 
 - Status: **approval_required**
 - Categoria: ai_bounty
