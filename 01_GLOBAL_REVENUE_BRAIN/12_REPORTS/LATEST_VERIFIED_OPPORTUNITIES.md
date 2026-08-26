@@ -1,16 +1,16 @@
 # Global Revenue Brain — Oportunidades Verificadas
 
-Gerado em: 2026-08-26T19:50:56.091828+00:00
+Gerado em: 2026-08-26T20:04:57.524686+00:00
 
 ## Resumo
 
-- Total verificado: **960**
-- Fila prioritária: **39**
-- rejected: **920**
+- Total verificado: **1010**
+- Fila prioritária: **41**
+- rejected: **968**
 - actionable: **22**
-- approval_required: **16**
+- approval_required: **17**
+- verified: **2**
 - expired: **1**
-- verified: **1**
 
 ## Fila prioritária
 
@@ -850,7 +850,29 @@ Gerado em: 2026-08-26T19:50:56.091828+00:00
 - Próxima ação: **Solicitar aprovação humana antes de qualquer gasto.**
 - Motivo: A oportunidade aparenta exigir capital, taxa, depósito ou compra.
 
-### 39. Schedule a call
+### 39. rwa-adapter::deposit() never transfers tokens into the vault — the entire yield-vault custody model is a no-op
+
+- Status: **approval_required**
+- Categoria: competition
+- Fonte: GitHub Prize Issues
+- URL: https://github.com/INVERSEARENA/inversearena-frontend/issues/1299
+- Recompensa: não identificada
+- Prazo: não identificado
+- Capital necessário: sim
+- Dificuldade: média
+- Tempo estimado: 30.0 horas
+- Risco: alto
+- Probabilidade estimada: 2.0%
+- Score de verificação: 0.0/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: GitHub Sponsors
+- Restrições geográficas: não identificadas
+- Requisitos: signed in to change notification settings Fork 113 Star 3 Code Issues 63 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights rwa-adapter::deposit() never transfers tokens into the vaul
+- Próxima ação: **Solicitar aprovação humana antes de qualquer gasto.**
+- Motivo: A oportunidade aparenta exigir capital, taxa, depósito ou compra.
+
+### 40. Schedule a call
 
 - Status: **verified**
 - Categoria: coding_bounty
@@ -869,5 +891,27 @@ Gerado em: 2026-08-26T19:50:56.091828+00:00
 - Forma de pagamento: não identificada
 - Restrições geográficas: não identificadas
 - Requisitos: não identificados
+- Próxima ação: **Realizar revisão humana curta antes da preparação.**
+- Motivo: A oportunidade parece executável, mas ainda possui informação incompleta.
+
+### 41. Preliminary agenda announced for the Open Technology Research Symposium 2026
+
+- Status: **verified**
+- Categoria: open_source
+- Fonte: Open Source Initiative
+- URL: https://opensource.org/blog/preliminary-agenda-announced-for-the-open-technology-research-symposium-2026
+- Recompensa: não identificada
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: baixa
+- Tempo estimado: 8.0 horas
+- Risco: médio
+- Probabilidade estimada: 30.3%
+- Score de verificação: 27.54/100
+- KYC: não identificado
+- Aprovação humana: não
+- Forma de pagamento: não identificada
+- Restrições geográficas: não identificadas
+- Requisitos: for Software Open Source AI Open Source AI OSAI Definition Process Timeline Open Weights FAQ Checklist Community Become an Individual Member Become an OSI Affiliate Affiliate Organizations Maintainers Events Forum OpenSource
 - Próxima ação: **Realizar revisão humana curta antes da preparação.**
 - Motivo: A oportunidade parece executável, mas ainda possui informação incompleta.
