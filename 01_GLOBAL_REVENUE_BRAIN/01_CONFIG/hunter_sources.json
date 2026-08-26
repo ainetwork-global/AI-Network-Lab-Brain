@@ -1,54 +1,40 @@
 ﻿{
   "system": {
     "name": "Global Revenue Hunter",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "default_currency": "USD",
     "maximum_results_per_query": 30,
     "request_timeout_seconds": 20,
     "minimum_score_for_review": 25,
     "minimum_score_for_priority": 55,
-    "allow_initial_capital": false
+    "allow_initial_capital": false,
+    "github_recent_update_days": 45
   },
   "github_queries": [
     {
-      "name": "GitHub Bounty Issues",
+      "name": "GitHub Explicit USD Bounties",
       "category": "open_source_bounty",
-      "query": "is:issue is:open label:bounty archived:false"
+      "query": "is:issue is:open archived:false (bounty OR reward OR paid) (USD OR USDC OR \"$\") in:title,body"
     },
     {
-      "name": "GitHub Reward Issues",
+      "name": "GitHub Algora Bounties",
       "category": "open_source_bounty",
-      "query": "is:issue is:open label:reward archived:false"
+      "query": "is:issue is:open archived:false algora (bounty OR reward OR paid) in:title,body"
     },
     {
-      "name": "GitHub Paid Issues",
-      "category": "paid_development",
-      "query": "is:issue is:open \"paid\" in:title,body archived:false"
+      "name": "GitHub Reward Labels",
+      "category": "open_source_bounty",
+      "query": "is:issue is:open archived:false (label:bounty OR label:reward) (USD OR USDC OR \"$\") in:title,body"
     },
     {
-      "name": "GitHub Prize Issues",
-      "category": "competition",
-      "query": "is:issue is:open \"prize\" in:title,body archived:false"
-    },
-    {
-      "name": "GitHub Grant Issues",
-      "category": "grant",
-      "query": "is:issue is:open \"grant\" in:title archived:false"
-    },
-    {
-      "name": "Crypto Bounties",
+      "name": "GitHub Crypto Bounties",
       "category": "crypto_bounty",
-      "query": "is:issue is:open bounty blockchain in:title,body archived:false"
+      "query": "is:issue is:open archived:false bounty (USDC OR USD OR ETH) in:title,body"
     },
     {
-      "name": "AI Agent Bounties",
+      "name": "GitHub Paid AI Tasks",
       "category": "ai_bounty",
-      "query": "is:issue is:open bounty \"AI agent\" in:title,body archived:false"
-    },
-    {
-      "name": "MCP Paid Opportunities",
-      "category": "ai_integration",
-      "query": "is:issue is:open MCP paid in:title,body archived:false"
+      "query": "is:issue is:open archived:false (bounty OR paid) (\"AI agent\" OR MCP) (USD OR USDC OR \"$\") in:title,body"
     }
   ],
   "rss_sources": [
