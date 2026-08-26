@@ -22,11 +22,11 @@ COST = re.compile(r"(?i)\b(claim bond|entry fee|application fee|deposit required
 DEADLINE = re.compile(r"(?i)\bdeadline\b[^\n]{0,80}?\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b")
 GITHUB_ISSUE = re.compile(r"https?://github\.com/([^/]+)/([^/]+)/(?:issues|pull)/(\d+)")
 
-UNFUNDED = re.compile(r"(?is)\\bUNFUNDED\\b|cashier status:\\s*BLOCKED|no .?FUNDED.? comment|deliver(?:y)? only after funding|awaiting funding")
-FUNDING_EVIDENCE = re.compile(r"(?is)\\bFUNDED\\b[^\\n]{0,240}(?:basescan\\.org/(?:tx|address)/0x[a-f0-9]+|tx(?:id| hash)?\\s*[:=]\\s*0x[a-f0-9]{16,})")
-SELF_REVENUE_GOAL = re.compile(r"(?is)\\b(first verified revenue|objective.{0,80}(?:obtain|earn|generate) revenue|revenue definition|revenue target|goal.{0,80}(?:usd|usdc|revenue))\\b")
+UNFUNDED = re.compile(r"(?is)\bUNFUNDED\b|cashier status:\s*BLOCKED|no .?FUNDED.? comment|deliver(?:y)? only after funding|awaiting funding")
+FUNDING_EVIDENCE = re.compile(r"(?is)\bFUNDED\b[^\n]{0,240}(?:basescan\.org/(?:tx|address)/0x[a-f0-9]+|tx(?:id| hash)?\s*[:=]\s*0x[a-f0-9]{16,})")
+SELF_REVENUE_GOAL = re.compile(r"(?is)\b(first verified revenue|objective.{0,80}(?:obtain|earn|generate) revenue|revenue definition|revenue target|goal.{0,80}(?:usd|usdc|revenue))\b")
 
-ACTIVE_WORK = re.compile(r"(?is)(?:draft pull request|opened (?:a )?pull request|github\\.com/[^\\s]+/pull/\\d+)")
+ACTIVE_WORK = re.compile(r"(?is)(?:draft pull request|opened (?:a )?pull request|github\.com/[^\s]+/pull/\d+)")
 
 FIELDS = ["truth_rank", "truth_status", "truth_reason", "live_state", "comments", "open_competing_prs"] 
 
