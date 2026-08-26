@@ -1,11 +1,11 @@
 # VERIFIED EXECUTION QUEUE
 
-Generated at: `2026-08-26T14:13:13.166087+00:00`
+Generated at: `2026-08-26T16:36:40.825535+00:00`
 
-- Verified records: **410**
+- Verified records: **460**
 - Ready for technical review: **0**
-- Human review required: **30**
-- Blocked: **380**
+- Human review required: **34**
+- Blocked: **426**
 
 No claim, submission, contract acceptance, wallet signature, or financial transaction was performed.
 
@@ -66,7 +66,18 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/TarronKayAUA/aua-ai-hub/issues/21
 
-### 6. Approval: create Stripe Payment Links for paid audits
+### 6. Fixed-Goal Grant Proposal
+
+- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
+- Priority score: `92.21`
+- Verification score: `79.21`
+- Reward: `EUR 5000.0`
+- Payment method: `GitHub Sponsors`
+- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
+- Risk: `baixo`
+- URL: https://github.com/FreeCAD/FPA-grant-proposals/issues/104
+
+### 7. Approval: create Stripe Payment Links for paid audits
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `92.05`
@@ -77,7 +88,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/Davidleeops/mcpscan/issues/3
 
-### 7. Data Analytics Bounty
+### 8. Data Analytics Bounty
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `91.95`
@@ -88,7 +99,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/Honest-Protocol/Gitcoin_Metamorphosis/issues/3
 
-### 8. Calculate the exact value of PI
+### 9. Calculate the exact value of PI
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `89.95`
@@ -99,7 +110,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/xevrion-v2/agent-playground/issues/17
 
-### 9. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
+### 10. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `84.95`
@@ -110,7 +121,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/moorcheh-ai/memanto/issues/770
 
-### 10. [BOUNTY $200] Testing — 自动化测试套件
+### 11. [BOUNTY $200] Testing — 自动化测试套件
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `84.33`
@@ -121,7 +132,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/illbnm/homelab-stack/issues/14
 
-### 11. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
+### 12. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `83.6`
@@ -132,7 +143,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/greyw0rks/bountyscout/issues/265
 
-### 12. Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses
+### 13. Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `83.3`
@@ -143,7 +154,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/pedrazamiguez/split-trip/issues/1400
 
-### 13. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
+### 14. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `82.55`
@@ -154,7 +165,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/moorcheh-ai/memanto/issues/1609
 
-### 14. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
+### 15. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -165,7 +176,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/273
 
-### 15. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
+### 16. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -176,7 +187,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/274
 
-### 16. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
+### 17. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -187,7 +198,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/275
 
-### 17. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
+### 18. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -198,7 +209,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/276
 
-### 18. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
+### 19. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -209,7 +220,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/277
 
-### 19. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
+### 20. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.7`
@@ -220,7 +231,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/250
 
-### 20. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
+### 21. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.7`
@@ -231,7 +242,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/249
 
-### 21. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
+### 22. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.7`
@@ -242,7 +253,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/248
 
-### 22. [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent
+### 23. [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.6`
@@ -253,7 +264,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/834
 
-### 23. 🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC
+### 24. 🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.48`
@@ -264,24 +275,13 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/greyw0rks/bountyscout/issues/256
 
-### 24. [AGENT-TASK] Content-generation agent — auto-posts from bounty outcomes
+### 25. bounty: $25 USDC — add-only docs/LIVE_LEDGER.md
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
-- Priority score: `79.45`
+- Priority score: `79.48`
 - Verification score: `71.45`
-- Reward: `USD 5.0`
+- Reward: `USD 25.0`
 - Payment method: `USDC, GitHub Sponsors`
 - Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
 - Risk: `baixo`
-- URL: https://github.com/Nexussyn/ai-growth-engine/issues/5
-
-### 25. [Bug] fix.py is a stale hardcoded stub
-
-- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
-- Priority score: `78.65`
-- Verification score: `70.64`
-- Reward: `USD 10.0`
-- Payment method: `USDC, GitHub Sponsors`
-- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
-- Risk: `baixo`
-- URL: https://github.com/Hazyshades/Sendly-Test-Repo/issues/82
+- URL: https://github.com/kwizzlesurp10-ctrl/x402-mcp/issues/496
