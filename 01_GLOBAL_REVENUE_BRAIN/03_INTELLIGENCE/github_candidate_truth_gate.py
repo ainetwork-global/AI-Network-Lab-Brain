@@ -6,7 +6,7 @@ import os
 import re
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -76,6 +76,14 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
         f"{issue.get('body', '')}\n"
         f"{comment_text}"
     )
+
+    updated_at_raw = str(issue.get("updated_at") or "")
+    try:
+        updated_at = datetime.fromisoformat(updated_at_raw.replace("Z", "+00:00"))
+    except ValueError:
+        updated_at = datetime.now(timezone.utc)
+    if issue.get("locked") and updated_at < datetime.now(timezone.utc) - timedelta(days=180):
+        return "STALE_LOCKED_CONFIRMATION_REQUIRED", "Issue bloqueada para comentários e sem atualização há mais de 180 dias; confirmar se a recompensa continua executável.", state, comments
 
     if state != "open":
         return "BLOCKED_CLOSED_OR_COMPLETED", "A API do GitHub informa que a oportunidade não está aberta.", state, comments
