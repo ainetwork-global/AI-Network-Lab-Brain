@@ -229,6 +229,34 @@ def main() -> int:
         db.row_factory = sqlite3.Row
         initialize(db)
 
+        # Reconcile every tracked operation with the latest truth gate.  A stale
+        # approval must never survive when an opportunity closes, becomes
+        # unfunded, or is identified as a false positive.
+        latest = {
+            key_for(clean(row.get("url"))): clean(row.get("truth_status"))
+            for row in rows if clean(row.get("url"))
+        }
+        tracked = db.execute(
+            "SELECT id, candidate_key, truth_status FROM revenue_operations"
+        ).fetchall()
+        for operation in tracked:
+            current = latest.get(operation["candidate_key"], "REMOVED_FROM_LIVE_QUEUE")
+            if current != operation["truth_status"]:
+                db.execute(
+                    "UPDATE revenue_operations SET truth_status = ?, updated_at = ?, last_checked_at = ? WHERE id = ?",
+                    (current, now(), now(), operation["id"]),
+                )
+            if current != "READY_FOR_TECHNICAL_REVIEW":
+                db.execute(
+                    """
+                    UPDATE human_approval_requests
+                    SET status = 'cancelled_by_truth_gate', decided_at = ?,
+                        decision_reference = ?
+                    WHERE operation_id = ? AND status = 'pending'
+                    """,
+                    (now(), current, operation["id"]),
+                )
+
         for row in rows:
             status = clean(row.get("truth_status"))
             if status != "READY_FOR_TECHNICAL_REVIEW":
@@ -279,13 +307,19 @@ def main() -> int:
                     (workspace, now(), operation["id"]),
                 )
                 event(db, candidate_key, "development", "workspace_prepared", "success", workspace)
-                request_approval(
-                    db,
-                    operation["id"],
-                    candidate_key,
-                    "START_DEVELOPMENT",
-                    "Autorizar início do desenvolvimento técnico isolado desta oportunidade.",
-                    url,
+                # Internal analysis, implementation and tests are reversible and
+                # do not touch the target platform. They can proceed automatically.
+                db.execute(
+                    """
+                    UPDATE revenue_operations
+                    SET development_status = 'ready_for_autonomous_executor',
+                        updated_at = ? WHERE id = ?
+                    """,
+                    (now(), operation["id"]),
+                )
+                event(
+                    db, candidate_key, "development", "queued_for_executor",
+                    "success", "Internal development authorized; external actions remain gated."
                 )
 
         db.commit()
@@ -352,7 +386,7 @@ def main() -> int:
         "",
         "## Pillar status",
         "",
-        "- Development: isolated workspace and execution packet automation enabled.",
+        "- Development: isolated workspace is automatically queued for the autonomous executor; no human approval is required for internal code and tests.",
         "- Claim/application: individual approval queue enabled; no automatic external claim.",
         "- Submission: state tracking enabled; external submission requires individual approval.",
         "- Review/payment monitoring: persistent operational state enabled.",
