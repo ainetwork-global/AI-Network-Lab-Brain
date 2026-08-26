@@ -53,6 +53,14 @@
       "currency": "USD",
       "country": "BR",
       "verification_status": "account_exists_receiving_details_unverified"
+    },
+    {
+      "profile_key": "ai_network_lab_base_usdc_treasury",
+      "provider": "Coinbase Wallet",
+      "rail": "base_usdc_treasury",
+      "currency": "USDC",
+      "country": "BR",
+      "verification_status": "historical_wallet_rail_exists_address_and_live_receipt_unverified"
     }
   ]
 }
