@@ -1,6 +1,6 @@
 # Global Revenue Hunter — Relatório Executivo
 
-Gerado em: `2026-08-26T19:34:12.422869+00:00`
+Gerado em: `2026-08-26T19:43:29.931191+00:00`
 
 ## Resumo
 
@@ -774,8 +774,13 @@ Gerado em: `2026-08-26T19:34:12.422869+00:00`
 | GitHub Prize Issues | github_api | 30 | 0 | 2026-08-26T19:33:51.733698+00:00 |
 | GitHub Reward Issues | github_api | 30 | 0 | 2026-08-26T19:33:49.780127+00:00 |
 | MCP Paid Opportunities | github_api | 30 | 0 | 2026-08-26T19:33:55.953241+00:00 |
-| Mozilla Blog | rss | 20 | 0 | 2026-08-26T19:33:57.594025+00:00 |
-| Open Source Initiative | rss | 10 | 0 | 2026-08-26T19:33:58.108692+00:00 |
-| Devpost Blog | rss | 0 | 14 | - |
-| Gitcoin Blog | rss | 0 | 14 | - |
-| HackerOne Blog | rss | 0 | 14 | - |
+| Mozilla Blog | rss | 20 | 0 | 2026-08-26T19:43:15.226139+00:00 |
+| Open Source Initiative | rss | 10 | 0 | 2026-08-26T19:43:15.734313+00:00 |
+| GitHub Algora Bounties | github_api | 0 | 0 | 2026-08-26T19:43:11.527082+00:00 |
+| GitHub Crypto Bounties | github_api | 0 | 0 | 2026-08-26T19:43:12.851984+00:00 |
+| GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-08-26T19:43:10.667414+00:00 |
+| GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-08-26T19:43:13.860170+00:00 |
+| GitHub Reward Labels | github_api | 0 | 0 | 2026-08-26T19:43:11.976213+00:00 |
+| Devpost Blog | rss | 0 | 15 | - |
+| Gitcoin Blog | rss | 0 | 15 | - |
+| HackerOne Blog | rss | 0 | 15 | - |
