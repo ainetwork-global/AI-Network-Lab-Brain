@@ -123,6 +123,13 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
 
     if state != "open":
         return "BLOCKED_CLOSED_OR_COMPLETED", "A API do GitHub informa que a oportunidade não está aberta.", state, comments
+    labels = {
+        str(label.get("name") or "").lower()
+        for label in issue.get("labels", [])
+        if isinstance(label, dict)
+    }
+    if "external-mirror" in labels or re.search(r"(?i)external\s+bounty\s+mirror|bounty\s+task\s+mirror|原\s*issue", text):
+        return "BLOCKED_EXTERNAL_MIRROR", "É um espelho/agregador; somente a issue original pode ser validada e executada.", state, comments
     if SELF_REVENUE_GOAL.search(text):
         return "BLOCKED_NOT_A_PAID_TASK", "A issue descreve uma meta interna de receita, não uma oferta de trabalho paga.", state, comments
     if UNFUNDED.search(text) and not FUNDING_EVIDENCE.search(text):
@@ -142,12 +149,12 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
     lowered = text.lower()
     if "winner announcement" in lowered and re.search(r"\b20(?:1\d|2[0-5])\b", lowered):
         return "BLOCKED_STALE_COMPETITION", "Competição antiga com anúncio de vencedor já previsto.", state, comments
-    if re.search(r"(?i)\b(8|eight|10|ten)\s+(?:distinct\s+)?(?:ai\s+)?(?:systems|models|model families)\b", text):
-        return "RESOURCE_AND_COMPETITION_REVIEW_REQUIRED", f"Demanda múltiplos modelos/serviços; há {comments} comentários concorrentes.", state, comments
     competing_prs = competing_pull_requests(owner, repo, number, str(issue.get("title") or ""))
     if competing_prs:
         listed = ", ".join(f"#{item}" for item in competing_prs[:5])
         return "ACTIVE_WORK_CONFIRMATION_REQUIRED", f"Há PR concorrente aberto e relacionado ({listed}); não iniciar desenvolvimento duplicado.", state, comments
+    if re.search(r"(?i)\b(8|eight|10|ten)\s+(?:distinct\s+)?(?:ai\s+)?(?:systems|models|model families)\b", text):
+        return "RESOURCE_AND_COMPETITION_REVIEW_REQUIRED", f"Demanda múltiplos modelos/serviços; há {comments} comentários concorrentes.", state, comments
     if ACTIVE_WORK.search(comment_text) or issue.get("assignee"):
         return "ACTIVE_WORK_CONFIRMATION_REQUIRED", "Há PR/trabalho ativo ou responsável atribuído; confirmar disponibilidade antes de desenvolver.", state, comments
     if comments >= 8:
