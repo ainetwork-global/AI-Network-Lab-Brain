@@ -99,7 +99,14 @@ def main() -> int:
     )
 
     run_step(
-        "10. Geração da fila financeira prioritária",
+        "10. Monitoramento de plataformas com conta",
+        PROJECT_ROOT
+        / "02_DISCOVERY"
+        / "participant_platform_monitor.py",
+    )
+
+    run_step(
+        "11. Geração da fila financeira prioritária",
         PROJECT_ROOT
         / "03_INTELLIGENCE"
         / "generate_revenue_report.py",
