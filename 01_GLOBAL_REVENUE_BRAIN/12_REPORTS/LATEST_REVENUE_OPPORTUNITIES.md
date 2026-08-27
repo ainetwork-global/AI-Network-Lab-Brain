@@ -1,6 +1,6 @@
 # Global Revenue Hunter — Relatório Executivo
 
-Gerado em: `2026-08-27T12:41:18.024938+00:00`
+Gerado em: `2026-08-27T18:54:21.845804+00:00`
 
 ## Resumo
 
@@ -774,18 +774,18 @@ Gerado em: `2026-08-27T12:41:18.024938+00:00`
 | GitHub Prize Issues | github_api | 30 | 0 | 2026-08-26T19:33:51.733698+00:00 |
 | GitHub Reward Issues | github_api | 30 | 0 | 2026-08-26T19:33:49.780127+00:00 |
 | MCP Paid Opportunities | github_api | 30 | 0 | 2026-08-26T19:33:55.953241+00:00 |
-| Mozilla Blog | rss | 20 | 0 | 2026-08-27T12:40:46.358960+00:00 |
-| Open Source Initiative | rss | 10 | 0 | 2026-08-27T12:40:46.670784+00:00 |
+| Mozilla Blog | rss | 20 | 0 | 2026-08-27T18:53:45.742031+00:00 |
+| Open Source Initiative | rss | 10 | 0 | 2026-08-27T18:53:45.915261+00:00 |
 | GitHub Algora Bounties | github_api | 0 | 0 | 2026-08-26T20:03:55.826692+00:00 |
-| GitHub Algora Bounties | github_api | 0 | 0 | 2026-08-27T12:40:43.567441+00:00 |
+| GitHub Algora Bounties | github_api | 0 | 0 | 2026-08-27T18:53:42.640018+00:00 |
 | GitHub Crypto Bounties | github_api | 0 | 0 | 2026-08-26T20:03:56.889388+00:00 |
-| GitHub Crypto Bounties | github_api | 0 | 0 | 2026-08-27T12:40:44.564132+00:00 |
+| GitHub Crypto Bounties | github_api | 0 | 0 | 2026-08-27T18:53:43.652717+00:00 |
 | GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-08-26T20:03:55.177909+00:00 |
-| GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-08-27T12:40:42.836395+00:00 |
+| GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-08-27T18:53:42.078292+00:00 |
 | GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-08-26T20:03:57.761096+00:00 |
-| GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-08-27T12:40:45.455677+00:00 |
+| GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-08-27T18:53:44.633528+00:00 |
 | GitHub Reward Labels | github_api | 0 | 0 | 2026-08-26T20:03:56.097914+00:00 |
-| GitHub Reward Labels | github_api | 0 | 0 | 2026-08-27T12:40:43.856633+00:00 |
-| Devpost Blog | rss | 0 | 23 | - |
-| Gitcoin Blog | rss | 0 | 23 | - |
-| HackerOne Blog | rss | 0 | 23 | - |
+| GitHub Reward Labels | github_api | 0 | 0 | 2026-08-27T18:53:42.929223+00:00 |
+| Devpost Blog | rss | 0 | 24 | - |
+| Gitcoin Blog | rss | 0 | 24 | - |
+| HackerOne Blog | rss | 0 | 24 | - |

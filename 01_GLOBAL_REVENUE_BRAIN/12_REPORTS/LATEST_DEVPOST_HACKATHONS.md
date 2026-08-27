@@ -1,6 +1,6 @@
 # Global Revenue Brain — Devpost Hackathons
 
-Gerado em: 2026-08-27T12:40:59.113082+00:00
+Gerado em: 2026-08-27T18:53:59.147240+00:00
 
 ## Resumo
 
@@ -1147,7 +1147,7 @@ Gerado em: 2026-08-27T12:40:59.113082+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2328
+- Participantes: 2349
 - Competências: ai
 - URL: https://ai-builders-hackathon-2026.devpost.com/
 
@@ -1159,7 +1159,7 @@ Gerado em: 2026-08-27T12:40:59.113082+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 8468
+- Participantes: 8510
 - Competências: agent
 - URL: https://agentic-cinema.devpost.com/
 
@@ -1171,7 +1171,7 @@ Gerado em: 2026-08-27T12:40:59.113082+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 5513
+- Participantes: 5607
 - Competências: agent
 - URL: https://agentsforhumans.devpost.com/
 
@@ -1183,7 +1183,7 @@ Gerado em: 2026-08-27T12:40:59.113082+00:00
 - Início: 2031-08-04
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 10109
+- Participantes: 10510
 - Competências: agent
 - URL: https://allthingsagentichackathon.devpost.com/
 
@@ -1375,7 +1375,7 @@ Gerado em: 2026-08-27T12:40:59.113082+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 1465
+- Participantes: 1467
 - Competências: não identificadas
 - URL: https://3d-websites-hackathon.devpost.com/
 
@@ -1423,7 +1423,7 @@ Gerado em: 2026-08-27T12:40:59.113082+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2516
+- Participantes: 2524
 - Competências: não identificadas
 - URL: https://call-e.devpost.com/
 
@@ -1447,7 +1447,7 @@ Gerado em: 2026-08-27T12:40:59.113082+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 20888
+- Participantes: 20984
 - Competências: não identificadas
 - URL: https://revenuecat-shipaton-2026.devpost.com/
 
@@ -1459,7 +1459,7 @@ Gerado em: 2026-08-27T12:40:59.113082+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2519
+- Participantes: 2793
 - Competências: não identificadas
 - URL: https://webmcp.devpost.com/
 
@@ -1471,7 +1471,7 @@ Gerado em: 2026-08-27T12:40:59.113082+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 1760
+- Participantes: 1764
 - Competências: não identificadas
 - URL: https://volthacks.devpost.com/
 

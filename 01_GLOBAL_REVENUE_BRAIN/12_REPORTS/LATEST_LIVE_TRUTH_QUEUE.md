@@ -1,6 +1,6 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-27T12:42:33.140749+00:00`
+Generated at: `2026-08-27T18:55:41.825350+00:00`
 
 - Live candidates checked: **60**
 - Ready for technical review: **0**
@@ -149,7 +149,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
 - Reason: Há PR/trabalho ativo ou responsável atribuído; confirmar disponibilidade antes de desenvolver.
 - Live GitHub state: `open`
-- Comments: `6`
+- Comments: `10`
 - Reward: `USD 500.0`
 - URL: https://github.com/kendraio/kendraio-app/issues/184
 
@@ -167,7 +167,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
 - Reason: Há PR concorrente aberto e relacionado (#706, #702, #687, #650, #639); não iniciar desenvolvimento duplicado.
 - Live GitHub state: `open`
-- Comments: `339`
+- Comments: `340`
 - Reward: `USD 280.0`
 - URL: https://github.com/illbnm/homelab-stack/issues/14
 

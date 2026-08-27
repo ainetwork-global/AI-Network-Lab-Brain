@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-08-27T12:40:58.770052+00:00
+Gerado em: 2026-08-27T18:53:58.661032+00:00
 
 ## Objetivo
 
@@ -10,11 +10,11 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 
 ## Resumo
 
-- Total coletado nesta execução: **1007**
-- Actionable review: **1019**
-- Manual review: **312**
-- Low priority: **893**
-- Rejected: **8**
+- Total coletado nesta execução: **1006**
+- Actionable review: **1202**
+- Manual review: **348**
+- Low priority: **1024**
+- Rejected: **13**
 - Erros: **0**
 
 ## Fontes
@@ -22,11 +22,27 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Arbeitnow: **650**
 - Remotive: **18**
 - Remote OK: **99**
-- GitHub paid issues: **240**
+- GitHub paid issues: **239**
 
 ## Melhores oportunidades
 
-### 1. Tech Lead Full-Stack Rails Engineer
+### 1. Senior Account Executive
+
+- Fonte: arbeitnow
+- Contratante: blackforestlabs
+- Localização: Paris (France), Amsterdam (Netherlands), London (United Kingdom)
+- Tipo: 
+- Remuneração: USD 180,000.00–210,000.00
+- Evidência de pagamento: $180,000 - $210,000
+- Execução remota: sim
+- Compatibilidade com automação: 90.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: job_application
+- Motivo: Capacidades compatíveis: api, integration, ai; Executável digitalmente: api, integration, research; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/blackforestlabs/senior-account-executive-paris-france-amsterdam-netherlands-london-united-kingdom-334978
+
+### 2. Tech Lead Full-Stack Rails Engineer
 
 - Fonte: remotive
 - Contratante: Mitre Media
@@ -42,7 +58,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, database, sql, ai, llm, workflow; Executável digitalmente: script, api, integration, data, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746
 
-### 2. Vice President, Technology & Digital Strategy
+### 3. Vice President, Technology & Digital Strategy
 
 - Fonte: remotive
 - Contratante: Shatterproof
@@ -58,7 +74,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, script, database, documentation, ai, workflow; Executável digitalmente: script, automation, api, integration, data, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/all-others/vice-president-technology-digital-strategy-2091104
 
-### 3. Staff Product Manager, OpenTelemetry | Germany | Remote
+### 4. Staff Product Manager, OpenTelemetry | Germany | Remote
 
 - Fonte: arbeitnow
 - Contratante: grafanalabs
@@ -74,7 +90,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, documentation, ai, agent, workflow; Executável digitalmente: api, data, documentation, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-product-manager-opentelemetry-germany-remote-47569
 
-### 4. Supply Chain Systems Analyst
+### 5. Supply Chain Systems Analyst
 
 - Fonte: remoteok
 - Contratante: Wing
@@ -90,7 +106,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, testing, ai; Executável digitalmente: api, integration, data, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-supply-chain-systems-analyst-wing-1134803
 
-### 5. Senior Sales Manager - EMEA
+### 6. Senior Sales Manager - EMEA
 
 - Fonte: arbeitnow
 - Contratante: InMobi
@@ -106,7 +122,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/inmobi/senior-sales-manager-emea-munich-461983
 
-### 6. Senior Sales Manager - EMEA
+### 7. Senior Sales Manager - EMEA
 
 - Fonte: arbeitnow
 - Contratante: InMobi
@@ -122,7 +138,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/inmobi/senior-sales-manager-emea-cologne-149449
 
-### 7. Senior Sales Manager - EMEA
+### 8. Senior Sales Manager - EMEA
 
 - Fonte: arbeitnow
 - Contratante: InMobi
@@ -138,7 +154,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/inmobi/senior-sales-manager-emea-hamburg-346701
 
-### 8. Senior Sales Manager - EMEA
+### 9. Senior Sales Manager - EMEA
 
 - Fonte: arbeitnow
 - Contratante: InMobi
@@ -154,7 +170,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/inmobi/senior-sales-manager-emea-berlin-276676
 
-### 9. Staff Backend Engineer - Alerting | Germany | Remote
+### 10. Staff Backend Engineer - Alerting | Germany | Remote
 
 - Fonte: arbeitnow
 - Contratante: grafanalabs
@@ -170,7 +186,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, api, ai, backend; Executável digitalmente: python, api, data, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-backend-engineer-alerting-germany-remote-192759
 
-### 10. Customer Success Manager Enterprise
+### 11. Customer Success Manager Enterprise
 
 - Fonte: remoteok
 - Contratante: PointClickCare
@@ -186,7 +202,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, ai; Executável digitalmente: python, script, data, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-customer-success-manager-enterprise-pointclickcare-1134869
 
-### 11. AWS Cloud Engineer
+### 12. AWS Cloud Engineer
 
 - Fonte: arbeitnow
 - Contratante: Jobgether
@@ -202,7 +218,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, ai, github, devops; Executável digitalmente: automation, data, devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/jobgether/aws-cloud-engineer-uk-299720
 
-### 12. AWS Cloud Engineer
+### 13. AWS Cloud Engineer
 
 - Fonte: arbeitnow
 - Contratante: Jobgether
@@ -218,7 +234,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, ai, github, devops; Executável digitalmente: automation, data, devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/jobgether/aws-cloud-engineer-germany-475732
 
-### 13. Senior Specialist Global QMS
+### 14. Senior Specialist Global QMS
 
 - Fonte: remoteok
 - Contratante: Orca Bio
@@ -234,7 +250,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, documentation, ai; Executável digitalmente: api, data, documentation, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-senior-specialist-global-qms-orca-bio-1137072
 
-### 14. Senior Software Engineer, Fullstack
+### 15. AI/ML & Forward Deployed Engineer
+
+- Fonte: arbeitnow
+- Contratante: Jobgether
+- Localização: UK
+- Tipo: ['Full-time']
+- Remuneração: USD 100,000.00–120,000.00
+- Evidência de pagamento: $100,000–$120,000
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: python, automation, api, integration, ai, llm; Executável digitalmente: python, automation, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.co.uk/jobs/companies/jobgether/ai-ml-forward-deployed-engineer-uk-149381
+
+### 16. Senior Software Engineer, Fullstack
 
 - Fonte: arbeitnow
 - Contratante: Muckrack
@@ -250,7 +282,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, database, sql, testing, ai, llm, workflow; Executável digitalmente: python, script, data, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/muckrack/remote-senior-software-engineer-fullstack-325902
 
-### 15. Medical Records and Health Information Manager
+### 17. Medical Records and Health Information Manager
 
 - Fonte: remoteok
 - Contratante: Backpack Healthcare
@@ -266,7 +298,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: documentation, ai, workflow; Executável digitalmente: documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-medical-records-and-health-information-manager-backpack-healthcare-1134824
 
-### 16. Justice Officer Grounds and Services
+### 18. Justice Officer Grounds and Services
 
 - Fonte: remoteok
 - Contratante: Department of Justice and Community Safety, Victoria
@@ -282,7 +314,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-justice-officer-grounds-and-services-department-of-justice-and-community-safety-victoria-1137067
 
-### 17. Data Scientist (f/m/d)
+### 19. Data Scientist (f/m/d)
 
 - Fonte: arbeitnow
 - Contratante: Pair
@@ -298,7 +330,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, api, integration, data processing, database, sql, ai, llm; Executável digitalmente: python, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/pair/data-scientist-berlin-hybrid-183099
 
-### 18. Jr Creative Strategist
+### 20. Jr Creative Strategist
 
 - Fonte: remoteok
 - Contratante: Trivium Group
@@ -314,7 +346,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, documentation, testing, ai; Executável digitalmente: python, script, data, documentation, testing, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-jr-creative-strategist-trivium-group-1134870
 
-### 19. Project Systems Specialist
+### 21. Project Systems Specialist
 
 - Fonte: remoteok
 - Contratante: Dart
@@ -330,7 +362,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, sql, testing, qa, ai; Executável digitalmente: script, data, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-project-systems-specialist-dart-1137069
 
-### 20. Product Sales Specialist - Pet Health
+### 22. Product Sales Specialist - Pet Health
 
 - Fonte: remotive
 - Contratante: Tribe Wellness
@@ -346,7 +378,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, github; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/sales/product-sales-specialist-pet-health-2091048
 
-### 21. Trimmer
+### 23. Senior Specialist, Employee Relations - EMEA
+
+- Fonte: arbeitnow
+- Contratante: remotecom
+- Localização: 
+- Tipo: 
+- Remuneração: USD 46,500.00
+- Evidência de pagamento: $46,500
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: automation, api, documentation, ai; Executável digitalmente: automation, api, data, documentation, research; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/remotecom/senior-specialist-employee-relations-emea-218418
+
+### 24. Trimmer
 
 - Fonte: remoteok
 - Contratante: Canopy Growth Corporation
@@ -362,7 +410,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-trimmer-canopy-growth-corporation-1136997
 
-### 22. Rural and Suburban Mail Carrier Allan RR1
+### 25. Rural and Suburban Mail Carrier Allan RR1
 
 - Fonte: remoteok
 - Contratante: Canada Post / Postes Canada
@@ -378,7 +426,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-rural-and-suburban-mail-carrier-allan-rr1-canada-post-postes-canada-1137126
 
-### 23. Client Success Coach (CSM)
+### 26. Client Success Coach (CSM)
 
 - Fonte: remotive
 - Contratante: Impact Clients
@@ -394,7 +442,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, llm, backend; Executável digitalmente: api, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/customer-service/client-success-coach-csm-2091039
 
-### 24. [每日信息流] 2026-08-27
+### 27. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: ruohong2018/ruohong2018.github.io
@@ -410,7 +458,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, database, sql, ai, llm, agent, github; Executável digitalmente: script, api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/ruohong2018/ruohong2018.github.io/issues/1296
 
-### 25. [每日信息流] 2026-08-27
+### 28. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: Tyaoo/picker
@@ -426,7 +474,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, sql, qa, ai, llm, agent, github; Executável digitalmente: script, data, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/Tyaoo/picker/issues/1490
 
-### 26. [每日信息流] 2026-08-27
+### 29. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: MM0x02/RSS-Push
@@ -442,7 +490,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, database, sql, qa, ai, llm, agent; Executável digitalmente: script, api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/MM0x02/RSS-Push/issues/613
 
-### 27. [每日信息流] 2026-08-27
+### 30. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: chainreactors/picker
@@ -458,7 +506,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, database, sql, qa, ai, llm, agent; Executável digitalmente: script, api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/chainreactors/picker/issues/1346
 
-### 28. [每日信息流] 2026-08-27
+### 31. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: BruceFeIix/picker
@@ -474,7 +522,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, database, sql, qa, ai, llm, agent; Executável digitalmente: script, api, data, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/BruceFeIix/picker/issues/2649
 
-### 29. Virtual Executive Assistant
+### 32. Virtual Executive Assistant
 
 - Fonte: remoteok
 - Contratante: Zirtual
@@ -490,7 +538,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai, workflow; Executável digitalmente: data, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-virtual-executive-assistant-zirtual-1134902
 
-### 30. Talent Acquisition Partner
+### 33. Talent Acquisition Partner
 
 - Fonte: arbeitnow
 - Contratante: SumUp
@@ -506,7 +554,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/sumup/talent-acquisition-partner-berlin-405782
 
-### 31. Podcaster and Content Creator Psychology Today
+### 34. Podcaster and Content Creator Psychology Today
 
 - Fonte: remoteok
 - Contratante: Psychology Today
@@ -522,7 +570,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, testing, ai; Executável digitalmente: api, data, testing, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-podcaster-and-content-creator-psychology-today-psychology-today-1134808
 
-### 32. Senior Performance Marketing Manager (m/f/d)
+### 35. Senior Performance Marketing Manager (m/f/d)
 
 - Fonte: arbeitnow
 - Contratante: raisin
@@ -538,7 +586,55 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: testing, ai, agent; Executável digitalmente: data, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/raisin/senior-performance-marketing-manager-berlin-berlin-85338
 
-### 33. Marketing Operations & Automation Manager
+### 36. Senior Backend Engineer - Commercial Systems and Intelligence
+
+- Fonte: arbeitnow
+- Contratante: SumUp
+- Localização: Dusseldorf, North Rhine-Westphalia, Germany
+- Tipo: 
+- Remuneração: EUR 2,000.00
+- Evidência de pagamento: €2,000
+- Execução remota: sim
+- Compatibilidade com automação: 90.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: api, integration, database, sql, documentation, testing, ai, agent; Executável digitalmente: api, integration, data, documentation, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/sumup/senior-backend-engineer-commercial-systems-and-intelligence-dusseldorf-335483
+
+### 37. Senior Backend Engineer - Commercial Systems and Intelligence
+
+- Fonte: arbeitnow
+- Contratante: SumUp
+- Localização: Cologne, North Rhine-Westphalia, Germany
+- Tipo: 
+- Remuneração: EUR 2,000.00
+- Evidência de pagamento: €2,000
+- Execução remota: sim
+- Compatibilidade com automação: 90.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: api, integration, database, sql, documentation, testing, ai, agent; Executável digitalmente: api, integration, data, documentation, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/sumup/senior-backend-engineer-commercial-systems-and-intelligence-cologne-89533
+
+### 38. Senior Product Designer- Hardware (fixed term 12 months)
+
+- Fonte: arbeitnow
+- Contratante: SumUp
+- Localização: Berlin, Germany
+- Tipo: 
+- Remuneração: EUR 2,000.00
+- Evidência de pagamento: €2000
+- Execução remota: sim
+- Compatibilidade com automação: 95.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: api, script, ai, backend; Executável digitalmente: script, api, data, research, backend; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/sumup/senior-product-designer-hardware-fixed-term-12-months-berlin-212142
+
+### 39. Marketing Operations & Automation Manager
 
 - Fonte: arbeitnow
 - Contratante: YAZIO
@@ -554,7 +650,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, script, documentation, ai, workflow; Executável digitalmente: script, automation, api, integration, data, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/yazio/marketing-operations-automation-manager-berlin-12742
 
-### 34. [BrianKrebs] Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
+### 40. [BrianKrebs] Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
 
 - Fonte: github_paid_issues
 - Contratante: SecOpsNews/news
@@ -570,7 +666,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, database, sql, qa, ai, llm, github; Executável digitalmente: python, script, data, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecOpsNews/news/issues/73120
 
-### 35. Pixel Art Creation with high Creative Thinking
+### 41. Growth PM
+
+- Fonte: arbeitnow
+- Contratante: Elevenlabs
+- Localização: United Kingdom
+- Tipo: ['Full Time']
+- Remuneração: USD 781.00
+- Evidência de pagamento: $781
+- Execução remota: sim
+- Compatibilidade com automação: 95.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: job_application
+- Motivo: Capacidades compatíveis: api, integration, script, testing, ai, agent; Executável digitalmente: script, api, integration, data, testing, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/growth-pm-united-kingdom-130198
+
+### 42. Pixel Art Creation with high Creative Thinking
 
 - Fonte: github_paid_issues
 - Contratante: SecureBananaLabs/bug-bounty
@@ -586,7 +698,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, ai, agent; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/80
 
-### 36. Low Handing Fruit Automation
+### 43. Low Handing Fruit Automation
 
 - Fonte: github_paid_issues
 - Contratante: SecureBananaLabs/bug-bounty
@@ -602,7 +714,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, documentation, ai, agent, github; Executável digitalmente: automation, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
 
-### 37. Product Manager Westwing Collection (m/f/d)
+### 44. Product Manager Westwing Collection (m/f/d)
 
 - Fonte: arbeitnow
 - Contratante: Westwing Group SE
@@ -618,7 +730,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, ai; Executável digitalmente: automation, api; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/westwing-group-se/product-manager-westwing-collection-munich-office-328724
 
-### 38. Product Engineer Customisable Furniture (m/f/d)
+### 45. Product Engineer Customisable Furniture (m/f/d)
 
 - Fonte: arbeitnow
 - Contratante: Westwing Group SE
@@ -634,7 +746,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai; Executável digitalmente: api; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/westwing-group-se/product-engineer-customisable-furniture-munich-office-497213
 
-### 39. Platform & DevOps Engineer (m/f/d)
+### 46. Platform & DevOps Engineer (m/f/d)
 
 - Fonte: arbeitnow
 - Contratante: Yoummday GmbH
@@ -650,7 +762,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: powershell, python, automation, scripting, script, ai, devops; Executável digitalmente: powershell, python, script, automation, analysis, devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/yoummday-gmbh/platform-devops-engineer-munchen-121436
 
-### 40. Senior Enterprise Account Executive
+### 47. Senior Enterprise Account Executive
 
 - Fonte: arbeitnow
 - Contratante: Honeycomb
@@ -666,7 +778,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai, devops; Executável digitalmente: devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/honeycomb/senior-enterprise-account-executive-474737
 
-### 41. Talent Lead (6-month FTC)
+### 48. Talent Lead (6-month FTC)
 
 - Fonte: arbeitnow
 - Contratante: Odin
@@ -682,7 +794,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai; Executável digitalmente: api; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/odin/talent-lead-6-month-ftc-london-176359
 
-### 42. Product Manager AI
+### 49. Product Manager AI
 
 - Fonte: remoteok
 - Contratante: YipitData
@@ -698,7 +810,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-product-manager-ai-yipitdata-1134770
 
-### 43. Working Student (f/m/d) Strategy & Business Development (AI Taskforce)
+### 50. Working Student (f/m/d) Strategy & Business Development (AI Taskforce)
 
 - Fonte: arbeitnow
 - Contratante: Yoummday GmbH
@@ -713,115 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: proposal_or_application
 - Motivo: Capacidades compatíveis: automation, qa, ai, workflow; Executável digitalmente: automation, data, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/yoummday-gmbh/working-student-strategy-business-development-ai-taskforce-munchen-28925
-
-### 44. [每日信息流] 2026-08-27
-
-- Fonte: github_paid_issues
-- Contratante: Minkinx/sec-picker
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 320.00
-- Evidência de pagamento: $320
-- Execução remota: sim
-- Compatibilidade com automação: 95.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: script, sql, qa, ai, llm, agent, github; Executável digitalmente: script, data, analysis; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/Minkinx/sec-picker/issues/110
-
-### 45. Senior Operations Manager
-
-- Fonte: arbeitnow
-- Contratante: tide
-- Localização: Berlin
-- Tipo: 
-- Remuneração: USD 300.00
-- Evidência de pagamento: $300
-- Execução remota: sim
-- Compatibilidade com automação: 90.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: api, integration, ai; Executável digitalmente: api, integration, data, analysis; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.com/jobs/companies/tide/senior-operations-manager-berlin-399972
-
-### 46. Front Yard Foods launch partner: proposal, agreements, recurring billing, and Shopify/Square architecture
-
-- Fonte: github_paid_issues
-- Contratante: johncollinsgit/TimberLine
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 299.00
-- Evidência de pagamento: $299
-- Execução remota: sim
-- Compatibilidade com automação: 95.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: api, integration, script, documentation, ai, llm, agent, workflow; Executável digitalmente: script, api, integration, data, documentation; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/johncollinsgit/TimberLine/issues/70
-
-### 47. [BOUNTY $280] Observability — Prometheus + Grafana + Loki + Alerting
-
-- Fonte: github_paid_issues
-- Contratante: illbnm/homelab-stack
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 280.00
-- Evidência de pagamento: $280
-- Execução remota: sim
-- Compatibilidade com automação: 95.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: script, ai, agent; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/illbnm/homelab-stack/issues/10
-
-### 48. [$250] Web-Expense details-distance and rate menu items are shown after created unreported expense
-
-- Fonte: github_paid_issues
-- Contratante: Expensify/App
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 250.00
-- Evidência de pagamento: $250
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/Expensify/App/issues/96343
-
-### 49. [$250] Spends - feed:xxxx auto selected to Bank Account instead of Expensify Card
-
-- Fonte: github_paid_issues
-- Contratante: Expensify/App
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 250.00
-- Evidência de pagamento: $250
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/Expensify/App/issues/96342
-
-### 50. [$250] Attachment - Landscape pdf file preview is truncated in "Share to Expensify" page
-
-- Fonte: github_paid_issues
-- Contratante: Expensify/App
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 250.00
-- Evidência de pagamento: $250
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: automation, testing, ai, github; Executável digitalmente: automation, testing; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/Expensify/App/issues/89905

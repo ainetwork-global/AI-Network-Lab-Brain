@@ -2,16 +2,17 @@
 
 Status: `SUPERTEAM_OFFICIAL_ADAPTER_ACTIVE`
 
-- Last run: `2026-08-27T12:41:05.078520+00:00`
-- Listings discovered: `0`
-- Listings parsed: `0`
+- Last run: `2026-08-27T18:54:05.921184+00:00`
+- Official API listings: `17`
+- Fallback listing URLs: `0`
+- Listings parsed: `17`
 - Eligible opportunities: `0`
-- Review or rejected: `0`
-- Errors: `1`
+- Review or rejected: `17`
+- Errors: `0`
 
 ## Operating rule
 
-Only canonical Superteam Earn pages are accepted.
+Only the official Superteam live-listings API or canonical pages are accepted.
 
 Winner-based competitions are rejected by default.
 

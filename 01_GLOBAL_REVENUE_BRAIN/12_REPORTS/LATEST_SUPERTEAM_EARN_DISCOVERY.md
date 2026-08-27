@@ -1,18 +1,16 @@
 # Latest Superteam Earn Official Discovery
 
-- Generated: `2026-08-27T12:41:05.078417+00:00`
+- Generated: `2026-08-27T18:54:05.921050+00:00`
+- Official API: `https://superteam.fun/api/listings/live`
+- Official API listings: **17**
 - Seed pages: **8**
-- Listing URLs discovered: **0**
-- Listings parsed: **0**
+- Fallback listing URLs discovered: **0**
+- Listings parsed: **17**
 - Eligible direct paid opportunities: **0**
-- Rejected or review-required: **0**
-- Errors: **1**
+- Rejected or review-required: **17**
+- Errors: **0**
 
 ## Eligible candidates
 
 | Reward | Type | Hourly estimate | Status | Title | URL |
 |---:|---|---:|---|---|---|
-
-## Errors
-
-- https://superteam.fun/sitemap.xml: HTTPError: HTTP Error 404: Not Found
