@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-08-27T18:53:58.661032+00:00
+Gerado em: 2026-08-27T19:12:04.266296+00:00
 
 ## Objetivo
 
@@ -10,11 +10,11 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 
 ## Resumo
 
-- Total coletado nesta execução: **1006**
-- Actionable review: **1202**
+- Total coletado nesta execução: **1002**
+- Actionable review: **1287**
 - Manual review: **348**
-- Low priority: **1024**
-- Rejected: **13**
+- Low priority: **1051**
+- Rejected: **26**
 - Erros: **0**
 
 ## Fontes
@@ -22,7 +22,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Arbeitnow: **650**
 - Remotive: **18**
 - Remote OK: **99**
-- GitHub paid issues: **239**
+- GitHub paid issues: **235**
 
 ## Melhores oportunidades
 
@@ -666,7 +666,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, database, sql, qa, ai, llm, github; Executável digitalmente: python, script, data, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecOpsNews/news/issues/73120
 
-### 41. Growth PM
+### 41. Usage page v2: endpoint attribution, spend-over-time chart, time selector
+
+- Fonte: github_paid_issues
+- Contratante: recoupable/app
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 981.60
+- Evidência de pagamento: $981.60
+- Execução remota: sim
+- Compatibilidade com automação: 90.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: api, database, ai, llm, workflow, github; Executável digitalmente: api, data, research; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/recoupable/app/issues/2029
+
+### 42. Growth PM
 
 - Fonte: arbeitnow
 - Contratante: Elevenlabs
@@ -682,7 +698,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, testing, ai, agent; Executável digitalmente: script, api, integration, data, testing, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/growth-pm-united-kingdom-130198
 
-### 42. Pixel Art Creation with high Creative Thinking
+### 43. Pixel Art Creation with high Creative Thinking
 
 - Fonte: github_paid_issues
 - Contratante: SecureBananaLabs/bug-bounty
@@ -698,7 +714,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, ai, agent; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/80
 
-### 43. Low Handing Fruit Automation
+### 44. Low Handing Fruit Automation
 
 - Fonte: github_paid_issues
 - Contratante: SecureBananaLabs/bug-bounty
@@ -714,7 +730,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, documentation, ai, agent, github; Executável digitalmente: automation, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
 
-### 44. Product Manager Westwing Collection (m/f/d)
+### 45. Product Manager Westwing Collection (m/f/d)
 
 - Fonte: arbeitnow
 - Contratante: Westwing Group SE
@@ -730,7 +746,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, ai; Executável digitalmente: automation, api; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/westwing-group-se/product-manager-westwing-collection-munich-office-328724
 
-### 45. Product Engineer Customisable Furniture (m/f/d)
+### 46. Product Engineer Customisable Furniture (m/f/d)
 
 - Fonte: arbeitnow
 - Contratante: Westwing Group SE
@@ -746,7 +762,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai; Executável digitalmente: api; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/westwing-group-se/product-engineer-customisable-furniture-munich-office-497213
 
-### 46. Platform & DevOps Engineer (m/f/d)
+### 47. Platform & DevOps Engineer (m/f/d)
 
 - Fonte: arbeitnow
 - Contratante: Yoummday GmbH
@@ -762,7 +778,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: powershell, python, automation, scripting, script, ai, devops; Executável digitalmente: powershell, python, script, automation, analysis, devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/yoummday-gmbh/platform-devops-engineer-munchen-121436
 
-### 47. Senior Enterprise Account Executive
+### 48. Senior Enterprise Account Executive
 
 - Fonte: arbeitnow
 - Contratante: Honeycomb
@@ -778,7 +794,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai, devops; Executável digitalmente: devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/honeycomb/senior-enterprise-account-executive-474737
 
-### 48. Talent Lead (6-month FTC)
+### 49. Talent Lead (6-month FTC)
 
 - Fonte: arbeitnow
 - Contratante: Odin
@@ -794,7 +810,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai; Executável digitalmente: api; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/odin/talent-lead-6-month-ftc-london-176359
 
-### 49. Product Manager AI
+### 50. Product Manager AI
 
 - Fonte: remoteok
 - Contratante: YipitData
@@ -809,19 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: job_application
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-product-manager-ai-yipitdata-1134770
-
-### 50. Working Student (f/m/d) Strategy & Business Development (AI Taskforce)
-
-- Fonte: arbeitnow
-- Contratante: Yoummday GmbH
-- Localização: München
-- Tipo: ['Entry', 'Intern', 'Part time']
-- Remuneração: USD 400.00
-- Evidência de pagamento: $400
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: automation, qa, ai, workflow; Executável digitalmente: automation, data, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.com/jobs/companies/yoummday-gmbh/working-student-strategy-business-development-ai-taskforce-munchen-28925
