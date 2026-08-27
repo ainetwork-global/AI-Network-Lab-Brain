@@ -1,11 +1,11 @@
 # VERIFIED EXECUTION QUEUE
 
-Generated at: `2026-08-27T11:35:07.677358+00:00`
+Generated at: `2026-08-27T12:28:08.395912+00:00`
 
-- Verified records: **1010**
+- Verified records: **1060**
 - Ready for technical review: **0**
-- Human review required: **37**
-- Blocked: **973**
+- Human review required: **44**
+- Blocked: **1016**
 
 No claim, submission, contract acceptance, wallet signature, or financial transaction was performed.
 
@@ -143,7 +143,18 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/illbnm/homelab-stack/issues/14
 
-### 13. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
+### 13. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
+
+- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
+- Priority score: `84.0`
+- Verification score: `75.9`
+- Reward: `USD 100.0`
+- Payment method: `GitHub Sponsors`
+- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
+- Risk: `baixo`
+- URL: https://github.com/moorcheh-ai/memanto/issues/770
+
+### 14. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `83.6`
@@ -154,7 +165,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/greyw0rks/bountyscout/issues/265
 
-### 14. Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses
+### 15. Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `83.3`
@@ -165,7 +176,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/pedrazamiguez/split-trip/issues/1400
 
-### 15. monte_carlo_layer_means default seed makes a small-n draw an exact prefix of a large-n draw, and the compare_against_monte_carlo MSE column is easy to misread
+### 16. monte_carlo_layer_means default seed makes a small-n draw an exact prefix of a large-n draw, and the compare_against_monte_carlo MSE column is easy to misread
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `83.19`
@@ -176,7 +187,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/AIcrowd/whest-starterkit/issues/39
 
-### 16. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
+### 17. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `82.55`
@@ -187,7 +198,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/moorcheh-ai/memanto/issues/1609
 
-### 17. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
+### 18. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -198,7 +209,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/273
 
-### 18. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
+### 19. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -209,7 +220,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/274
 
-### 19. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
+### 20. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -220,7 +231,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/275
 
-### 20. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
+### 21. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -231,7 +242,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/276
 
-### 21. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
+### 22. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -242,7 +253,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/277
 
-### 22. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
+### 23. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.7`
@@ -253,7 +264,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/250
 
-### 23. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
+### 24. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.7`
@@ -264,7 +275,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/249
 
-### 24. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
+### 25. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.7`
@@ -274,14 +285,3 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/248
-
-### 25. [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent
-
-- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
-- Priority score: `79.6`
-- Verification score: `71.6`
-- Reward: `USD 3.0`
-- Payment method: `USDC, GitHub Sponsors`
-- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
-- Risk: `baixo`
-- URL: https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/834

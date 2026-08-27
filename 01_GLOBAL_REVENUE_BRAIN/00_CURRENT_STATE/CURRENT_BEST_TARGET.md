@@ -1,5 +1,11 @@
 # Current Best Target
 
-Status: `NO_PAYMENT_VERIFIED_CANDIDATE`
+Status: `SOURCE_REVIEW_REQUIRED`
 
-Nenhuma oportunidade passou pela validação contextual e ao vivo.
+Title: DeXe Protocol
+Reward: USD 500000.0
+URL: https://immunefi.com/bug-bounty/dexeprotocol/information/
+
+Reason: Fonte não é uma issue GitHub validável pela API.
+
+External action performed: `false`
