@@ -1,11 +1,11 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-27T12:29:26.315495+00:00`
+Generated at: `2026-08-27T12:33:11.150558+00:00`
 
-- Live candidates checked: **59**
+- Live candidates checked: **60**
 - Ready for technical review: **0**
-- Human/resource review required: **5**
-- Blocked: **54**
+- Human/resource review required: **8**
+- Blocked: **52**
 
 No claim, submission, contract, wallet signature, purchase, deposit, or financial transaction was performed.
 
@@ -216,7 +216,16 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 500.0`
 - URL: https://github.com/AIcrowd/whest-starterkit/issues/39
 
-## 24. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
+## 24. VoltHacks
+
+- Truth status: `SOURCE_REVIEW_REQUIRED`
+- Reason: Fonte não é uma issue GitHub validável pela API.
+- Live GitHub state: `unknown`
+- Comments: `0`
+- Reward: `USD 300.0`
+- URL: https://volthacks.devpost.com/
+
+## 25. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
 
 - Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
 - Reason: Há PR concorrente aberto e relacionado (#1905, #1893, #1844, #1726, #1715); não iniciar desenvolvimento duplicado.
@@ -224,12 +233,3 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Comments: `34`
 - Reward: `USD 200.0`
 - URL: https://github.com/moorcheh-ai/memanto/issues/1609
-
-## 25. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
-
-- Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
-- Reason: A API do GitHub informa que a oportunidade não está aberta.
-- Live GitHub state: `closed`
-- Comments: `17`
-- Reward: `USD 0.11`
-- URL: https://github.com/NSPG13/agent-bounties/issues/273

@@ -1,11 +1,11 @@
 # VERIFIED EXECUTION QUEUE
 
-Generated at: `2026-08-27T12:28:08.395912+00:00`
+Generated at: `2026-08-27T12:32:16.615891+00:00`
 
-- Verified records: **1060**
+- Verified records: **1110**
 - Ready for technical review: **0**
-- Human review required: **44**
-- Blocked: **1016**
+- Human review required: **47**
+- Blocked: **1063**
 
 No claim, submission, contract acceptance, wallet signature, or financial transaction was performed.
 
@@ -187,7 +187,18 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/AIcrowd/whest-starterkit/issues/39
 
-### 17. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
+### 17. VoltHacks
+
+- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
+- Priority score: `82.96`
+- Verification score: `79.66`
+- Reward: `USD 300.0`
+- Payment method: `unknown`
+- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
+- Risk: `baixo`
+- URL: https://volthacks.devpost.com/
+
+### 18. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `82.55`
@@ -198,7 +209,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/moorcheh-ai/memanto/issues/1609
 
-### 18. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
+### 19. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -209,7 +220,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/273
 
-### 19. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
+### 20. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -220,7 +231,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/274
 
-### 20. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
+### 21. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -231,7 +242,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/275
 
-### 21. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
+### 22. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -242,7 +253,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/276
 
-### 22. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
+### 23. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.85`
@@ -253,7 +264,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/277
 
-### 23. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
+### 24. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.7`
@@ -264,7 +275,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/250
 
-### 24. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
+### 25. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `79.7`
@@ -274,14 +285,3 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
 - Risk: `baixo`
 - URL: https://github.com/NSPG13/agent-bounties/issues/249
-
-### 25. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
-
-- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
-- Priority score: `79.7`
-- Verification score: `71.7`
-- Reward: `USD 2.0`
-- Payment method: `USDC, GitHub Sponsors`
-- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
-- Risk: `baixo`
-- URL: https://github.com/NSPG13/agent-bounties/issues/248
