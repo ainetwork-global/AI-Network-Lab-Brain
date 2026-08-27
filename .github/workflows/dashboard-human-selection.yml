@@ -1,0 +1,50 @@
+name: Dashboard Human Selection
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: global-revenue-brain
+  cancel-in-progress: false
+
+jobs:
+  register:
+    if: github.actor == github.repository_owner && startsWith(github.event.issue.title, '[DASHBOARD REVIEW]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Brain
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate and register selection
+        run: python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/dashboard_selection_intake.py
+
+      - name: Persist selection
+        run: |
+          git config user.name "global-revenue-brain[bot]"
+          git config user.email "global-revenue-brain[bot]@users.noreply.github.com"
+          git add \
+            01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/DASHBOARD_HUMAN_SELECTION_QUEUE.csv \
+            01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_DASHBOARD_SELECTION.md
+          git commit -m "Brain: register dashboard human selection"
+          git push
+
+      - name: Confirm request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: 'Seleção registrada pelo Brain como `USER_SELECTED_FOR_ANALYSIS`. O caminho técnico foi preparado sem realizar claim, candidatura, teste, submissão ou pagamento.'
+            })
