@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import csv
 import sqlite3
 import sys
 from pathlib import Path
@@ -197,12 +198,57 @@ def import_official_sources(database: sqlite3.Connection) -> tuple[int, int]:
     return inserted, updated
 
 
+def import_superteam(database: sqlite3.Connection) -> tuple[int, int]:
+    source = ROOT / "04_OPPORTUNITIES" / "superteam_earn_official_opportunities.csv"
+    if not source.exists():
+        return 0, 0
+    inserted = updated = 0
+    with source.open(encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    for row in rows:
+        if (
+            row.get("eligible_for_payment_engine") != "true"
+            or row.get("status") != "open"
+            or row.get("contest_risk") == "true"
+            or row.get("opportunity_type") != "project"
+        ):
+            continue
+        url = row.get("url", "").strip()
+        external_id = row.get("external_id", "").strip()
+        if not url or not external_id:
+            continue
+        result = persist(
+            database,
+            source_key="superteam",
+            external_key=external_id,
+            title=row.get("title", ""),
+            category="paid_project",
+            source_name="Superteam Earn",
+            source_type="superteam_official",
+            source_url=url,
+            author="",
+            description=(
+                f"{row.get('description', '')} Payment evidence: "
+                f"{row.get('executor_payment_evidence', '')}. "
+                f"Estimated hours: {row.get('estimated_hours', '')}. "
+                "External application and submission require individual approval."
+            ),
+            published_at=row.get("discovered_at", ""),
+            currency=row.get("currency") or "USDC",
+            estimated_value=float(row.get("reward_usd") or 0),
+        )
+        inserted += result == "inserted"
+        updated += result == "updated"
+    return inserted, updated
+
+
 def main() -> int:
     totals = {}
     with connect() as database:
         totals["paid_work"] = import_paid_work(database)
         totals["devpost"] = import_devpost(database)
         totals["official_sources"] = import_official_sources(database)
+        totals["superteam"] = import_superteam(database)
         database.commit()
     for source, (inserted, updated) in totals.items():
         print(f"{source}: inserted={inserted}, updated={updated}")

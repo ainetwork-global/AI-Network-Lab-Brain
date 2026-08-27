@@ -71,28 +71,35 @@ def main() -> int:
     )
 
     run_step(
-        "6. Descoberta oficial de bounties Algora",
+        "6. Descoberta oficial de projetos Superteam",
+        PROJECT_ROOT.parent
+        / "02_DISCOVERY"
+        / "superteam_earn_official_adapter.py",
+    )
+
+    run_step(
+        "7. Descoberta oficial de bounties Algora",
         PROJECT_ROOT
         / "02_DISCOVERY"
         / "algora_open_bounty_adapter.py",
     )
 
     run_step(
-        "7. Integração Algora na fila principal",
+        "8. Integração Algora na fila principal",
         PROJECT_ROOT
         / "02_DISCOVERY"
         / "import_algora_into_opportunities.py",
     )
 
     run_step(
-        "8. Integração das plataformas globais na fila principal",
+        "9. Integração das plataformas globais na fila principal",
         PROJECT_ROOT
         / "02_DISCOVERY"
         / "import_global_sources_into_opportunities.py",
     )
 
     run_step(
-        "9. Geração da fila financeira prioritária",
+        "10. Geração da fila financeira prioritária",
         PROJECT_ROOT
         / "03_INTELLIGENCE"
         / "generate_revenue_report.py",
