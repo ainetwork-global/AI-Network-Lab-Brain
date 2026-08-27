@@ -7,6 +7,7 @@ import re
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone, timedelta
+from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -42,6 +43,41 @@ def api(path: str) -> dict:
     )
     with urllib.request.urlopen(request, timeout=15) as response:
         return json.load(response)
+
+def competing_pull_requests(owner: str, repo: str, number: str, issue_title: str) -> list[int]:
+    """Return open PRs that explicitly reference or closely match this issue."""
+    try:
+        pulls = api(f"/repos/{owner}/{repo}/pulls?state=open&per_page=100")
+    except (
+        urllib.error.URLError,
+        urllib.error.HTTPError,
+        TimeoutError,
+        json.JSONDecodeError,
+    ):
+        return []
+
+    normalized_issue = re.sub(r"(?i)\\b(?:bounty|reward)\\b|[^a-z0-9]+", " ", issue_title.lower()).strip()
+    matches: list[int] = []
+    for pull in pulls if isinstance(pulls, list) else []:
+        if not isinstance(pull, dict):
+            continue
+        title = str(pull.get("title") or "")
+        body = str(pull.get("body") or "")
+        haystack = f"{title}\\n{body}"
+        explicit_reference = bool(
+            re.search(rf"(?i)(?:fix(?:e[sd])?|close[sd]?|resolve[sd]?)?\\s*#{re.escape(number)}\\b", haystack)
+            or f"/issues/{number}" in haystack
+        )
+        normalized_pr = re.sub(r"(?i)\\b(?:feat|fix|implement|implementation)\\b|[^a-z0-9]+", " ", title.lower()).strip()
+        close_title = bool(
+            normalized_issue
+            and normalized_pr
+            and SequenceMatcher(None, normalized_issue, normalized_pr).ratio() >= 0.62
+        )
+        if explicit_reference or close_title:
+            matches.append(int(pull.get("number") or 0))
+    return [pull_number for pull_number in matches if pull_number]
+
 
 def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
     match = GITHUB_ISSUE.match(row.get("url", ""))
@@ -108,6 +144,10 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
         return "BLOCKED_STALE_COMPETITION", "Competição antiga com anúncio de vencedor já previsto.", state, comments
     if re.search(r"(?i)\b(8|eight|10|ten)\s+(?:distinct\s+)?(?:ai\s+)?(?:systems|models|model families)\b", text):
         return "RESOURCE_AND_COMPETITION_REVIEW_REQUIRED", f"Demanda múltiplos modelos/serviços; há {comments} comentários concorrentes.", state, comments
+    competing_prs = competing_pull_requests(owner, repo, number, str(issue.get("title") or ""))
+    if competing_prs:
+        listed = ", ".join(f"#{item}" for item in competing_prs[:5])
+        return "ACTIVE_WORK_CONFIRMATION_REQUIRED", f"Há PR concorrente aberto e relacionado ({listed}); não iniciar desenvolvimento duplicado.", state, comments
     if ACTIVE_WORK.search(comment_text) or issue.get("assignee"):
         return "ACTIVE_WORK_CONFIRMATION_REQUIRED", "Há PR/trabalho ativo ou responsável atribuído; confirmar disponibilidade antes de desenvolver.", state, comments
     if comments >= 8:
