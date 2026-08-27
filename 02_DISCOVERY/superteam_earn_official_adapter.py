@@ -11,7 +11,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.error import HTTPError, URLError
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -46,6 +46,7 @@ STATE_FILE = (
 )
 
 BASE_URL = "https://superteam.fun"
+OFFICIAL_LIVE_API = f"{BASE_URL}/api/listings/live"
 
 SEED_URLS = [
     "https://superteam.fun/sitemap.xml",
@@ -204,6 +205,118 @@ def fetch_text(url: str) -> str:
 
     with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
         return response.read().decode("utf-8", errors="replace")
+
+
+def fetch_json(url: str) -> Any:
+    return json.loads(fetch_text(url))
+
+
+def discover_official_live_listings() -> tuple[list[dict[str, Any]], list[str]]:
+    """Read the same public endpoint used by Superteam Earn's open UI."""
+    listings: list[dict[str, Any]] = []
+    errors: list[str] = []
+    deadline = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+    for listing_type in ("project", "bounty"):
+        query = urlencode({"take": 50, "deadline": deadline, "type": listing_type})
+        url = f"{OFFICIAL_LIVE_API}?{query}"
+        try:
+            payload = fetch_json(url)
+        except Exception as exc:
+            errors.append(f"{url}: {type(exc).__name__}: {exc}")
+            continue
+        if not isinstance(payload, list):
+            errors.append(f"{url}: unexpected response type")
+            continue
+        for item in payload:
+            if isinstance(item, dict):
+                item = dict(item)
+                item["_requested_type"] = listing_type
+                listings.append(item)
+
+    unique: dict[str, dict[str, Any]] = {}
+    for item in listings:
+        key = str(item.get("id") or item.get("slug") or "").strip()
+        if key:
+            unique[key] = item
+    return list(unique.values()), errors
+
+
+def api_listing_to_row(item: dict[str, Any]) -> dict[str, Any]:
+    listing_type = str(item.get("type") or item.get("_requested_type") or "unknown").lower()
+    slug = str(item.get("slug") or item.get("id") or "").strip()
+    url = f"{BASE_URL}/earn/listing/{slug}"
+    title = normalize_space(str(item.get("title") or slug.replace("-", " ")))
+    token = str(item.get("token") or "USD").upper()
+    parsed_rewards: list[float] = []
+    for value in (item.get("rewardAmount"), item.get("minRewardAsk"), item.get("maxRewardAsk")):
+        try:
+            if value is not None and float(value) > 0:
+                parsed_rewards.append(float(value))
+        except (TypeError, ValueError):
+            continue
+    reward_amount = min(parsed_rewards) if parsed_rewards else 0.0
+    estimated_hours = 8.0
+    revenue_per_hour = reward_amount / estimated_hours
+    status = str(item.get("status") or "OPEN").lower()
+    counts = item.get("_count")
+    try:
+        submissions = int(counts.get("Submission") or 0) if isinstance(counts, dict) else 0
+    except (TypeError, ValueError):
+        submissions = 0
+
+    contest_risk = listing_type != "project"
+    reasons = ["official Superteam live-listings API"]
+    rejected: list[str] = []
+    if status == "open":
+        reasons.append("official status OPEN")
+    else:
+        rejected.append("official status is not OPEN")
+    if listing_type == "project":
+        reasons.append("direct project type")
+    else:
+        rejected.append("winner-based bounty")
+    if reward_amount >= MIN_REWARD_USD:
+        reasons.append(f"minimum advertised compensation {reward_amount:.2f} {token}")
+    else:
+        rejected.append("reward missing or below minimum")
+    if submissions:
+        rejected.append(f"{submissions} existing submissions")
+
+    eligible = (
+        listing_type == "project"
+        and status == "open"
+        and reward_amount >= MIN_REWARD_USD
+        and revenue_per_hour >= MIN_REVENUE_PER_HOUR
+    )
+    sponsor = item.get("sponsor")
+    sponsor_name = sponsor.get("name", "") if isinstance(sponsor, dict) else ""
+    description = normalize_space(
+        f"{title}. Sponsor: {sponsor_name}. Compensation type: "
+        f"{item.get('compensationType') or ''}. Official submissions: {submissions}."
+    )
+    return {
+        "source_name": "superteam_earn_official", "source_type": "canonical_paid_work_platform",
+        "platform": "Superteam Earn", "canonical_payment_source": "true",
+        "payment_platform_verified": "true", "repository": "", "issue_number": "",
+        "external_id": str(item.get("id") or slug), "title": title, "description": description,
+        "url": url, "opportunity_url": url, "opportunity_type": listing_type,
+        "reward": round(reward_amount, 2), "reward_usd": round(reward_amount, 2),
+        "amount_usd": round(reward_amount, 2), "currency": token, "status": status,
+        "payment_terms": f"Superteam Earn advertised compensation {reward_amount:.2f} {token}",
+        "executor_payment_evidence": "Official Superteam live-listings API",
+        "estimated_hours": estimated_hours, "estimated_revenue_per_hour": round(revenue_per_hour, 2),
+        "comments": "", "attempts": "", "pull_requests": "",
+        "competition_score_live": submissions,
+        "competition_level_live": "HIGH" if contest_risk or submissions > 10 else "LOW",
+        "contest_risk": str(contest_risk).lower(),
+        "winner_signals": "official bounty type" if contest_risk else "",
+        "direct_project_signals": "official project type" if listing_type == "project" else "",
+        "skill_matches": "", "deadline_text": str(item.get("deadline") or ""),
+        "eligible_for_payment_engine": str(eligible).lower(),
+        "positive_evidence": " | ".join(reasons), "rejection_reasons": " | ".join(rejected),
+        "discovered_at": datetime.now(timezone.utc).isoformat(),
+    }
 
 
 def normalize_space(value: str) -> str:
@@ -751,11 +864,15 @@ def write_csv(
 def main() -> int:
     print("===== SUPERTEAM EARN OFFICIAL DISCOVERY =====")
 
-    urls, errors = discover_listing_urls()
+    api_items, errors = discover_official_live_listings()
+    rows = [api_listing_to_row(item) for item in api_items]
+    urls: list[str] = []
+    if not api_items:
+        urls, fallback_errors = discover_listing_urls()
+        errors.extend(fallback_errors)
 
-    print(f"Listing URLs discovered: {len(urls)}")
-
-    rows: list[dict[str, Any]] = []
+    print(f"Official API listings discovered: {len(api_items)}")
+    print(f"Fallback listing URLs discovered: {len(urls)}")
 
     for index, url in enumerate(urls, 1):
         print(f"[{index}/{len(urls)}] {url}")
@@ -807,8 +924,10 @@ def main() -> int:
         "# Latest Superteam Earn Official Discovery",
         "",
         f"- Generated: `{datetime.now(timezone.utc).isoformat()}`",
+        f"- Official API: `{OFFICIAL_LIVE_API}`",
+        f"- Official API listings: **{len(api_items)}**",
         f"- Seed pages: **{len(SEED_URLS)}**",
-        f"- Listing URLs discovered: **{len(urls)}**",
+        f"- Fallback listing URLs discovered: **{len(urls)}**",
         f"- Listings parsed: **{len(rows)}**",
         f"- Eligible direct paid opportunities: **{len(eligible)}**",
         f"- Rejected or review-required: **{len(rejected)}**",
@@ -857,7 +976,8 @@ def main() -> int:
         "Status: `SUPERTEAM_OFFICIAL_ADAPTER_ACTIVE`",
         "",
         f"- Last run: `{datetime.now(timezone.utc).isoformat()}`",
-        f"- Listings discovered: `{len(urls)}`",
+        f"- Official API listings: `{len(api_items)}`",
+        f"- Fallback listing URLs: `{len(urls)}`",
         f"- Listings parsed: `{len(rows)}`",
         f"- Eligible opportunities: `{len(eligible)}`",
         f"- Review or rejected: `{len(rejected)}`",
@@ -865,7 +985,7 @@ def main() -> int:
         "",
         "## Operating rule",
         "",
-        "Only canonical Superteam Earn pages are accepted.",
+        "Only the official Superteam live-listings API or canonical pages are accepted.",
         "",
         "Winner-based competitions are rejected by default.",
         "",
@@ -880,7 +1000,8 @@ def main() -> int:
 
     print("")
     print("===== SUPERTEAM EARN DISCOVERY RESULT =====")
-    print(f"Listing URLs discovered: {len(urls)}")
+    print(f"Official API listings: {len(api_items)}")
+    print(f"Fallback listing URLs: {len(urls)}")
     print(f"Listings parsed: {len(rows)}")
     print(f"Eligible opportunities: {len(eligible)}")
     print(f"Rejected/review: {len(rejected)}")
@@ -903,4 +1024,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
