@@ -1,11 +1,11 @@
 # Current Best Target
 
-Status: `COMPETITION_REVIEW_REQUIRED`
+Status: `RESOURCE_AND_COMPETITION_REVIEW_REQUIRED`
 
-Title: [Bounty: 3 ETH] implement Goose class in SuperCollider
-Reward: ETH 3.0
-URL: https://github.com/dwebagents/AgentPipe/issues/131
+Title: [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
+Reward: USD 3000.0
+URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/52
 
-Reason: Há 39 comentários; concorrência deve ser avaliada antes de investir trabalho.
+Reason: Demanda múltiplos modelos/serviços; há 3 comentários concorrentes.
 
 External action performed: `false`
