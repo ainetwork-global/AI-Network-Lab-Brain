@@ -1,42 +1,15 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-27T11:32:52.098261+00:00`
+Generated at: `2026-08-27T11:36:20.718835+00:00`
 
 - Live candidates checked: **52**
 - Ready for technical review: **0**
-- Human/resource review required: **3**
-- Blocked: **49**
+- Human/resource review required: **0**
+- Blocked: **52**
 
 No claim, submission, contract, wallet signature, purchase, deposit, or financial transaction was performed.
 
-## 1. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
-
-- Truth status: `RESOURCE_AND_COMPETITION_REVIEW_REQUIRED`
-- Reason: Demanda múltiplos modelos/serviços; há 3 comentários concorrentes.
-- Live GitHub state: `open`
-- Comments: `3`
-- Reward: `USD 3000.0`
-- URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/52
-
-## 2. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
-
-- Truth status: `RESOURCE_AND_COMPETITION_REVIEW_REQUIRED`
-- Reason: Demanda múltiplos modelos/serviços; há 3 comentários concorrentes.
-- Live GitHub state: `open`
-- Comments: `3`
-- Reward: `USD 3000.0`
-- URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/167
-
-## 3. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
-
-- Truth status: `RESOURCE_AND_COMPETITION_REVIEW_REQUIRED`
-- Reason: Demanda múltiplos modelos/serviços; há 59 comentários concorrentes.
-- Live GitHub state: `open`
-- Comments: `59`
-- Reward: `USD 3000.0`
-- URL: https://github.com/aLexzzz430/Cognitive-OS/issues/5
-
-## 4. senddigidollar: integer-vs-decimal amount ambiguity is a 100× footgun
+## 1. senddigidollar: integer-vs-decimal amount ambiguity is a 100× footgun
 
 - Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
 - Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
@@ -45,7 +18,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 10000.0`
 - URL: https://github.com/DigiByte-Core/digibyte/issues/424
 
-## 5. Grant Application - Educating Communities by Educating Their Leaders
+## 2. Grant Application - Educating Communities by Educating Their Leaders
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -53,6 +26,33 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Comments: `3`
 - Reward: `USD 50000.0`
 - URL: https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/356
+
+## 3. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
+
+- Truth status: `BLOCKED_EXTERNAL_MIRROR`
+- Reason: É um espelho/agregador; somente a issue original pode ser validada e executada.
+- Live GitHub state: `open`
+- Comments: `3`
+- Reward: `USD 3000.0`
+- URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/52
+
+## 4. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
+
+- Truth status: `BLOCKED_EXTERNAL_MIRROR`
+- Reason: É um espelho/agregador; somente a issue original pode ser validada e executada.
+- Live GitHub state: `open`
+- Comments: `3`
+- Reward: `USD 3000.0`
+- URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/167
+
+## 5. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
+
+- Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
+- Reason: Há PR concorrente aberto e relacionado (#47, #46, #45, #39, #28); não iniciar desenvolvimento duplicado.
+- Live GitHub state: `open`
+- Comments: `59`
+- Reward: `USD 3000.0`
+- URL: https://github.com/aLexzzz430/Cognitive-OS/issues/5
 
 ## 6. Tool discovery 2026-07-15: 6 candidates
 
