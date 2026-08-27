@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-08-27T12:31:15.214704+00:00
+Gerado em: 2026-08-27T12:40:58.770052+00:00
 
 ## Objetivo
 
@@ -11,9 +11,9 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 ## Resumo
 
 - Total coletado nesta execução: **1007**
-- Actionable review: **933**
+- Actionable review: **1019**
 - Manual review: **312**
-- Low priority: **876**
+- Low priority: **893**
 - Rejected: **8**
 - Erros: **0**
 
