@@ -48,6 +48,8 @@ STATE_FILE = (
 BASE_URL = "https://superteam.fun"
 
 SEED_URLS = [
+    "https://superteam.fun/sitemap.xml",
+    "https://superteam.fun/robots.txt",
     "https://superteam.fun/earn/all",
     "https://superteam.fun/earn/bounties",
     "https://superteam.fun/earn/projects",
