@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-08-27T19:41:25.149063+00:00
+Gerado em: 2026-08-27T22:16:40.155442+00:00
 
 ## Objetivo
 
@@ -10,11 +10,11 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 
 ## Resumo
 
-- Total coletado nesta execução: **997**
-- Actionable review: **1357**
-- Manual review: **348**
-- Low priority: **1093**
-- Rejected: **29**
+- Total coletado nesta execução: **1007**
+- Actionable review: **1504**
+- Manual review: **354**
+- Low priority: **1150**
+- Rejected: **30**
 - Erros: **0**
 
 ## Fontes
@@ -22,7 +22,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Arbeitnow: **650**
 - Remotive: **18**
 - Remote OK: **99**
-- GitHub paid issues: **230**
+- GitHub paid issues: **240**
 
 ## Melhores oportunidades
 
@@ -634,7 +634,55 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, ai, backend; Executável digitalmente: script, api, data, research, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/sumup/senior-product-designer-hardware-fixed-term-12-months-berlin-212142
 
-### 39. Marketing Operations & Automation Manager
+### 39. Senior Product Designer- Hardware (fixed term 12 months)
+
+- Fonte: arbeitnow
+- Contratante: sumup
+- Localização: Berlin
+- Tipo: 
+- Remuneração: EUR 2,000.00
+- Evidência de pagamento: €2000
+- Execução remota: sim
+- Compatibilidade com automação: 95.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: api, script, ai, backend; Executável digitalmente: script, api, data, research, backend; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/sumup/senior-product-designer-hardware-fixed-term-12-months-berlin-281658
+
+### 40. Senior Backend Engineer - Commercial Systems and Intelligence
+
+- Fonte: arbeitnow
+- Contratante: sumup
+- Localização: Cologne
+- Tipo: 
+- Remuneração: EUR 2,000.00
+- Evidência de pagamento: €2,000
+- Execução remota: sim
+- Compatibilidade com automação: 90.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: api, integration, database, sql, documentation, testing, ai, agent; Executável digitalmente: api, integration, data, documentation, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/sumup/senior-backend-engineer-commercial-systems-and-intelligence-cologne-425763
+
+### 41. [Bounty] [Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up u
+
+- Fonte: github_paid_issues
+- Contratante: zhangjiayang6835-cyber/bounty-plaza
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 2,000.00
+- Evidência de pagamento: $2000
+- Execução remota: sim
+- Compatibilidade com automação: 95.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: api, integration, script, ai, llm, github; Executável digitalmente: script, api, integration; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/897
+
+### 42. Marketing Operations & Automation Manager
 
 - Fonte: arbeitnow
 - Contratante: YAZIO
@@ -650,7 +698,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, script, documentation, ai, workflow; Executável digitalmente: script, automation, api, integration, data, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/yazio/marketing-operations-automation-manager-berlin-12742
 
-### 40. [BrianKrebs] Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
+### 43. [BrianKrebs] Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
 
 - Fonte: github_paid_issues
 - Contratante: SecOpsNews/news
@@ -666,7 +714,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, database, sql, qa, ai, llm, github; Executável digitalmente: python, script, data, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecOpsNews/news/issues/73120
 
-### 41. Usage page v2: endpoint attribution, spend-over-time chart, time selector
+### 44. Usage page v2: endpoint attribution, spend-over-time chart, time selector
 
 - Fonte: github_paid_issues
 - Contratante: recoupable/app
@@ -682,7 +730,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, database, ai, llm, workflow, github; Executável digitalmente: api, data, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/recoupable/app/issues/2029
 
-### 42. Growth PM
+### 45. Automate Bug Detection and Reviews
+
+- Fonte: github_paid_issues
+- Contratante: SecureBananaLabs/bug-bounty
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 800.00
+- Evidência de pagamento: $800
+- Execução remota: sim
+- Compatibilidade com automação: 70.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: documentation, ai, agent, github; Executável digitalmente: documentation; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/11398
+
+### 46. Growth PM
 
 - Fonte: arbeitnow
 - Contratante: Elevenlabs
@@ -698,7 +762,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, script, testing, ai, agent; Executável digitalmente: script, api, integration, data, testing, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/elevenlabs/growth-pm-united-kingdom-130198
 
-### 43. Pixel Art Creation with high Creative Thinking
+### 47. Pixel Art Creation with high Creative Thinking
 
 - Fonte: github_paid_issues
 - Contratante: SecureBananaLabs/bug-bounty
@@ -711,117 +775,53 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Score: **100.0**
 - Status: **actionable_review**
 - Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: script, ai, agent; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
+- Motivo: Capacidades compatíveis: script, ai, agent, github; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/SecureBananaLabs/bug-bounty/issues/80
 
-### 44. Low Handing Fruit Automation
+### 48. CORS configured without origin allowlist in app.js (reissue via #743)
 
 - Fonte: github_paid_issues
 - Contratante: SecureBananaLabs/bug-bounty
 - Localização: Online
 - Tipo: task_or_bounty
-- Remuneração: USD 700.00
-- Evidência de pagamento: $700
+- Remuneração: USD 780.00
+- Evidência de pagamento: $780
 - Execução remota: sim
-- Compatibilidade com automação: 100.0%
+- Compatibilidade com automação: 95.0%
 - Score: **100.0**
 - Status: **actionable_review**
 - Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: automation, documentation, ai, agent, github; Executável digitalmente: automation, documentation; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/743
+- Motivo: Capacidades compatíveis: api, script, ai, agent; Executável digitalmente: script, api; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/2782
 
-### 45. Product Manager Westwing Collection (m/f/d)
+### 49. auth refresh endpoint issues tokens without verifying the requester
 
-- Fonte: arbeitnow
-- Contratante: Westwing Group SE
-- Localização: Munich Office
-- Tipo: ['Experienced', 'Permanent', 'Full time']
-- Remuneração: EUR 507.00
-- Evidência de pagamento: eur 507
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: job_application
-- Motivo: Capacidades compatíveis: automation, api, ai; Executável digitalmente: automation, api; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.com/jobs/companies/westwing-group-se/product-manager-westwing-collection-munich-office-328724
-
-### 46. Product Engineer Customisable Furniture (m/f/d)
-
-- Fonte: arbeitnow
-- Contratante: Westwing Group SE
-- Localização: Munich Office
-- Tipo: ['Experienced', 'Permanent', 'Full time']
-- Remuneração: EUR 507.00
-- Evidência de pagamento: eur 507
+- Fonte: github_paid_issues
+- Contratante: SecureBananaLabs/bug-bounty
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 780.00
+- Evidência de pagamento: $780
 - Execução remota: sim
 - Compatibilidade com automação: 90.0%
 - Score: **100.0**
 - Status: **actionable_review**
-- Forma de entrada: job_application
-- Motivo: Capacidades compatíveis: api, ai; Executável digitalmente: api; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.com/jobs/companies/westwing-group-se/product-engineer-customisable-furniture-munich-office-497213
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/2847
 
-### 47. Platform & DevOps Engineer (m/f/d)
+### 50. POST /api/users endpoint missing authentication middleware (reissue via #743)
 
-- Fonte: arbeitnow
-- Contratante: Yoummday GmbH
-- Localização: München
-- Tipo: ['Experienced', 'Permanent', 'Full time']
-- Remuneração: EUR 500.00
-- Evidência de pagamento: €500
+- Fonte: github_paid_issues
+- Contratante: SecureBananaLabs/bug-bounty
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 780.00
+- Evidência de pagamento: $780
 - Execução remota: sim
-- Compatibilidade com automação: 100.0%
+- Compatibilidade com automação: 95.0%
 - Score: **100.0**
 - Status: **actionable_review**
-- Forma de entrada: job_application
-- Motivo: Capacidades compatíveis: powershell, python, automation, scripting, script, ai, devops; Executável digitalmente: powershell, python, script, automation, analysis, devops; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.com/jobs/companies/yoummday-gmbh/platform-devops-engineer-munchen-121436
-
-### 48. Senior Enterprise Account Executive
-
-- Fonte: arbeitnow
-- Contratante: Honeycomb
-- Localização: 
-- Tipo: 
-- Remuneração: USD 500.00
-- Evidência de pagamento: $500
-- Execução remota: sim
-- Compatibilidade com automação: 75.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: ai, devops; Executável digitalmente: devops; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.co.uk/jobs/companies/honeycomb/senior-enterprise-account-executive-474737
-
-### 49. Talent Lead (6-month FTC)
-
-- Fonte: arbeitnow
-- Contratante: Odin
-- Localização: London
-- Tipo: ['Full Time']
-- Remuneração: USD 500.00
-- Evidência de pagamento: $500
-- Execução remota: sim
-- Compatibilidade com automação: 90.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: api, ai; Executável digitalmente: api; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.co.uk/jobs/companies/odin/talent-lead-6-month-ftc-london-176359
-
-### 50. Product Manager AI
-
-- Fonte: remoteok
-- Contratante: YipitData
-- Localização: US Remote
-- Tipo: remote
-- Remuneração: USD 475.00
-- Evidência de pagamento: $475
-- Execução remota: sim
-- Compatibilidade com automação: 80.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: job_application
-- Motivo: Capacidades compatíveis: ai; Executável digitalmente: data, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://remoteOK.com/remote-jobs/remote-product-manager-ai-yipitdata-1134770
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: api, script, ai, agent; Executável digitalmente: script, api; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/SecureBananaLabs/bug-bounty/issues/2779
