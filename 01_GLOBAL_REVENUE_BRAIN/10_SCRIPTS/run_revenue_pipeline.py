@@ -50,21 +50,49 @@ def main() -> int:
     )
 
     run_step(
-        "3. Descoberta oficial de bounties Algora",
+        "3. Descoberta global de trabalhos remotos pagos",
+        PROJECT_ROOT
+        / "02_DISCOVERY"
+        / "global_paid_work_discovery.py",
+    )
+
+    run_step(
+        "4. Descoberta oficial de hackathons Devpost",
+        PROJECT_ROOT
+        / "02_DISCOVERY"
+        / "devpost_official_adapter.py",
+    )
+
+    run_step(
+        "5. Descoberta de Grants.gov e Immunefi",
+        PROJECT_ROOT
+        / "02_DISCOVERY"
+        / "official_source_adapters.py",
+    )
+
+    run_step(
+        "6. Descoberta oficial de bounties Algora",
         PROJECT_ROOT
         / "02_DISCOVERY"
         / "algora_open_bounty_adapter.py",
     )
 
     run_step(
-        "4. Integração Algora na fila principal",
+        "7. Integração Algora na fila principal",
         PROJECT_ROOT
         / "02_DISCOVERY"
         / "import_algora_into_opportunities.py",
     )
 
     run_step(
-        "5. Geração da fila financeira prioritária",
+        "8. Integração das plataformas globais na fila principal",
+        PROJECT_ROOT
+        / "02_DISCOVERY"
+        / "import_global_sources_into_opportunities.py",
+    )
+
+    run_step(
+        "9. Geração da fila financeira prioritária",
         PROJECT_ROOT
         / "03_INTELLIGENCE"
         / "generate_revenue_report.py",
