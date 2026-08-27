@@ -123,6 +123,8 @@ def import_devpost(database: sqlite3.Connection) -> tuple[int, int]:
         WHERE verification_status = 'staged'
           AND reward_amount > 0
           AND online = 1
+          AND candidate_score >= 45
+          AND (end_date IS NULL OR date(end_date) >= date('now'))
           AND lower(status) NOT IN ('closed', 'ended', 'completed')
         ORDER BY candidate_score DESC, reward_amount DESC
         LIMIT 200
@@ -162,6 +164,8 @@ def import_official_sources(database: sqlite3.Connection) -> tuple[int, int]:
         WHERE verification_status = 'staged'
           AND reward_amount > 0
           AND capital_required = 0
+          AND candidate_score >= 45
+          AND (close_date IS NULL OR date(close_date) >= date('now'))
           AND lower(COALESCE(status, 'open')) NOT IN ('closed', 'ended', 'completed')
         ORDER BY candidate_score DESC, reward_amount DESC
         LIMIT 300
