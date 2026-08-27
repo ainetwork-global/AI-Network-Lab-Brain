@@ -1,12 +1,12 @@
 # Global Revenue Brain — Oportunidades Verificadas
 
-Gerado em: 2026-08-27T19:13:40.608494+00:00
+Gerado em: 2026-08-27T19:42:40.091577+00:00
 
 ## Resumo
 
-- Total verificado: **1260**
+- Total verificado: **1310**
 - Fila prioritária: **52**
-- rejected: **1171**
+- rejected: **1221**
 - expired: **37**
 - actionable: **26**
 - approval_required: **23**
