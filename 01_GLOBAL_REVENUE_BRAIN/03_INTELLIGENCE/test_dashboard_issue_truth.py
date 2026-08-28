@@ -21,6 +21,13 @@ intake = load("dashboard_selection_intake")
 
 
 class DashboardIssueTruthTests(unittest.TestCase):
+    def test_output_fields_include_official_enrichment_columns(self):
+        fields = truth.output_fieldnames(
+            [{"title": "Candidate", "eligibility_status": "eligible"}]
+        )
+        self.assertIn("eligibility_status", fields)
+        self.assertEqual(len(fields), len(set(fields)))
+
     def test_official_maximum_replaces_unlabelled_vault_amount(self):
         url = "https://immunefi.com/bug-bounty/hedera/information/"
         candidate = {
