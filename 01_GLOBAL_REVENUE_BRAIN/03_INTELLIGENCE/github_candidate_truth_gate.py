@@ -320,12 +320,13 @@ def main() -> int:
     for row in candidates:
         row = apply_official_truth(row, official)
         status, reason, state, comments = classify(row)
-        result = dict(row)
         if status == "BLOCKED_HIGH_COMPETITION":
             row["recommended_action"] = "Não iniciar. Arquivar e priorizar oportunidade com concorrência baixa."
         elif status == "ACTIVE_WORK_CONFIRMATION_REQUIRED":
             row["recommended_action"] = "Confirmar com o mantenedor se novas submissões ainda são aceitas antes de qualquer trabalho."
-        result.update({"truth_status": status, "truth_reason": reason, "live_state": state, "comments": comments, "open_competing_prs": row.pop("_open_competing_prs", "")})
+        competing_count = row.pop("_open_competing_prs", "")
+        result = dict(row)
+        result.update({"truth_status": status, "truth_reason": reason, "live_state": state, "comments": comments, "open_competing_prs": competing_count})
         output.append(result)
     order = {"READY_FOR_TECHNICAL_REVIEW": 0, "PAYMENT_EVIDENCE_REVIEW_REQUIRED": 1, "COMPETITION_REVIEW_REQUIRED": 2, "RESOURCE_AND_COMPETITION_REVIEW_REQUIRED": 3}
     output.sort(key=lambda r: (order.get(r["truth_status"], 9), -float(r.get("priority_score") or 0)))
@@ -334,7 +335,7 @@ def main() -> int:
     fieldnames = output_fieldnames(output)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(output)
     ready = [r for r in output if r["truth_status"] == "READY_FOR_TECHNICAL_REVIEW"]
