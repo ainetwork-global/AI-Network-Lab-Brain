@@ -49,5 +49,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: 'Seleção registrada pelo Brain como `USER_SELECTED_FOR_ANALYSIS`. O caminho técnico foi preparado sem realizar claim, candidatura, teste, submissão ou pagamento.'
+              body: 'Seleção interna registrada pelo Brain como `USER_SELECTED_FOR_ANALYSIS`. Isso não significa candidatura enviada, aceite externo ou tarefa atribuída. Nenhum claim, candidatura, teste, submissão ou pagamento foi realizado.'
             })

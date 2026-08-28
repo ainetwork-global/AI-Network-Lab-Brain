@@ -123,19 +123,19 @@ def competing_pull_requests(owner: str, repo: str, number: str, issue_title: str
     ):
         return []
 
-    normalized_issue = re.sub(r"(?i)\\b(?:bounty|reward)\\b|[^a-z0-9]+", " ", issue_title.lower()).strip()
+    normalized_issue = re.sub(r"(?i)\b(?:bounty|reward)\b|[^a-z0-9]+", " ", issue_title.lower()).strip()
     matches: list[int] = []
     for pull in pulls if isinstance(pulls, list) else []:
         if not isinstance(pull, dict):
             continue
         title = str(pull.get("title") or "")
         body = str(pull.get("body") or "")
-        haystack = f"{title}\\n{body}"
+        haystack = f"{title}\n{body}"
         explicit_reference = bool(
-            re.search(rf"(?i)(?:fix(?:e[sd])?|close[sd]?|resolve[sd]?)?\\s*#{re.escape(number)}\\b", haystack)
+            re.search(rf"(?i)(?:fix(?:e[sd])?|close[sd]?|resolve[sd]?)?\s*#{re.escape(number)}\b", haystack)
             or f"/issues/{number}" in haystack
         )
-        normalized_pr = re.sub(r"(?i)\\b(?:feat|fix|implement|implementation)\\b|[^a-z0-9]+", " ", title.lower()).strip()
+        normalized_pr = re.sub(r"(?i)\b(?:feat|fix|implement|implementation)\b|[^a-z0-9]+", " ", title.lower()).strip()
         close_title = bool(
             normalized_issue
             and normalized_pr
@@ -193,11 +193,17 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
         for item in comment_rows
         if isinstance(item, dict)
     )
+    issue_body = str(issue.get("body") or "")
     text = (
         f"{issue.get('title', '')}\n"
-        f"{issue.get('body', '')}\n"
+        f"{issue_body}\n"
         f"{comment_text}"
     )
+    if re.search(r"(?i)\bfor an accepted submission\b", issue_body):
+        row["reward_basis"] = "accepted_submission_not_guaranteed"
+    if re.search(r"(?i)payment details will be handled privately after acceptance", issue_body):
+        row["payment_method"] = "private_after_acceptance"
+        row["kyc_required"] = "unknown_not_disclosed"
 
     updated_at_raw = str(issue.get("updated_at") or "")
     try:
@@ -236,13 +242,19 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
     if "winner announcement" in lowered and re.search(r"\b20(?:1\d|2[0-5])\b", lowered):
         return "BLOCKED_STALE_COMPETITION", "Competição antiga com anúncio de vencedor já previsto.", state, comments
     competing_prs = competing_pull_requests(owner, repo, number, str(issue.get("title") or ""))
+    row["_open_competing_prs"] = str(len(competing_prs))
+    if len(competing_prs) >= 3:
+        listed = ", ".join(f"#{item}" for item in competing_prs[:5])
+        return "BLOCKED_HIGH_COMPETITION", f"Há {len(competing_prs)} PRs concorrentes relacionados (incluindo {listed}); não investir trabalho nesta oportunidade saturada.", state, comments
     if competing_prs:
         listed = ", ".join(f"#{item}" for item in competing_prs[:5])
-        return "ACTIVE_WORK_CONFIRMATION_REQUIRED", f"Há PR concorrente aberto e relacionado ({listed}); não iniciar desenvolvimento duplicado.", state, comments
+        return "ACTIVE_WORK_CONFIRMATION_REQUIRED", f"Há {len(competing_prs)} PR(s) concorrente(s) relacionado(s) ({listed}); confirmar disponibilidade antes de desenvolver.", state, comments
     if re.search(r"(?i)\b(8|eight|10|ten)\s+(?:distinct\s+)?(?:ai\s+)?(?:systems|models|model families)\b", text):
         return "RESOURCE_AND_COMPETITION_REVIEW_REQUIRED", f"Demanda múltiplos modelos/serviços; há {comments} comentários concorrentes.", state, comments
     if ACTIVE_WORK.search(comment_text) or issue.get("assignee"):
         return "ACTIVE_WORK_CONFIRMATION_REQUIRED", "Há PR/trabalho ativo ou responsável atribuído; confirmar disponibilidade antes de desenvolver.", state, comments
+    if comments >= 25:
+        return "BLOCKED_HIGH_COMPETITION", f"Há {comments} comentários concorrentes; oportunidade saturada e inadequada para investimento automático.", state, comments
     if comments >= 8:
         return "COMPETITION_REVIEW_REQUIRED", f"Há {comments} comentários; concorrência deve ser avaliada antes de investir trabalho.", state, comments
     if not row.get("payment_method", "").strip():
@@ -300,7 +312,11 @@ def main() -> int:
         row = apply_official_truth(row, official)
         status, reason, state, comments = classify(row)
         result = dict(row)
-        result.update({"truth_status": status, "truth_reason": reason, "live_state": state, "comments": comments, "open_competing_prs": ""})
+        if status == "BLOCKED_HIGH_COMPETITION":
+            row["recommended_action"] = "Não iniciar. Arquivar e priorizar oportunidade com concorrência baixa."
+        elif status == "ACTIVE_WORK_CONFIRMATION_REQUIRED":
+            row["recommended_action"] = "Confirmar com o mantenedor se novas submissões ainda são aceitas antes de qualquer trabalho."
+        result.update({"truth_status": status, "truth_reason": reason, "live_state": state, "comments": comments, "open_competing_prs": row.pop("_open_competing_prs", "")})
         output.append(result)
     order = {"READY_FOR_TECHNICAL_REVIEW": 0, "PAYMENT_EVIDENCE_REVIEW_REQUIRED": 1, "COMPETITION_REVIEW_REQUIRED": 2, "RESOURCE_AND_COMPETITION_REVIEW_REQUIRED": 3}
     output.sort(key=lambda r: (order.get(r["truth_status"], 9), -float(r.get("priority_score") or 0)))
