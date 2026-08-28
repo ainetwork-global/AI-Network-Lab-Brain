@@ -1,16 +1,16 @@
 # Latest Dashboard Selection
 
-- GitHub request: `#42`
+- GitHub request: `#43`
 - Selected by: `ainetwork-global`
 - Status: `USER_SELECTED_FOR_ANALYSIS`
-- Opportunity: **Kendraio App MusicBrainz integration (bounty)**
-- Maximum advertised reward: `USD 500.0`
+- Opportunity: **🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC**
+- Maximum advertised reward: `USD 28.4`
 - Reward basis: `reported_amount_unverified`
 - Payment method: `GitHub Sponsors`
 - KYC required: `0`
-- Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
-- Reason: Há 1 PR(s) concorrente(s) relacionado(s) (#614); confirmar disponibilidade antes de desenvolver.
-- Execution path: `confirm_availability_and_competition_before_development`
-- URL: https://github.com/kendraio/kendraio-app/issues/184
+- Truth status: `LIVE_CHECK_RETRY_REQUIRED`
+- Reason: Falha temporária na validação ao vivo: HTTPError.
+- Execution path: `retry_live_validation_then_reassess`
+- URL: https://github.com/greyw0rks/bountyscout/issues/256
 
 No claim, application, security test, submission, signature or payment was performed.
