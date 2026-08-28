@@ -13,6 +13,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "04_OPPORTUNITIES" / "VERIFIED_EXECUTION_QUEUE.csv"
 ALGORA_INPUT = ROOT / "04_OPPORTUNITIES" / "algora_open_bounties.csv"
+OFFICIAL_SOURCE_INPUT = ROOT / "04_OPPORTUNITIES" / "official_source_candidates.csv"
+OFFICIAL_ELIGIBILITY_INPUT = ROOT / "04_OPPORTUNITIES" / "official_eligible_queue.csv"
 OUTPUT = ROOT / "04_OPPORTUNITIES" / "LIVE_TRUTH_EXECUTION_QUEUE.csv"
 REPORT = ROOT / "12_REPORTS" / "LATEST_LIVE_TRUTH_QUEUE.md"
 TARGET = ROOT / "00_CURRENT_STATE" / "CURRENT_BEST_TARGET.md"
@@ -29,7 +31,72 @@ SELF_REVENUE_GOAL = re.compile(r"(?is)\b(first verified revenue|objective.{0,80}
 
 ACTIVE_WORK = re.compile(r"(?is)(?:draft pull request|opened (?:a )?pull request|github\.com/[^\s]+/pull/\d+)")
 
-FIELDS = ["truth_rank", "truth_status", "truth_reason", "live_state", "comments", "open_competing_prs"] 
+FIELDS = [
+    "truth_rank", "truth_status", "truth_reason", "live_state", "comments",
+    "open_competing_prs", "reward_basis", "source_validation",
+]
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def positive_number(value: object) -> float | None:
+    try:
+        number = float(str(value or "").replace(",", ""))
+    except ValueError:
+        return None
+    return number if number > 0 else None
+
+
+def canonical_official_candidates() -> dict[str, dict[str, str]]:
+    """Return authoritative program metadata keyed by canonical URL.
+
+    Discovery/verification pages can expose both a maximum bounty and a vault
+    balance.  The official adapter already stores the labelled maximum bounty,
+    so it must win over an amount later scraped without context.
+    """
+    eligibility_by_url = {
+        row.get("url", ""): row
+        for row in read_csv(OFFICIAL_ELIGIBILITY_INPUT)
+        if row.get("url")
+    }
+    result: dict[str, dict[str, str]] = {}
+    for row in read_csv(OFFICIAL_SOURCE_INPUT):
+        url = row.get("url", "")
+        if not url:
+            continue
+        merged = dict(row)
+        eligible = eligibility_by_url.get(url, {})
+        for key in ("kyc_required", "eligibility_status", "eligibility_notes"):
+            if eligible.get(key, "") != "":
+                merged[key] = eligible[key]
+        result[url] = merged
+    return result
+
+
+def apply_official_truth(
+    row: dict[str, str], official: dict[str, dict[str, str]]
+) -> dict[str, str]:
+    result = dict(row)
+    canonical = official.get(row.get("url", ""))
+    if not canonical:
+        result.setdefault("reward_basis", "reported_amount_unverified")
+        result.setdefault("source_validation", "unverified")
+        return result
+    canonical_reward = positive_number(canonical.get("reward_amount"))
+    if canonical_reward is not None:
+        result["reward_amount"] = str(canonical_reward)
+        result["reward_currency"] = canonical.get("reward_currency") or "USD"
+        result["reward_basis"] = "maximum_advertised_reward"
+    for key in ("kyc_required", "eligibility_status", "eligibility_notes"):
+        if canonical.get(key, "") != "":
+            result[key] = canonical[key]
+    result["source_validation"] = "official_adapter"
+    return result
 
 def api(path: str) -> dict:
     request = urllib.request.Request(
@@ -82,7 +149,26 @@ def competing_pull_requests(owner: str, repo: str, number: str, issue_title: str
 def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
     match = GITHUB_ISSUE.match(row.get("url", ""))
     if not match:
-        return "SOURCE_REVIEW_REQUIRED", "Fonte não é uma issue GitHub validável pela API.", "unknown", 0
+        source = row.get("source", "").lower()
+        category = row.get("category", "").lower()
+        if "immunefi" in source and category == "authorized_bug_bounty":
+            requirements = ["escopo", "PoC", "ativos e impactos elegíveis"]
+            if str(row.get("kyc_required", "")).lower() in {"1", "true", "yes"}:
+                requirements.append("KYC")
+            return (
+                "AUTHORIZED_BUG_BOUNTY_REVIEW_REQUIRED",
+                "Programa oficial identificado; revisar "
+                + ", ".join(requirements)
+                + " antes de qualquer teste exclusivamente local.",
+                "official_program",
+                0,
+            )
+        return (
+            "SOURCE_REVIEW_REQUIRED",
+            "Fonte externa ainda exige validação específica da plataforma.",
+            "external_source",
+            0,
+        )
     owner, repo, number = match.groups()
     try:
         issue = api(f"/repos/{owner}/{repo}/issues/{number}")
@@ -164,8 +250,8 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
     return "READY_FOR_TECHNICAL_REVIEW", "Aberta, prêmio contextual, sem custo inicial detectado e com rota de pagamento informada.", state, comments
 
 def main() -> int:
-    with INPUT.open(encoding="utf-8-sig", newline="") as handle:
-        rows = list(csv.DictReader(handle))
+    rows = read_csv(INPUT)
+    official = canonical_official_candidates()
     candidates = [
         r for r in rows
         if r.get("queue_status", "").endswith("REVIEW_REQUIRED")
@@ -211,6 +297,7 @@ def main() -> int:
     candidates = candidates[:60]
     output = []
     for row in candidates:
+        row = apply_official_truth(row, official)
         status, reason, state, comments = classify(row)
         result = dict(row)
         result.update({"truth_status": status, "truth_reason": reason, "live_state": state, "comments": comments, "open_competing_prs": ""})
