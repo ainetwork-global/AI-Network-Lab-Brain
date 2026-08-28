@@ -1,6 +1,6 @@
 # Participant Platform Monitor
 
-Generated: `2026-08-28T18:20:44.116095+00:00`
+Generated: `2026-08-28T18:31:54.384241+00:00`
 
 - Platforms monitored: **16**
 - Public entry points reachable/protected: **15**
@@ -10,14 +10,14 @@ Generated: `2026-08-28T18:20:44.116095+00:00`
 
 | Platform | Category | Brazil | Feed | Status | Action |
 |---|---|---|---|---|---|
-| CleverX | research_participant | unknown | authenticated | reachable_protected | monitor account/email |
+| CleverX | research_participant | unknown | authenticated | reachable | monitor account/email |
 | Respondent | research_participant | verified | authenticated | reachable | monitor account/email |
 | User Interviews | research_participant | possible | authenticated | reachable | monitor account/email |
 | dscout | research_participant | possible | mobile_app | reachable | monitor account/email |
 | UserTesting | usability_testing | verified_partial | authenticated | reachable | monitor account/email |
 | Prolific | research_studies | verified | authenticated | reachable | monitor account/email |
-| PlaybookUX | usability_testing | possible | authenticated | reachable_protected | monitor account/email |
-| Userlytics | usability_testing | possible | authenticated | reachable_protected | monitor account/email |
+| PlaybookUX | usability_testing | possible | authenticated | reachable | monitor account/email |
+| Userlytics | usability_testing | possible | authenticated | reachable | monitor account/email |
 | Userfeel | usability_testing | possible | authenticated | reachable | monitor account/email |
 | TestingTime | research_participant | unknown | invitation | reachable | monitor account/email |
 | Trymata | usability_testing | unknown | authenticated | http_error | monitor account/email |

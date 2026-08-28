@@ -1,6 +1,6 @@
 # Latest Superteam Earn Official Discovery
 
-- Generated: `2026-08-28T18:20:28.249927+00:00`
+- Generated: `2026-08-28T18:31:40.091247+00:00`
 - Official API: `https://superteam.fun/api/listings/live`
 - Official API listings: **18**
 - Seed pages: **8**

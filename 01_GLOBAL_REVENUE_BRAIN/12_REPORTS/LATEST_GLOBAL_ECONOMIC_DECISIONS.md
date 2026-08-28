@@ -1,6 +1,6 @@
 # GLOBAL ECONOMIC DECISION ENGINE
 
-Generated: `2026-08-28T18:22:03.707838+00:00`
+Generated: `2026-08-28T18:32:56.631467+00:00`
 
 - Automatic technical execution: **0**
 - Human decision required: **8**
