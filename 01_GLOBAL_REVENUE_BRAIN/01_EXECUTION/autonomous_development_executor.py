@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "11_DATA" / "global_revenue_brain.db"
-QUEUE = ROOT / "04_OPPORTUNITIES" / "LIVE_TRUTH_EXECUTION_QUEUE.csv"
+QUEUE = ROOT / "04_OPPORTUNITIES" / "GLOBAL_DECISION_QUEUE.csv"
 REPORT = ROOT / "12_REPORTS" / "LATEST_AUTONOMOUS_DEVELOPMENT.md"
 WORKSPACES = ROOT / "08_WORKSPACES"
 MAX_TASKS = int(os.environ.get("BRAIN_MAX_DEVELOPMENT_TASKS", "1"))
