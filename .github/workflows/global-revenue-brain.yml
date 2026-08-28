@@ -76,6 +76,9 @@ jobs:
       - name: Apply live contextual truth gate
         run: python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/github_candidate_truth_gate.py
 
+      - name: Build global economic decision queue
+        run: python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/global_economic_decision_engine.py
+
       - name: Build operational revenue pillars
         run: python 01_GLOBAL_REVENUE_BRAIN/01_EXECUTION/operational_pillars_engine.py
 
@@ -113,6 +116,7 @@ jobs:
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/verified_opportunities.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/VERIFIED_EXECUTION_QUEUE.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/LIVE_TRUTH_EXECUTION_QUEUE.csv \
+            01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/GLOBAL_DECISION_QUEUE.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/HUMAN_APPROVAL_QUEUE.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/REVENUE_OPERATIONS.csv \
             01_GLOBAL_REVENUE_BRAIN/11_DATA/global_revenue_brain.db \
@@ -128,6 +132,7 @@ jobs:
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_VERIFIED_OPPORTUNITIES.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_VERIFIED_EXECUTION_QUEUE.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_LIVE_TRUTH_QUEUE.md \
+            01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_GLOBAL_ECONOMIC_DECISIONS.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_OPERATIONAL_PILLARS.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_AUTONOMOUS_DEVELOPMENT.md
           git add -- \
