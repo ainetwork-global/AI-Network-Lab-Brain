@@ -12,6 +12,8 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 TRUTH_QUEUE = ROOT / "04_OPPORTUNITIES" / "LIVE_TRUTH_EXECUTION_QUEUE.csv"
+OFFICIAL_SOURCE_INPUT = ROOT / "04_OPPORTUNITIES" / "official_source_candidates.csv"
+OFFICIAL_ELIGIBILITY_INPUT = ROOT / "04_OPPORTUNITIES" / "official_eligible_queue.csv"
 SELECTION_QUEUE = ROOT / "04_OPPORTUNITIES" / "DASHBOARD_HUMAN_SELECTION_QUEUE.csv"
 REPORT = ROOT / "12_REPORTS" / "LATEST_DASHBOARD_SELECTION.md"
 ALLOWED_HOSTS = {
@@ -21,7 +23,8 @@ ALLOWED_HOSTS = {
 FIELDS = [
     "issue_number", "selected_at", "selected_by", "status", "truth_rank",
     "truth_status", "title", "source", "url", "reward_amount",
-    "reward_currency", "truth_reason", "recommended_action", "execution_path",
+    "reward_currency", "reward_basis", "payment_method", "kyc_required",
+    "truth_reason", "recommended_action", "execution_path",
 ]
 
 
@@ -38,6 +41,8 @@ def extract_url(body: str) -> str:
 
 
 def execution_path(status: str) -> str:
+    if "BUG_BOUNTY" in status:
+        return "validate_scope_then_run_local_security_review"
     if "SOURCE_REVIEW_REQUIRED" in status:
         return "validate_source_scope_eligibility_and_payment"
     if "CONFIRMATION_REQUIRED" in status:
@@ -45,6 +50,37 @@ def execution_path(status: str) -> str:
     if "RETRY_REQUIRED" in status:
         return "retry_live_validation_then_reassess"
     return "prepare_individual_execution_plan"
+
+
+def canonical_candidate(candidate: dict[str, str]) -> dict[str, str]:
+    """Restore labelled official values when a later parser confused them."""
+    result = dict(candidate)
+    official = next(
+        (
+            row for row in read_csv(OFFICIAL_SOURCE_INPUT)
+            if row.get("url") == candidate.get("url")
+        ),
+        None,
+    )
+    if official:
+        try:
+            reward = float(official.get("reward_amount") or 0)
+        except ValueError:
+            reward = 0
+        if reward > 0:
+            result["reward_amount"] = str(reward)
+            result["reward_currency"] = official.get("reward_currency") or "USD"
+            result["reward_basis"] = "maximum_advertised_reward"
+    eligible = next(
+        (
+            row for row in read_csv(OFFICIAL_ELIGIBILITY_INPUT)
+            if row.get("url") == candidate.get("url")
+        ),
+        None,
+    )
+    if eligible and eligible.get("kyc_required", "") != "":
+        result["kyc_required"] = eligible["kyc_required"]
+    return result
 
 
 def main() -> int:
@@ -57,7 +93,7 @@ def main() -> int:
     actor = (event.get("sender") or {}).get("login", "")
     owner = (repository.get("owner") or {}).get("login", "")
     title = str(issue.get("title") or "")
-    if actor != owner or not title.startswith("[DASHBOARD REVIEW]"):
+    if actor != owner or not title.startswith(("[DASHBOARD REVIEW]", "[BRAIN ANALYSIS]")):
         raise SystemExit("Selection rejected: only the repository owner may request it")
 
     url = extract_url(str(issue.get("body") or ""))
@@ -67,6 +103,7 @@ def main() -> int:
     candidate = next((row for row in truth_rows if row.get("url") == url), None)
     if not candidate:
         raise SystemExit("Selection rejected: URL is not in the live truth queue")
+    candidate = canonical_candidate(candidate)
     status = candidate.get("truth_status", "")
     if status.startswith("BLOCKED_") or not re.search(
         r"REVIEW_REQUIRED|CONFIRMATION_REQUIRED|RETRY_REQUIRED", status
@@ -88,6 +125,9 @@ def main() -> int:
         "url": url,
         "reward_amount": candidate.get("reward_amount", ""),
         "reward_currency": candidate.get("reward_currency", ""),
+        "reward_basis": candidate.get("reward_basis", "reported_amount_unverified"),
+        "payment_method": candidate.get("payment_method", ""),
+        "kyc_required": candidate.get("kyc_required", ""),
         "truth_reason": candidate.get("truth_reason", ""),
         "recommended_action": candidate.get("recommended_action", ""),
         "execution_path": execution_path(status),
@@ -106,7 +146,10 @@ def main() -> int:
         f"- Selected by: `{actor}`\n"
         f"- Status: `USER_SELECTED_FOR_ANALYSIS`\n"
         f"- Opportunity: **{row['title']}**\n"
-        f"- Advertised reward: `{row['reward_currency']} {row['reward_amount']}`\n"
+        f"- Maximum advertised reward: `{row['reward_currency']} {row['reward_amount']}`\n"
+        f"- Reward basis: `{row['reward_basis']}`\n"
+        f"- Payment method: `{row['payment_method'] or 'REVIEW_REQUIRED'}`\n"
+        f"- KYC required: `{row['kyc_required'] or 'REVIEW_REQUIRED'}`\n"
         f"- Truth status: `{status}`\n"
         f"- Reason: {row['truth_reason']}\n"
         f"- Execution path: `{row['execution_path']}`\n"
