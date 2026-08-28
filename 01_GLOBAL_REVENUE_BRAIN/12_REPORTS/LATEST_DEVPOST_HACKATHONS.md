@@ -1,6 +1,6 @@
 # Global Revenue Brain — Devpost Hackathons
 
-Gerado em: 2026-08-28T11:19:19.326141+00:00
+Gerado em: 2026-08-28T11:24:27.616560+00:00
 
 ## Resumo
 
@@ -1183,7 +1183,7 @@ Gerado em: 2026-08-28T11:19:19.326141+00:00
 - Início: 2031-08-04
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 10875
+- Participantes: 10878
 - Competências: agent
 - URL: https://allthingsagentichackathon.devpost.com/
 
@@ -1459,7 +1459,7 @@ Gerado em: 2026-08-28T11:19:19.326141+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 3128
+- Participantes: 3132
 - Competências: não identificadas
 - URL: https://webmcp.devpost.com/
 
