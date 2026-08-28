@@ -1,16 +1,16 @@
 # Latest Dashboard Selection
 
-- GitHub request: `#43`
+- GitHub request: `#44`
 - Selected by: `ainetwork-global`
 - Status: `USER_SELECTED_FOR_ANALYSIS`
-- Opportunity: **🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC**
-- Maximum advertised reward: `USD 28.4`
-- Reward basis: `reported_amount_unverified`
-- Payment method: `GitHub Sponsors`
-- KYC required: `0`
-- Truth status: `LIVE_CHECK_RETRY_REQUIRED`
-- Reason: Falha temporária na validação ao vivo: HTTPError.
-- Execution path: `retry_live_validation_then_reassess`
-- URL: https://github.com/greyw0rks/bountyscout/issues/256
+- Opportunity: **Immunefi**
+- Maximum advertised reward: `USD 50000.0`
+- Reward basis: `maximum_advertised_reward`
+- Payment method: `USDC`
+- KYC required: `1`
+- Truth status: `AUTHORIZED_BUG_BOUNTY_REVIEW_REQUIRED`
+- Reason: Programa oficial identificado; revisar escopo, PoC, ativos e impactos elegíveis, KYC antes de qualquer teste exclusivamente local.
+- Execution path: `validate_scope_then_run_local_security_review`
+- URL: https://immunefi.com/bug-bounty/immunefi/information/
 
 No claim, application, security test, submission, signature or payment was performed.
