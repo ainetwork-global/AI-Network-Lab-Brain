@@ -1,6 +1,6 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-28T11:25:49.366906+00:00`
+Generated at: `2026-08-28T18:22:03.660004+00:00`
 
 - Live candidates checked: **60**
 - Ready for technical review: **0**
@@ -104,7 +104,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
 - Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
 - Live GitHub state: `open`
-- Comments: `4`
+- Comments: `7`
 - Reward: `EUR 5000.0`
 - URL: https://github.com/FreeCAD/FPA-grant-proposals/issues/104
 
@@ -149,7 +149,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
 - Reason: Há 1 PR(s) concorrente(s) relacionado(s) (#614); confirmar disponibilidade antes de desenvolver.
 - Live GitHub state: `open`
-- Comments: `11`
+- Comments: `13`
 - Reward: `USD 500.0`
 - URL: https://github.com/kendraio/kendraio-app/issues/184
 
@@ -228,7 +228,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 ## 25. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
 
 - Truth status: `BLOCKED_HIGH_COMPETITION`
-- Reason: Há 49 PRs concorrentes relacionados (incluindo #1908, #1905, #1893, #1892, #1882); não investir trabalho nesta oportunidade saturada.
+- Reason: Há 36 PRs concorrentes relacionados (incluindo #1908, #1905, #1893, #1882, #1877); não investir trabalho nesta oportunidade saturada.
 - Live GitHub state: `open`
 - Comments: `34`
 - Reward: `USD 200.0`

@@ -1,13 +1,13 @@
 # Global Revenue Brain — Devpost Hackathons
 
-Gerado em: 2026-08-28T11:24:27.616560+00:00
+Gerado em: 2026-08-28T18:20:17.691469+00:00
 
 ## Resumo
 
-- Método utilizado: **api**
-- Registros recebidos: **9**
+- Método utilizado: **nenhum**
+- Registros recebidos: **0**
 - Candidatos staged: **185**
-- Erros: **0**
+- Erros: **2**
 
 ## Ranking
 
@@ -2230,3 +2230,8 @@ Gerado em: 2026-08-28T11:24:27.616560+00:00
 - Participantes: 8
 - Competências: Social Good
 - URL: https://wwu-sj-hack.devpost.com/
+
+## Erros
+
+- API: API Devpost retornou HTTP 403
+- HTML: 403 Client Error: Forbidden for url: https://devpost.com/hackathons?status%5B%5D=open&status%5B%5D=upcoming
