@@ -1,6 +1,6 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-27T22:18:40.064060+00:00`
+Generated at: `2026-08-28T11:21:32.819956+00:00`
 
 - Live candidates checked: **60**
 - Ready for technical review: **0**
@@ -20,18 +20,18 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 
 ## 2. DeXe Protocol
 
-- Truth status: `SOURCE_REVIEW_REQUIRED`
-- Reason: Fonte não é uma issue GitHub validável pela API.
-- Live GitHub state: `unknown`
+- Truth status: `AUTHORIZED_BUG_BOUNTY_REVIEW_REQUIRED`
+- Reason: Programa oficial identificado; revisar escopo, PoC, ativos e impactos elegíveis, KYC antes de qualquer teste exclusivamente local.
+- Live GitHub state: `official_program`
 - Comments: `0`
 - Reward: `USD 500000.0`
 - URL: https://immunefi.com/bug-bounty/dexeprotocol/information/
 
 ## 3. StackingDAO
 
-- Truth status: `SOURCE_REVIEW_REQUIRED`
-- Reason: Fonte não é uma issue GitHub validável pela API.
-- Live GitHub state: `unknown`
+- Truth status: `AUTHORIZED_BUG_BOUNTY_REVIEW_REQUIRED`
+- Reason: Programa oficial identificado; revisar escopo, PoC, ativos e impactos elegíveis antes de qualquer teste exclusivamente local.
+- Live GitHub state: `official_program`
 - Comments: `0`
 - Reward: `USD 100000.0`
 - URL: https://immunefi.com/bug-bounty/stackingdao/information/
@@ -47,20 +47,20 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 
 ## 5. Immunefi
 
-- Truth status: `SOURCE_REVIEW_REQUIRED`
-- Reason: Fonte não é uma issue GitHub validável pela API.
-- Live GitHub state: `unknown`
+- Truth status: `AUTHORIZED_BUG_BOUNTY_REVIEW_REQUIRED`
+- Reason: Programa oficial identificado; revisar escopo, PoC, ativos e impactos elegíveis, KYC antes de qualquer teste exclusivamente local.
+- Live GitHub state: `official_program`
 - Comments: `0`
 - Reward: `USD 50000.0`
 - URL: https://immunefi.com/bug-bounty/immunefi/information/
 
 ## 6. Hedera
 
-- Truth status: `SOURCE_REVIEW_REQUIRED`
-- Reason: Fonte não é uma issue GitHub validável pela API.
-- Live GitHub state: `unknown`
+- Truth status: `AUTHORIZED_BUG_BOUNTY_REVIEW_REQUIRED`
+- Reason: Programa oficial identificado; revisar escopo, PoC, ativos e impactos elegíveis, KYC antes de qualquer teste exclusivamente local.
+- Live GitHub state: `official_program`
 - Comments: `0`
-- Reward: `USD 14500.0`
+- Reward: `USD 30000.0`
 - URL: https://immunefi.com/bug-bounty/hedera/information/
 
 ## 7. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
@@ -83,8 +83,8 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 
 ## 9. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
 
-- Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
-- Reason: Há PR concorrente aberto e relacionado (#47, #46, #45, #39, #28); não iniciar desenvolvimento duplicado.
+- Truth status: `BLOCKED_HIGH_COMPETITION`
+- Reason: Há 28 PRs concorrentes relacionados (incluindo #47, #46, #45, #44, #43); não investir trabalho nesta oportunidade saturada.
 - Live GitHub state: `open`
 - Comments: `59`
 - Reward: `USD 3000.0`
@@ -104,7 +104,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
 - Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
 - Live GitHub state: `open`
-- Comments: `2`
+- Comments: `4`
 - Reward: `EUR 5000.0`
 - URL: https://github.com/FreeCAD/FPA-grant-proposals/issues/104
 
@@ -147,9 +147,9 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 ## 16. Kendraio App MusicBrainz integration (bounty)
 
 - Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
-- Reason: Há PR/trabalho ativo ou responsável atribuído; confirmar disponibilidade antes de desenvolver.
+- Reason: Há 1 PR(s) concorrente(s) relacionado(s) (#614); confirmar disponibilidade antes de desenvolver.
 - Live GitHub state: `open`
-- Comments: `10`
+- Comments: `11`
 - Reward: `USD 500.0`
 - URL: https://github.com/kendraio/kendraio-app/issues/184
 
@@ -164,8 +164,8 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 
 ## 18. [BOUNTY $200] Testing — 自动化测试套件
 
-- Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
-- Reason: Há PR concorrente aberto e relacionado (#706, #702, #687, #650, #639); não iniciar desenvolvimento duplicado.
+- Truth status: `BLOCKED_HIGH_COMPETITION`
+- Reason: Há 14 PRs concorrentes relacionados (incluindo #744, #726, #706, #697, #687); não investir trabalho nesta oportunidade saturada.
 - Live GitHub state: `open`
 - Comments: `340`
 - Reward: `USD 280.0`
@@ -182,11 +182,11 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 
 ## 20. Zest Protocol V2
 
-- Truth status: `SOURCE_REVIEW_REQUIRED`
-- Reason: Fonte não é uma issue GitHub validável pela API.
-- Live GitHub state: `unknown`
+- Truth status: `AUTHORIZED_BUG_BOUNTY_REVIEW_REQUIRED`
+- Reason: Programa oficial identificado; revisar escopo, PoC, ativos e impactos elegíveis antes de qualquer teste exclusivamente local.
+- Live GitHub state: `official_program`
 - Comments: `0`
-- Reward: `USD 150.0`
+- Reward: `USD 100000.0`
 - URL: https://immunefi.com/bug-bounty/zest-protocol-v2/information/
 
 ## 21. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
@@ -219,16 +219,16 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 ## 24. VoltHacks
 
 - Truth status: `SOURCE_REVIEW_REQUIRED`
-- Reason: Fonte não é uma issue GitHub validável pela API.
-- Live GitHub state: `unknown`
+- Reason: Fonte externa ainda exige validação específica da plataforma.
+- Live GitHub state: `external_source`
 - Comments: `0`
 - Reward: `USD 300.0`
 - URL: https://volthacks.devpost.com/
 
 ## 25. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
 
-- Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
-- Reason: Há PR concorrente aberto e relacionado (#1905, #1893, #1844, #1726, #1715); não iniciar desenvolvimento duplicado.
+- Truth status: `BLOCKED_HIGH_COMPETITION`
+- Reason: Há 49 PRs concorrentes relacionados (incluindo #1908, #1905, #1893, #1892, #1882); não investir trabalho nesta oportunidade saturada.
 - Live GitHub state: `open`
 - Comments: `34`
 - Reward: `USD 200.0`
