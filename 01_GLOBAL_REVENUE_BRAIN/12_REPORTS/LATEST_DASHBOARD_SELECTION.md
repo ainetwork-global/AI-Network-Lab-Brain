@@ -1,16 +1,16 @@
 # Latest Dashboard Selection
 
-- GitHub request: `#54`
+- GitHub request: `#58`
 - Selected by: `ainetwork-global`
 - Status: `USER_SELECTED_FOR_ANALYSIS`
-- Opportunity: **autorouting#92 Multilayer Ijump: Remove wild trace jumps**
-- Maximum advertised reward: `USD 50.0`
+- Opportunity: **🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC**
+- Maximum advertised reward: `USD 150.0`
 - Reward basis: `reported_amount_unverified`
-- Payment method: `Algora`
-- KYC required: `1`
-- Truth status: `STALE_LOCKED_CONFIRMATION_REQUIRED`
-- Reason: Issue bloqueada para comentários e sem atualização há mais de 180 dias; confirmar se a recompensa continua executável.
-- Execution path: `confirm_availability_and_competition_before_development`
-- URL: https://github.com/tscircuit/autorouting/issues/92
+- Payment method: `GitHub Sponsors`
+- KYC required: `0`
+- Truth status: `LIVE_CHECK_RETRY_REQUIRED`
+- Reason: Falha temporária na validação ao vivo: HTTPError.
+- Execution path: `retry_live_validation_then_reassess`
+- URL: https://github.com/greyw0rks/bountyscout/issues/265
 
 No claim, application, security test, submission, signature or payment was performed.
