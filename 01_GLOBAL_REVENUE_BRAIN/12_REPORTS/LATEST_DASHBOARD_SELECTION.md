@@ -1,16 +1,16 @@
 # Latest Dashboard Selection
 
-- GitHub request: `#47`
+- GitHub request: `#48`
 - Selected by: `ainetwork-global`
 - Status: `USER_SELECTED_FOR_ANALYSIS`
-- Opportunity: **🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC**
-- Maximum advertised reward: `USD 150.0`
+- Opportunity: **dokploy#1413 Organisation and Teams Management**
+- Maximum advertised reward: `USD 100.0`
 - Reward basis: `reported_amount_unverified`
-- Payment method: `GitHub Sponsors`
-- KYC required: `0`
-- Truth status: `LIVE_CHECK_RETRY_REQUIRED`
-- Reason: Falha temporária na validação ao vivo: HTTPError.
-- Execution path: `retry_live_validation_then_reassess`
-- URL: https://github.com/greyw0rks/bountyscout/issues/265
+- Payment method: `Algora`
+- KYC required: `1`
+- Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
+- Reason: Há PR/trabalho ativo ou responsável atribuído; confirmar disponibilidade antes de desenvolver.
+- Execution path: `confirm_availability_and_competition_before_development`
+- URL: https://github.com/Dokploy/dokploy/issues/1413
 
 No claim, application, security test, submission, signature or payment was performed.
