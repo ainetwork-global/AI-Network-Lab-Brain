@@ -44,6 +44,15 @@ def read_csv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def output_fieldnames(rows: list[dict[str, str]]) -> list[str]:
+    fields = list(FIELDS)
+    for row in rows:
+        for key in row:
+            if key not in fields and not key.startswith("_"):
+                fields.append(key)
+    return fields
+
+
 def positive_number(value: object) -> float | None:
     try:
         number = float(str(value or "").replace(",", ""))
@@ -322,7 +331,7 @@ def main() -> int:
     output.sort(key=lambda r: (order.get(r["truth_status"], 9), -float(r.get("priority_score") or 0)))
     for rank, row in enumerate(output, 1):
         row["truth_rank"] = rank
-    fieldnames = FIELDS + [f for f in rows[0].keys() if f not in FIELDS] if rows else FIELDS
+    fieldnames = output_fieldnames(output)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
