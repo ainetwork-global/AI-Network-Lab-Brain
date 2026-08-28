@@ -1,6 +1,6 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-28T18:32:56.568542+00:00`
+Generated at: `2026-08-28T22:22:58.669013+00:00`
 
 - Live candidates checked: **60**
 - Ready for technical review: **0**
@@ -228,7 +228,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 ## 25. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
 
 - Truth status: `BLOCKED_HIGH_COMPETITION`
-- Reason: Há 35 PRs concorrentes relacionados (incluindo #1908, #1905, #1893, #1882, #1877); não investir trabalho nesta oportunidade saturada.
+- Reason: Há 34 PRs concorrentes relacionados (incluindo #1908, #1905, #1893, #1882, #1877); não investir trabalho nesta oportunidade saturada.
 - Live GitHub state: `open`
 - Comments: `34`
 - Reward: `USD 200.0`
