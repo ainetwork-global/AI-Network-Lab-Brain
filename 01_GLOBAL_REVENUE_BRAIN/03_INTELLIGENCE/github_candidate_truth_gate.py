@@ -123,19 +123,19 @@ def competing_pull_requests(owner: str, repo: str, number: str, issue_title: str
     ):
         return []
 
-    normalized_issue = re.sub(r"(?i)\\b(?:bounty|reward)\\b|[^a-z0-9]+", " ", issue_title.lower()).strip()
+    normalized_issue = re.sub(r"(?i)\b(?:bounty|reward)\b|[^a-z0-9]+", " ", issue_title.lower()).strip()
     matches: list[int] = []
     for pull in pulls if isinstance(pulls, list) else []:
         if not isinstance(pull, dict):
             continue
         title = str(pull.get("title") or "")
         body = str(pull.get("body") or "")
-        haystack = f"{title}\\n{body}"
+        haystack = f"{title}\n{body}"
         explicit_reference = bool(
-            re.search(rf"(?i)(?:fix(?:e[sd])?|close[sd]?|resolve[sd]?)?\\s*#{re.escape(number)}\\b", haystack)
+            re.search(rf"(?i)(?:fix(?:e[sd])?|close[sd]?|resolve[sd]?)?\s*#{re.escape(number)}\b", haystack)
             or f"/issues/{number}" in haystack
         )
-        normalized_pr = re.sub(r"(?i)\\b(?:feat|fix|implement|implementation)\\b|[^a-z0-9]+", " ", title.lower()).strip()
+        normalized_pr = re.sub(r"(?i)\b(?:feat|fix|implement|implementation)\b|[^a-z0-9]+", " ", title.lower()).strip()
         close_title = bool(
             normalized_issue
             and normalized_pr
@@ -199,7 +199,7 @@ def classify(row: dict[str, str]) -> tuple[str, str, str, int]:
         f"{issue_body}\n"
         f"{comment_text}"
     )
-    if re.search(r"(?i)\\bfor an accepted submission\\b", issue_body):
+    if re.search(r"(?i)\bfor an accepted submission\b", issue_body):
         row["reward_basis"] = "accepted_submission_not_guaranteed"
     if re.search(r"(?i)payment details will be handled privately after acceptance", issue_body):
         row["payment_method"] = "private_after_acceptance"
