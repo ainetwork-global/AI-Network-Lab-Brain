@@ -1,6 +1,6 @@
 # HUMAN LOGIN HANDOFF QUEUE
 
-Generated: `2026-08-29T07:06:47.811696+00:00`
+Generated: `2026-08-29T16:45:31.011552+00:00`
 
 - Login required to discover personalized opportunities: **15**
 - Candidate decisions awaiting human review: **8**

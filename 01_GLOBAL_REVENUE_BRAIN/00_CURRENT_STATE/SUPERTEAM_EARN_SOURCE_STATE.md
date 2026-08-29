@@ -2,7 +2,7 @@
 
 Status: `SUPERTEAM_OFFICIAL_ADAPTER_ACTIVE`
 
-- Last run: `2026-08-29T07:05:39.935558+00:00`
+- Last run: `2026-08-29T16:44:10.405774+00:00`
 - Official API listings: `17`
 - Fallback listing URLs: `0`
 - Listings parsed: `17`
