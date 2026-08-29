@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-08-29T16:43:57.203398+00:00
+Gerado em: 2026-08-29T20:56:10.290383+00:00
 
 ## Objetivo
 
@@ -11,10 +11,10 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 ## Resumo
 
 - Total coletado nesta execução: **1005**
-- Actionable review: **2567**
-- Manual review: **598**
-- Low priority: **1776**
-- Rejected: **38**
+- Actionable review: **2692**
+- Manual review: **617**
+- Low priority: **1851**
+- Rejected: **39**
 - Erros: **0**
 
 ## Fontes
@@ -650,7 +650,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, github; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/sales/product-sales-specialist-pet-health-2091048
 
-### 40. Senior Specialist, Employee Relations - EMEA
+### 40. Building Maintenance Technician
+
+- Fonte: remoteok
+- Contratante: Dart
+- Localização: George Town,
+- Tipo: remote
+- Remuneração: USD 50,000.00
+- Evidência de pagamento: $50,000
+- Execução remota: sim
+- Compatibilidade com automação: 70.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: documentation, ai; Executável digitalmente: documentation; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://remoteOK.com/remote-jobs/remote-building-maintenance-technician-dart-1137212
+
+### 41. Senior Specialist, Employee Relations - EMEA
 
 - Fonte: arbeitnow
 - Contratante: remotecom
@@ -666,7 +682,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, documentation, ai; Executável digitalmente: automation, api, data, documentation, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/remotecom/senior-specialist-employee-relations-emea-218418
 
-### 41. Trimmer
+### 42. Trimmer
 
 - Fonte: remoteok
 - Contratante: Canopy Growth Corporation
@@ -682,7 +698,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-trimmer-canopy-growth-corporation-1136997
 
-### 42. Rural and Suburban Mail Carrier Allan RR1
+### 43. Rural and Suburban Mail Carrier Allan RR1
 
 - Fonte: remoteok
 - Contratante: Canada Post / Postes Canada
@@ -698,7 +714,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-rural-and-suburban-mail-carrier-allan-rr1-canada-post-postes-canada-1137126
 
-### 43. [BRAIN ANALYSIS] Immunefi / Hedera
+### 44. [BRAIN ANALYSIS] Immunefi / Hedera
 
 - Fonte: github_paid_issues
 - Contratante: ainetwork-global/AI-Network-Lab-Brain
@@ -714,7 +730,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: testing, ai; Executável digitalmente: testing, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/ainetwork-global/AI-Network-Lab-Brain/issues/34
 
-### 44. Client Success Coach (CSM)
+### 45. Client Success Coach (CSM)
 
 - Fonte: remotive
 - Contratante: Impact Clients
@@ -730,7 +746,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, llm, backend; Executável digitalmente: api, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/customer-service/client-success-coach-csm-2091039
 
-### 45. [每日信息流] 2026-08-27
+### 46. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: ruohong2018/ruohong2018.github.io
@@ -746,7 +762,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, database, sql, ai, llm, agent, github; Executável digitalmente: script, api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/ruohong2018/ruohong2018.github.io/issues/1296
 
-### 46. [每日信息流] 2026-08-27
+### 47. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: Tyaoo/picker
@@ -762,7 +778,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, sql, qa, ai, llm, agent, github; Executável digitalmente: script, data, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/Tyaoo/picker/issues/1490
 
-### 47. [每日信息流] 2026-08-27
+### 48. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: MM0x02/RSS-Push
@@ -778,7 +794,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, database, sql, qa, ai, llm, agent; Executável digitalmente: script, api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/MM0x02/RSS-Push/issues/613
 
-### 48. [每日信息流] 2026-08-27
+### 49. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: chainreactors/picker
@@ -794,7 +810,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, database, sql, qa, ai, llm, agent; Executável digitalmente: script, api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/chainreactors/picker/issues/1346
 
-### 49. [每日信息流] 2026-08-27
+### 50. [每日信息流] 2026-08-27
 
 - Fonte: github_paid_issues
 - Contratante: BruceFeIix/picker
@@ -809,19 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: claim_or_proposal
 - Motivo: Capacidades compatíveis: api, script, database, sql, qa, ai, llm, agent; Executável digitalmente: script, api, data, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/BruceFeIix/picker/issues/2649
-
-### 50. ApproxMate - AI-powered job, compensation & offer decision platform
-
-- Fonte: github_paid_issues
-- Contratante: si13n/approx-mate
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 5,000.00
-- Evidência de pagamento: $5,000
-- Execução remota: sim
-- Compatibilidade com automação: 95.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: script, documentation, ai, llm, agent, workflow, github; Executável digitalmente: script, data, documentation, analysis; Indício explícito de remuneração.; Execução remota identificada.; Riscos encontrados: unpaid
-- URL: https://github.com/si13n/approx-mate/issues/8
