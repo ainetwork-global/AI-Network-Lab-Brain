@@ -1,10 +1,10 @@
 # Global Revenue Brain — Official Source Adapters
 
-Gerado em: 2026-08-28T22:21:22.484599+00:00
+Gerado em: 2026-08-29T07:05:36.721224+00:00
 
 ## Resumo
 
-- Grants.gov staged: **235**
+- Grants.gov staged: **234**
 - Immunefi staged: **10**
 - Total isolado: **100**
 - Erros: **0**

@@ -1,6 +1,6 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-28T22:22:58.669013+00:00`
+Generated at: `2026-08-29T07:06:47.713945+00:00`
 
 - Live candidates checked: **60**
 - Ready for technical review: **0**
@@ -104,7 +104,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
 - Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
 - Live GitHub state: `open`
-- Comments: `7`
+- Comments: `8`
 - Reward: `EUR 5000.0`
 - URL: https://github.com/FreeCAD/FPA-grant-proposals/issues/104
 
@@ -228,7 +228,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 ## 25. [BOUNTY $200] 🐜 The Great Memory Migration: Own Your Agentic Memory with Memanto + OKF
 
 - Truth status: `BLOCKED_HIGH_COMPETITION`
-- Reason: Há 34 PRs concorrentes relacionados (incluindo #1908, #1905, #1893, #1882, #1877); não investir trabalho nesta oportunidade saturada.
+- Reason: Há 35 PRs concorrentes relacionados (incluindo #1914, #1908, #1905, #1893, #1882); não investir trabalho nesta oportunidade saturada.
 - Live GitHub state: `open`
 - Comments: `34`
 - Reward: `USD 200.0`
