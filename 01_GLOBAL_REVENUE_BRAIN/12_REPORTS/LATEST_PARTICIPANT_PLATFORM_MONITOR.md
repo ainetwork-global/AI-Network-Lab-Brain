@@ -1,9 +1,9 @@
 # Participant Platform Monitor
 
-Generated: `2026-08-30T11:56:01.474031+00:00`
+Generated: `2026-08-30T16:42:21.448590+00:00`
 
 - Platforms monitored: **16**
-- Public entry points reachable/protected: **15**
+- Public entry points reachable/protected: **14**
 - Account, app or email feed required: **15**
 - Initial cost permitted: **no**
 - Automatic identity-based participation: **no**
@@ -24,7 +24,7 @@ Generated: `2026-08-30T11:56:01.474031+00:00`
 | MetroOpinion | paid_surveys | verified_local_site | authenticated | reachable | monitor account/email |
 | Outlier | ai_training | possible | authenticated | reachable | monitor account/email |
 | OneForma | ai_training | verified_global | matched_authenticated | reachable | monitor account/email |
-| Clickworker | microtasks | possible | authenticated | reachable | monitor account/email |
+| Clickworker | microtasks | possible | authenticated | temporary_error | monitor account/email |
 | TELUS Digital AI Community | ai_training | role_dependent | public_jobs | reachable_protected | monitor public roles |
 
 ## Safety boundary
