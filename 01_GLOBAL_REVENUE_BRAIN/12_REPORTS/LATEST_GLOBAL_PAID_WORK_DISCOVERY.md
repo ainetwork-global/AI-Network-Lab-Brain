@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-08-31T05:36:12.007500+00:00
+Gerado em: 2026-08-31T13:52:05.154879+00:00
 
 ## Objetivo
 
@@ -10,10 +10,10 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 
 ## Resumo
 
-- Total coletado nesta execução: **1006**
-- Actionable review: **3302**
-- Manual review: **683**
-- Low priority: **2112**
+- Total coletado nesta execução: **1008**
+- Actionable review: **3456**
+- Manual review: **728**
+- Low priority: **2241**
 - Rejected: **45**
 - Erros: **0**
 
@@ -22,7 +22,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Arbeitnow: **650**
 - Remotive: **19**
 - Remote OK: **100**
-- GitHub paid issues: **237**
+- GitHub paid issues: **239**
 
 ## Melhores oportunidades
 
@@ -730,7 +730,55 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: documentation, ai; Executável digitalmente: documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-building-maintenance-technician-dart-1137212
 
-### 45. Senior Specialist, Employee Relations - EMEA
+### 45. [GENERATE_EBOOK] THE_NEXUS_SINGULARITY: Architecting Planetary-Scale AI & Quantum-Resilient Ecosystems (Python, Ruby, Wasm & Spatial UI)
+
+- Fonte: github_paid_issues
+- Contratante: iftu8/digital-products
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 50,000.00
+- Evidência de pagamento: $50,000
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: python, integration, script, database, ai, backend; Executável digitalmente: python, script, integration, data, backend; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/iftu8/digital-products/issues/108
+
+### 46. Grant Application - Zcash Hack-to-Dark At Devcon 8, Mumbai
+
+- Fonte: github_paid_issues
+- Contratante: ZcashCommunityGrants/zcashcommunitygrants
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 50,000.00
+- Evidência de pagamento: $50,000
+- Execução remota: sim
+- Compatibilidade com automação: 95.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: api, script, documentation, ai, workflow, github; Executável digitalmente: script, api, data, documentation; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/398
+
+### 47. Grant Application - Security Audit of Zaino
+
+- Fonte: github_paid_issues
+- Contratante: ZcashCommunityGrants/zcashcommunitygrants
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 50,000.00
+- Evidência de pagamento: $50,000
+- Execução remota: sim
+- Compatibilidade com automação: 95.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: api, script, documentation, ai, workflow, github; Executável digitalmente: script, api, data, documentation, research; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/407
+
+### 48. Senior Specialist, Employee Relations - EMEA
 
 - Fonte: arbeitnow
 - Contratante: remotecom
@@ -746,7 +794,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, documentation, ai; Executável digitalmente: automation, api, data, documentation, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/remotecom/senior-specialist-employee-relations-emea-218418
 
-### 46. Trimmer
+### 49. Trimmer
 
 - Fonte: remoteok
 - Contratante: Canopy Growth Corporation
@@ -762,7 +810,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-trimmer-canopy-growth-corporation-1136997
 
-### 47. Rural and Suburban Mail Carrier Allan RR1
+### 50. Rural and Suburban Mail Carrier Allan RR1
 
 - Fonte: remoteok
 - Contratante: Canada Post / Postes Canada
@@ -777,51 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: proposal_or_application
 - Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-rural-and-suburban-mail-carrier-allan-rr1-canada-post-postes-canada-1137126
-
-### 48. [Bounty $35000] Welford Two-Pass Statistics Optimisation
-
-- Fonte: github_paid_issues
-- Contratante: tenstorrent/tt-metal
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 35,000.00
-- Evidência de pagamento: $35000
-- Execução remota: sim
-- Compatibilidade com automação: 80.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: documentation, ai, backend; Executável digitalmente: data, documentation, analysis, backend; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/tenstorrent/tt-metal/issues/54016
-
-### 49. [BRAIN ANALYSIS] Immunefi / Hedera
-
-- Fonte: github_paid_issues
-- Contratante: ainetwork-global/AI-Network-Lab-Brain
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 30,000.00
-- Evidência de pagamento: usd 30000.00
-- Execução remota: sim
-- Compatibilidade com automação: 75.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: testing, ai; Executável digitalmente: testing, analysis; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/ainetwork-global/AI-Network-Lab-Brain/issues/34
-
-### 50. Client Success Coach (CSM)
-
-- Fonte: remotive
-- Contratante: Impact Clients
-- Localização: Northern America, Europe, South Africa
-- Tipo: full_time
-- Remuneração: USD 10,000.00–15,000.00
-- Evidência de pagamento: $10,000–$15,000
-- Execução remota: sim
-- Compatibilidade com automação: 90.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: api, ai, llm, backend; Executável digitalmente: api, backend; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://remotive.com/remote-jobs/customer-service/client-success-coach-csm-2091039
