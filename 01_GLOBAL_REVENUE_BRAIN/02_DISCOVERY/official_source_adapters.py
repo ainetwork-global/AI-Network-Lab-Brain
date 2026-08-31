@@ -8,12 +8,14 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, urldefrag
+from .immunefi_official_adapter import ImmunefiOfficialAdapter
 
 import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 
 
+    "ImmunefiOfficialAdapter",
 ROOT = Path(__file__).resolve().parents[1]
 DATABASE = ROOT / "11_DATA" / "global_revenue_brain.db"
 REPORT = ROOT / "12_REPORTS" / "LATEST_OFFICIAL_SOURCE_ADAPTERS.md"
