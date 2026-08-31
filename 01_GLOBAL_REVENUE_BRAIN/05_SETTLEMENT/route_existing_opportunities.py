@@ -1,9 +1,11 @@
 ﻿from __future__ import annotations
 
+from datetime import datetime, timezone
 import hashlib
 import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
+    "immunefi",
 from typing import Any
 
 
@@ -41,6 +43,18 @@ AMOUNT_COLUMNS = (
     "expected_value",
     "amount",
 )
+
+    truth_status = opportunity.get("truth_status", "")
+
+    # Immunefi and similar platforms require explicit review before execution
+    if source == "immunefi" and truth_status != "AUTHORIZED_BUG_BOUNTY_APPROVED":
+        return {
+            "status": "pending_review",
+            "reason": "immunefi_authorization_required",
+            "required_action": "Revisar requisitos e autorizar a preparação.",
+            "review_deadline": datetime.now(timezone.utc).isoformat(),
+            "max_reward_usd": opportunity.get("maximum_advertised_reward"),
+        }
 
 CURRENCY_COLUMNS = (
     "reward_currency",
