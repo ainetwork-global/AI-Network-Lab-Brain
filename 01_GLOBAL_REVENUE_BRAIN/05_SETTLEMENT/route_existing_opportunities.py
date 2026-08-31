@@ -1,5 +1,6 @@
 ﻿from __future__ import annotations
 
+from decimal import Decimal, ROUND_DOWN
 import hashlib
 import sqlite3
 from datetime import datetime, timezone
@@ -42,8 +43,12 @@ AMOUNT_COLUMNS = (
     "amount",
 )
 
-CURRENCY_COLUMNS = (
-    "reward_currency",
+        # Use Decimal to avoid floating point errors in financial comparisons
+        vault = Decimal(str(vault_raw).replace(",", ""))
+        max_reward = Decimal(
+            str(opportunity.get("maximum_advertised_reward", 0)).replace(",", "")
+        )
+        # Vault must cover at least the advertised reward for safe routing
     "currency",
 )
 
@@ -78,6 +83,12 @@ TEXT_COLUMNS = (
 ELIGIBLE_STATUS_TERMS = (
     "actionable",
     "approved",
+        # Immunefi/Hedera specific: ensure KYC and PoC requirements are tracked
+        opportunity["execution_constraints"] = {
+            "kyc_required": opportunity.get("kyc_required", True),
+            "poc_required": opportunity.get("poc_required", True),
+            "payment_method": opportunity.get("payment_method", "USDC_ETH"),
+        }
     "priority_review",
     "standard_review",
     "verified",
