@@ -42,6 +42,7 @@ def ensure_output_file() -> None:
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     with OUTPUT_FILE.open("w", newline="", encoding="utf-8-sig") as file:
+    "immunefi": ImmunefiOfficialAdapter,
         writer = csv.writer(file)
         writer.writerow(
             [
@@ -122,3 +123,28 @@ def scan() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(scan())
+        return None
+    if not normalized.get("url"):
+        return None
+    # Immunefi rewards are strings like "USD 150.0"; coerce to float for downstream engines
+    if source_key == "immunefi" and isinstance(normalized.get("reward"), str):
+        normalized["reward"] = _parse_immunefi_reward(normalized["reward"])
+    return normalized
+
+
+        "description": raw.get("description", ""),
+        "source": raw.get("source", "unknown"),
+    }
+
+
+def _parse_immunefi_reward(value: str) -> float:
+    """Extract numeric reward from Immunefi's 'USD 150.0' format."""
+    import re
+
+    match = re.search(r"[\d]+(?:\.[\d]+)?", value)
+    if not match:
+        return 0.0
+    try:
+        return float(match.group())
+    except ValueError:
+        return 0.0
