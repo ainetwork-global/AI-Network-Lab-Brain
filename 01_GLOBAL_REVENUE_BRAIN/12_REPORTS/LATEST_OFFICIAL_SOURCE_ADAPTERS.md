@@ -1,10 +1,10 @@
 # Global Revenue Brain — Official Source Adapters
 
-Gerado em: 2026-08-31T13:52:10.319397+00:00
+Gerado em: 2026-08-31T22:51:29.843220+00:00
 
 ## Resumo
 
-- Grants.gov staged: **232**
+- Grants.gov staged: **234**
 - Immunefi staged: **10**
 - Total isolado: **100**
 - Erros: **0**
@@ -622,7 +622,20 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359003
 
-### 48. Agriculture and Food Research Initiative Competitive Grants Program Education and Workforce Development
+### 48. Advancing Global Capacity to Detect and Respond to Fungal Diseases
+
+- Fonte: Grants.gov API
+- Categoria: grant
+- Score: 83.0
+- Recompensa: não identificada
+- Status: posted
+- Abertura: 07/30/2026
+- Encerramento: 09/30/2026
+- KYC: sim
+- Capital necessário: não
+- URL: https://www.grants.gov/search-results-detail/361931
+
+### 49. Agriculture and Food Research Initiative Competitive Grants Program Education and Workforce Development
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -635,7 +648,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/361169
 
-### 49. Austrian-American Partnership Fund (AAPF)
+### 50. Austrian-American Partnership Fund (AAPF)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -648,7 +661,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/362489
 
-### 50. BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)
+### 51. BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -661,7 +674,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/356205
 
-### 51. BRAIN Initiative: Exploratory Research Opportunities Using Invasive Neural Recording and Stimulating Technologies in the Human Brain (R61 Clinical Trial Not Allowed)
+### 52. BRAIN Initiative: Exploratory Research Opportunities Using Invasive Neural Recording and Stimulating Technologies in the Human Brain (R61 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -674,7 +687,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359649
 
-### 52. Bioengineering Research Grants (BRG) (R01 Clinical Trial Optional)
+### 53. Bioengineering Research Grants (BRG) (R01 Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -687,7 +700,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360543
 
-### 53. Biological Testing Facility for Contraception &amp; Reproductive Health (X01 Clinical Trial Not Allowed)
+### 54. Biological Testing Facility for Contraception &amp; Reproductive Health (X01 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -700,7 +713,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360583
 
-### 54. CCRP Initiative: Promoting a Basic Understanding of Chemical Threats to Skin (R01 Clinical Trial Not Allowed)
+### 55. CCRP Initiative: Promoting a Basic Understanding of Chemical Threats to Skin (R01 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -713,7 +726,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359695
 
-### 55. Cancer Center Support Grants (CCSGs) for NCI-designated Cancer Centers (P30 Clinical Trial Optional)
+### 56. Cancer Center Support Grants (CCSGs) for NCI-designated Cancer Centers (P30 Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -726,7 +739,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360918
 
-### 56. Causal Hypotheses on the Oral-Systemic Health Impacts of Human Behaviors among People with Chronic Conditions (U01 Clinical Trial Not Allowed)
+### 57. Causal Hypotheses on the Oral-Systemic Health Impacts of Human Behaviors among People with Chronic Conditions (U01 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -739,7 +752,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360160
 
-### 57. Commercial Fishing Occupational Safety Research Cooperative Agreement (U01)
+### 58. Commercial Fishing Occupational Safety Research Cooperative Agreement (U01)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -752,7 +765,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/334971
 
-### 58. Community Engagement Evaluation and Data Coordination (CEED) Hub to Advance Data and Practice Transformation for Optimizing Oral Health for All (U01, Clinical Trial Not Allowed)
+### 59. Community Engagement Evaluation and Data Coordination (CEED) Hub to Advance Data and Practice Transformation for Optimizing Oral Health for All (U01, Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -765,7 +778,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359123
 
-### 59. Community Forest and Open Space Conservation Program
+### 60. Community Forest and Open Space Conservation Program
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -778,7 +791,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/363348
 
-### 60. Community-Based Participatory Research to Advance Data and Practice Transformation (ADAPT) for Optimizing Oral Health for All (UG3/UH3 Clinical Trial Optional)
+### 61. Community-Based Participatory Research to Advance Data and Practice Transformation (ADAPT) for Optimizing Oral Health for All (UG3/UH3 Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -791,7 +804,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/358864
 
-### 61. Continuing Human Enabling Enhancing Restoring and Sustaining
+### 62. Continuing Human Enabling Enhancing Restoring and Sustaining
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -804,7 +817,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360258
 
-### 62. DEVCOM ANALYSIS CENTER BROAD AGENCY ANNOUNCEMENT FOR APPLIED RESEARCH
+### 63. DEVCOM ANALYSIS CENTER BROAD AGENCY ANNOUNCEMENT FOR APPLIED RESEARCH
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -817,7 +830,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/345241
 
-### 63. DEVCOM ARMY RESEARCH LABORATORY BROAD AGENCY ANNOUNCEMENT FOR FOUNDATIONAL RESEARCH
+### 64. DEVCOM ARMY RESEARCH LABORATORY BROAD AGENCY ANNOUNCEMENT FOR FOUNDATIONAL RESEARCH
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -830,7 +843,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/344592
 
-### 64. DOD Defense Health Agency (DHA) Research &amp; Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research
+### 65. DOD Defense Health Agency (DHA) Research &amp; Development FY23-FY27 BROAD AGENCY ANNOUNCEMENT for Extramural Medical Research
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -843,7 +856,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/343725
 
-### 65. Department of War Cyber Service Academy (DoW CSA)
+### 66. Department of War Cyber Service Academy (DoW CSA)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -856,7 +869,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/358380
 
-### 66. Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)
+### 67. Development and Testing of a Multi-use Frameworks Playbook for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (U01 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -869,7 +882,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359271
 
-### 67. Discovery of in vivo Chemical Probes for the Nervous System (R01 Clinical Trial Not Allowed)
+### 68. Discovery of in vivo Chemical Probes for the Nervous System (R01 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -882,7 +895,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360676
 
-### 68. DoW Joint Warfighter Medical, Military Medical Research and Development Award
+### 69. DoW Joint Warfighter Medical, Military Medical Research and Development Award
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -895,7 +908,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/362857
 
-### 69. EDU Core Research
+### 70. EDU Core Research
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -908,7 +921,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/362422
 
-### 70. Early-Stage Development of Informatics Technologies for Cancer Research and Management (U01 Clinical Trial Optional)
+### 71. Early-Stage Development of Informatics Technologies for Cancer Research and Management (U01 Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -921,7 +934,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359892
 
-### 71. Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)
+### 72. Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -934,7 +947,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/363613
 
-### 72. Expeditions in Computing
+### 73. Expeditions in Computing
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -947,7 +960,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/324456
 
-### 73. Expeditions in Computing (Expeditions)
+### 74. Expeditions in Computing (Expeditions)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -960,7 +973,20 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/363623
 
-### 74. FAA Aviation Research Grants Program
+### 75. Exploratory Clinical Neuroscience Research on Substance Use Disorders (R61/R33 Clinical Trial Optional)
+
+- Fonte: Grants.gov API
+- Categoria: grant
+- Score: 83.0
+- Recompensa: não identificada
+- Status: posted
+- Abertura: 08/31/2026
+- Encerramento: 06/16/2028
+- KYC: sim
+- Capital necessário: não
+- URL: https://www.grants.gov/search-results-detail/361518
+
+### 76. FAA Aviation Research Grants Program
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -973,7 +999,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/328902
 
-### 75. FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program
+### 77. FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -986,7 +1012,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360678
 
-### 76. FY2026 Implementation of the Quagga and Zebra Mussel Action Plan (QZAP) in the Western United States
+### 78. FY2026 Implementation of the Quagga and Zebra Mussel Action Plan (QZAP) in the Western United States
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -999,7 +1025,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/363714
 
-### 77. Findable Accessible Interoperable Reusable Open Science
+### 79. Findable Accessible Interoperable Reusable Open Science
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1012,7 +1038,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/358036
 
-### 78. Fiscal Year (FY) 2026 Funding Opportunity for Indian Tribes and Intertribal Consortia for Nonpoint Source Management Grants Under Clean Water Act Section 319
+### 80. Fiscal Year (FY) 2026 Funding Opportunity for Indian Tribes and Intertribal Consortia for Nonpoint Source Management Grants Under Clean Water Act Section 319
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1025,7 +1051,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/363611
 
-### 79. Food and Agricultural Sciences National Needs Graduate and Postgraduate Fellowships
+### 81. Food and Agricultural Sciences National Needs Graduate and Postgraduate Fellowships
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1038,7 +1064,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/363559
 
-### 80. HEAL Initiative: Non-addictive Analgesic Therapeutics Development [Small Molecules and Biologics] to Treat Pain (UG3/UH3 Clinical Trial Optional)
+### 82. HEAL Initiative: Non-addictive Analgesic Therapeutics Development [Small Molecules and Biologics] to Treat Pain (UG3/UH3 Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1051,7 +1077,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359161
 
-### 81. INCLUDE Project: Exploratory/Developmental Research Awards for Down syndrome (R21 Clinical Trial Not Allowed)
+### 83. INCLUDE Project: Exploratory/Developmental Research Awards for Down syndrome (R21 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1064,7 +1090,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360653
 
-### 82. INCLUDE Project: Transformative Research Awards for Down syndrome (R01 Clinical Trial Not Allowed)
+### 84. INCLUDE Project: Transformative Research Awards for Down syndrome (R01 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1077,7 +1103,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360654
 
-### 83. Information Processing Techniques Office Office-Wide
+### 85. Information Processing Techniques Office Office-Wide
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1090,7 +1116,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/362905
 
-### 84. Institute of Education Sciences (IES): National Center for Education Research (NCER): Statistical and Research Methodology in Education, Assistance Listing Number (ALN) 84.305D
+### 86. Institute of Education Sciences (IES): National Center for Education Research (NCER): Statistical and Research Methodology in Education, Assistance Listing Number (ALN) 84.305D
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1103,7 +1129,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/363468
 
-### 85. Institutional Mentored Career Development Award (Parent K12) (Clinical Trials Not Allowed)
+### 87. Institutional Mentored Career Development Award (Parent K12) (Clinical Trials Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1116,7 +1142,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/361251
 
-### 86. LPS Qubit Collaboratory (LQC)
+### 88. LPS Qubit Collaboratory (LQC)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1129,7 +1155,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/332894
 
-### 87. Limited Competition: Growing Great Ideas: Research Education Course in Entrepreneurship and Product Development for Researchers Studying Drug Use, Drug Misuse, and Drug Addiction (UE5 Clinical Trial Not Allowed)
+### 89. Limited Competition: Growing Great Ideas: Research Education Course in Entrepreneurship and Product Development for Researchers Studying Drug Use, Drug Misuse, and Drug Addiction (UE5 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1142,7 +1168,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360561
 
-### 88. Limited Competition: Institutional Development Award (IDeA) for Clinical &amp; Translational Research (CTR) (P30 - CT Optional)
+### 90. Limited Competition: Institutional Development Award (IDeA) for Clinical &amp; Translational Research (CTR) (P30 - CT Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1155,7 +1181,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360883
 
-### 89. Limited Competition: Instrumentation Grant Program for Resource-Limited Institutions (S10 - Clinical Trial Not Allowed)
+### 91. Limited Competition: Instrumentation Grant Program for Resource-Limited Institutions (S10 - Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1168,7 +1194,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360364
 
-### 90. Limited Competition: Intellectual and Developmental Disabilities Research Centers 2027 (P50 Clinical Trial Optional)
+### 92. Limited Competition: Intellectual and Developmental Disabilities Research Centers 2027 (P50 Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1181,7 +1207,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/358915
 
-### 91. Limited Competition: Small Grant Program for Mentored Research Career Development Award Recipients (R03) (Clinical Trials Not Allowed)
+### 93. Limited Competition: Small Grant Program for Mentored Research Career Development Award Recipients (R03) (Clinical Trials Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1194,7 +1220,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/358824
 
-### 92. Limited Competition: Small Grant Program for NHLBI K01/K08/K23/K25 Recipients (R03 Clinical Trial Optional)
+### 94. Limited Competition: Small Grant Program for NHLBI K01/K08/K23/K25 Recipients (R03 Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1207,7 +1233,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359675
 
-### 93. Long-term health outcomes of people living with spina bifida
+### 95. Long-term health outcomes of people living with spina bifida
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1220,7 +1246,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/361002
 
-### 94. Maximizing the Scientific Value of Data Generated by the Environmental influences on Child Health Outcomes (ECHO) Program: Dissertation Grant (R36 - Clinical Trial Not Allowed)
+### 96. Maximizing the Scientific Value of Data Generated by the Environmental influences on Child Health Outcomes (ECHO) Program: Dissertation Grant (R36 - Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1233,7 +1259,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359149
 
-### 95. Mid-scale Research Infrastructure-1
+### 97. Mid-scale Research Infrastructure-1
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1246,7 +1272,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/356129
 
-### 96. Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)
+### 98. Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1259,7 +1285,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359666
 
-### 97. NIAID Resource-Related Research Projects (R24 Clinical Trial Not Allowed)
+### 99. NIAID Resource-Related Research Projects (R24 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1272,7 +1298,7 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359692
 
-### 98. NIGMS National and Regional Resources (R24 - Clinical Trial Not Allowed)
+### 100. NIGMS National and Regional Resources (R24 - Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1284,29 +1310,3 @@ Gerado em: 2026-08-31T13:52:10.319397+00:00
 - KYC: sim
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/358934
-
-### 99. NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research
-
-- Fonte: Grants.gov API
-- Categoria: grant
-- Score: 83.0
-- Recompensa: não identificada
-- Status: posted
-- Abertura: 03/01/2024
-- Encerramento: 09/30/2026
-- KYC: sim
-- Capital necessário: não
-- URL: https://www.grants.gov/search-results-detail/352741
-
-### 100. National Science Foundation Fostering Interdisciplinary Networks to Develop Emergent and Responsive Solutions Foundry
-
-- Fonte: Grants.gov API
-- Categoria: grant
-- Score: 83.0
-- Recompensa: não identificada
-- Status: posted
-- Abertura: 03/23/2026
-- Encerramento: 11/18/2026
-- KYC: sim
-- Capital necessário: não
-- URL: https://www.grants.gov/search-results-detail/361604

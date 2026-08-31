@@ -1,6 +1,6 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-08-31T13:53:17.024414+00:00`
+Generated at: `2026-08-31T22:52:48.347901+00:00`
 
 - Live candidates checked: **60**
 - Ready for technical review: **0**
@@ -129,7 +129,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 ## 14. Calculate the exact value of PI
 
 - Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
-- Reason: Há PR/trabalho ativo ou responsável atribuído; confirmar disponibilidade antes de desenvolver.
+- Reason: Há 1 PR(s) concorrente(s) relacionado(s) (#9379); confirmar disponibilidade antes de desenvolver.
 - Live GitHub state: `open`
 - Comments: `64`
 - Reward: `USD 1000.0`
@@ -230,6 +230,6 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Truth status: `BLOCKED_HIGH_COMPETITION`
 - Reason: Há 40 PRs concorrentes relacionados (incluindo #1924, #1923, #1922, #1918, #1915); não investir trabalho nesta oportunidade saturada.
 - Live GitHub state: `open`
-- Comments: `37`
+- Comments: `38`
 - Reward: `USD 200.0`
 - URL: https://github.com/moorcheh-ai/memanto/issues/1609

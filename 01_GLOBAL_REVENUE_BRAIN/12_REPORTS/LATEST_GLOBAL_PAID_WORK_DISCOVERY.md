@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-08-31T13:52:05.154879+00:00
+Gerado em: 2026-08-31T22:51:23.826043+00:00
 
 ## Objetivo
 
@@ -10,10 +10,10 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 
 ## Resumo
 
-- Total coletado nesta execução: **1008**
-- Actionable review: **3456**
-- Manual review: **728**
-- Low priority: **2241**
+- Total coletado nesta execução: **1010**
+- Actionable review: **3603**
+- Manual review: **763**
+- Low priority: **2346**
 - Rejected: **45**
 - Erros: **0**
 
@@ -22,7 +22,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Arbeitnow: **650**
 - Remotive: **19**
 - Remote OK: **100**
-- GitHub paid issues: **239**
+- GitHub paid issues: **241**
 
 ## Melhores oportunidades
 
@@ -570,7 +570,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, ai, agent; Executável digitalmente: automation, api, integration; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/vivid/new-business-account-executive-dach-market-germany-422788
 
-### 35. Senior Software Engineer, Fullstack
+### 35. Missing record: Azion Scale Up Credit Program
+
+- Fonte: github_paid_issues
+- Contratante: sourcey/startup-credits
+- Localização: Online
+- Tipo: task_or_bounty
+- Remuneração: USD 120,000.00
+- Evidência de pagamento: usd 120,000
+- Execução remota: sim
+- Compatibilidade com automação: 80.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: claim_or_proposal
+- Motivo: Capacidades compatíveis: documentation, ai; Executável digitalmente: data, documentation; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://github.com/sourcey/startup-credits/issues/752
+
+### 36. Senior Software Engineer, Fullstack
 
 - Fonte: arbeitnow
 - Contratante: Muckrack
@@ -586,7 +602,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, database, sql, testing, ai, llm, workflow; Executável digitalmente: python, script, data, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/muckrack/remote-senior-software-engineer-fullstack-325902
 
-### 36. Senior Software Engineer, DevOps
+### 37. Senior Software Engineer, DevOps
 
 - Fonte: arbeitnow
 - Contratante: Muckrack
@@ -602,7 +618,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, database, documentation, ai, workflow, github, devops; Executável digitalmente: script, data, documentation, devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/muckrack/remote-senior-software-engineer-devops-84240
 
-### 37. Finance Manager
+### 38. Finance Manager
 
 - Fonte: arbeitnow
 - Contratante: Almedia
@@ -618,7 +634,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, documentation, ai, workflow; Executável digitalmente: automation, api, integration, data, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/almedia/finance-manager-berlin-52353
 
-### 38. Medical Records and Health Information Manager
+### 39. Medical Records and Health Information Manager
 
 - Fonte: remoteok
 - Contratante: Backpack Healthcare
@@ -634,7 +650,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: documentation, ai, workflow; Executável digitalmente: documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-medical-records-and-health-information-manager-backpack-healthcare-1134824
 
-### 39. Justice Officer Grounds and Services
+### 40. Justice Officer Grounds and Services
 
 - Fonte: remoteok
 - Contratante: Department of Justice and Community Safety, Victoria
@@ -650,7 +666,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-justice-officer-grounds-and-services-department-of-justice-and-community-safety-victoria-1137067
 
-### 40. Data Scientist (f/m/d)
+### 41. Data Scientist (f/m/d)
 
 - Fonte: arbeitnow
 - Contratante: Pair
@@ -666,7 +682,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, api, integration, data processing, database, sql, ai, llm; Executável digitalmente: python, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/pair/data-scientist-berlin-hybrid-183099
 
-### 41. Jr Creative Strategist
+### 42. Jr Creative Strategist
 
 - Fonte: remoteok
 - Contratante: Trivium Group
@@ -682,7 +698,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, documentation, testing, ai; Executável digitalmente: python, script, data, documentation, testing, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-jr-creative-strategist-trivium-group-1134870
 
-### 42. Project Systems Specialist
+### 43. Project Systems Specialist
 
 - Fonte: remoteok
 - Contratante: Dart
@@ -698,7 +714,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, sql, testing, qa, ai; Executável digitalmente: script, data, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-project-systems-specialist-dart-1137069
 
-### 43. Product Sales Specialist - Pet Health
+### 44. Product Sales Specialist - Pet Health
 
 - Fonte: remotive
 - Contratante: Tribe Wellness
@@ -714,7 +730,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, github; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/sales/product-sales-specialist-pet-health-2091048
 
-### 44. Building Maintenance Technician
+### 45. Building Maintenance Technician
 
 - Fonte: remoteok
 - Contratante: Dart
@@ -730,7 +746,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: documentation, ai; Executável digitalmente: documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-building-maintenance-technician-dart-1137212
 
-### 45. [GENERATE_EBOOK] THE_NEXUS_SINGULARITY: Architecting Planetary-Scale AI & Quantum-Resilient Ecosystems (Python, Ruby, Wasm & Spatial UI)
+### 46. [GENERATE_EBOOK] THE_NEXUS_SINGULARITY: Architecting Planetary-Scale AI & Quantum-Resilient Ecosystems (Python, Ruby, Wasm & Spatial UI)
 
 - Fonte: github_paid_issues
 - Contratante: iftu8/digital-products
@@ -746,7 +762,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, integration, script, database, ai, backend; Executável digitalmente: python, script, integration, data, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/iftu8/digital-products/issues/108
 
-### 46. Grant Application - Zcash Hack-to-Dark At Devcon 8, Mumbai
+### 47. Grant Application - Zcash Hack-to-Dark At Devcon 8, Mumbai
 
 - Fonte: github_paid_issues
 - Contratante: ZcashCommunityGrants/zcashcommunitygrants
@@ -762,7 +778,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, documentation, ai, workflow, github; Executável digitalmente: script, api, data, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/398
 
-### 47. Grant Application - Security Audit of Zaino
+### 48. Grant Application - Security Audit of Zaino
 
 - Fonte: github_paid_issues
 - Contratante: ZcashCommunityGrants/zcashcommunitygrants
@@ -778,7 +794,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, script, documentation, ai, workflow, github; Executável digitalmente: script, api, data, documentation, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/407
 
-### 48. Senior Specialist, Employee Relations - EMEA
+### 49. Senior Specialist, Employee Relations - EMEA
 
 - Fonte: arbeitnow
 - Contratante: remotecom
@@ -794,7 +810,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, documentation, ai; Executável digitalmente: automation, api, data, documentation, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/remotecom/senior-specialist-employee-relations-emea-218418
 
-### 49. Trimmer
+### 50. Trimmer
 
 - Fonte: remoteok
 - Contratante: Canopy Growth Corporation
@@ -809,19 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: job_application
 - Motivo: Capacidades compatíveis: ai; Executável digitalmente: data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-trimmer-canopy-growth-corporation-1136997
-
-### 50. Rural and Suburban Mail Carrier Allan RR1
-
-- Fonte: remoteok
-- Contratante: Canada Post / Postes Canada
-- Localização: Allan,
-- Tipo: remote
-- Remuneração: USD 33,381.00–36,833.23
-- Evidência de pagamento: $33,381.00 - $36,833.23
-- Execução remota: sim
-- Compatibilidade com automação: 95.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://remoteOK.com/remote-jobs/remote-rural-and-suburban-mail-carrier-allan-rr1-canada-post-postes-canada-1137126
