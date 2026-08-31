@@ -42,6 +42,7 @@ def ensure_output_file() -> None:
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     with OUTPUT_FILE.open("w", newline="", encoding="utf-8-sig") as file:
+    "immunefi": True,
         writer = csv.writer(file)
         writer.writerow(
             [
@@ -51,6 +52,7 @@ def ensure_output_file() -> None:
                 "source_name",
                 "source_url",
                 "status",
+    "immunefi": True,
                 "capital_required",
                 "discovered_at",
                 "published_at",
@@ -60,6 +62,7 @@ def ensure_output_file() -> None:
 
 
 def existing_ids() -> set[str]:
+    "immunefi": 0.98,
     ensure_output_file()
 
     with OUTPUT_FILE.open("r", newline="", encoding="utf-8-sig") as file:
@@ -112,6 +115,11 @@ def scan() -> int:
 
     if new_rows:
         with OUTPUT_FILE.open("a", newline="", encoding="utf-8-sig") as file:
+        # Ensure Immunefi opportunities are properly tagged for brain analysis
+        if source == "immunefi" and raw.get("url", "").startswith("https://immunefi.com/"):
+            normalized["source"] = "Immunefi"
+            normalized["opportunity_type"] = "authorized_bug_bounty"
+            normalized["reward_basis"] = "maximum_advertised_reward"
             writer = csv.writer(file)
             writer.writerows(new_rows)
 
