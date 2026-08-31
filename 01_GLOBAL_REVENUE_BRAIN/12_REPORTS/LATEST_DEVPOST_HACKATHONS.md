@@ -1,6 +1,6 @@
 # Global Revenue Brain — Devpost Hackathons
 
-Gerado em: 2026-08-30T21:07:10.256389+00:00
+Gerado em: 2026-08-31T05:36:12.430542+00:00
 
 ## Resumo
 
@@ -1147,7 +1147,7 @@ Gerado em: 2026-08-30T21:07:10.256389+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2488
+- Participantes: 2500
 - Competências: ai
 - URL: https://ai-builders-hackathon-2026.devpost.com/
 
@@ -1159,7 +1159,7 @@ Gerado em: 2026-08-30T21:07:10.256389+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 8839
+- Participantes: 8867
 - Competências: agent
 - URL: https://agentic-cinema.devpost.com/
 
@@ -1171,7 +1171,7 @@ Gerado em: 2026-08-30T21:07:10.256389+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 6305
+- Participantes: 6405
 - Competências: agent
 - URL: https://agentsforhumans.devpost.com/
 
@@ -1183,7 +1183,7 @@ Gerado em: 2026-08-30T21:07:10.256389+00:00
 - Início: 2031-08-04
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 11891
+- Participantes: 11981
 - Competências: agent
 - URL: https://allthingsagentichackathon.devpost.com/
 
@@ -1423,7 +1423,7 @@ Gerado em: 2026-08-30T21:07:10.256389+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2613
+- Participantes: 2626
 - Competências: não identificadas
 - URL: https://call-e.devpost.com/
 
@@ -1447,7 +1447,7 @@ Gerado em: 2026-08-30T21:07:10.256389+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 21777
+- Participantes: 21838
 - Competências: não identificadas
 - URL: https://revenuecat-shipaton-2026.devpost.com/
 
@@ -1459,7 +1459,7 @@ Gerado em: 2026-08-30T21:07:10.256389+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 4492
+- Participantes: 4631
 - Competências: não identificadas
 - URL: https://webmcp.devpost.com/
 
@@ -1471,7 +1471,7 @@ Gerado em: 2026-08-30T21:07:10.256389+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 3084
+- Participantes: 3099
 - Competências: não identificadas
 - URL: https://tiktoktechjam2026.devpost.com/
 
@@ -1483,7 +1483,7 @@ Gerado em: 2026-08-30T21:07:10.256389+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 1823
+- Participantes: 1830
 - Competências: não identificadas
 - URL: https://volthacks.devpost.com/
 
