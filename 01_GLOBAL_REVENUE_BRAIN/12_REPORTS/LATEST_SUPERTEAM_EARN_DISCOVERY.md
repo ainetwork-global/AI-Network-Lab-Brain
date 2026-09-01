@@ -1,16 +1,17 @@
 # Latest Superteam Earn Official Discovery
 
-- Generated: `2026-09-01T11:40:49.031797+00:00`
+- Generated: `2026-09-01T16:41:25.342522+00:00`
 - Official API: `https://superteam.fun/api/listings/live`
-- Official API listings: **16**
+- Official API listings: **18**
 - Seed pages: **8**
 - Fallback listing URLs discovered: **0**
-- Listings parsed: **16**
-- Eligible direct paid opportunities: **0**
-- Rejected or review-required: **16**
+- Listings parsed: **18**
+- Eligible direct paid opportunities: **1**
+- Rejected or review-required: **17**
 - Errors: **0**
 
 ## Eligible candidates
 
 | Reward | Type | Hourly estimate | Status | Title | URL |
 |---:|---|---:|---|---|---|
+| 1000.0 USDC | project | 125.0 | open | Trading Content Partner for KriptoK League / 2-Month Project | https://superteam.fun/earn/listing/kriptok-league-trading-content-partner |
