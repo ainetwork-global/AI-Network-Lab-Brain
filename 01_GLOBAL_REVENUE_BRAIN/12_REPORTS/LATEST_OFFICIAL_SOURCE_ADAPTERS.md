@@ -1,10 +1,10 @@
 # Global Revenue Brain — Official Source Adapters
 
-Gerado em: 2026-09-01T16:41:22.835574+00:00
+Gerado em: 2026-09-01T21:03:08.681472+00:00
 
 ## Resumo
 
-- Grants.gov staged: **236**
+- Grants.gov staged: **237**
 - Immunefi staged: **10**
 - Total isolado: **100**
 - Erros: **0**
@@ -1090,7 +1090,20 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/362905
 
-### 84. Institute of Education Sciences (IES): National Center for Education Research (NCER): Statistical and Research Methodology in Education, Assistance Listing Number (ALN) 84.305D
+### 84. Inspire Grants for Small Museums (2027)
+
+- Fonte: Grants.gov API
+- Categoria: grant
+- Score: 83.0
+- Recompensa: não identificada
+- Status: posted
+- Abertura: 09/01/2026
+- Encerramento: 11/13/2026
+- KYC: sim
+- Capital necessário: não
+- URL: https://www.grants.gov/search-results-detail/363771
+
+### 85. Institute of Education Sciences (IES): National Center for Education Research (NCER): Statistical and Research Methodology in Education, Assistance Listing Number (ALN) 84.305D
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1103,7 +1116,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/363468
 
-### 85. Institutional Mentored Career Development Award (Parent K12) (Clinical Trials Not Allowed)
+### 86. Institutional Mentored Career Development Award (Parent K12) (Clinical Trials Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1116,7 +1129,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/361251
 
-### 86. LPS Qubit Collaboratory (LQC)
+### 87. LPS Qubit Collaboratory (LQC)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1129,7 +1142,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/332894
 
-### 87. Limited Competition: Growing Great Ideas: Research Education Course in Entrepreneurship and Product Development for Researchers Studying Drug Use, Drug Misuse, and Drug Addiction (UE5 Clinical Trial Not Allowed)
+### 88. Limited Competition: Growing Great Ideas: Research Education Course in Entrepreneurship and Product Development for Researchers Studying Drug Use, Drug Misuse, and Drug Addiction (UE5 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1142,7 +1155,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360561
 
-### 88. Limited Competition: Institutional Development Award (IDeA) for Clinical &amp; Translational Research (CTR) (P30 - CT Optional)
+### 89. Limited Competition: Institutional Development Award (IDeA) for Clinical &amp; Translational Research (CTR) (P30 - CT Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1155,7 +1168,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360883
 
-### 89. Limited Competition: Instrumentation Grant Program for Resource-Limited Institutions (S10 - Clinical Trial Not Allowed)
+### 90. Limited Competition: Instrumentation Grant Program for Resource-Limited Institutions (S10 - Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1168,7 +1181,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/360364
 
-### 90. Limited Competition: Intellectual and Developmental Disabilities Research Centers 2027 (P50 Clinical Trial Optional)
+### 91. Limited Competition: Intellectual and Developmental Disabilities Research Centers 2027 (P50 Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1181,7 +1194,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/358915
 
-### 91. Limited Competition: Small Grant Program for Mentored Research Career Development Award Recipients (R03) (Clinical Trials Not Allowed)
+### 92. Limited Competition: Small Grant Program for Mentored Research Career Development Award Recipients (R03) (Clinical Trials Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1194,7 +1207,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/358824
 
-### 92. Limited Competition: Small Grant Program for NHLBI K01/K08/K23/K25 Recipients (R03 Clinical Trial Optional)
+### 93. Limited Competition: Small Grant Program for NHLBI K01/K08/K23/K25 Recipients (R03 Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1207,7 +1220,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359675
 
-### 93. Long-term health outcomes of people living with spina bifida
+### 94. Long-term health outcomes of people living with spina bifida
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1220,7 +1233,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/361002
 
-### 94. Maximizing the Scientific Value of Data Generated by the Environmental influences on Child Health Outcomes (ECHO) Program: Dissertation Grant (R36 - Clinical Trial Not Allowed)
+### 95. Maximizing the Scientific Value of Data Generated by the Environmental influences on Child Health Outcomes (ECHO) Program: Dissertation Grant (R36 - Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1233,7 +1246,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359149
 
-### 95. Mid-scale Research Infrastructure-1
+### 96. Mid-scale Research Infrastructure-1
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1246,7 +1259,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/356129
 
-### 96. Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)
+### 97. Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1259,7 +1272,20 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359666
 
-### 97. NIAID Resource-Related Research Projects (R24 Clinical Trial Not Allowed)
+### 98. Museums Empowered (2027)
+
+- Fonte: Grants.gov API
+- Categoria: grant
+- Score: 83.0
+- Recompensa: não identificada
+- Status: posted
+- Abertura: 09/01/2026
+- Encerramento: 11/13/2026
+- KYC: sim
+- Capital necessário: não
+- URL: https://www.grants.gov/search-results-detail/363776
+
+### 99. NIAID Resource-Related Research Projects (R24 Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1272,7 +1298,7 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/359692
 
-### 98. NIGMS National and Regional Resources (R24 - Clinical Trial Not Allowed)
+### 100. NIGMS National and Regional Resources (R24 - Clinical Trial Not Allowed)
 
 - Fonte: Grants.gov API
 - Categoria: grant
@@ -1284,29 +1310,3 @@ Gerado em: 2026-09-01T16:41:22.835574+00:00
 - KYC: sim
 - Capital necessário: não
 - URL: https://www.grants.gov/search-results-detail/358934
-
-### 99. National Science Foundation Fostering Interdisciplinary Networks to Develop Emergent and Responsive Solutions Foundry
-
-- Fonte: Grants.gov API
-- Categoria: grant
-- Score: 83.0
-- Recompensa: não identificada
-- Status: posted
-- Abertura: 03/23/2026
-- Encerramento: 11/18/2026
-- KYC: sim
-- Capital necessário: não
-- URL: https://www.grants.gov/search-results-detail/361604
-
-### 100. National Science Foundation Translation to Practice
-
-- Fonte: Grants.gov API
-- Categoria: grant
-- Score: 83.0
-- Recompensa: não identificada
-- Status: posted
-- Abertura: 07/09/2025
-- Encerramento: 11/17/2026
-- KYC: sim
-- Capital necessário: não
-- URL: https://www.grants.gov/search-results-detail/359966
