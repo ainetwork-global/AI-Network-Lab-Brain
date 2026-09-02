@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-09-02T11:19:23.111684+00:00
+Gerado em: 2026-09-02T16:35:33.682755+00:00
 
 ## Objetivo
 
@@ -11,10 +11,10 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 ## Resumo
 
 - Total coletado nesta execução: **1009**
-- Actionable review: **4523**
-- Manual review: **905**
-- Low priority: **2782**
-- Rejected: **49**
+- Actionable review: **4702**
+- Manual review: **929**
+- Low priority: **2869**
+- Rejected: **52**
 - Erros: **0**
 
 ## Fontes
@@ -794,7 +794,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, sql, testing, qa, ai; Executável digitalmente: script, data, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-project-systems-specialist-dart-1137069
 
-### 49. Product Sales Specialist - Pet Health
+### 49. Rural and Suburban Mail Carrier
+
+- Fonte: remoteok
+- Contratante: Canada Post / Postes Canada
+- Localização: Blind River,
+- Tipo: remote
+- Remuneração: USD 50,239.08–56,315.50
+- Evidência de pagamento: $50,239.08 - $56,315.50
+- Execução remota: sim
+- Compatibilidade com automação: 95.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: script, testing, ai; Executável digitalmente: script, testing; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://remoteOK.com/remote-jobs/remote-rural-and-suburban-mail-carrier-canada-post-postes-canada-1137283
+
+### 50. Product Sales Specialist - Pet Health
 
 - Fonte: remotive
 - Contratante: Tribe Wellness
@@ -809,19 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: proposal_or_application
 - Motivo: Capacidades compatíveis: api, ai, github; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/sales/product-sales-specialist-pet-health-2091048
-
-### 50. Building Maintenance Technician
-
-- Fonte: remoteok
-- Contratante: Dart
-- Localização: George Town,
-- Tipo: remote
-- Remuneração: USD 50,000.00
-- Evidência de pagamento: $50,000
-- Execução remota: sim
-- Compatibilidade com automação: 70.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: documentation, ai; Executável digitalmente: documentation; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://remoteOK.com/remote-jobs/remote-building-maintenance-technician-dart-1137212
