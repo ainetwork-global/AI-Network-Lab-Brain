@@ -1,11 +1,11 @@
 # GLOBAL ECONOMIC DECISION ENGINE
 
-Generated: `2026-09-01T21:04:32.551472+00:00`
+Generated: `2026-09-02T04:37:06.599815+00:00`
 
 - Automatic technical execution: **0**
 - Human decision required: **8**
-- Evidence refresh required: **7**
-- Archived/blocked: **45**
+- Evidence refresh required: **6**
+- Archived/blocked: **46**
 - Participant platforms monitored: **16**
 - External claims, applications, submissions, signatures, KYC and money movement performed: **0**
 
@@ -24,12 +24,12 @@ Generated: `2026-09-01T21:04:32.551472+00:00`
 | 9 | EVIDENCE_REFRESH_REQUIRED | 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC | 47.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
 | 10 | EVIDENCE_REFRESH_REQUIRED | 🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC | 47.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
 | 11 | EVIDENCE_REFRESH_REQUIRED | Kendraio App MusicBrainz integration (bounty) | 35.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
-| 12 | EVIDENCE_REFRESH_REQUIRED | opik#1010 [FR]: UI - Ability to Annotate multiple traces at once within a Project | 30.36 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
-| 13 | EVIDENCE_REFRESH_REQUIRED | Calculate the exact value of PI | 27.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
-| 14 | EVIDENCE_REFRESH_REQUIRED | dokploy#1413 Organisation and Teams Management | 22.36 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
-| 15 | EVIDENCE_REFRESH_REQUIRED | dokploy#416 Ability to backup to more destination types | 22.36 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
+| 12 | EVIDENCE_REFRESH_REQUIRED | Calculate the exact value of PI | 27.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
+| 13 | EVIDENCE_REFRESH_REQUIRED | dokploy#1413 Organisation and Teams Management | 22.36 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
+| 14 | EVIDENCE_REFRESH_REQUIRED | dokploy#416 Ability to backup to more destination types | 22.36 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
+| 15 | ARCHIVE_BLOCKED | [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated | 47.00 | USD 0.00 | Não investir tempo; manter apenas no histórico. |
 | 16 | ARCHIVE_BLOCKED | [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated | 47.00 | USD 0.00 | Não investir tempo; manter apenas no histórico. |
-| 17 | ARCHIVE_BLOCKED | [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated | 47.00 | USD 0.00 | Não investir tempo; manter apenas no histórico. |
-| 18 | ARCHIVE_BLOCKED | Data Analytics Bounty | 47.00 | USD 0.00 | Não investir tempo; manter apenas no histórico. |
-| 19 | ARCHIVE_BLOCKED | Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses | 47.00 | EUR 0.00 | Não investir tempo; manter apenas no histórico. |
-| 20 | ARCHIVE_BLOCKED | monte_carlo_layer_means default seed makes a small-n draw an exact prefix of a large-n draw, and the compare_against_monte_carlo MSE column is easy to misread | 47.00 | USD 0.00 | Não investir tempo; manter apenas no histórico. |
+| 17 | ARCHIVE_BLOCKED | Data Analytics Bounty | 47.00 | USD 0.00 | Não investir tempo; manter apenas no histórico. |
+| 18 | ARCHIVE_BLOCKED | Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses | 47.00 | EUR 0.00 | Não investir tempo; manter apenas no histórico. |
+| 19 | ARCHIVE_BLOCKED | monte_carlo_layer_means default seed makes a small-n draw an exact prefix of a large-n draw, and the compare_against_monte_carlo MSE column is easy to misread | 47.00 | USD 0.00 | Não investir tempo; manter apenas no histórico. |
+| 20 | ARCHIVE_BLOCKED | P1 — First verified revenue: USD 10+ | 47.00 | USD 0.00 | Não investir tempo; manter apenas no histórico. |
