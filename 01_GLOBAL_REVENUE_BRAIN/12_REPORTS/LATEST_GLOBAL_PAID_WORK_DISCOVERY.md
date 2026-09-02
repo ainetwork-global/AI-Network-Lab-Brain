@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-09-02T16:35:33.682755+00:00
+Gerado em: 2026-09-02T21:04:31.396729+00:00
 
 ## Objetivo
 
@@ -10,11 +10,11 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 
 ## Resumo
 
-- Total coletado nesta execução: **1009**
-- Actionable review: **4702**
-- Manual review: **929**
-- Low priority: **2869**
-- Rejected: **52**
+- Total coletado nesta execução: **1006**
+- Actionable review: **4818**
+- Manual review: **944**
+- Low priority: **2910**
+- Rejected: **55**
 - Erros: **0**
 
 ## Fontes
@@ -22,7 +22,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Arbeitnow: **650**
 - Remotive: **18**
 - Remote OK: **100**
-- GitHub paid issues: **241**
+- GitHub paid issues: **238**
 
 ## Melhores oportunidades
 
