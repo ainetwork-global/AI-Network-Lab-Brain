@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-09-02T04:35:24.442593+00:00
+Gerado em: 2026-09-02T11:19:23.111684+00:00
 
 ## Objetivo
 
@@ -11,10 +11,10 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 ## Resumo
 
 - Total coletado nesta execução: **1009**
-- Actionable review: **4361**
-- Manual review: **880**
-- Low priority: **2694**
-- Rejected: **48**
+- Actionable review: **4523**
+- Manual review: **905**
+- Low priority: **2782**
+- Rejected: **49**
 - Erros: **0**
 
 ## Fontes
@@ -682,7 +682,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, database, documentation, ai, workflow, github, devops; Executável digitalmente: script, data, documentation, devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/muckrack/remote-senior-software-engineer-devops-84240
 
-### 42. Finance Manager
+### 42. Sales Director (German-speaking)
+
+- Fonte: arbeitnow
+- Contratante: The Global Talent Co.
+- Localização: Germany
+- Tipo: ['Full Time']
+- Remuneração: EUR 100,000.00
+- Evidência de pagamento: €100,000
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: automation, ai, workflow; Executável digitalmente: automation, data; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/the-global-talent-co/sales-director-german-speaking-berlin-406680
+
+### 43. Finance Manager
 
 - Fonte: arbeitnow
 - Contratante: Almedia
@@ -698,7 +714,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, documentation, ai, workflow; Executável digitalmente: automation, api, integration, data, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/almedia/finance-manager-berlin-52353
 
-### 43. Medical Records and Health Information Manager
+### 44. Medical Records and Health Information Manager
 
 - Fonte: remoteok
 - Contratante: Backpack Healthcare
@@ -714,7 +730,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: documentation, ai, workflow; Executável digitalmente: documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-medical-records-and-health-information-manager-backpack-healthcare-1134824
 
-### 44. Justice Officer Grounds and Services
+### 45. Justice Officer Grounds and Services
 
 - Fonte: remoteok
 - Contratante: Department of Justice and Community Safety, Victoria
@@ -730,7 +746,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-justice-officer-grounds-and-services-department-of-justice-and-community-safety-victoria-1137067
 
-### 45. Data Scientist (f/m/d)
+### 46. Data Scientist (f/m/d)
 
 - Fonte: arbeitnow
 - Contratante: Pair
@@ -746,7 +762,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, api, integration, data processing, database, sql, ai, llm; Executável digitalmente: python, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/pair/data-scientist-berlin-hybrid-183099
 
-### 46. Jr Creative Strategist
+### 47. Jr Creative Strategist
 
 - Fonte: remoteok
 - Contratante: Trivium Group
@@ -762,7 +778,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, documentation, testing, ai; Executável digitalmente: python, script, data, documentation, testing, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-jr-creative-strategist-trivium-group-1134870
 
-### 47. Project Systems Specialist
+### 48. Project Systems Specialist
 
 - Fonte: remoteok
 - Contratante: Dart
@@ -778,7 +794,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, sql, testing, qa, ai; Executável digitalmente: script, data, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-project-systems-specialist-dart-1137069
 
-### 48. Product Sales Specialist - Pet Health
+### 49. Product Sales Specialist - Pet Health
 
 - Fonte: remotive
 - Contratante: Tribe Wellness
@@ -794,7 +810,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, github; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remotive.com/remote-jobs/sales/product-sales-specialist-pet-health-2091048
 
-### 49. Building Maintenance Technician
+### 50. Building Maintenance Technician
 
 - Fonte: remoteok
 - Contratante: Dart
@@ -809,19 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: proposal_or_application
 - Motivo: Capacidades compatíveis: documentation, ai; Executável digitalmente: documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-building-maintenance-technician-dart-1137212
-
-### 50. [GENERATE_EBOOK] THE_NEXUS_SINGULARITY: Architecting Planetary-Scale AI & Quantum-Resilient Ecosystems (Python, Ruby, Wasm & Spatial UI)
-
-- Fonte: github_paid_issues
-- Contratante: iftu8/digital-products
-- Localização: Online
-- Tipo: task_or_bounty
-- Remuneração: USD 50,000.00
-- Evidência de pagamento: $50,000
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: claim_or_proposal
-- Motivo: Capacidades compatíveis: python, integration, script, database, ai, backend; Executável digitalmente: python, script, integration, data, backend; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://github.com/iftu8/digital-products/issues/108
