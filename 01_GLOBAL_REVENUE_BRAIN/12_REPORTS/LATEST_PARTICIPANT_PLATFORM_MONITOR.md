@@ -1,6 +1,6 @@
 # Participant Platform Monitor
 
-Generated: `2026-09-03T11:16:00.028304+00:00`
+Generated: `2026-09-03T16:27:17.452706+00:00`
 
 - Platforms monitored: **16**
 - Public entry points reachable/protected: **15**
