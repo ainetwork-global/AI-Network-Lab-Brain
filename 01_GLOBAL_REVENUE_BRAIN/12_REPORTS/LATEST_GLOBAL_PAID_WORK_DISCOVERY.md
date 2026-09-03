@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-09-02T21:04:31.396729+00:00
+Gerado em: 2026-09-03T04:34:44.523349+00:00
 
 ## Objetivo
 
@@ -10,11 +10,11 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 
 ## Resumo
 
-- Total coletado nesta execução: **1006**
-- Actionable review: **4818**
-- Manual review: **944**
-- Low priority: **2910**
-- Rejected: **55**
+- Total coletado nesta execução: **1009**
+- Actionable review: **4974**
+- Manual review: **975**
+- Low priority: **2963**
+- Rejected: **56**
 - Erros: **0**
 
 ## Fontes
@@ -22,7 +22,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Arbeitnow: **650**
 - Remotive: **18**
 - Remote OK: **100**
-- GitHub paid issues: **238**
+- GitHub paid issues: **241**
 
 ## Melhores oportunidades
 
@@ -762,7 +762,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, api, integration, data processing, database, sql, ai, llm; Executável digitalmente: python, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/pair/data-scientist-berlin-hybrid-183099
 
-### 47. Jr Creative Strategist
+### 47. Data Scientist (f/m/d)
+
+- Fonte: arbeitnow
+- Contratante: Pair
+- Localização: Berlin (Hybrid)
+- Tipo: ['Experienced', 'Permanent', 'Full time']
+- Remuneração: EUR 58,000.00–73,000.00
+- Evidência de pagamento: €58,000 - €73,000
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: python, api, integration, data processing, database, sql, ai, llm; Executável digitalmente: python, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/pair/data-scientist-berlin-hybrid-285917
+
+### 48. Jr Creative Strategist
 
 - Fonte: remoteok
 - Contratante: Trivium Group
@@ -778,7 +794,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, documentation, testing, ai; Executável digitalmente: python, script, data, documentation, testing, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-jr-creative-strategist-trivium-group-1134870
 
-### 48. Project Systems Specialist
+### 49. Project Systems Specialist
 
 - Fonte: remoteok
 - Contratante: Dart
@@ -794,7 +810,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, sql, testing, qa, ai; Executável digitalmente: script, data, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-project-systems-specialist-dart-1137069
 
-### 49. Rural and Suburban Mail Carrier
+### 50. Rural and Suburban Mail Carrier
 
 - Fonte: remoteok
 - Contratante: Canada Post / Postes Canada
@@ -809,19 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: proposal_or_application
 - Motivo: Capacidades compatíveis: script, testing, ai; Executável digitalmente: script, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-rural-and-suburban-mail-carrier-canada-post-postes-canada-1137283
-
-### 50. Product Sales Specialist - Pet Health
-
-- Fonte: remotive
-- Contratante: Tribe Wellness
-- Localização: USA, CST (UTC-6)
-- Tipo: full_time
-- Remuneração: USD 100.00–55,000.00
-- Evidência de pagamento: $55,000 - $100
-- Execução remota: sim
-- Compatibilidade com automação: 90.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: api, ai, github; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://remotive.com/remote-jobs/sales/product-sales-specialist-pet-health-2091048
