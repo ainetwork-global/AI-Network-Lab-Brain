@@ -21,6 +21,7 @@ WORKSPACES = ROOT / "08_WORKSPACES"
 POLICY = json.loads(POLICY_FILE.read_text(encoding="utf-8"))
 MAX_TASKS = int(os.environ.get("BRAIN_MAX_DEVELOPMENT_TASKS", POLICY["budgets"]["tasks_per_cycle"]))
 TIMEOUT = int(os.environ.get("BRAIN_DEVELOPMENT_TIMEOUT", POLICY["budgets"]["task_timeout_seconds"]))
+MAX_ATTEMPTS = int(os.environ.get("BRAIN_MAX_EXECUTOR_ATTEMPTS", "3"))
 
 
 def now() -> str:
@@ -109,6 +110,15 @@ def detected_tests(source: Path) -> list[list[str]]:
     return []
 
 
+def queue_priority(row: dict[str, str]) -> tuple[float, float, float]:
+    """Prefer fast, probable returns rather than the largest advertised prize."""
+    return (
+        -float(row.get("risk_adjusted_hourly_value") or 0),
+        -float(row.get("estimated_payment_probability") or 0),
+        float(row.get("decision_rank") or 999999),
+    )
+
+
 def main() -> int:
     with QUEUE.open(encoding="utf-8-sig", newline="") as handle:
         queue = {row.get("url", ""): row for row in csv.DictReader(handle)}
@@ -120,6 +130,15 @@ def main() -> int:
         engine = f"{sys.executable} {driver} --source {{source}} --prompt {{prompt}}"
     with sqlite3.connect(DB) as db:
         db.row_factory = sqlite3.Row
+        columns = {row[1] for row in db.execute("PRAGMA table_info(revenue_operations)")}
+        for name, definition in {
+            "executor_attempts": "INTEGER NOT NULL DEFAULT 0",
+            "next_retry_at": "TEXT",
+            "last_executor_error": "TEXT",
+        }.items():
+            if name not in columns:
+                db.execute(f"ALTER TABLE revenue_operations ADD COLUMN {name} {definition}")
+        db.commit()
         operations = db.execute(
             """SELECT * FROM revenue_operations
                WHERE truth_status = 'READY_FOR_TECHNICAL_REVIEW'
@@ -127,9 +146,15 @@ def main() -> int:
                     'workspace_prepared', 'ready_for_autonomous_executor',
                     'waiting_for_model_runtime', 'executor_retry_required'
                  )
-               ORDER BY reward_amount DESC, id LIMIT ?""",
-            (MAX_TASKS,),
+                 AND executor_attempts < ?
+                 AND (next_retry_at IS NULL OR next_retry_at <= ?)
+               ORDER BY id""",
+            (MAX_ATTEMPTS, now()),
         ).fetchall()
+        operations = sorted(
+            operations,
+            key=lambda operation: queue_priority(queue.get(operation["source_url"], {})),
+        )[:MAX_TASKS]
 
         for operation in operations:
             row = queue.get(operation["source_url"], dict(operation))
@@ -196,8 +221,16 @@ def main() -> int:
                     encoding="utf-8",
                 )
             db.execute(
-                "UPDATE revenue_operations SET development_status = ?, updated_at = ? WHERE id = ?",
-                (status, now(), operation["id"]),
+                """UPDATE revenue_operations
+                   SET development_status = ?, updated_at = ?,
+                       executor_attempts = executor_attempts + 1,
+                       next_retry_at = CASE
+                           WHEN ? IN ('solution_tested', 'unsupported_source', 'tests_or_diff_failed') THEN NULL
+                           ELSE datetime('now', '+' || (15 * (executor_attempts + 1)) || ' minutes')
+                       END,
+                       last_executor_error = CASE WHEN ? = 'solution_tested' THEN NULL ELSE ? END
+                   WHERE id = ?""",
+                (status, now(), status, status, evidence[-2000:], operation["id"]),
             )
             results.append({"title": operation["title"], "status": status, "workspace": str(workspace.relative_to(ROOT))})
         db.commit()
