@@ -82,6 +82,12 @@ RESTRICTED_TERMS = (
     "u.s. residents only",
     "residents of the united states",
     "void where prohibited",
+    "excluding brazil",
+    "except brazil",
+    "excluding residents of brazil",
+    "residents of brazil are not eligible",
+    "brazil is not eligible",
+    "brazil are ineligible",
 )
 
 TEAM_TERMS = (
@@ -337,7 +343,13 @@ def classify(row: sqlite3.Row, combined_text: str) -> dict:
 
     score = round(max(0, min(100, score)), 2)
 
-    if score >= 75 and reward_amount and deadline and submission_confirmed:
+    if (
+        score >= 75
+        and reward_amount
+        and deadline
+        and submission_confirmed
+        and eligibility == "international_allowed"
+    ):
         deep_status = "deep_actionable"
     elif score >= 50:
         deep_status = "manual_review"
