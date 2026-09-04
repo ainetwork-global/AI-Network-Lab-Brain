@@ -1,13 +1,13 @@
 # Latest Superteam Earn Official Discovery
 
-- Generated: `2026-09-03T21:03:30.524157+00:00`
+- Generated: `2026-09-04T04:34:48.560407+00:00`
 - Official API: `https://superteam.fun/api/listings/live`
-- Official API listings: **17**
+- Official API listings: **16**
 - Seed pages: **8**
 - Fallback listing URLs discovered: **0**
-- Listings parsed: **17**
+- Listings parsed: **16**
 - Eligible direct paid opportunities: **1**
-- Rejected or review-required: **16**
+- Rejected or review-required: **15**
 - Errors: **0**
 
 ## Eligible candidates
