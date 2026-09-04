@@ -11,7 +11,7 @@ on:
       - "02_DISCOVERY/superteam_earn_official_adapter.py"
       - "01_GLOBAL_REVENUE_BRAIN/01_CONFIG/requirements-lock.txt"
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
 
 permissions:
   contents: write
