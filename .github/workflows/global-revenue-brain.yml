@@ -65,6 +65,16 @@ jobs:
       - name: Run discovery and prioritization
         run: python 01_GLOBAL_REVENUE_BRAIN/10_SCRIPTS/run_revenue_pipeline.py
 
+      - name: Verify official eligibility and effort
+        run: python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/official_eligibility_effort_gate.py
+
+      - name: Verify Devpost live state and Brazilian eligibility
+        run: |
+          python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_api_truth_sync.py
+          python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_deep_enrichment.py
+          python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_execution_triage.py
+          python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_due_diligence_gate.py
+
       - name: Deep verify new opportunities
         run: |
           python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/opportunity_verification_engine.py \
