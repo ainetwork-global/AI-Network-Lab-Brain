@@ -33,6 +33,7 @@ jobs:
       PYTHONDONTWRITEBYTECODE: "1"
       BRAIN_MAX_DEVELOPMENT_TASKS: "1"
       BRAIN_DEVELOPMENT_TIMEOUT: "900"
+      BRAIN_MAX_EXECUTOR_ATTEMPTS: "3"
 
     steps:
       - name: Checkout Brain
@@ -70,7 +71,12 @@ jobs:
           cd 01_GLOBAL_REVENUE_BRAIN/01_EXECUTION
           python -m unittest -v \
             test_autonomy_risk_policy.py \
-            test_autonomous_development_executor.py
+            test_autonomous_development_executor.py \
+            test_executor_priority.py
+          cd ../03_INTELLIGENCE
+          python -m unittest -v test_microtask_fast_lane.py
+          cd ../10_SCRIPTS
+          python -m unittest -v test_pipeline_resilience.py
 
       - name: Run discovery and prioritization
         run: python 01_GLOBAL_REVENUE_BRAIN/10_SCRIPTS/run_revenue_pipeline.py
@@ -98,6 +104,9 @@ jobs:
 
       - name: Build global economic decision queue
         run: python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/global_economic_decision_engine.py
+
+      - name: Build fast lane for quick positive returns
+        run: python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/microtask_fast_lane.py
 
       - name: Build human login handoff queue
         run: python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/human_login_handoff_engine.py
@@ -128,6 +137,7 @@ jobs:
           git config user.name "global-revenue-brain[bot]"
           git config user.email "global-revenue-brain[bot]@users.noreply.github.com"
           git add             01_GLOBAL_REVENUE_BRAIN/00_CURRENT_STATE/CURRENT_BEST_TARGET.md \
+            01_GLOBAL_REVENUE_BRAIN/00_CURRENT_STATE/PIPELINE_HEALTH.json \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/priority_opportunities.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/global_paid_work_candidates.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/devpost_hackathons.csv \
@@ -140,11 +150,13 @@ jobs:
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/VERIFIED_EXECUTION_QUEUE.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/LIVE_TRUTH_EXECUTION_QUEUE.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/GLOBAL_DECISION_QUEUE.csv \
+            01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/FAST_LANE_QUEUE.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/HUMAN_LOGIN_HANDOFF_QUEUE.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/HUMAN_APPROVAL_QUEUE.csv \
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/REVENUE_OPERATIONS.csv \
             01_GLOBAL_REVENUE_BRAIN/11_DATA/global_revenue_brain.db \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_REVENUE_OPPORTUNITIES.md \
+            01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_PIPELINE_HEALTH.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_GLOBAL_PAID_WORK_DISCOVERY.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_DEVPOST_HACKATHONS.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_OFFICIAL_SOURCE_ADAPTERS.md \
@@ -157,6 +169,7 @@ jobs:
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_VERIFIED_EXECUTION_QUEUE.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_LIVE_TRUTH_QUEUE.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_GLOBAL_ECONOMIC_DECISIONS.md \
+            01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_FAST_LANE.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_HUMAN_LOGIN_HANDOFFS.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_OPERATIONAL_PILLARS.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_AUTONOMOUS_DEVELOPMENT.md
