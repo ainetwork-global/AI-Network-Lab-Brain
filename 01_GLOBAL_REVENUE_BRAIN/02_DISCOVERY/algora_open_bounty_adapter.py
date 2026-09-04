@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import os
 import re
 import sqlite3
 import time
@@ -84,9 +85,39 @@ MONEY_PATTERNS = [
 ]
 
 GITHUB_ISSUE_PATTERN = re.compile(
-    r"https://github\.com/([^/]+)/([^/]+)/(?:issues|pull)/(\d+)",
+    r"https://github\.com/([^/]+)/([^/]+)/(issues|pull)/(\d+)",
     re.I,
 )
+
+
+def github_target_is_open(match: re.Match[str]) -> tuple[bool, str]:
+    owner, repository, target_type, number = match.groups()
+    api_kind = "pulls" if target_type.lower() == "pull" else "issues"
+    api_url = (
+        f"https://api.github.com/repos/{owner}/{repository}/"
+        f"{api_kind}/{number}"
+    )
+    headers = {
+        **HEADERS,
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    token = (os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN") or "").strip()
+
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    response = requests.get(api_url, headers=headers, timeout=20)
+    response.raise_for_status()
+    payload = response.json()
+
+    if payload.get("state") != "open":
+        return False, f"github_{target_type}_closed"
+
+    if target_type.lower() == "pull" and payload.get("merged_at"):
+        return False, "github_pull_merged"
+
+    return True, f"github_{target_type}_open"
 
 
 def utc_now() -> str:
@@ -301,8 +332,17 @@ def extract_bounties_from_page(
         if github_match:
             github_owner = github_match.group(1)
             github_repository = github_match.group(2)
-            github_issue_number = int(github_match.group(3))
+            github_issue_number = int(github_match.group(4))
             github_url = github_match.group(0)
+
+            try:
+                target_open, _ = github_target_is_open(github_match)
+            except requests.RequestException:
+                # Falha de verificação nunca deve promover uma oportunidade.
+                continue
+
+            if not target_open:
+                continue
 
         claim_match = re.search(
             r"(\d+)\s+claims?",
