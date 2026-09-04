@@ -13,23 +13,39 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
+POLICY_FILE = ROOT / "01_CONFIG" / "autonomy_policy.json"
 DB = ROOT / "11_DATA" / "global_revenue_brain.db"
 QUEUE = ROOT / "04_OPPORTUNITIES" / "GLOBAL_DECISION_QUEUE.csv"
 REPORT = ROOT / "12_REPORTS" / "LATEST_AUTONOMOUS_DEVELOPMENT.md"
 WORKSPACES = ROOT / "08_WORKSPACES"
-MAX_TASKS = int(os.environ.get("BRAIN_MAX_DEVELOPMENT_TASKS", "1"))
-TIMEOUT = int(os.environ.get("BRAIN_DEVELOPMENT_TIMEOUT", "900"))
+POLICY = json.loads(POLICY_FILE.read_text(encoding="utf-8"))
+MAX_TASKS = int(os.environ.get("BRAIN_MAX_DEVELOPMENT_TASKS", POLICY["budgets"]["tasks_per_cycle"]))
+TIMEOUT = int(os.environ.get("BRAIN_DEVELOPMENT_TIMEOUT", POLICY["budgets"]["task_timeout_seconds"]))
 
 
 def now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def run(args: list[str], cwd: Path, timeout: int = TIMEOUT) -> tuple[int, str]:
+def safe_environment(allow_model_key: bool = False) -> dict[str, str]:
+    blocked = tuple(POLICY["secret_isolation"]["blocked_environment_name_fragments"])
+    environment = {
+        key: value for key, value in os.environ.items()
+        if not any(fragment in key.upper() for fragment in blocked)
+    }
+    if allow_model_key and os.environ.get("GEMINI_API_KEY"):
+        environment["GEMINI_API_KEY"] = os.environ["GEMINI_API_KEY"]
+    environment["GIT_TERMINAL_PROMPT"] = "0"
+    return environment
+
+
+def run(
+    args: list[str], cwd: Path, timeout: int = TIMEOUT, *, allow_model_key: bool = False
+) -> tuple[int, str]:
     completed = subprocess.run(
         args, cwd=cwd, text=True, stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT, timeout=timeout, check=False,
-        env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+        env=safe_environment(allow_model_key=allow_model_key),
     )
     return completed.returncode, completed.stdout[-12000:]
 
@@ -153,7 +169,7 @@ def main() -> int:
                         item.replace("{source}", str(source)).replace("{prompt}", str(prompt))
                         for item in shlex.split(engine)
                     ]
-                    code, model_log = run(command, source)
+                    code, model_log = run(command, source, allow_model_key=True)
                     if code:
                         status, evidence = "executor_retry_required", model_log
                     else:
