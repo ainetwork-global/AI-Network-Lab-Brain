@@ -30,6 +30,8 @@ jobs:
       BRAIN_GEMINI_MODEL: "gemini-3-flash-preview"
       PYTHONUTF8: "1"
       PYTHONDONTWRITEBYTECODE: "1"
+      BRAIN_MAX_DEVELOPMENT_TASKS: "1"
+      BRAIN_DEVELOPMENT_TIMEOUT: "900"
 
     steps:
       - name: Checkout Brain
@@ -61,6 +63,13 @@ jobs:
               ast.parse(path.read_text(encoding="utf-8-sig"), filename=str(path))
           print(f"Validated {len(files)} Python files")
           PY
+
+      - name: Validate autonomous safety policy
+        run: |
+          cd 01_GLOBAL_REVENUE_BRAIN/01_EXECUTION
+          python -m unittest -v \
+            test_autonomy_risk_policy.py \
+            test_autonomous_development_executor.py
 
       - name: Run discovery and prioritization
         run: python 01_GLOBAL_REVENUE_BRAIN/10_SCRIPTS/run_revenue_pipeline.py
