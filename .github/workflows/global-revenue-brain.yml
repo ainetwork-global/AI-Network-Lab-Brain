@@ -166,5 +166,15 @@ jobs:
             echo "No intelligence changes to persist."
           else
             git commit -m "Brain: refresh opportunity intelligence"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                break
+              fi
+              if [ "$attempt" = "3" ]; then
+                echo "Could not persist intelligence after 3 synchronized attempts."
+                exit 1
+              fi
+              sleep $((attempt * 2))
+            done
           fi
