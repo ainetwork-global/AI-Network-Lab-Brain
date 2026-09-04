@@ -112,6 +112,9 @@ def initialize(db: sqlite3.Connection) -> None:
         "risk_level": "TEXT NOT NULL DEFAULT 'UNASSESSED'",
         "risk_decision": "TEXT NOT NULL DEFAULT 'HUMAN_APPROVAL_REQUIRED'",
         "risk_reasons_json": "TEXT NOT NULL DEFAULT '[]'",
+        "executor_attempts": "INTEGER NOT NULL DEFAULT 0",
+        "next_retry_at": "TEXT",
+        "last_executor_error": "TEXT",
     }.items():
         if name not in columns:
             db.execute(f"ALTER TABLE revenue_operations ADD COLUMN {name} {definition}")
@@ -415,6 +418,7 @@ def main() -> int:
         "truth_status", "development_status", "claim_status", "submission_status",
         "review_status", "payment_status", "settlement_status", "workspace_path",
         "last_checked_at", "risk_level", "risk_decision", "risk_reasons_json",
+        "executor_attempts", "next_retry_at", "last_executor_error",
     ]
     with OPERATIONS_CSV.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=operation_fields)
@@ -430,6 +434,7 @@ def main() -> int:
         f"- Operations tracked: **{len(operations)}**",
         f"- Pending individual approvals: **{len(approvals)}**",
         f"- Settlement profiles configured: **{len(settlements)}**",
+        f"- Operations waiting for retry: **{sum(bool(row['next_retry_at']) for row in operations)}**",
         "",
         "## Pillar status",
         "",
