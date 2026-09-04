@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "mode": "safe_autonomous_preparation",
+  "default_decision": "deny",
+  "budgets": {
+    "money_usd": 0,
+    "tasks_per_cycle": 1,
+    "task_timeout_seconds": 900
+  },
+  "autonomous_actions": [
+    "read_public_opportunity",
+    "verify_official_rules",
+    "rank_opportunity",
+    "clone_public_repository",
+    "create_isolated_workspace",
+    "implement_locally",
+    "run_sandboxed_tests",
+    "prepare_submission_draft",
+    "monitor_public_status"
+  ],
+  "approval_required_actions": [
+    "create_account",
+    "accept_terms",
+    "claim_opportunity",
+    "send_application",
+    "post_comment",
+    "open_pull_request",
+    "submit_deliverable",
+    "active_security_testing",
+    "identity_verification",
+    "share_personal_data",
+    "sign_contract",
+    "receive_or_move_funds"
+  ],
+  "prohibited_actions": [
+    "pay_upfront",
+    "make_deposit",
+    "purchase_required_item",
+    "use_fake_identity",
+    "artificial_engagement",
+    "unauthorized_access",
+    "evade_terms",
+    "expose_credentials",
+    "market_manipulation"
+  ],
+  "secret_isolation": {
+    "untrusted_repository_processes_receive_secrets": false,
+    "blocked_environment_name_fragments": [
+      "TOKEN", "SECRET", "PASSWORD", "PRIVATE", "CREDENTIAL", "API_KEY"
+    ]
+  }
+}
