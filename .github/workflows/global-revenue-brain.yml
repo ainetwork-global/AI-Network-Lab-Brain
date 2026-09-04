@@ -10,8 +10,9 @@ on:
       - "01_GLOBAL_REVENUE_BRAIN/**/*.py"
       - "02_DISCOVERY/superteam_earn_official_adapter.py"
       - "01_GLOBAL_REVENUE_BRAIN/01_CONFIG/requirements-lock.txt"
+      - "01_GLOBAL_REVENUE_BRAIN/01_CONFIG/autonomy_policy.json"
   schedule:
-    - cron: "17 * * * *"
+    - cron: "7,27,47 * * * *"
 
 permissions:
   contents: write
