@@ -7,6 +7,8 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
+from autonomy_risk_policy import assess
+
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "11_DATA" / "global_revenue_brain.db"
 QUEUE = ROOT / "04_OPPORTUNITIES" / "GLOBAL_DECISION_QUEUE.csv"
@@ -103,6 +105,17 @@ def initialize(db: sqlite3.Connection) -> None:
         );
         """
     )
+    columns = {
+        row[1] for row in db.execute("PRAGMA table_info(revenue_operations)")
+    }
+    for name, definition in {
+        "risk_level": "TEXT NOT NULL DEFAULT 'UNASSESSED'",
+        "risk_decision": "TEXT NOT NULL DEFAULT 'HUMAN_APPROVAL_REQUIRED'",
+        "risk_reasons_json": "TEXT NOT NULL DEFAULT '[]'",
+    }.items():
+        if name not in columns:
+            db.execute(f"ALTER TABLE revenue_operations ADD COLUMN {name} {definition}")
+
     columns = {
         row[1] for row in db.execute("PRAGMA table_info(settlement_profiles)")
     }
@@ -295,6 +308,40 @@ def main() -> int:
                 (candidate_key,),
             ).fetchone()
 
+            risk = assess(row)
+            db.execute(
+                """
+                UPDATE revenue_operations
+                SET risk_level = ?, risk_decision = ?, risk_reasons_json = ?, updated_at = ?
+                WHERE id = ?
+                """,
+                (risk.level, risk.decision, json.dumps(risk.reasons), now(), operation["id"]),
+            )
+
+            if risk.decision == "REJECT":
+                db.execute(
+                    "UPDATE revenue_operations SET development_status = 'risk_rejected', updated_at = ? WHERE id = ?",
+                    (now(), operation["id"]),
+                )
+                event(db, candidate_key, "risk", "prohibited_opportunity_rejected", "blocked", ", ".join(risk.reasons))
+                continue
+
+            if risk.decision == "HUMAN_APPROVAL_REQUIRED":
+                db.execute(
+                    "UPDATE revenue_operations SET development_status = 'risk_blocked', updated_at = ? WHERE id = ?",
+                    (now(), operation["id"]),
+                )
+                request_approval(
+                    db,
+                    operation["id"],
+                    candidate_key,
+                    "risk_review",
+                    "Risco detectado: " + ", ".join(risk.reasons),
+                    url,
+                )
+                event(db, candidate_key, "risk", "human_approval_requested", "blocked", ", ".join(risk.reasons))
+                continue
+
             if operation["development_status"] == "not_started":
                 workspace = prepare_workspace(row, candidate_key)
                 db.execute(
@@ -367,7 +414,7 @@ def main() -> int:
         "id", "title", "source_url", "reward_amount", "reward_currency",
         "truth_status", "development_status", "claim_status", "submission_status",
         "review_status", "payment_status", "settlement_status", "workspace_path",
-        "last_checked_at",
+        "last_checked_at", "risk_level", "risk_decision", "risk_reasons_json",
     ]
     with OPERATIONS_CSV.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=operation_fields)
