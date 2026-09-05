@@ -1,6 +1,6 @@
 # Global Revenue Brain — Devpost Hackathons
 
-Gerado em: 2026-09-05T04:49:36.300526+00:00
+Gerado em: 2026-09-05T08:37:55.772616+00:00
 
 ## Resumo
 
@@ -31,7 +31,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-01
 - Prazo: 2026-10-02
 - Online: sim
-- Participantes: 814
+- Participantes: 818
 - Competências: Beginner Friendly, Machine Learning/AI, Open Ended
 - URL: https://gatewayhacks-2026.devpost.com/
 
@@ -43,7 +43,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-07-31
 - Prazo: 2026-10-01
 - Online: sim
-- Participantes: 23396
+- Participantes: 23432
 - Competências: Design, Gaming, Mobile
 - URL: https://revenuecat-shipaton-2026.devpost.com/
 
@@ -67,7 +67,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-07-11
 - Prazo: 2026-09-21
 - Online: sim
-- Participantes: 728
+- Participantes: 730
 - Competências: Machine Learning/AI, Social Good, Beginner Friendly
 - URL: https://gibc-v2.devpost.com/
 
@@ -79,7 +79,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-31
 - Prazo: 2026-10-23
 - Online: sim
-- Participantes: 1809
+- Participantes: 1834
 - Competências: Machine Learning/AI, Open Ended, Productivity
 - URL: https://amazonappdev2026.devpost.com/
 
@@ -127,7 +127,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-01
 - Prazo: 2026-10-23
 - Online: não identificado
-- Participantes: 16
+- Participantes: 20
 - Competências: AR/VR, IoT, Machine Learning/AI
 - URL: https://next-gen-hackathon.devpost.com/
 
@@ -139,7 +139,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-26
 - Prazo: 2026-10-30
 - Online: sim
-- Participantes: 2361
+- Participantes: 2385
 - Competências: Machine Learning/AI, Beginner Friendly, Robotic Process Automation
 - URL: https://nebiusglobalaihackathon.devpost.com/
 
@@ -151,7 +151,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-10
 - Prazo: 2026-09-14
 - Online: sim
-- Participantes: 7605
+- Participantes: 7622
 - Competências: Beginner Friendly, Machine Learning/AI, Open Ended
 - URL: https://agentsforhumans.devpost.com/
 
@@ -175,7 +175,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-21
 - Prazo: 2026-09-15
 - Online: sim
-- Participantes: 2781
+- Participantes: 2786
 - Competências: Machine Learning/AI, Open Ended, Beginner Friendly
 - URL: https://ai-builders-hackathon-2026.devpost.com/
 
@@ -199,7 +199,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-26
 - Prazo: 2026-10-27
 - Online: sim
-- Participantes: 1151
+- Participantes: 1154
 - Competências: IoT, Machine Learning/AI, Serverless
 - URL: https://opencv26.devpost.com/
 
@@ -283,7 +283,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-07-23
 - Prazo: 2026-09-14
 - Online: sim
-- Participantes: 2816
+- Participantes: 2825
 - Competências: Communication, Enterprise, Machine Learning/AI
 - URL: https://call-e.devpost.com/
 
@@ -343,7 +343,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-07-15
 - Prazo: 2026-10-31
 - Online: sim
-- Participantes: 555
+- Participantes: 558
 - Competências: Enterprise, Machine Learning/AI, Productivity
 - URL: https://galuxium-nexus-v2-29411.devpost.com/
 
@@ -367,7 +367,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-21
 - Prazo: 2026-09-13
 - Online: sim
-- Participantes: 528
+- Participantes: 529
 - Competências: Beginner Friendly, Machine Learning/AI, Social Good
 - URL: https://nextstep2026.devpost.com/
 
@@ -379,7 +379,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-25
 - Prazo: 2026-09-14
 - Online: sim
-- Participantes: 180
+- Participantes: 182
 - Competências: IoT, Machine Learning/AI, Social Good
 - URL: https://hyperbloom-september.devpost.com/
 
@@ -407,7 +407,19 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Blockchain, Machine Learning/AI, Cybersecurity
 - URL: https://compsphere12.devpost.com/
 
-### 34. ML Empowerment Build Challenge 2.0
+### 34. BASK(Business Achievement Spotlight for Kids) Monthly Pitch Competition
+
+- Organização: BASK
+- Recompensa: **USD 1,000.00**
+- Score: **100.0**
+- Início: 2026-07-01
+- Prazo: 2026-07-31
+- Online: sim
+- Participantes: 85
+- Competências: Communication, Open Ended, Social Good
+- URL: https://baskchallenge.devpost.com/
+
+### 35. ML Empowerment Build Challenge 2.0
 
 - Organização: ML Empowerment Foundation
 - Recompensa: **USD 1,000.00**
@@ -419,7 +431,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Machine Learning/AI, Social Good
 - URL: https://ml-empowerment-2.devpost.com/
 
-### 35. Hack the Arts
+### 36. Hack the Arts
 
 - Organização: Hack the Arts
 - Recompensa: **USD 1,000.00**
@@ -431,7 +443,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Design, Open Ended
 - URL: https://hackthearts.devpost.com/
 
-### 36. Brainwave 2026
+### 37. Brainwave 2026
 
 - Organização: ACT House
 - Recompensa: **USD 1,000.00**
@@ -443,7 +455,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: AR/VR, Blockchain, Communication
 - URL: https://brainwaves.devpost.com/
 
-### 37. QuantumHacks
+### 38. QuantumHacks
 
 - Organização: Quantumhacks
 - Recompensa: **USD 1,000.00**
@@ -455,7 +467,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Databases, Fintech, Quantum
 - URL: https://quantumhacks.devpost.com/
 
-### 38. GenZ Can Hack 2026
+### 39. GenZ Can Hack 2026
 
 - Organização: Kids for Kids Toronto Coding Club
 - Recompensa: **USD 1,000.00**
@@ -467,7 +479,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Education, Machine Learning/AI, Robotic Process Automation
 - URL: https://genz-can-hack-2026.devpost.com/
 
-### 39. Beginner's Paradise - FirstCommit
+### 40. Beginner's Paradise - FirstCommit
 
 - Organização: FirstCommit
 - Recompensa: **USD 880.00**
@@ -475,11 +487,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-21
 - Prazo: 2026-09-30
 - Online: sim
-- Participantes: 354
+- Participantes: 356
 - Competências: Beginner Friendly, Mobile, Web
 - URL: https://firstcommit.devpost.com/
 
-### 40. 3rd-Web-Hack
+### 41. 3rd-Web-Hack
 
 - Organização: TechZap Club
 - Recompensa: **USD 750.00**
@@ -490,18 +502,6 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Participantes: 109
 - Competências: Blockchain, Open Ended, Web
 - URL: https://3rd-web-hack.devpost.com/
-
-### 41. BASK(Business Achievement Spotlight for Kids) Monthly Pitch Competition
-
-- Organização: BASK
-- Recompensa: **USD 600.00**
-- Score: **100.0**
-- Início: 2026-07-01
-- Prazo: 2026-07-31
-- Online: sim
-- Participantes: 85
-- Competências: Communication, Open Ended, Social Good
-- URL: https://baskchallenge.devpost.com/
 
 ### 42. Zero to Query: LingoQL Hackathon
 
@@ -535,7 +535,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-04
 - Prazo: 2026-10-05
 - Online: sim
-- Participantes: 77
+- Participantes: 78
 - Competências: Beginner Friendly, Education, Social Good
 - URL: https://csc-back-to-school.devpost.com/
 
@@ -595,7 +595,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-25
 - Prazo: 2026-09-10
 - Online: sim
-- Participantes: 182
+- Participantes: 183
 - Competências: Health, Machine Learning/AI, Beginner Friendly
 - URL: https://hack2heal.devpost.com/
 
@@ -643,7 +643,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-07-27
 - Prazo: 2026-09-09
 - Online: sim
-- Participantes: 9483
+- Participantes: 9496
 - Competências: Databases, Machine Learning/AI, Open Ended
 - URL: https://agentic-cinema.devpost.com/
 
@@ -667,7 +667,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-05-22
 - Prazo: 2026-09-05
 - Online: sim
-- Participantes: 1967
+- Participantes: 1970
 - Competências: IoT, Machine Learning/AI, Beginner Friendly
 - URL: https://volthacks.devpost.com/
 
@@ -691,7 +691,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-01
 - Prazo: 2026-09-08
 - Online: sim
-- Participantes: 118
+- Participantes: 121
 - Competências: Beginner Friendly, Machine Learning/AI, Open Ended
 - URL: https://ai-content-engine-hacks.devpost.com/
 
@@ -715,7 +715,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-03
 - Prazo: 2026-09-06
 - Online: não identificado
-- Participantes: 16
+- Participantes: 27
 - Competências: Machine Learning/AI
 - URL: https://smu-lit-hackathon-2026.devpost.com/
 
@@ -727,7 +727,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-04
 - Prazo: 2026-09-06
 - Online: sim
-- Participantes: 42
+- Participantes: 43
 - Competências: Beginner Friendly, Communication, Gaming
 - URL: https://code-to-connect-wit.devpost.com/
 
@@ -847,7 +847,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-07-18
 - Prazo: 2027-01-14
 - Online: sim
-- Participantes: 180
+- Participantes: 181
 - Competências: DevOps, Machine Learning/AI, Robotic Process Automation
 - URL: https://syntax-summit.devpost.com/
 
@@ -943,7 +943,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-03
 - Prazo: 2026-09-25
 - Online: sim
-- Participantes: 9
+- Participantes: 10
 - Competências: Beginner Friendly, Low/No Code, Open Ended
 - URL: https://practicetocreate.devpost.com/
 
@@ -967,7 +967,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-06-24
 - Prazo: 2026-11-08
 - Online: sim
-- Participantes: 213
+- Participantes: 214
 - Competências: Beginner Friendly, Low/No Code, Open Ended
 - URL: https://dsh-pitch-30500.devpost.com/
 
@@ -1003,7 +1003,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-19
 - Prazo: 2026-09-20
 - Online: sim
-- Participantes: 72
+- Participantes: 73
 - Competências: Beginner Friendly, Cybersecurity, Machine Learning/AI
 - URL: https://tln-cybersecurity-challenge.devpost.com/
 
@@ -1051,7 +1051,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-01
 - Prazo: 2026-09-16
 - Online: sim
-- Participantes: 78
+- Participantes: 82
 - Competências: Beginner Friendly, Machine Learning/AI, Open Ended
 - URL: https://gatewaygs-hackathon-2.devpost.com/
 
@@ -1063,7 +1063,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-12-11
 - Prazo: 2026-12-15
 - Online: sim
-- Participantes: 1305
+- Participantes: 1306
 - Competências: Beginner Friendly, Education, Machine Learning/AI
 - URL: https://launchhacks-v.devpost.com/
 
@@ -1123,7 +1123,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-31
 - Prazo: 2026-09-11
 - Online: sim
-- Participantes: 56
+- Participantes: 58
 - Competências: Low/No Code, Open Ended, Social Good
 - URL: https://csh-social-impact-ideathon.devpost.com/
 
@@ -1135,7 +1135,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-06-14
 - Prazo: 2026-09-12
 - Online: sim
-- Participantes: 229
+- Participantes: 230
 - Competências: Beginner Friendly, Open Ended, Social Good
 - URL: https://animalhack2026.devpost.com/
 
@@ -1147,7 +1147,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-27
 - Prazo: 2026-09-12
 - Online: sim
-- Participantes: 12
+- Participantes: 13
 - Competências: Music/Art
 - URL: https://music-from-beatmind.devpost.com/
 
@@ -1195,7 +1195,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-11
 - Prazo: 2026-09-27
 - Online: sim
-- Participantes: 107
+- Participantes: 108
 - Competências: Beginner Friendly, Low/No Code, Social Good
 - URL: https://lexhack-2026.devpost.com/
 
@@ -1315,7 +1315,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-10-05
 - Prazo: 2026-10-25
 - Online: sim
-- Participantes: 272
+- Participantes: 276
 - Competências: Blockchain, Machine Learning/AI, Social Good
 - URL: https://ieee-climatechain-hack.devpost.com/
 
@@ -1355,7 +1355,19 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Machine Learning/AI, Open Ended
 - URL: https://reverie-hacks-2026.devpost.com/
 
-### 113. Suvidha AI Virtual Hackathon
+### 113. ForgeHacks Online 2026
+
+- Organização: ForgeHacks
+- Recompensa: **USD 575.00**
+- Score: **60.0**
+- Início: 2026-10-03
+- Prazo: 2026-10-10
+- Online: sim
+- Participantes: 77
+- Competências: Beginner Friendly, Lifehacks, Machine Learning/AI
+- URL: https://forgehacks-2026.devpost.com/
+
+### 114. Suvidha AI Virtual Hackathon
 
 - Organização: Suvidha International Foundation
 - Recompensa: **USD 500.00**
@@ -1367,7 +1379,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Low/No Code, Machine Learning/AI
 - URL: https://suvidha-ai-virtual-hackathon.devpost.com/
 
-### 114. Banana Hacks
+### 115. Banana Hacks
 
 - Organização: n/a
 - Recompensa: **USD 500.00**
@@ -1378,18 +1390,6 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Participantes: 29
 - Competências: Beginner Friendly, Machine Learning/AI, Web
 - URL: https://banana-hacks-1111.devpost.com/
-
-### 115. ForgeHacks Online 2026
-
-- Organização: ForgeHacks
-- Recompensa: **USD 475.00**
-- Score: **60.0**
-- Início: 2026-10-03
-- Prazo: 2026-10-10
-- Online: sim
-- Participantes: 76
-- Competências: Beginner Friendly, Lifehacks, Machine Learning/AI
-- URL: https://forgehacks-2026.devpost.com/
 
 ### 116. Iris Hacks IV
 
@@ -1807,7 +1807,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-26
 - Prazo: 2026-09-27
 - Online: sim
-- Participantes: 33
+- Participantes: 34
 - Competências: Beginner Friendly, Low/No Code, Social Good
 - URL: https://lake-oswego-hacks.devpost.com/
 
@@ -1847,7 +1847,19 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Gaming, Web
 - URL: https://btt-web-game-jam.devpost.com/
 
-### 154. AI Builders Hackathon
+### 154. Acodemic X G.I.R.L.S. Global SDG Hackathon
+
+- Organização: Hack Club
+- Recompensa: **USD 60.00**
+- Score: **55.0**
+- Início: 2026-09-19
+- Prazo: 2026-09-27
+- Online: sim
+- Participantes: 8
+- Competências: Education, Social Good, Beginner Friendly
+- URL: https://acodemic-hackathon.devpost.com/
+
+### 155. AI Builders Hackathon
 
 - Organização: OSC
 - Recompensa: **não identificada**
@@ -1855,11 +1867,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2786
+- Participantes: 2794
 - Competências: ai
 - URL: https://ai-builders-hackathon-2026.devpost.com/
 
-### 155. Agentic Cinema: The Blockbuster Hackathon
+### 156. Agentic Cinema: The Blockbuster Hackathon
 
 - Organização: Google
 - Recompensa: **não identificada**
@@ -1867,11 +1879,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 9496
+- Participantes: 9522
 - Competências: agent
 - URL: https://agentic-cinema.devpost.com/
 
-### 156. Agents for Humans Hackathon
+### 157. Agents for Humans Hackathon
 
 - Organização: Amazon
 - Recompensa: **não identificada**
@@ -1879,11 +1891,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 7622
+- Participantes: 7656
 - Competências: agent
 - URL: https://agentsforhumans.devpost.com/
 
-### 157. All Things Agentic Hackathon
+### 158. All Things Agentic Hackathon
 
 - Organização: Google
 - Recompensa: **não identificada**
@@ -1895,7 +1907,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: agent
 - URL: https://allthingsagentichackathon.devpost.com/
 
-### 158. Arm Create: AI Optimization Challenge
+### 159. Arm Create: AI Optimization Challenge
 
 - Organização: arm
 - Recompensa: **não identificada**
@@ -1907,7 +1919,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: ai
 - URL: https://arm-ai-optimization-challenge.devpost.com/
 
-### 159. Build with DataHub: The Agent Hackathon
+### 160. Build with DataHub: The Agent Hackathon
 
 - Organização: DataHub
 - Recompensa: **não identificada**
@@ -1919,7 +1931,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: agent
 - URL: https://datahub.devpost.com/
 
-### 160. Build, Ship, Shape: Amazon Developer Hackathon
+### 161. Build, Ship, Shape: Amazon Developer Hackathon
 
 - Organização: Amazon
 - Recompensa: **não identificada**
@@ -1927,11 +1939,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 1834
+- Participantes: 1876
 - Competências: developer
 - URL: https://amazonappdev2026.devpost.com/
 
-### 161. CockroachDB × AWS Hackathon - Build with Agentic Memory
+### 162. CockroachDB × AWS Hackathon - Build with Agentic Memory
 
 - Organização: Cockroach Labs
 - Recompensa: **não identificada**
@@ -1943,7 +1955,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: agent
 - URL: https://cockroachdb-ai.devpost.com/
 
-### 162. Nebius x NVIDIA Global AI Hackathon
+### 163. Nebius x NVIDIA Global AI Hackathon
 
 - Organização: nebius
 - Recompensa: **não identificada**
@@ -1951,11 +1963,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2385
+- Participantes: 2409
 - Competências: ai
 - URL: https://nebiusglobalaihackathon.devpost.com/
 
-### 163. OpenCV AI Competition 2026, powered by AWS
+### 164. OpenCV AI Competition 2026, powered by AWS
 
 - Organização: OpenCV
 - Recompensa: **não identificada**
@@ -1963,11 +1975,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 1154
+- Participantes: 1161
 - Competências: ai
 - URL: https://opencv26.devpost.com/
 
-### 164. DevsUnite Hiring Hackathon
+### 165. DevsUnite Hiring Hackathon
 
 - Organização: DevsUnite
 - Recompensa: **USD 3,000.00**
@@ -1979,7 +1991,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Education, Machine Learning/AI
 - URL: https://devsunite-hiring-hackathon.devpost.com/
 
-### 165. SMU .Hack Enrichment Application Programme 2026
+### 166. SMU .Hack Enrichment Application Programme 2026
 
 - Organização: Singapore Management University
 - Recompensa: **USD 1,750.00**
@@ -1991,7 +2003,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Open Ended, Web
 - URL: https://dothack-heap-2026.devpost.com/
 
-### 166. Shower Hacks
+### 167. Shower Hacks
 
 - Organização: Shower Hacks
 - Recompensa: **USD 9,750.00**
@@ -2003,7 +2015,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Open Ended, Lifehacks, Social Good
 - URL: https://showerhacks.devpost.com/
 
-### 167. Hack the Change 2026
+### 168. Hack the Change 2026
 
 - Organização: Code the Change YYC
 - Recompensa: **USD 5,000.00**
@@ -2015,7 +2027,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Education, Social Good, Web
 - URL: https://hack-the-change-2026.devpost.com/
 
-### 168. SVYCA Youth for Earth (Y4E) Hackathon
+### 169. SVYCA Youth for Earth (Y4E) Hackathon
 
 - Organização: Silicon Valley Youth Climate Action
 - Recompensa: **USD 2,700.00**
@@ -2027,7 +2039,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Social Good
 - URL: https://svycay4e.devpost.com/
 
-### 169. Case Closed
+### 170. Case Closed
 
 - Organização: GDG on Campus Sheridan College
 - Recompensa: **USD 2,000.00**
@@ -2039,7 +2051,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Communication, Low/No Code
 - URL: https://caseclosed.devpost.com/
 
-### 170. 8-Bit Jam
+### 171. 8-Bit Jam
 
 - Organização: Hack Club
 - Recompensa: **USD 1,360.00**
@@ -2051,7 +2063,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Education, Gaming
 - URL: https://8-bit-jam.devpost.com/
 
-### 171. (FREE) MIMS Robotics Competition $1750 prize pool
+### 172. (FREE) MIMS Robotics Competition $1750 prize pool
 
 - Organização: Minds In Motion STEM
 - Recompensa: **USD 1,300.00**
@@ -2063,7 +2075,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Low/No Code, Open Ended
 - URL: https://mims-robotics-competition.devpost.com/
 
-### 172. Desert Dev Lab 2027
+### 173. Desert Dev Lab 2027
 
 - Organização: NM Tech Talks
 - Recompensa: **USD 1,000.00**
@@ -2075,7 +2087,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Health, Social Good
 - URL: https://desert-dev-lab-2027.devpost.com/
 
-### 173. 804 Hacks
+### 174. 804 Hacks
 
 - Organização: UW Blockchain Society
 - Recompensa: **USD 978.00**
@@ -2087,7 +2099,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Cybersecurity, Social Good
 - URL: https://804hacks.devpost.com/
 
-### 174. CityCamp Gainesville Hack Day
+### 175. CityCamp Gainesville Hack Day
 
 - Organização: Florida Community Innovation
 - Recompensa: **USD 900.00**
@@ -2099,7 +2111,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Social Good
 - URL: https://citycamp-hack-day.devpost.com/
 
-### 175. Build Nepal
+### 176. Build Nepal
 
 - Organização: Mid valley International College
 - Recompensa: **USD 660.00**
@@ -2111,7 +2123,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Cybersecurity, Fintech
 - URL: https://buildnepal.devpost.com/
 
-### 176. Stupid Ideas Hackathon (Ottawa F26)
+### 177. Stupid Ideas Hackathon (Ottawa F26)
 
 - Organização: stupid ideas hackathon
 - Recompensa: **USD 517.00**
@@ -2123,7 +2135,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Open Ended, Social Good
 - URL: https://stupideas-ottawa-f26.devpost.com/
 
-### 177. Maverick Hackathon
+### 178. Maverick Hackathon
 
 - Organização: wavehack
 - Recompensa: **USD 500.00**
@@ -2135,7 +2147,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Gaming, Social Good
 - URL: https://maverick-hackathon.devpost.com/
 
-### 178. Tech to Treasure Hackathon
+### 179. Tech to Treasure Hackathon
 
 - Organização: bin to better
 - Recompensa: **USD 450.00**
@@ -2147,7 +2159,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Education, Social Good
 - URL: https://techtotreasure.devpost.com/
 
-### 179. H.A.R.D. Hack 2027
+### 180. H.A.R.D. Hack 2027
 
 - Organização: HKN (Eta Kappa Nu)
 - Recompensa: **USD 300.00**
@@ -2159,7 +2171,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Education, Health
 - URL: https://h-a-r-d-hack-2027.devpost.com/
 
-### 180. hack::peel 2026
+### 181. hack::peel 2026
 
 - Organização: Absolute Robotics #4308
 - Recompensa: **USD 100.00**
@@ -2171,7 +2183,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Design, Education, Open Ended
 - URL: https://hack-peel.devpost.com/
 
-### 181. hacks test
+### 182. hacks test
 
 - Organização: n/a
 - Recompensa: **USD 1.00**
@@ -2183,7 +2195,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Beginner Friendly, Open Ended, Web
 - URL: https://youtube-automation-hackathon.devpost.com/
 
-### 182. 3D Websites Hackathon
+### 183. 3D Websites Hackathon
 
 - Organização: Tanishq Kumar
 - Recompensa: **não identificada**
@@ -2195,7 +2207,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: não identificadas
 - URL: https://3d-websites-hackathon.devpost.com/
 
-### 183. Africa Deep Tech Challenge 2026
+### 184. Africa Deep Tech Challenge 2026
 
 - Organização: Africa Deep Tech Foundation
 - Recompensa: **não identificada**
@@ -2207,7 +2219,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: não identificadas
 - URL: https://adtc-2026.devpost.com/
 
-### 184. Backblaze Generative Media Hackathon: Build with Genblaze on B2
+### 185. Backblaze Generative Media Hackathon: Build with Genblaze on B2
 
 - Organização: Backblaze
 - Recompensa: **não identificada**
@@ -2219,7 +2231,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: não identificadas
 - URL: https://backblaze-generative-media.devpost.com/
 
-### 185. Build with Gemini XPRIZE
+### 186. Build with Gemini XPRIZE
 
 - Organização: XPRIZE
 - Recompensa: **não identificada**
@@ -2231,7 +2243,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: não identificadas
 - URL: https://xprize.devpost.com/
 
-### 186. CALL-E: Your Code Is Calling
+### 187. CALL-E: Your Code Is Calling
 
 - Organização: CALL-E
 - Recompensa: **não identificada**
@@ -2239,11 +2251,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2825
+- Participantes: 2831
 - Competências: não identificadas
 - URL: https://call-e.devpost.com/
 
-### 187. Hack for Humanity | Summer 2026 (+13 non-cash prizes)
+### 188. Hack for Humanity | Summer 2026 (+13 non-cash prizes)
 
 - Organização: Hack for Humanity
 - Recompensa: **não identificada**
@@ -2255,7 +2267,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: não identificadas
 - URL: https://hack-for-humanity-summer-26.devpost.com/
 
-### 188. OpenAI Build Week
+### 189. OpenAI Build Week
 
 - Organização: OpenAI
 - Recompensa: **não identificada**
@@ -2267,7 +2279,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: não identificadas
 - URL: https://openai.devpost.com/
 
-### 189. RevenueCat Shipaton 2026
+### 190. RevenueCat Shipaton 2026
 
 - Organização: RevenueCat
 - Recompensa: **não identificada**
@@ -2275,11 +2287,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 23432
+- Participantes: 23486
 - Competências: não identificadas
 - URL: https://revenuecat-shipaton-2026.devpost.com/
 
-### 190. The WebMCP Challenge
+### 191. The WebMCP Challenge
 
 - Organização: OpenAI
 - Recompensa: **não identificada**
@@ -2291,7 +2303,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: não identificadas
 - URL: https://webmcp.devpost.com/
 
-### 191. TikTok TechJam 2026
+### 192. TikTok TechJam 2026
 
 - Organização: TikTok
 - Recompensa: **não identificada**
@@ -2303,7 +2315,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: não identificadas
 - URL: https://tiktoktechjam2026.devpost.com/
 
-### 192. VoltHacks
+### 193. VoltHacks
 
 - Organização: Dialogate
 - Recompensa: **não identificada**
@@ -2311,11 +2323,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 1970
+- Participantes: 1976
 - Competências: não identificadas
 - URL: https://volthacks.devpost.com/
 
-### 193. Forward: AI in Business Hackathon
+### 194. Forward: AI in Business Hackathon
 
 - Organização: Eleno
 - Recompensa: **USD 3,000.00**
@@ -2327,7 +2339,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Machine Learning/AI
 - URL: https://forward.devpost.com/
 
-### 194. DIVE 2026
+### 195. DIVE 2026
 
 - Organização: BTP
 - Recompensa: **USD 2,900.00**
@@ -2339,7 +2351,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Competências: Databases, Machine Learning/AI
 - URL: https://dive2026.devpost.com/
 
-### 195. RoadStar Hackathon
+### 196. RoadStar Hackathon
 
 - Organização: Enterprise Software Solutions
 - Recompensa: **USD 2,000.00**
@@ -2347,11 +2359,11 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-05
 - Prazo: 2026-09-13
 - Online: não identificado
-- Participantes: 41
+- Participantes: 42
 - Competências: Databases, Mobile, Web
 - URL: https://roadstarhackathon.devpost.com/
 
-### 196. ⚡ Build Fast. Launch Loud. ⚡
+### 197. ⚡ Build Fast. Launch Loud. ⚡
 
 - Organização: Prompt Driven
 - Recompensa: **USD 1,000.00**
@@ -2362,18 +2374,6 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Participantes: 6
 - Competências: Machine Learning/AI, Open Ended, Productivity
 - URL: https://build-fast-launch-loud.devpost.com/
-
-### 197. Acodemic X G.I.R.L.S. Global SDG Hackathon
-
-- Organização: Hack Club
-- Recompensa: **USD 60.00**
-- Score: **47.0**
-- Início: 2026-09-06
-- Prazo: 2026-09-16
-- Online: sim
-- Participantes: 7
-- Competências: Education, Social Good, Beginner Friendly
-- URL: https://acodemic-hackathon.devpost.com/
 
 ### 198. Hoobit Hacks 2026
 
@@ -2395,7 +2395,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-21
 - Prazo: 2026-09-05
 - Online: sim
-- Participantes: 130
+- Participantes: 131
 - Competências: Enterprise, Fintech, Productivity
 - URL: https://graphiques-challenge.devpost.com/
 
@@ -2467,7 +2467,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-08-09
 - Prazo: 2026-09-05
 - Online: não identificado
-- Participantes: 84
+- Participantes: 85
 - Competências: Blockchain, Cybersecurity, Low/No Code
 - URL: https://gemini-event-hackmatrix.devpost.com/
 
@@ -2491,7 +2491,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-04
 - Prazo: 2026-09-07
 - Online: não identificado
-- Participantes: 6
+- Participantes: 7
 - Competências: Beginner Friendly, Low/No Code, Social Good
 - URL: https://global-psyops-hackathon.devpost.com/
 
@@ -2563,7 +2563,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-05
 - Prazo: 2026-09-06
 - Online: sim
-- Participantes: 12
+- Participantes: 13
 - Competências: Beginner Friendly, Fintech, Open Ended
 - URL: https://syndicate-by-maximor.devpost.com/
 
@@ -2659,7 +2659,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-15
 - Prazo: 2026-10-15
 - Online: sim
-- Participantes: 39
+- Participantes: 40
 - Competências: Enterprise, Open Ended, Robotic Process Automation
 - URL: https://hack47-offgrid.devpost.com/
 
@@ -2671,7 +2671,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-18
 - Prazo: 2026-10-16
 - Online: sim
-- Participantes: 154
+- Participantes: 176
 - Competências: Databases, Machine Learning/AI
 - URL: https://mlai-hackathon.devpost.com/
 
@@ -2707,7 +2707,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-05
 - Prazo: 2026-09-06
 - Online: não identificado
-- Participantes: 5
+- Participantes: 6
 - Competências: Beginner Friendly
 - URL: https://emp-hackfest-summer-2026.devpost.com/
 
@@ -2935,7 +2935,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-25
 - Prazo: 2026-09-27
 - Online: não identificado
-- Participantes: 16
+- Participantes: 17
 - Competências: Beginner Friendly, Education, Machine Learning/AI
 - URL: https://hackwashu-fall-ai-2026.devpost.com/
 
@@ -3175,7 +3175,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-25
 - Prazo: 2026-09-27
 - Online: não identificado
-- Participantes: 58
+- Participantes: 61
 - Competências: Web, Enterprise
 - URL: https://innovation-cup2026.devpost.com/
 
@@ -3295,7 +3295,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-10-10
 - Prazo: 2026-10-10
 - Online: não identificado
-- Participantes: 8
+- Participantes: 9
 - Competências: Beginner Friendly, Education, Open Ended
 - URL: https://hyphen-hacks26.devpost.com/
 
@@ -3451,7 +3451,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-07
 - Prazo: 2026-09-10
 - Online: não identificado
-- Participantes: 10
+- Participantes: 11
 - Competências: Beginner Friendly, Blockchain, Open Ended
 - URL: https://upai-hackdays.devpost.com/
 
@@ -3703,7 +3703,7 @@ Gerado em: 2026-09-05T04:49:36.300526+00:00
 - Início: 2026-09-05
 - Prazo: 2026-09-06
 - Online: não identificado
-- Participantes: 28
+- Participantes: 39
 - Competências: Beginner Friendly, Education, Machine Learning/AI
 - URL: https://codebox-hacks.devpost.com/
 
