@@ -344,6 +344,7 @@ for source in config["sources"]:
                     detected_reward_text = excluded.detected_reward_text,
                     candidate_score = excluded.candidate_score,
                     source_status = excluded.source_status,
+                    verification_status = 'staged',
                     last_seen_at = excluded.last_seen_at
                 """,
                 (
