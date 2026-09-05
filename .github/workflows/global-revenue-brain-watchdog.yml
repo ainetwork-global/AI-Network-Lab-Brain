@@ -1,0 +1,50 @@
+name: Global Revenue Brain Watchdog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "3,13,23,33,43,53 * * * *"
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: global-revenue-brain-watchdog
+  cancel-in-progress: true
+
+jobs:
+  recover-stale-brain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check freshness and recover
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          api="repos/${REPOSITORY}/actions/workflows/global-revenue-brain.yml/runs?per_page=5"
+          runs="$(gh api "${api}")"
+          now="$(date -u +%s)"
+
+          fresh="$(
+            jq --argjson now "${now}" '
+              [
+                .workflow_runs[]
+                | select(.status == "queued" or .status == "in_progress" or .conclusion == "success")
+                | (.created_at | fromdateiso8601) as $created
+                | select(($now - $created) < 2100)
+              ]
+              | length
+            ' <<<"${runs}"
+          )"
+
+          if [ "${fresh}" -gt 0 ]; then
+            echo "Global Revenue Brain is fresh; no recovery needed."
+            exit 0
+          fi
+
+          echo "Global Revenue Brain is stale; dispatching a recovery cycle."
+          gh api             --method POST             "repos/${REPOSITORY}/actions/workflows/global-revenue-brain.yml/dispatches"             -f ref=main
