@@ -1,16 +1,16 @@
 # Global Revenue Brain — Oportunidades Verificadas
 
-Gerado em: 2026-09-05T01:30:00.496822+00:00
+Gerado em: 2026-09-05T04:54:44.557958+00:00
 
 ## Resumo
 
-- Total verificado: **1374**
-- Fila prioritária: **52**
+- Total verificado: **1406**
+- Fila prioritária: **84**
 - rejected: **1285**
 - expired: **37**
+- verified: **35**
 - actionable: **26**
 - approval_required: **23**
-- verified: **3**
 
 ## Fila prioritária
 
@@ -1092,20 +1092,20 @@ Gerado em: 2026-09-05T01:30:00.496822+00:00
 - Próxima ação: **Solicitar aprovação humana antes de qualquer gasto.**
 - Motivo: A oportunidade aparenta exigir capital, taxa, depósito ou compra.
 
-### 50. Freelance Copywriter
+### 50. Build, Ship, Shape: Amazon Developer Hackathon
 
 - Status: **verified**
-- Categoria: paid_development
-- Fonte: Remotive
-- URL: https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306
+- Categoria: hackathon
+- Fonte: Devpost Hackathons
+- URL: https://amazonappdev2026.devpost.com/
 - Recompensa: não identificada
-- Prazo: não identificado
+- Prazo: 2026-10-23
 - Capital necessário: não identificado
-- Dificuldade: baixa
-- Tempo estimado: 8.0 horas
+- Dificuldade: média
+- Tempo estimado: 30.0 horas
 - Risco: médio
-- Probabilidade estimada: 31.8%
-- Score de verificação: 28.9/100
+- Probabilidade estimada: 33.2%
+- Score de verificação: 33.2/100
 - KYC: não identificado
 - Aprovação humana: não
 - Forma de pagamento: não identificada
