@@ -1,6 +1,6 @@
 # Global Revenue Brain — Devpost Hackathons
 
-Gerado em: 2026-09-05T09:28:20.059322+00:00
+Gerado em: 2026-09-05T09:47:48.759456+00:00
 
 ## Resumo
 
@@ -31,7 +31,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-09-01
 - Prazo: 2026-10-02
 - Online: sim
-- Participantes: 834
+- Participantes: 835
 - Competências: Beginner Friendly, Machine Learning/AI, Open Ended
 - URL: https://gatewayhacks-2026.devpost.com/
 
@@ -43,7 +43,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-07-31
 - Prazo: 2026-10-01
 - Online: sim
-- Participantes: 23491
+- Participantes: 23497
 - Competências: Design, Gaming, Mobile
 - URL: https://revenuecat-shipaton-2026.devpost.com/
 
@@ -79,7 +79,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-08-31
 - Prazo: 2026-10-23
 - Online: sim
-- Participantes: 1883
+- Participantes: 1891
 - Competências: Machine Learning/AI, Open Ended, Productivity
 - URL: https://amazonappdev2026.devpost.com/
 
@@ -151,7 +151,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-08-10
 - Prazo: 2026-09-14
 - Online: sim
-- Participantes: 7661
+- Participantes: 7664
 - Competências: Beginner Friendly, Machine Learning/AI, Open Ended
 - URL: https://agentsforhumans.devpost.com/
 
@@ -379,7 +379,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-08-25
 - Prazo: 2026-09-14
 - Online: sim
-- Participantes: 187
+- Participantes: 188
 - Competências: IoT, Machine Learning/AI, Social Good
 - URL: https://hyperbloom-september.devpost.com/
 
@@ -403,7 +403,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-08-03
 - Prazo: 2026-09-17
 - Online: sim
-- Participantes: 267
+- Participantes: 268
 - Competências: Blockchain, Machine Learning/AI, Cybersecurity
 - URL: https://compsphere12.devpost.com/
 
@@ -595,7 +595,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-08-25
 - Prazo: 2026-09-10
 - Online: sim
-- Participantes: 188
+- Participantes: 189
 - Competências: Health, Machine Learning/AI, Beginner Friendly
 - URL: https://hack2heal.devpost.com/
 
@@ -667,7 +667,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-05-22
 - Prazo: 2026-09-05
 - Online: sim
-- Participantes: 1976
+- Participantes: 1977
 - Competências: IoT, Machine Learning/AI, Beginner Friendly
 - URL: https://volthacks.devpost.com/
 
@@ -1003,7 +1003,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-09-19
 - Prazo: 2026-09-20
 - Online: sim
-- Participantes: 76
+- Participantes: 77
 - Competências: Beginner Friendly, Cybersecurity, Machine Learning/AI
 - URL: https://tln-cybersecurity-challenge.devpost.com/
 
@@ -1135,7 +1135,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-06-14
 - Prazo: 2026-09-12
 - Online: sim
-- Participantes: 232
+- Participantes: 233
 - Competências: Beginner Friendly, Open Ended, Social Good
 - URL: https://animalhack2026.devpost.com/
 
@@ -1879,7 +1879,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 9522
+- Participantes: 9523
 - Competências: agent
 - URL: https://agentic-cinema.devpost.com/
 
@@ -1891,7 +1891,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 7663
+- Participantes: 7668
 - Competências: agent
 - URL: https://agentsforhumans.devpost.com/
 
@@ -1939,7 +1939,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 1891
+- Participantes: 1894
 - Competências: developer
 - URL: https://amazonappdev2026.devpost.com/
 
@@ -1963,7 +1963,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2411
+- Participantes: 2412
 - Competências: ai
 - URL: https://nebiusglobalaihackathon.devpost.com/
 
@@ -1975,7 +1975,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 1162
+- Participantes: 1164
 - Competências: ai
 - URL: https://opencv26.devpost.com/
 
@@ -2251,7 +2251,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2832
+- Participantes: 2833
 - Competências: não identificadas
 - URL: https://call-e.devpost.com/
 
@@ -2287,7 +2287,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 23496
+- Participantes: 23511
 - Competências: não identificadas
 - URL: https://revenuecat-shipaton-2026.devpost.com/
 
@@ -2515,7 +2515,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-09-04
 - Prazo: 2026-09-06
 - Online: não identificado
-- Participantes: 9
+- Participantes: 11
 - Competências: Design
 - URL: https://suede-designathon-2026.devpost.com/
 
@@ -2671,7 +2671,7 @@ Gerado em: 2026-09-05T09:28:20.059322+00:00
 - Início: 2026-09-18
 - Prazo: 2026-10-16
 - Online: sim
-- Participantes: 199
+- Participantes: 203
 - Competências: Databases, Machine Learning/AI
 - URL: https://mlai-hackathon.devpost.com/
 
