@@ -85,11 +85,34 @@ jobs:
         run: python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/official_eligibility_effort_gate.py
 
       - name: Verify Devpost live state and Brazilian eligibility
+        timeout-minutes: 7
         run: |
-          python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_api_truth_sync.py
-          python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_deep_enrichment.py
-          python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_execution_triage.py
-          python 01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_due_diligence_gate.py
+          set -u
+          failures=0
+
+          run_devpost_stage() {
+            stage="$1"
+            script="$2"
+            echo "::group::Devpost stage: ${stage}"
+            if timeout --signal=TERM --kill-after=10s 90s python "${script}"; then
+              echo "Devpost stage completed: ${stage}"
+            else
+              code=$?
+              failures=$((failures + 1))
+              echo "::warning::Devpost stage '${stage}' failed or timed out (exit ${code}); continuing with safe existing evidence."
+            fi
+            echo "::endgroup::"
+          }
+
+          run_devpost_stage "API truth sync" "01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_api_truth_sync.py"
+          run_devpost_stage "Deep enrichment" "01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_deep_enrichment.py"
+          run_devpost_stage "Execution triage" "01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_execution_triage.py"
+          run_devpost_stage "Due diligence gate" "01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/devpost_due_diligence_gate.py"
+
+          if [ "${failures}" -gt 0 ]; then
+            echo "### Devpost degraded mode" >> "${GITHUB_STEP_SUMMARY}"
+            echo "${failures} Devpost stage(s) failed or timed out. The remaining Brain pipeline continued; no stale candidate becomes externally executable without fresh verification." >> "${GITHUB_STEP_SUMMARY}"
+          fi
 
       - name: Deep verify new opportunities
         run: |
