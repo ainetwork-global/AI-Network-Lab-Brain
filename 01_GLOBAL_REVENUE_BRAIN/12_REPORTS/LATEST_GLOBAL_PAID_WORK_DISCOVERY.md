@@ -1,6 +1,6 @@
 # Global Revenue Brain — Paid Work Discovery
 
-Gerado em: 2026-09-05T09:14:28.882042+00:00
+Gerado em: 2026-09-05T09:28:19.624754+00:00
 
 ## Objetivo
 
@@ -10,10 +10,10 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 
 ## Resumo
 
-- Total coletado nesta execução: **1008**
-- Actionable review: **6446**
-- Manual review: **1281**
-- Low priority: **3690**
+- Total coletado nesta execução: **1005**
+- Actionable review: **6518**
+- Manual review: **1287**
+- Low priority: **3711**
 - Rejected: **70**
 - Erros: **0**
 
@@ -22,7 +22,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Arbeitnow: **650**
 - Remotive: **18**
 - Remote OK: **100**
-- GitHub paid issues: **240**
+- GitHub paid issues: **237**
 
 ## Melhores oportunidades
 
@@ -426,7 +426,23 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, automation, api, integration, script, database, documentation, testing; Executável digitalmente: python, script, automation, api, integration, data, documentation, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/camunda/remote-senior-gtm-systems-ai-and-automation-engineer-447360
 
-### 26. Supply Chain Systems Analyst
+### 26. Senior GTM Systems AI and Automation Engineer
+
+- Fonte: arbeitnow
+- Contratante: Camunda
+- Localização: Remote
+- Tipo: ['Full Time']
+- Remuneração: USD 143,800.00
+- Evidência de pagamento: $143,800.00
+- Execução remota: sim
+- Compatibilidade com automação: 100.0%
+- Score: **100.0**
+- Status: **actionable_review**
+- Forma de entrada: proposal_or_application
+- Motivo: Capacidades compatíveis: python, automation, api, integration, script, database, documentation, testing; Executável digitalmente: python, script, automation, api, integration, data, documentation, testing; Indício explícito de remuneração.; Execução remota identificada.
+- URL: https://www.arbeitnow.com/jobs/companies/camunda/remote-senior-gtm-systems-ai-and-automation-engineer-43415
+
+### 27. Supply Chain Systems Analyst
 
 - Fonte: remoteok
 - Contratante: Wing
@@ -442,7 +458,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, integration, testing, ai; Executável digitalmente: api, integration, data, testing; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-supply-chain-systems-analyst-wing-1134803
 
-### 27. Senior Software Engineer (Go)
+### 28. Senior Software Engineer (Go)
 
 - Fonte: arbeitnow
 - Contratante: Form3
@@ -458,7 +474,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, testing, ai, github, devops; Executável digitalmente: automation, data, testing, devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/form3/senior-software-engineer-go-498325
 
-### 28. Senior Software Engineer (Ruby), Security Platform: Authorization
+### 29. Senior Software Engineer (Ruby), Security Platform: Authorization
 
 - Fonte: arbeitnow
 - Contratante: gitlab
@@ -474,7 +490,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent, workflow; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/gitlab/remote-senior-software-engineer-ruby-security-platform-authorization-340291
 
-### 29. Staff AI Engineer - 2nd Horizon | Germany | Remote
+### 30. Staff AI Engineer - 2nd Horizon | Germany | Remote
 
 - Fonte: arbeitnow
 - Contratante: grafanalabs
@@ -490,7 +506,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, ai, llm, agent, workflow; Executável digitalmente: automation, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-ai-engineer-2nd-horizon-germany-remote-243956
 
-### 30. Senior Sales Manager - EMEA
+### 31. Senior Sales Manager - EMEA
 
 - Fonte: arbeitnow
 - Contratante: InMobi
@@ -506,7 +522,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/inmobi/senior-sales-manager-emea-munich-461983
 
-### 31. Senior Sales Manager - EMEA
+### 32. Senior Sales Manager - EMEA
 
 - Fonte: arbeitnow
 - Contratante: InMobi
@@ -522,7 +538,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/inmobi/senior-sales-manager-emea-cologne-149449
 
-### 32. Senior Sales Manager - EMEA
+### 33. Senior Sales Manager - EMEA
 
 - Fonte: arbeitnow
 - Contratante: InMobi
@@ -538,7 +554,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/inmobi/senior-sales-manager-emea-hamburg-346701
 
-### 33. Senior Sales Manager - EMEA
+### 34. Senior Sales Manager - EMEA
 
 - Fonte: arbeitnow
 - Contratante: InMobi
@@ -554,7 +570,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/inmobi/senior-sales-manager-emea-berlin-276676
 
-### 34. Senior Sales Manager - EMEA
+### 35. Senior Sales Manager - EMEA
 
 - Fonte: arbeitnow
 - Contratante: Inmobi
@@ -570,7 +586,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, ai, agent; Executável digitalmente: api, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/inmobi/senior-sales-manager-emea-296545
 
-### 35. Staff Backend Engineer - Alerting | Germany | Remote
+### 36. Staff Backend Engineer - Alerting | Germany | Remote
 
 - Fonte: arbeitnow
 - Contratante: grafanalabs
@@ -586,7 +602,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, api, ai, backend; Executável digitalmente: python, api, data, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-backend-engineer-alerting-germany-remote-192759
 
-### 36. Staff Software Engineer - Databases, Tempo | Germany | Remote
+### 37. Staff Software Engineer - Databases, Tempo | Germany | Remote
 
 - Fonte: arbeitnow
 - Contratante: grafanalabs
@@ -602,7 +618,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, database, sql, documentation, ai, llm, agent; Executável digitalmente: automation, api, data, documentation, backend; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-software-engineer-databases-tempo-germany-remote-114097
 
-### 37. Renewables Project Scheduler
+### 38. Renewables Project Scheduler
 
 - Fonte: remoteok
 - Contratante: Transportation Partners & Logistics
@@ -618,7 +634,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, testing, ai, workflow; Executável digitalmente: script, data, testing, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-renewables-project-scheduler-transportation-partners-amp-logistics-1137194
 
-### 38. Knit - Research Manager
+### 39. Knit - Research Manager
 
 - Fonte: arbeitnow
 - Contratante: Eleve Talent
@@ -634,7 +650,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: script, ai; Executável digitalmente: script, research, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/eleve-talent/remote-knit-research-manager-498582
 
-### 39. Customer Success Manager Enterprise
+### 40. Customer Success Manager Enterprise
 
 - Fonte: remoteok
 - Contratante: PointClickCare
@@ -650,7 +666,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, script, ai; Executável digitalmente: python, script, data, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-customer-success-manager-enterprise-pointclickcare-1134869
 
-### 40. Strategic Finance Associate Principal
+### 41. Strategic Finance Associate Principal
 
 - Fonte: arbeitnow
 - Contratante: via
@@ -666,7 +682,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api; Executável digitalmente: api, data, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/via/strategic-finance-associate-principal-london-18639
 
-### 41. AWS Cloud Engineer
+### 42. AWS Cloud Engineer
 
 - Fonte: arbeitnow
 - Contratante: Jobgether
@@ -682,7 +698,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, ai, github, devops; Executável digitalmente: automation, data, devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/jobgether/aws-cloud-engineer-uk-299720
 
-### 42. AWS Cloud Engineer
+### 43. AWS Cloud Engineer
 
 - Fonte: arbeitnow
 - Contratante: Jobgether
@@ -698,7 +714,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, ai, github, devops; Executável digitalmente: automation, data, devops; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/jobgether/aws-cloud-engineer-germany-475732
 
-### 43. Senior Specialist Global QMS
+### 44. Senior Specialist Global QMS
 
 - Fonte: remoteok
 - Contratante: Orca Bio
@@ -714,7 +730,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: api, documentation, ai; Executável digitalmente: api, data, documentation, analysis; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://remoteOK.com/remote-jobs/remote-senior-specialist-global-qms-orca-bio-1137072
 
-### 44. AI/ML & Forward Deployed Engineer
+### 45. AI/ML & Forward Deployed Engineer
 
 - Fonte: arbeitnow
 - Contratante: Jobgether
@@ -730,7 +746,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, automation, api, integration, ai, llm; Executável digitalmente: python, automation, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/jobgether/ai-ml-forward-deployed-engineer-uk-149381
 
-### 45. AI/ML & Forward Deployed Engineer
+### 46. AI/ML & Forward Deployed Engineer
 
 - Fonte: arbeitnow
 - Contratante: Jobgether
@@ -746,7 +762,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: python, automation, api, integration, ai, llm; Executável digitalmente: python, automation, api, integration, data; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/jobgether/ai-ml-forward-deployed-engineer-germany-477815
 
-### 46. Frontend Engineer
+### 47. Frontend Engineer
 
 - Fonte: arbeitnow
 - Contratante: Lightningai
@@ -762,7 +778,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, script, ai; Executável digitalmente: script, automation, api, research; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.co.uk/jobs/companies/lightningai/frontend-engineer-london-434461
 
-### 47. New Business Account Executive (DACH market)
+### 48. New Business Account Executive (DACH market)
 
 - Fonte: arbeitnow
 - Contratante: Vivid
@@ -778,7 +794,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: automation, api, integration, ai, agent; Executável digitalmente: automation, api, integration; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/vivid/new-business-account-executive-dach-market-germany-422788
 
-### 48. Missing record: Azion Scale Up Credit Program
+### 49. Missing record: Azion Scale Up Credit Program
 
 - Fonte: github_paid_issues
 - Contratante: sourcey/startup-credits
@@ -794,7 +810,7 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Motivo: Capacidades compatíveis: documentation, ai; Executável digitalmente: data, documentation; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://github.com/sourcey/startup-credits/issues/752
 
-### 49. New Business Account Executive (DACH market)
+### 50. New Business Account Executive (DACH market)
 
 - Fonte: arbeitnow
 - Contratante: Vivid
@@ -809,19 +825,3 @@ Nenhuma candidatura, proposta, aceite contratual ou ação externa foi realizada
 - Forma de entrada: job_application
 - Motivo: Capacidades compatíveis: automation, api, integration, ai, agent; Executável digitalmente: automation, api, integration; Indício explícito de remuneração.; Execução remota identificada.
 - URL: https://www.arbeitnow.com/jobs/companies/vivid/new-business-account-executive-dach-market-germany-368479
-
-### 50. Software Engineer, Backend - Core/API & Process Automation
-
-- Fonte: arbeitnow
-- Contratante: Camunda
-- Localização: Remote
-- Tipo: ['Full Time']
-- Remuneração: USD 119,900.00
-- Evidência de pagamento: $119,900.00
-- Execução remota: sim
-- Compatibilidade com automação: 100.0%
-- Score: **100.0**
-- Status: **actionable_review**
-- Forma de entrada: proposal_or_application
-- Motivo: Capacidades compatíveis: automation, api, integration, testing, ai, agent, workflow, backend; Executável digitalmente: automation, api, integration, data, testing, backend; Indício explícito de remuneração.; Execução remota identificada.
-- URL: https://www.arbeitnow.com/jobs/companies/camunda/remote-software-engineer-backend-core-api-process-automation-492538
