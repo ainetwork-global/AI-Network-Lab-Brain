@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "mode": "safe_autonomous_preparation",
   "default_decision": "deny",
   "budgets": {
@@ -10,11 +10,22 @@
   "autonomous_actions": [
     "read_public_opportunity",
     "verify_official_rules",
+    "verify_deadline_and_live_state",
+    "verify_brazilian_eligibility",
+    "verify_reward_and_payment_method",
+    "estimate_competition_and_expected_return",
     "rank_opportunity",
+    "download_public_dataset",
     "clone_public_repository",
     "create_isolated_workspace",
+    "inspect_public_source_code",
+    "prepare_requirements_and_plan",
     "implement_locally",
+    "generate_baseline_solution",
     "run_sandboxed_tests",
+    "run_static_analysis",
+    "prepare_test_evidence",
+    "package_local_deliverable",
     "prepare_submission_draft",
     "monitor_public_status"
   ],
@@ -46,7 +57,12 @@
   "secret_isolation": {
     "untrusted_repository_processes_receive_secrets": false,
     "blocked_environment_name_fragments": [
-      "TOKEN", "SECRET", "PASSWORD", "PRIVATE", "CREDENTIAL", "API_KEY"
+      "TOKEN",
+      "SECRET",
+      "PASSWORD",
+      "PRIVATE",
+      "CREDENTIAL",
+      "API_KEY"
     ]
   }
 }
