@@ -1,10 +1,10 @@
 # GLOBAL ECONOMIC DECISION ENGINE
 
-Generated: `2026-09-05T08:48:47.107740+00:00`
+Generated: `2026-09-05T08:59:32.293318+00:00`
 
 - Automatic technical execution: **0**
-- Human decision required: **8**
-- Evidence refresh required: **8**
+- Human decision required: **3**
+- Evidence refresh required: **13**
 - Archived/blocked: **42**
 - Participant platforms monitored: **16**
 - External claims, applications, submissions, signatures, KYC and money movement performed: **0**
@@ -13,18 +13,18 @@ Generated: `2026-09-05T08:48:47.107740+00:00`
 
 | Rank | Route | Opportunity | Score | Risk-adjusted value | Next action |
 |---:|---|---|---:|---:|---|
-| 1 | HUMAN_DECISION_REQUIRED | Zest Protocol V2 | 68.19 | USD 11700.00 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
-| 2 | HUMAN_DECISION_REQUIRED | DeXe Protocol | 65.36 | USD 58500.00 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
-| 3 | HUMAN_DECISION_REQUIRED | StackingDAO | 65.36 | USD 11700.00 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
-| 4 | HUMAN_DECISION_REQUIRED | Immunefi | 65.36 | USD 5850.00 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
-| 5 | HUMAN_DECISION_REQUIRED | Hedera | 65.36 | USD 3510.00 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
-| 6 | HUMAN_DECISION_REQUIRED | VoltHacks | 43.19 | USD 10.50 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
-| 7 | HUMAN_DECISION_REQUIRED | Sales Director - Strategic Accounts (f/m/d) | 43.19 | EUR 0.03 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
-| 8 | HUMAN_DECISION_REQUIRED | Sales Director - Strategic Accounts (f/m/d) | 43.19 | EUR 0.03 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
-| 9 | EVIDENCE_REFRESH_REQUIRED | 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC | 47.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
-| 10 | EVIDENCE_REFRESH_REQUIRED | 🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC | 47.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
-| 11 | EVIDENCE_REFRESH_REQUIRED | Kendraio App MusicBrainz integration (bounty) | 35.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
-| 12 | EVIDENCE_REFRESH_REQUIRED | [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent | 35.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
+| 1 | HUMAN_DECISION_REQUIRED | VoltHacks | 43.19 | USD 10.50 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
+| 2 | HUMAN_DECISION_REQUIRED | Sales Director - Strategic Accounts (f/m/d) | 43.19 | EUR 0.03 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
+| 3 | HUMAN_DECISION_REQUIRED | Sales Director - Strategic Accounts (f/m/d) | 43.19 | EUR 0.03 | Destacar no dashboard com motivo, evidências e decisão solicitada. |
+| 4 | EVIDENCE_REFRESH_REQUIRED | 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC | 47.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
+| 5 | EVIDENCE_REFRESH_REQUIRED | 🎯 Bounty Alert: 30 New Opportunities — 2026-07-14 10:46 UTC | 47.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
+| 6 | EVIDENCE_REFRESH_REQUIRED | Kendraio App MusicBrainz integration (bounty) | 35.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
+| 7 | EVIDENCE_REFRESH_REQUIRED | [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent | 35.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
+| 8 | EVIDENCE_REFRESH_REQUIRED | Zest Protocol V2 | 33.19 | USD 100.00 | Somente pesquisa passiva e local; não solicitar aprovação nem testar ativos até existir hipótese técnica específica e escopo confirmado. |
+| 9 | EVIDENCE_REFRESH_REQUIRED | DeXe Protocol | 30.36 | USD 500.00 | Somente pesquisa passiva e local; não solicitar aprovação nem testar ativos até existir hipótese técnica específica e escopo confirmado. |
+| 10 | EVIDENCE_REFRESH_REQUIRED | StackingDAO | 30.36 | USD 100.00 | Somente pesquisa passiva e local; não solicitar aprovação nem testar ativos até existir hipótese técnica específica e escopo confirmado. |
+| 11 | EVIDENCE_REFRESH_REQUIRED | Immunefi | 30.36 | USD 50.00 | Somente pesquisa passiva e local; não solicitar aprovação nem testar ativos até existir hipótese técnica específica e escopo confirmado. |
+| 12 | EVIDENCE_REFRESH_REQUIRED | Hedera | 30.36 | USD 30.00 | Somente pesquisa passiva e local; não solicitar aprovação nem testar ativos até existir hipótese técnica específica e escopo confirmado. |
 | 13 | EVIDENCE_REFRESH_REQUIRED | opik#1010 [FR]: UI - Ability to Annotate multiple traces at once within a Project | 30.36 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
 | 14 | EVIDENCE_REFRESH_REQUIRED | Calculate the exact value of PI | 27.00 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
 | 15 | EVIDENCE_REFRESH_REQUIRED | dokploy#1413 Organisation and Teams Management | 22.36 | USD 0.00 | Atualizar evidências de abertura, pagamento, elegibilidade e concorrência. |
