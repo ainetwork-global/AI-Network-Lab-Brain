@@ -1,6 +1,6 @@
 # Participant Platform Monitor
 
-Generated: `2026-09-05T19:11:26.301639+00:00`
+Generated: `2026-09-05T19:35:02.022408+00:00`
 
 - Platforms monitored: **16**
 - Public entry points reachable/protected: **15**
@@ -20,7 +20,7 @@ Generated: `2026-09-05T19:11:26.301639+00:00`
 | Userlytics | usability_testing | possible | authenticated | reachable | monitor account/email |
 | Userfeel | usability_testing | possible | authenticated | reachable | monitor account/email |
 | TestingTime | research_participant | unknown | invitation | reachable | monitor account/email |
-| Trymata | usability_testing | unknown | authenticated | temporary_error | monitor account/email |
+| Trymata | usability_testing | unknown | authenticated | http_error | monitor account/email |
 | MetroOpinion | paid_surveys | verified_local_site | authenticated | reachable | monitor account/email |
 | Outlier | ai_training | possible | authenticated | reachable | monitor account/email |
 | OneForma | ai_training | verified_global | matched_authenticated | reachable | monitor account/email |
