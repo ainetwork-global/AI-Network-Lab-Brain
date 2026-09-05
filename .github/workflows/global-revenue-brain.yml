@@ -11,6 +11,7 @@ on:
       - "02_DISCOVERY/superteam_earn_official_adapter.py"
       - "01_GLOBAL_REVENUE_BRAIN/01_CONFIG/requirements-lock.txt"
       - "01_GLOBAL_REVENUE_BRAIN/01_CONFIG/autonomy_policy.json"
+      - "01_GLOBAL_REVENUE_BRAIN/01_CONFIG/high_trust_sources.json"
   schedule:
     - cron: "7,27,47 * * * *"
 
@@ -77,6 +78,11 @@ jobs:
           python -m unittest -v test_microtask_fast_lane.py test_global_economic_decision_engine.py
           cd ../10_SCRIPTS
           python -m unittest -v test_pipeline_resilience.py
+
+      - name: Scan expanded official source network
+        timeout-minutes: 4
+        continue-on-error: true
+        run: python 01_GLOBAL_REVENUE_BRAIN/02_DISCOVERY/high_trust_source_scanner.py
 
       - name: Run discovery and prioritization
         run: python 01_GLOBAL_REVENUE_BRAIN/10_SCRIPTS/run_revenue_pipeline.py
@@ -179,6 +185,7 @@ jobs:
             01_GLOBAL_REVENUE_BRAIN/04_OPPORTUNITIES/REVENUE_OPERATIONS.csv \
             01_GLOBAL_REVENUE_BRAIN/11_DATA/global_revenue_brain.db \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_REVENUE_OPPORTUNITIES.md \
+            01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_HIGH_TRUST_SOURCE_SCAN.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_PIPELINE_HEALTH.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_GLOBAL_PAID_WORK_DISCOVERY.md \
             01_GLOBAL_REVENUE_BRAIN/12_REPORTS/LATEST_DEVPOST_HACKATHONS.md \
