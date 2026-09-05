@@ -179,6 +179,9 @@ jobs:
             echo "No intelligence changes to persist."
           else
             git commit -m "Brain: refresh opportunity intelligence"
+            if [ -n "$(git status --porcelain)" ]; then
+              git stash push --include-untracked --message "ephemeral-untracked-cycle-output"
+            fi
             for attempt in 1 2 3; do
               git pull --rebase origin main
               if git push origin HEAD:main; then
