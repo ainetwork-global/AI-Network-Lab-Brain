@@ -1,17 +1,17 @@
 ﻿id,title,url,organization,reward_amount,reward_currency,start_date,end_date,location,online,participants,status,skills,candidate_score,verification_status
 11,Build with Gemini XPRIZE,https://xprize.devpost.com/,XPRIZE,2000000.0,USD,2026-05-19,2026-08-17,Online,1,19795,open,"Machine Learning/AI, Education, Productivity",100.0,staged
-687,GatewayHacks 2026 | Software & AI,https://gatewayhacks-2026.devpost.com/,GatewayGS,814585.0,USD,2026-09-01,2026-10-02,Online,1,857,open,"Beginner Friendly, Machine Learning/AI, Open Ended",100.0,staged
-74,RevenueCat Shipaton 2026,https://revenuecat-shipaton-2026.devpost.com/,RevenueCat,740000.0,USD,2026-07-31,2026-10-01,Online,1,23584,open,"Design, Gaming, Mobile",100.0,staged
+687,GatewayHacks 2026 | Software & AI,https://gatewayhacks-2026.devpost.com/,GatewayGS,814585.0,USD,2026-09-01,2026-10-02,Online,1,858,open,"Beginner Friendly, Machine Learning/AI, Open Ended",100.0,staged
+74,RevenueCat Shipaton 2026,https://revenuecat-shipaton-2026.devpost.com/,RevenueCat,740000.0,USD,2026-07-31,2026-10-01,Online,1,23588,open,"Design, Gaming, Mobile",100.0,staged
 71,INNOVIK 6.0 : International Hackathon 2026,https://innovik-6-0-hackathon-2026.devpost.com/,shekunj,200000.0,USD,2026-07-15,2026-08-15,"VITM, Indore",0,5,open,Machine Learning/AI,100.0,staged
 64,Global Innovation Build Challenge V2,https://gibc-v2.devpost.com/,Kang Chiao International School Student,156525.0,USD,2026-07-11,2026-09-21,Online,1,744,open,"Machine Learning/AI, Social Good, Beginner Friendly",100.0,staged
-683,"Build, Ship, Shape: Amazon Developer Hackathon",https://amazonappdev2026.devpost.com/,Amazon,138000.0,USD,2026-08-31,2026-10-23,Online,1,1968,open,"Machine Learning/AI, Open Ended, Productivity",100.0,staged
+683,"Build, Ship, Shape: Amazon Developer Hackathon",https://amazonappdev2026.devpost.com/,Amazon,138000.0,USD,2026-08-31,2026-10-23,Online,1,1976,open,"Machine Learning/AI, Open Ended, Productivity",100.0,staged
 10,OpenAI Build Week,https://openai.devpost.com/,OpenAI,100000.0,USD,2026-07-13,2026-07-21,Online,1,24848,open,"Machine Learning/AI, DevOps, Productivity",100.0,staged
 52,Brainwave 2026 – X402 Blockchain Track,https://brainwave-2026.devpost.com/,ACTS EDC,100000.0,USD,2026-07-03,2026-07-31,Auditorium,0,71,open,Blockchain,100.0,staged
 39,Pinch Me! I Want 50K: A Nationwide Australian Payments & Fintech Hackathon,https://pinch-me-i-want-50k.devpost.com/,Pinch Payments,50000.0,USD,2026-06-23,2026-07-22,"Tank Stream Labs, Online",0,158,open,"Fintech, Machine Learning/AI, Open Ended",100.0,staged
 723,Next Gen Hackathon 2026 -Bengaluru,https://next-gen-hackathon.devpost.com/,RAAIF,50000.0,USD,2026-09-01,2026-10-23,"Tripura Vasini Palace Grounds, Bengaluru",0,21,open,"AR/VR, IoT, Machine Learning/AI",100.0,staged
-681,Nebius x NVIDIA Global AI Hackathon,https://nebiusglobalaihackathon.devpost.com/,nebius,50000.0,USD,2026-08-26,2026-10-30,Online,1,2450,open,"Machine Learning/AI, Beginner Friendly, Robotic Process Automation",100.0,staged
-679,Agents for Humans Hackathon,https://agentsforhumans.devpost.com/,Amazon,40000.0,USD,2026-08-10,2026-09-14,Online,1,7700,open,"Beginner Friendly, Machine Learning/AI, Open Ended",100.0,staged
-692,UnivaBio,https://univabio.devpost.com/,BioCataalysis,38245.0,USD,2026-08-07,2026-10-06,Online,1,367,open,"Beginner Friendly, Health, Social Good",100.0,staged
+681,Nebius x NVIDIA Global AI Hackathon,https://nebiusglobalaihackathon.devpost.com/,nebius,50000.0,USD,2026-08-26,2026-10-30,Online,1,2455,open,"Machine Learning/AI, Beginner Friendly, Robotic Process Automation",100.0,staged
+679,Agents for Humans Hackathon,https://agentsforhumans.devpost.com/,Amazon,40000.0,USD,2026-08-10,2026-09-14,Online,1,7704,open,"Beginner Friendly, Machine Learning/AI, Open Ended",100.0,staged
+692,UnivaBio,https://univabio.devpost.com/,BioCataalysis,38245.0,USD,2026-08-07,2026-10-06,Online,1,368,open,"Beginner Friendly, Health, Social Good",100.0,staged
 76,AI Builders Hackathon,https://ai-builders-hackathon-2026.devpost.com/,OSC,33900.0,USD,2026-08-21,2026-09-15,Online,1,2812,open,"Machine Learning/AI, Open Ended, Beginner Friendly",100.0,staged
 16,Build with DataHub: The Agent Hackathon,https://datahub.devpost.com/,DataHub,20500.0,USD,2026-07-06,2026-08-10,Online,1,752,open,"Machine Learning/AI, DevOps, Open Ended",100.0,staged
 686,"OpenCV AI Competition 2026, powered by AWS",https://opencv26.devpost.com/,OpenCV,20250.0,USD,2026-08-26,2026-10-27,Online,1,1173,open,"IoT, Machine Learning/AI, Serverless",100.0,staged
@@ -21,15 +21,15 @@
 31,"IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities",https://igad-husika-hackathon.devpost.com/,BuildBeyond,10000.0,USD,2026-06-22,2026-07-31,ICPAC,0,280,open,"Databases, DevOps, Mobile",100.0,staged
 15,Backblaze Generative Media Hackathon: Build with Genblaze on B2,https://backblaze-generative-media.devpost.com/,Backblaze,10000.0,USD,2026-06-22,2026-08-03,Online,1,794,open,"Machine Learning/AI, Music/Art, Voice skills",100.0,staged
 29,Open Atlas - AI for Social Good Hackathon 2026,https://oa-ai-for-social-good.devpost.com/,Open Atlas,10000.0,USD,2026-06-20,2026-08-20,"India Community Centre, Milpitas, CA",0,301,open,"Education, Fintech, Health",100.0,staged
-680,CALL-E: Your Code Is Calling,https://call-e.devpost.com/,CALL-E,10000.0,USD,2026-07-23,2026-09-14,Online,1,2842,open,"Communication, Enterprise, Machine Learning/AI",100.0,staged
+680,CALL-E: Your Code Is Calling,https://call-e.devpost.com/,CALL-E,10000.0,USD,2026-07-23,2026-09-14,Online,1,2843,open,"Communication, Enterprise, Machine Learning/AI",100.0,staged
 13,CockroachDB × AWS Hackathon - Build with Agentic Memory,https://cockroachdb-ai.devpost.com/,Cockroach Labs,8750.0,USD,2026-06-30,2026-08-18,Online,1,1536,open,"Machine Learning/AI, Databases, DevOps",100.0,staged
 14,Arm Create: AI Optimization Challenge,https://arm-ai-optimization-challenge.devpost.com/,arm,8000.0,USD,2026-06-04,2026-08-14,Online,1,1426,open,Machine Learning/AI,100.0,staged
 18,YouCam API Skin AI & Apparel VTO Hackathon,https://youcam-api.devpost.com/,Perfect Corp,6000.0,USD,2026-07-06,2026-08-17,Online,1,252,open,"Machine Learning/AI, AR/VR, E-commerce/Retail",100.0,staged
 720,Hack Away Hunger: Food Insecurity Challenge,https://hack-away-hunger.devpost.com/,dsmhack,5000.0,USD,2026-07-18,2026-10-08,Corteva's Pioneer Shull Building,0,37,open,"Open Ended, Social Good",100.0,staged
-41,Galuxium Nexus V2,https://galuxium-nexus-v2-29411.devpost.com/,Galuxium,2944.0,USD,2026-07-15,2026-10-31,Online,1,574,open,"Enterprise, Machine Learning/AI, Productivity",100.0,staged
-703,Zero Origin,https://zero-origin.devpost.com/,RotaractClub of SNSCollege of Technology,2500.0,USD,2026-08-27,2026-09-26,Online,1,192,open,"Fintech, Machine Learning/AI, Beginner Friendly",100.0,staged
-690,NextStep Hacks 2026,https://nextstep2026.devpost.com/,HackAlphaX,1750.0,USD,2026-08-21,2026-09-13,Online,1,543,open,"Beginner Friendly, Machine Learning/AI, Social Good",100.0,staged
-701,Hyperbloom September - AI/ML,https://hyperbloom-september.devpost.com/,hyperbloom hacks,1710.0,USD,2026-08-25,2026-09-14,Online,1,192,open,"IoT, Machine Learning/AI, Social Good",100.0,staged
+41,Galuxium Nexus V2,https://galuxium-nexus-v2-29411.devpost.com/,Galuxium,2944.0,USD,2026-07-15,2026-10-31,Online,1,575,open,"Enterprise, Machine Learning/AI, Productivity",100.0,staged
+703,Zero Origin,https://zero-origin.devpost.com/,RotaractClub of SNSCollege of Technology,2500.0,USD,2026-08-27,2026-09-26,Online,1,193,open,"Fintech, Machine Learning/AI, Beginner Friendly",100.0,staged
+690,NextStep Hacks 2026,https://nextstep2026.devpost.com/,HackAlphaX,1750.0,USD,2026-08-21,2026-09-13,Online,1,545,open,"Beginner Friendly, Machine Learning/AI, Social Good",100.0,staged
+701,Hyperbloom September - AI/ML,https://hyperbloom-september.devpost.com/,hyperbloom hacks,1710.0,USD,2026-08-25,2026-09-14,Online,1,193,open,"IoT, Machine Learning/AI, Social Good",100.0,staged
 61,Kuki Designed group,https://kuki-designed-group.devpost.com/,Kuki Designed group,1300.0,USD,2026-07-01,2026-07-31,Ethiopia,0,38,open,"AR/VR, E-commerce/Retail, IoT",100.0,staged
 695,COMPSPHERE 12,https://compsphere12.devpost.com/,President University,1247.0,USD,2026-08-03,2026-09-17,Online,1,274,open,"Blockchain, Machine Learning/AI, Cybersecurity",100.0,staged
 49,BASK(Business Achievement Spotlight for Kids) Monthly Pitch Competition,https://baskchallenge.devpost.com/,BASK,1000.0,USD,2026-07-01,2026-07-31,Online,1,85,open,"Communication, Open Ended, Social Good",100.0,staged
@@ -38,13 +38,13 @@
 25,Brainwave 2026,https://brainwaves.devpost.com/,ACT House,1000.0,USD,2026-06-12,2026-08-09,Online,1,354,open,"AR/VR, Blockchain, Communication",100.0,staged
 30,QuantumHacks,https://quantumhacks.devpost.com/,Quantumhacks,1000.0,USD,2026-06-21,2026-08-20,Online,1,299,open,"Databases, Fintech, Quantum",100.0,staged
 40,GenZ Can Hack 2026,https://genz-can-hack-2026.devpost.com/,Kids for Kids Toronto Coding Club,1000.0,USD,2026-04-01,2026-08-22,Toronto,0,154,open,"Education, Machine Learning/AI, Robotic Process Automation",100.0,staged
-693,Beginner's Paradise - FirstCommit,https://firstcommit.devpost.com/,FirstCommit,880.0,USD,2026-08-21,2026-09-30,Online,1,372,open,"Beginner Friendly, Mobile, Web",100.0,staged
+693,Beginner's Paradise - FirstCommit,https://firstcommit.devpost.com/,FirstCommit,880.0,USD,2026-08-21,2026-09-30,Online,1,373,open,"Beginner Friendly, Mobile, Web",100.0,staged
 707,3rd-Web-Hack,https://3rd-web-hack.devpost.com/,TechZap Club,750.0,USD,2026-08-22,2026-09-27,Online,1,114,open,"Blockchain, Open Ended, Web",100.0,staged
 37,Zero to Query: LingoQL Hackathon,https://ztq.devpost.com/,LingoQL,500.0,USD,2026-07-08,2026-07-29,Online,1,178,open,"Education, Productivity, Web",100.0,staged
 27,Build Beyond Hackathon,https://build-beyond-hackathon.devpost.com/,BuildBeyond,500.0,USD,2026-06-18,2026-08-16,Online,1,334,open,"Beginner Friendly, Low/No Code, Open Ended",100.0,staged
 713,CSC Back-to-School Hackathon,https://csc-back-to-school.devpost.com/,The Webb Schools CSC,400.0,USD,2026-09-04,2026-10-05,Online,1,90,open,"Beginner Friendly, Education, Social Good",100.0,staged
 32,Hack The Limit,https://hack-the-limit-1.devpost.com/,HackTheLimit,350.0,USD,2026-06-18,2026-07-30,Online,1,247,open,"Open Ended, Productivity, Social Good",100.0,staged
-704,Next Founders Hackathon,https://next-founders.devpost.com/,Student Organization,275.0,USD,2026-08-16,2026-10-15,Online,1,173,open,"Beginner Friendly, Low/No Code, Open Ended",100.0,staged
+704,Next Founders Hackathon,https://next-founders.devpost.com/,Student Organization,275.0,USD,2026-08-16,2026-10-15,Online,1,174,open,"Beginner Friendly, Low/No Code, Open Ended",100.0,staged
 35,NeuralSprint,https://neuralsprint.devpost.com/,NeuralSprint,150.0,USD,2026-06-18,2026-08-24,Online,1,213,open,"Machine Learning/AI, Social Good, Web",100.0,staged
 42,AceSAT Education AI-Agent,https://acesat-ai-agent.devpost.com/,AceSAT,100.0,USD,2026-06-12,2026-08-15,Online,1,138,open,"Education, Machine Learning/AI",100.0,staged
 700,Hack2Heal 2.0 - Global Healthcare Innovation Hackathon,https://hack2heal.devpost.com/,Institute of Engineering & Management,100.0,USD,2026-08-25,2026-09-10,Online,1,199,open,"Health, Machine Learning/AI, Beginner Friendly",100.0,staged
@@ -53,14 +53,14 @@
 26,ImpactForge,https://impactforge.devpost.com/,ImpactForge,300.0,USD,2026-06-19,2026-07-24,Online,1,344,open,"Beginner Friendly, Low/No Code, Social Good",97.0,staged
 83,Agentic Cinema: The Blockbuster Hackathon,https://agentic-cinema.devpost.com/,Google,75000.0,USD,2026-07-27,2026-09-09,Online,1,9563,open,"Databases, Machine Learning/AI, Open Ended",87.0,staged
 12,Global AI Hackathon Series with Qwen Cloud,https://qwencloud-hackathon.devpost.com/,Alibaba Cloud,45000.0,USD,2026-05-26,2026-07-20,Online,1,8016,open,"Machine Learning/AI, Design, Productivity",87.0,staged
-19,VoltHacks,https://volthacks.devpost.com/,Dialogate,35785.0,USD,2026-05-22,2026-09-05,Online,1,1991,open,"IoT, Machine Learning/AI, Beginner Friendly",87.0,staged
+19,VoltHacks,https://volthacks.devpost.com/,Dialogate,35785.0,USD,2026-05-22,2026-09-05,Online,1,1995,open,"IoT, Machine Learning/AI, Beginner Friendly",87.0,staged
 20,SmartAIthon 2026,https://smartaithon.devpost.com/,IEEE KCE Student Branch CIS Chapter,10000.0,USD,2026-06-24,2026-07-20,Online,1,604,open,"Beginner Friendly, IoT, Social Good",82.0,staged
-706,AI Content Engine Hackathon,https://ai-content-engine-hacks.devpost.com/,NA,2000.0,USD,2026-09-01,2026-09-08,Online,1,142,open,"Beginner Friendly, Machine Learning/AI, Open Ended",82.0,staged
+706,AI Content Engine Hackathon,https://ai-content-engine-hacks.devpost.com/,NA,2000.0,USD,2026-09-01,2026-09-08,Online,1,145,open,"Beginner Friendly, Machine Learning/AI, Open Ended",82.0,staged
 54,TechCommons Hacks,https://techcommons-hacks.devpost.com/,TechCommons,1550.0,USD,2026-07-11,2026-07-20,Online,1,62,open,"Beginner Friendly, Machine Learning/AI, Social Good",82.0,staged
 722,SMU LIT Legal-Tech Hackathon 2026,https://smu-lit-hackathon-2026.devpost.com/,SMU LIT,1000.0,USD,2026-09-03,2026-09-06,Singapore,0,42,open,Machine Learning/AI,77.0,staged
 718,Code to Connect: Women in Tech Hackathon 2026,https://code-to-connect-wit.devpost.com/,Women in Tech Unimelb,600.0,USD,2026-09-04,2026-09-06,Online,1,54,open,"Beginner Friendly, Communication, Gaming",77.0,staged
 171,MYHack: ISNA 2026,https://myhack-isna.devpost.com/,Mafiq Foundation,500.0,USD,2026-09-05,2026-09-06,"Detroit, MI, USA",0,14,open,"Machine Learning/AI, Open Ended, Social Good",77.0,staged
-709,Agentic Hackathon,https://agentic-hackathon.devpost.com/,Devin,480.0,USD,2026-08-23,2026-09-06,BRAC University,0,90,open,"Machine Learning/AI, Open Ended, Web",77.0,staged
+709,Agentic Hackathon,https://agentic-hackathon.devpost.com/,Devin,480.0,USD,2026-08-23,2026-09-06,BRAC University,0,91,open,"Machine Learning/AI, Open Ended, Web",77.0,staged
 48,DTI Hackathon 2026,https://dti-hackathon-2026-30476.devpost.com/,Cloud Counselage,,USD,2026-06-18,2026-07-31,Online,1,87,open,"Blockchain, Cybersecurity, Web",75.0,staged
 55,Sound for All,https://sound-for-all.devpost.com/,TechElevate,,USD,2026-06-26,2026-07-31,Online,1,59,open,"Communication, Productivity, Social Good",75.0,staged
 53,NextGen Innovation2026,https://nextgen-innovation-2026.devpost.com/,Innovation Hacks,,USD,2026-07-11,2026-08-08,Online,1,70,open,"Health, Machine Learning/AI, Web",75.0,staged
@@ -68,7 +68,7 @@
 50,AI YES :International Youth AI Competition,https://ai-yes-competition-30441.devpost.com/,International AI Youth Education Society,,USD,2026-06-17,2026-09-01,Online,1,80,open,"Beginner Friendly, Education, Machine Learning/AI",75.0,staged
 699,Evorozen Apex: NextGen AI Buildathon,https://evorozen-apex.devpost.com/,Evorozen,,USD,2026-07-17,2026-09-20,Online,1,211,open,"Databases, Machine Learning/AI, Web",75.0,staged
 57,BunnieX Hackathon,https://buuniex-hackathon.devpost.com/,TechieBunnies team,,USD,2026-06-22,2026-09-22,Online,1,248,open,"Machine Learning/AI, Open Ended, Productivity",75.0,staged
-66,LUMA Hackathon (September 20th - 28th),https://luma-hackathon-fall.devpost.com/,LUMA,,USD,2026-06-26,2026-09-28,Online,1,110,open,"Beginner Friendly, Machine Learning/AI, Open Ended",75.0,staged
+66,LUMA Hackathon (September 20th - 28th),https://luma-hackathon-fall.devpost.com/,LUMA,,USD,2026-06-26,2026-09-28,Online,1,111,open,"Beginner Friendly, Machine Learning/AI, Open Ended",75.0,staged
 702,Syntax Summit,https://syntax-summit.devpost.com/,Student Organization,,USD,2026-07-18,2027-01-14,Online,1,182,open,"DevOps, Machine Learning/AI, Robotic Process Automation",75.0,staged
 73,Code for Humanity,https://code-for-humanity.devpost.com/,nill,,USD,2026-07-16,2027-01-15,Online,1,301,open,"Education, Machine Learning/AI, Web",75.0,staged
 62,DEMOKHE,https://demokhe.devpost.com/,HacKSU,,USD,2026-03-24,2030-03-24,Online,1,35,open,"Education, IoT, Machine Learning/AI",75.0,staged
@@ -83,12 +83,12 @@
 719,InnovArt 2027: Art and Technology Hack Day,https://innovart2027.devpost.com/,Binnovative,,USD,2026-08-23,2027-01-02,Online,1,44,open,"Music/Art, Beginner Friendly, Open Ended",70.0,staged
 44,Hackonomics 2027,https://hackonomics27.devpost.com/,hackonomics,,USD,2026-07-01,2027-06-01,Online,1,95,open,"Beginner Friendly, Education, Open Ended",70.0,staged
 743,TLN Hackathon 2026,https://tln-cybersecurity-challenge.devpost.com/,Tech Literacy Network,126929.0,USD,2026-09-19,2026-09-20,Online,1,81,upcoming,"Beginner Friendly, Cybersecurity, Machine Learning/AI",68.0,staged
-95,Brewing Codes 4.0,https://brewing-codes-4-0.devpost.com/,HARD MODE,100000.0,USD,2028-03-12,2028-03-27,Online,1,64,upcoming,"Low/No Code, Machine Learning/AI, Web",68.0,staged
+95,Brewing Codes 4.0,https://brewing-codes-4-0.devpost.com/,HARD MODE,100000.0,USD,2028-03-12,2028-03-27,Online,1,65,upcoming,"Low/No Code, Machine Learning/AI, Web",68.0,staged
 47,Ventura Challenge,https://ventura-challenge.devpost.com/,Student Council,,USD,2026-06-01,2026-07-29,Online,1,88,open,"Beginner Friendly, Design, E-commerce/Retail",67.0,staged
 716,VentureFix,https://venturefix.devpost.com/,PropNote AI,,USD,2026-08-30,2026-09-13,Online,1,49,open,"Beginner Friendly, Low/No Code, Machine Learning/AI",67.0,staged
 712,GatewayGS Hackathon 2,https://gatewaygs-hackathon-2.devpost.com/,GatewayGS,,USD,2026-09-01,2026-09-16,Online,1,87,open,"Beginner Friendly, Machine Learning/AI, Open Ended",67.0,staged
-75,LaunchHacks V,https://launchhacks-v.devpost.com/,LaunchHacks,17575.0,USD,2026-12-11,2026-12-15,Online,1,1311,upcoming,"Beginner Friendly, Education, Machine Learning/AI",65.0,staged
-100,HackTitan,https://hacktitan.devpost.com/,IWU,10000.0,USD,2027-02-02,2027-02-04,Online,1,96,upcoming,"Beginner Friendly, Databases, DevOps",65.0,staged
+75,LaunchHacks V,https://launchhacks-v.devpost.com/,LaunchHacks,17575.0,USD,2026-12-11,2026-12-15,Online,1,1312,upcoming,"Beginner Friendly, Education, Machine Learning/AI",65.0,staged
+100,HackTitan,https://hacktitan.devpost.com/,IWU,10000.0,USD,2027-02-02,2027-02-04,Online,1,97,upcoming,"Beginner Friendly, Databases, DevOps",65.0,staged
 725,CAST-GNY Startup Pitch Competition 2026,https://castgnypitch2026.devpost.com/,CAST-GNY,,USD,2026-09-01,2026-09-19,Fordham University School of Law,0,10,open,"Beginner Friendly, Enterprise, Social Good",65.0,staged
 23,Next Byte Hacks V3,https://next-byte-hacks-v3.devpost.com/,Next Bytes,,USD,2026-06-15,2026-07-21,Online,1,364,open,"Beginner Friendly, Open Ended, Social Good",62.0,staged
 68,Measure up,https://measureme-up.devpost.com/,snap2measure,,USD,2026-07-13,2026-07-27,Online,1,13,open,"Lifehacks, Mobile, Web",62.0,staged
@@ -154,16 +154,16 @@
 115,OregonHacks,https://oregonhacks.devpost.com/,OregonHacks,100.0,USD,2026-08-15,2026-08-17,Online,1,14,upcoming,"Beginner Friendly, Open Ended, Social Good",55.0,staged
 146,BTT Web Game Jam - Summer 2026,https://btt-web-game-jam.devpost.com/,BTT,100.0,USD,2026-08-07,2026-08-21,Online,1,5,upcoming,"Beginner Friendly, Gaming, Web",55.0,staged
 809,Acodemic X G.I.R.L.S. Global SDG Hackathon,https://acodemic-hackathon.devpost.com/,Hack Club,60.0,USD,2026-09-19,2026-09-27,Online,1,8,upcoming,"Education, Social Good, Beginner Friendly",55.0,staged
-350,AI Builders Hackathon,https://ai-builders-hackathon-2026.devpost.com/,OSC,,USD,,,,0,2812,unknown,ai,53.0,staged
-346,Agentic Cinema: The Blockbuster Hackathon,https://agentic-cinema.devpost.com/,Google,,USD,,,,0,9563,unknown,agent,53.0,staged
-347,Agents for Humans Hackathon,https://agentsforhumans.devpost.com/,Amazon,,USD,,,,0,7704,unknown,agent,53.0,staged
+350,AI Builders Hackathon,https://ai-builders-hackathon-2026.devpost.com/,OSC,,USD,,,,0,2817,unknown,ai,53.0,staged
+346,Agentic Cinema: The Blockbuster Hackathon,https://agentic-cinema.devpost.com/,Google,,USD,,,,0,9572,unknown,agent,53.0,staged
+347,Agents for Humans Hackathon,https://agentsforhumans.devpost.com/,Amazon,,USD,,,,0,7722,unknown,agent,53.0,staged
 345,All Things Agentic Hackathon,https://allthingsagentichackathon.devpost.com/,Google,,USD,2031-08-04,,,0,12308,unknown,agent,53.0,staged
 5,Arm Create: AI Optimization Challenge,https://arm-ai-optimization-challenge.devpost.com/,arm,,USD,,,,0,1423,unknown,ai,53.0,staged
 7,Build with DataHub: The Agent Hackathon,https://datahub.devpost.com/,DataHub,,USD,,,,0,752,unknown,agent,53.0,staged
-613,"Build, Ship, Shape: Amazon Developer Hackathon",https://amazonappdev2026.devpost.com/,Amazon,,USD,,,,0,1976,unknown,developer,53.0,staged
+613,"Build, Ship, Shape: Amazon Developer Hackathon",https://amazonappdev2026.devpost.com/,Amazon,,USD,,,,0,2011,unknown,developer,53.0,staged
 4,CockroachDB × AWS Hackathon - Build with Agentic Memory,https://cockroachdb-ai.devpost.com/,Cockroach Labs,,USD,,,,0,1535,unknown,agent,53.0,staged
-523,Nebius x NVIDIA Global AI Hackathon,https://nebiusglobalaihackathon.devpost.com/,nebius,,USD,,,,0,2454,unknown,ai,53.0,staged
-867,"OpenCV AI Competition 2026, powered by AWS",https://opencv26.devpost.com/,OpenCV,,USD,,,,0,1173,unknown,ai,53.0,staged
+523,Nebius x NVIDIA Global AI Hackathon,https://nebiusglobalaihackathon.devpost.com/,nebius,,USD,,,,0,2474,unknown,ai,53.0,staged
+867,"OpenCV AI Competition 2026, powered by AWS",https://opencv26.devpost.com/,OpenCV,,USD,,,,0,1177,unknown,ai,53.0,staged
 2170,Shared OS Hackathon,https://shared-os-hackathon.devpost.com/,"Systemind, Inc",5500.0,USD,2026-09-09,2026-09-11,Online,1,3,upcoming,"DevOps, Machine Learning/AI, Open Ended",52.0,staged
 102,DevsUnite Hiring Hackathon,https://devsunite-hiring-hackathon.devpost.com/,DevsUnite,3000.0,USD,2026-07-24,2026-07-25,Online,1,25,upcoming,"Beginner Friendly, Education, Machine Learning/AI",52.0,staged
 63,SMU .Hack Enrichment Application Programme 2026,https://dothack-heap-2026.devpost.com/,Singapore Management University,1750.0,USD,2026-05-15,2026-07-24,Singapore Management University,0,34,open,"Beginner Friendly, Open Ended, Web",52.0,staged
@@ -187,13 +187,13 @@
 8,Africa Deep Tech Challenge 2026,https://adtc-2026.devpost.com/,Africa Deep Tech Foundation,,USD,,,,0,935,unknown,,50.0,staged
 6,Backblaze Generative Media Hackathon: Build with Genblaze on B2,https://backblaze-generative-media.devpost.com/,Backblaze,,USD,,,,0,794,unknown,,50.0,staged
 2,Build with Gemini XPRIZE,https://xprize.devpost.com/,XPRIZE,,USD,,,,0,19791,unknown,,50.0,staged
-348,CALL-E: Your Code Is Calling,https://call-e.devpost.com/,CALL-E,,USD,,,,0,2843,unknown,,50.0,staged
+348,CALL-E: Your Code Is Calling,https://call-e.devpost.com/,CALL-E,,USD,,,,0,2845,unknown,,50.0,staged
 658,Hack for Humanity | Summer 2026 (+13 non-cash prizes),https://hack-for-humanity-summer-26.devpost.com/,Hack for Humanity,,USD,,,,0,1358,unknown,,50.0,staged
 1,OpenAI Build Week,https://openai.devpost.com/,OpenAI,,USD,2021-07-13,,,0,24637,unknown,,50.0,staged
-344,RevenueCat Shipaton 2026,https://revenuecat-shipaton-2026.devpost.com/,RevenueCat,,USD,,,,0,23588,unknown,,50.0,staged
+344,RevenueCat Shipaton 2026,https://revenuecat-shipaton-2026.devpost.com/,RevenueCat,,USD,,,,0,23621,unknown,,50.0,staged
 349,The WebMCP Challenge,https://webmcp.devpost.com/,OpenAI,,USD,,,,0,6965,unknown,,50.0,staged
 447,TikTok TechJam 2026,https://tiktoktechjam2026.devpost.com/,TikTok,,USD,,,,0,3162,unknown,,50.0,staged
-351,VoltHacks,https://volthacks.devpost.com/,Dialogate,,USD,,,,0,1995,unknown,,50.0,staged
+351,VoltHacks,https://volthacks.devpost.com/,Dialogate,,USD,,,,0,1998,unknown,,50.0,staged
 841,Forward: AI in Business Hackathon,https://forward.devpost.com/,Eleno,3000.0,USD,2026-09-11,2026-09-13,University of Melbourne,0,3,upcoming,Machine Learning/AI,47.0,staged
 120,DIVE 2026,https://dive2026.devpost.com/,BTP,2900.0,USD,2026-07-25,2026-07-26,"4F, BEXCO Exhibition Center 2",0,11,upcoming,"Databases, Machine Learning/AI",47.0,staged
 756,RoadStar Hackathon,https://roadstarhackathon.devpost.com/,Enterprise Software Solutions,2000.0,USD,2026-09-05,2026-09-13,"Waterloo, ON",0,43,upcoming,"Databases, Mobile, Web",47.0,staged
@@ -213,7 +213,7 @@
 750,Hack The Weather,https://hack-the-weather.devpost.com/,JHUB Africa,300.0,USD,2026-09-05,2026-09-09,Online,1,54,upcoming,"Machine Learning/AI, Open Ended, Social Good",32.0,staged
 70,MCA 2026 projects,https://mca-2026-projects.devpost.com/,Mizzou Computing Association,,USD,2026-02-27,2026-12-25,Online,1,19,open,Beginner Friendly,30.0,staged
 175,Loop Engineering Hackathon,https://loop-engineering-hackathon.devpost.com/,Creators Corner,6750.0,USD,2026-07-17,2026-07-17,AWS Builder Loft,0,0,upcoming,"Machine Learning/AI, Web",27.0,staged
-790,Syndicate by Maximor,https://syndicate-by-maximor.devpost.com/,agent orchestrator,3000.0,USD,2026-09-05,2026-09-06,Online,1,134,upcoming,"Beginner Friendly, Fintech, Open Ended",27.0,staged
+790,Syndicate by Maximor,https://syndicate-by-maximor.devpost.com/,agent orchestrator,3000.0,USD,2026-09-05,2026-09-06,Online,1,140,upcoming,"Beginner Friendly, Fintech, Open Ended",27.0,staged
 752,Zoftware Hireathon,https://zoftware-hireathon.devpost.com/,Enterprise Software Solutions,300.0,USD,2026-09-09,2026-09-09,Delhi,0,47,upcoming,"Enterprise, Machine Learning/AI",27.0,staged
 99,RLC Hacks 2026,https://rlc-hacks-30705.devpost.com/,Resera,,USD,2026-07-26,2026-08-04,Online,1,35,upcoming,"Cybersecurity, Machine Learning/AI, Social Good",25.0,staged
 151,GatewayGS & The AEI Initiative: AI 4 Earth Hackathon,https://gatewaygs-ai-4-earth-hackathon.devpost.com/,GatewayGS,,USD,2026-07-25,2026-08-15,Online,1,4,upcoming,"Beginner Friendly, Machine Learning/AI, Social Good",25.0,staged
@@ -221,7 +221,7 @@
 778,Hyperbloom October- UI/UX and Web Design,https://hyperbloom-october.devpost.com/,hyperbloom hacks,,USD,2026-10-05,2026-10-12,Online,1,18,upcoming,"Design, Productivity, Web",25.0,staged
 87,United Hackathons V1,https://devonomicsv1.devpost.com/,United Hackathons,,USD,2026-10-06,2026-10-12,Online,1,93,upcoming,"Machine Learning/AI, Open Ended, Social Good",25.0,staged
 760,HACK47: OFFGRID,https://hack47-offgrid.devpost.com/,Hack47,,USD,2026-09-15,2026-10-15,Online,1,41,upcoming,"Enterprise, Open Ended, Robotic Process Automation",25.0,staged
-735,MLAI Hackathon,https://mlai-hackathon.devpost.com/,Mạng Lưới AI,,USD,2026-09-18,2026-10-16,Online,1,262,upcoming,"Databases, Machine Learning/AI",25.0,staged
+735,MLAI Hackathon,https://mlai-hackathon.devpost.com/,Mạng Lưới AI,,USD,2026-09-18,2026-10-16,Online,1,263,upcoming,"Databases, Machine Learning/AI",25.0,staged
 173,Bridge The Gap Hacks,https://sq-hacks.devpost.com/,Bridge The Gap Hacks,,USD,2026-11-15,2026-11-21,Online,1,16,upcoming,"Beginner Friendly, Machine Learning/AI, Social Good",25.0,staged
 857,checkpoint 1 — games for good,https://checkpoint-1.devpost.com/,Checkpoint,,USD,2027-01-08,2027-01-10,Online,1,0,upcoming,"Gaming, Machine Learning/AI, Social Good",25.0,staged
 824,EmP Hackfest Summer 2026,https://emp-hackfest-summer-2026.devpost.com/,Emerald Parents,720.0,USD,2026-09-05,2026-09-06,DigiPen Institute of Technology,0,11,upcoming,Beginner Friendly,22.0,staged
@@ -307,7 +307,7 @@
 154,Midnight Hackathon,https://midnight-hackathon-july-2026.devpost.com/,Major League Hacking,,USD,2026-07-17,2026-07-19,"New York, NY, USA",0,3,upcoming,"Beginner Friendly, Blockchain",0.0,staged
 103,MelonJam 7,https://melonjam-7.devpost.com/,Cupertino GDC,,USD,2026-07-17,2026-07-20,Online,1,24,upcoming,"Beginner Friendly, Design, Gaming",0.0,staged
 124,Horizon STEM Hackthon,https://horizon-stem-hackthon.devpost.com/,Horizon STEM,,USD,2026-07-25,2026-07-25,The Coder School Suwanee,0,9,upcoming,"IoT, Productivity",0.0,staged
-766,CodeBox Hacks,https://codebox-hacks.devpost.com/,CodeBox,,USD,2026-09-05,2026-09-06,Cal Poly Advanced Technology Lab,0,53,upcoming,"Beginner Friendly, Education, Machine Learning/AI",0.0,staged
+766,CodeBox Hacks,https://codebox-hacks.devpost.com/,CodeBox,,USD,2026-09-05,2026-09-06,Cal Poly Advanced Technology Lab,0,55,upcoming,"Beginner Friendly, Education, Machine Learning/AI",0.0,staged
 834,Rutgers x Elastic Hackathon,https://rutgers-x-elastic-hackathon.devpost.com/,Elastic,,USD,2026-09-14,2026-09-14,Richard Weeks Hall of Eng - Room 211,0,3,upcoming,"Beginner Friendly, Databases, Machine Learning/AI",0.0,staged
 148,AI Hackathon 2026 by LA Hacks,https://la-ai-hackathon-2026.devpost.com/,LA Hacks,,USD,2026-10-17,2026-10-18,James West Alumni Center,0,21,upcoming,Machine Learning/AI,0.0,staged
 844,Hack Like W@CC 2026,https://hack-like-wacc-26.devpost.com/,Women at College of Computing @ GT,,USD,2026-10-17,2026-10-18,"Georgia Tech – Klaus Atrium, Klaus 1116",0,2,upcoming,"Health, Machine Learning/AI, Open Ended",0.0,staged
