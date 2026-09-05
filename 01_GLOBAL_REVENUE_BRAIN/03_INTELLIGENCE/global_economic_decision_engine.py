@@ -13,6 +13,10 @@ OUTPUT = ROOT / "04_OPPORTUNITIES" / "GLOBAL_DECISION_QUEUE.csv"
 REPORT = ROOT / "12_REPORTS" / "LATEST_GLOBAL_ECONOMIC_DECISIONS.md"
 
 UNKNOWN_PAYMENT = {"", "unknown", "not informed", "not_informed", "none"}
+SPECULATIVE_REWARD_BASES = {
+    "maximum_advertised_reward",
+    "accepted_submission_not_guaranteed",
+}
 
 
 def number(value: object, default: float = 0.0) -> float:
@@ -32,6 +36,7 @@ def evaluate(row: dict[str, str]) -> dict[str, str]:
     payment = str(row.get("payment_method") or "").strip()
     source_validation = str(row.get("source_validation") or "")
     reward_basis = str(row.get("reward_basis") or "")
+    category = str(row.get("category") or "")
     comments = integer(row.get("comments"))
     competing_prs = integer(row.get("open_competing_prs"))
     hours = max(1.0, number(row.get("estimated_hours"), 40.0))
@@ -45,6 +50,8 @@ def evaluate(row: dict[str, str]) -> dict[str, str]:
     github_task = "github.com/" in url and "/issues/" in url
     payment_known = payment.lower() not in UNKNOWN_PAYMENT
     official = source_validation == "official_adapter"
+    speculative_reward = reward_basis in SPECULATIVE_REWARD_BASES
+    unproven_bug_bounty = category == "authorized_bug_bounty" and speculative_reward and not ready
 
     if blocked:
         route = "ARCHIVE_BLOCKED"
@@ -52,6 +59,12 @@ def evaluate(row: dict[str, str]) -> dict[str, str]:
     elif ready and github_task and payment_known and competing_prs == 0 and comments < 8:
         route = "AUTONOMOUS_TECHNICAL_EXECUTION"
         next_action = "Preparar solução e testes no workspace; ação externa continua sujeita a aprovação."
+    elif unproven_bug_bounty:
+        route = "EVIDENCE_REFRESH_REQUIRED"
+        next_action = (
+            "Somente pesquisa passiva e local; não solicitar aprovação nem testar ativos "
+            "até existir hipótese técnica específica e escopo confirmado."
+        )
     elif review:
         route = "HUMAN_DECISION_REQUIRED"
         next_action = "Destacar no dashboard com motivo, evidências e decisão solicitada."
@@ -65,6 +78,8 @@ def evaluate(row: dict[str, str]) -> dict[str, str]:
     competition_points = 20 if competing_prs == 0 and comments < 8 else 8 if competing_prs < 3 and comments < 25 else 0
     effort_points = max(0.0, 15.0 - math.log2(hours) * 2.0)
     score = max(0.0, min(100.0, truth_points + payment_points + competition_points + effort_points))
+    if unproven_bug_bounty:
+        score = max(0.0, score - 35.0)
 
     probability = 0.0
     if ready:
@@ -81,8 +96,10 @@ def evaluate(row: dict[str, str]) -> dict[str, str]:
         probability *= 0.55
     if blocked:
         probability = 0.0
-    if reward_basis in {"maximum_advertised_reward", "accepted_submission_not_guaranteed"}:
+    if speculative_reward:
         probability *= 0.65
+    if unproven_bug_bounty:
+        probability = min(probability, 0.001)
     probability = max(0.0, min(0.55, probability))
     expected_value = reward * probability
     expected_hourly = expected_value / hours
