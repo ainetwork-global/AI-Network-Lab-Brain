@@ -721,15 +721,56 @@ def build_query(connection: sqlite3.Connection, limit: int) -> tuple[str, dict[s
         )
     )
 
-    query = f"""
+    opportunity_select = f"""
         SELECT {select_fields}
         FROM opportunities o
+    """
+
+    candidate_selects = [opportunity_select]
+
+    # The expanded official-source scanner stores candidates in its own table.
+    # Include those staged records directly in deep verification instead of
+    # leaving them stranded outside the legacy opportunities table.
+    if table_exists(connection, "high_trust_candidates"):
+        candidate_selects.append(
+            f"""
+            SELECT
+                'high_trust:' || h.candidate_key AS id,
+                h.title AS title,
+                h.category AS category,
+                h.source_name AS source,
+                h.url AS url,
+                h.excerpt AS description,
+                h.candidate_score AS source_score,
+                h.verification_status AS status,
+                h.discovered_at AS created_at
+            FROM high_trust_candidates h
+            WHERE h.verification_status = 'staged'
+              AND NOT EXISTS (
+                  SELECT 1
+                  FROM opportunities existing
+                  WHERE LOWER(TRIM(CAST(existing."{mapping['url']}" AS TEXT)))
+                      = LOWER(TRIM(h.url))
+              )
+            """
+        )
+
+    union_query = "\nUNION ALL\n".join(candidate_selects)
+
+    query = f"""
+        WITH candidates AS (
+            {union_query}
+        )
+        SELECT c.*
+        FROM candidates c
         LEFT JOIN opportunity_verifications v
-          ON CAST(v.opportunity_id AS TEXT) = CAST(o."{mapping['id']}" AS TEXT)
+          ON CAST(v.opportunity_id AS TEXT) = CAST(c.id AS TEXT)
         WHERE v.opportunity_id IS NULL
-          AND o."{mapping['url']}" IS NOT NULL
-          AND TRIM(CAST(o."{mapping['url']}" AS TEXT)) <> ''
-        ORDER BY {order_expression}
+          AND c.url IS NOT NULL
+          AND TRIM(CAST(c.url AS TEXT)) <> ''
+        ORDER BY
+            CAST(COALESCE(c.source_score, 0) AS REAL) DESC,
+            c.created_at DESC
         LIMIT ?
     """
 
