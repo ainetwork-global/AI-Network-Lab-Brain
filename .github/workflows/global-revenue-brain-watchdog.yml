@@ -2,6 +2,10 @@ name: Global Revenue Brain Watchdog
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/global-revenue-brain-watchdog.yml"
   schedule:
     - cron: "3,13,23,33,43,53 * * * *"
 
@@ -24,11 +28,9 @@ jobs:
           REPOSITORY: ${{ github.repository }}
         run: |
           set -euo pipefail
-
           api="repos/${REPOSITORY}/actions/workflows/global-revenue-brain.yml/runs?per_page=5"
           runs="$(gh api "${api}")"
           now="$(date -u +%s)"
-
           fresh="$(
             jq --argjson now "${now}" '
               [
@@ -47,4 +49,4 @@ jobs:
           fi
 
           echo "Global Revenue Brain is stale; dispatching a recovery cycle."
-          gh api             --method POST             "repos/${REPOSITORY}/actions/workflows/global-revenue-brain.yml/dispatches"             -f ref=main
+          gh api --method POST "repos/${REPOSITORY}/actions/workflows/global-revenue-brain.yml/dispatches" -f ref=main
