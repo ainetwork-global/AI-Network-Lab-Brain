@@ -1,10 +1,10 @@
-﻿{
-  "version": "1.0.0",
+{
+  "version": "1.1.0",
   "policy": {
     "staging_only": true,
     "minimum_candidate_score": 45,
-    "request_timeout_seconds": 25,
-    "maximum_links_per_source": 100,
+    "request_timeout_seconds": 15,
+    "maximum_links_per_source": 80,
     "require_official_domain": true,
     "allow_initial_capital": false
   },
@@ -13,37 +13,241 @@
       "name": "Immunefi Bug Bounties",
       "category": "authorized_bug_bounty",
       "url": "https://immunefi.com/bug-bounty/",
-      "allowed_domains": ["immunefi.com"],
-      "required_path_terms": ["/bug-bounty/"],
-      "positive_terms": ["bug bounty", "maximum bounty", "rewards", "in scope"],
+      "allowed_domains": [
+        "immunefi.com"
+      ],
+      "required_path_terms": [
+        "/bug-bounty/"
+      ],
+      "positive_terms": [
+        "bug bounty",
+        "maximum bounty",
+        "rewards",
+        "in scope"
+      ],
       "risk_level": "high_skill"
     },
     {
       "name": "Sherlock Audit Contests",
       "category": "authorized_security_contest",
       "url": "https://audits.sherlock.xyz/contests",
-      "allowed_domains": ["audits.sherlock.xyz", "sherlock.xyz"],
-      "required_path_terms": ["/contests", "/contest"],
-      "positive_terms": ["contest", "usdc", "reward", "audit"],
+      "allowed_domains": [
+        "audits.sherlock.xyz",
+        "sherlock.xyz"
+      ],
+      "required_path_terms": [
+        "/contests",
+        "/contest"
+      ],
+      "positive_terms": [
+        "contest",
+        "usdc",
+        "reward",
+        "audit"
+      ],
       "risk_level": "high_skill"
     },
     {
       "name": "Devpost Hackathons",
       "category": "hackathon",
       "url": "https://devpost.com/hackathons",
-      "allowed_domains": ["devpost.com"],
+      "allowed_domains": [
+        "devpost.com"
+      ],
       "required_path_terms": [],
-      "positive_terms": ["hackathon", "prize", "cash", "submission", "participants"],
+      "positive_terms": [
+        "hackathon",
+        "prize",
+        "cash",
+        "submission",
+        "participants"
+      ],
       "risk_level": "medium"
     },
     {
       "name": "Grants.gov Opportunities",
       "category": "grant",
       "url": "https://www.grants.gov/search-grants",
-      "allowed_domains": ["grants.gov", "www.grants.gov"],
-      "required_path_terms": ["/search-results-detail/", "/search-grants"],
-      "positive_terms": ["opportunity", "grant", "award", "closing date", "eligibility"],
+      "allowed_domains": [
+        "grants.gov",
+        "www.grants.gov"
+      ],
+      "required_path_terms": [
+        "/search-results-detail/",
+        "/search-grants"
+      ],
+      "positive_terms": [
+        "opportunity",
+        "grant",
+        "award",
+        "closing date",
+        "eligibility"
+      ],
       "risk_level": "eligibility_review"
+    },
+    {
+      "name": "Code4rena Audits",
+      "category": "authorized_security_contest",
+      "url": "https://code4rena.com/audits",
+      "allowed_domains": [
+        "code4rena.com"
+      ],
+      "required_path_terms": [
+        "/audits/",
+        "/audits"
+      ],
+      "positive_terms": [
+        "audit",
+        "bounty",
+        "reward",
+        "usdc",
+        "submissions"
+      ],
+      "risk_level": "high_skill"
+    },
+    {
+      "name": "Cyfrin CodeHawks Competitive Audits",
+      "category": "authorized_security_contest",
+      "url": "https://codehawks.cyfrin.io/contests",
+      "allowed_domains": [
+        "codehawks.cyfrin.io",
+        "cyfrin.io"
+      ],
+      "required_path_terms": [
+        "/c/",
+        "/contests"
+      ],
+      "positive_terms": [
+        "public",
+        "contest",
+        "competitive audit",
+        "usdc",
+        "eth"
+      ],
+      "risk_level": "high_skill"
+    },
+    {
+      "name": "DrivenData Prize Competitions",
+      "category": "ai_data_competition",
+      "url": "https://www.drivendata.org/competitions/",
+      "allowed_domains": [
+        "drivendata.org",
+        "www.drivendata.org"
+      ],
+      "required_path_terms": [
+        "/competitions/"
+      ],
+      "positive_terms": [
+        "competition",
+        "prize",
+        "closes",
+        "joined",
+        "challenge"
+      ],
+      "risk_level": "eligibility_review"
+    },
+    {
+      "name": "Bugcrowd Public Engagements",
+      "category": "authorized_bug_bounty",
+      "url": "https://bugcrowd.com/engagements",
+      "allowed_domains": [
+        "bugcrowd.com"
+      ],
+      "required_path_terms": [
+        "/engagements/",
+        "/engagements"
+      ],
+      "positive_terms": [
+        "bug bounty",
+        "reward",
+        "p1",
+        "p2",
+        "scope"
+      ],
+      "risk_level": "high_skill_dynamic"
+    },
+    {
+      "name": "HackerOne Program Directory",
+      "category": "authorized_bug_bounty",
+      "url": "https://hackerone.com/directory/programs",
+      "allowed_domains": [
+        "hackerone.com"
+      ],
+      "required_path_terms": [
+        "/directory/programs",
+        "/security"
+      ],
+      "positive_terms": [
+        "bounty",
+        "program",
+        "reward",
+        "scope",
+        "hacktivity"
+      ],
+      "risk_level": "high_skill_dynamic"
+    },
+    {
+      "name": "Kaggle Competitions",
+      "category": "ai_data_competition",
+      "url": "https://www.kaggle.com/competitions",
+      "allowed_domains": [
+        "kaggle.com",
+        "www.kaggle.com"
+      ],
+      "required_path_terms": [
+        "/competitions/",
+        "/competitions"
+      ],
+      "positive_terms": [
+        "competition",
+        "prize",
+        "deadline",
+        "teams",
+        "knowledge"
+      ],
+      "risk_level": "eligibility_review_dynamic"
+    },
+    {
+      "name": "Topcoder Challenges",
+      "category": "paid_development_challenge",
+      "url": "https://www.topcoder.com/challenges",
+      "allowed_domains": [
+        "topcoder.com",
+        "www.topcoder.com"
+      ],
+      "required_path_terms": [
+        "/challenges/",
+        "/challenges"
+      ],
+      "positive_terms": [
+        "challenge",
+        "prize",
+        "registration",
+        "submission",
+        "development"
+      ],
+      "risk_level": "eligibility_review_dynamic"
+    },
+    {
+      "name": "Zindi AI Competitions",
+      "category": "ai_data_competition",
+      "url": "https://zindi.world/competitions",
+      "allowed_domains": [
+        "zindi.world",
+        "www.zindi.world"
+      ],
+      "required_path_terms": [
+        "/competitions/",
+        "/competitions"
+      ],
+      "positive_terms": [
+        "competition",
+        "prize",
+        "deadline",
+        "participants",
+        "ai"
+      ],
+      "risk_level": "eligibility_review_dynamic"
     }
   ]
 }
