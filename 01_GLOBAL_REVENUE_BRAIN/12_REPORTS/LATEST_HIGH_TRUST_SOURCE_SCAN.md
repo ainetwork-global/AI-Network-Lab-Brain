@@ -1,12 +1,12 @@
 # Global Revenue Brain — High-Trust Source Scan
 
-Gerado em: 2026-09-05T12:38:00.815088+00:00
+Gerado em: 2026-09-05T15:11:22.175584+00:00
 
 ## Resumo
 
 - Fontes verificadas: **12**
 - Fontes saudáveis: **12**
-- Links examinados: **306**
+- Links examinados: **307**
 - Candidatos staged: **75**
 - Erros: **0**
 
@@ -22,7 +22,7 @@ Gerado em: 2026-09-05T12:38:00.815088+00:00
 ### Sherlock Audit Contests
 
 - HTTP: 200
-- Links examinados: 4
+- Links examinados: 5
 - Candidatos qualificados: 3
 - Erro: nenhum
 
