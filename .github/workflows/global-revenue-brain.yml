@@ -74,7 +74,9 @@ jobs:
             test_autonomous_development_executor.py \
             test_executor_priority.py
           cd ../03_INTELLIGENCE
-          python -m unittest -v test_microtask_fast_lane.py
+          python -m unittest -v \\
+            test_microtask_fast_lane.py \\
+            test_global_economic_decision_engine.py
           cd ../10_SCRIPTS
           python -m unittest -v test_pipeline_resilience.py
 
