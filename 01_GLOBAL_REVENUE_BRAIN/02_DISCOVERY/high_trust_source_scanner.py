@@ -38,6 +38,12 @@ TERMINAL_NEGATIVE_TERMS = (
     "intermediate practice",
     "advanced practice",
     "benchmark",
+    "completed mitigation review",
+    "report in progress",
+    "competition ended",
+    "competition closed",
+    "winners announced",
+    "final leaderboard",
 )
 
 GENERIC_NEGATIVE_TERMS = (
