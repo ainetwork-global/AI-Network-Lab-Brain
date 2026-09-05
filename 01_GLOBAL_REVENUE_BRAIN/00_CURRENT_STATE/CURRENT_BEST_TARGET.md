@@ -1,11 +1,11 @@
 # Current Best Target
 
-Status: `AUTHORIZED_BUG_BOUNTY_REVIEW_REQUIRED`
+Status: `SOURCE_REVIEW_REQUIRED`
 
-Title: DeXe Protocol
-Reward: USD 500000.0
-URL: https://immunefi.com/bug-bounty/dexeprotocol/information/
+Title: https://www.drivendata.org/competitions/52/anomaly-detection-electricity/
+Reward: EUR 26000.0
+URL: https://www.drivendata.org/competitions/52/anomaly-detection-electricity/
 
-Reason: Programa oficial identificado; revisar escopo, PoC, ativos e impactos elegíveis, KYC antes de qualquer teste exclusivamente local.
+Reason: Fonte externa ainda exige validação específica da plataforma.
 
 External action performed: `false`

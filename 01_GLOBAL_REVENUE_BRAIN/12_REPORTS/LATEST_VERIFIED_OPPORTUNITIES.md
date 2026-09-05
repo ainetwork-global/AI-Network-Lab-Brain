@@ -1,16 +1,16 @@
 # Global Revenue Brain — Oportunidades Verificadas
 
-Gerado em: 2026-09-05T19:51:30.161077+00:00
+Gerado em: 2026-09-05T19:57:01.076364+00:00
 
 ## Resumo
 
-- Total verificado: **1409**
-- Fila prioritária: **87**
-- rejected: **1285**
+- Total verificado: **1459**
+- Fila prioritária: **95**
+- rejected: **1327**
 - verified: **38**
 - expired: **37**
+- approval_required: **31**
 - actionable: **26**
-- approval_required: **23**
 
 ## Fila prioritária
 
@@ -586,7 +586,139 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Preparar candidatura, proposta ou prova de conceito.**
 - Motivo: Link ativo, recompensa explícita e baixo risco identificado.
 
-### 27. Grant Application - Educating Communities by Educating Their Leaders
+### 27. https://www.drivendata.org/competitions/51/electricity-prediction-machine-learning/
+
+- Status: **approval_required**
+- Categoria: ai_data_competition
+- Fonte: DrivenData Prize Competitions
+- URL: https://www.drivendata.org/competitions/51/electricity-prediction-machine-learning/
+- Recompensa: EUR 23,000.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: alta
+- Tempo estimado: 80.0 horas
+- Risco: baixo
+- Probabilidade estimada: 69.2%
+- Score de verificação: 86.5/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: Transferência bancária
+- Restrições geográficas: Eligibility The Competition is open to all individuals over the age of 18 at the time of entry and to all validly formed legal entities that have not declared or been decl
+- Requisitos: The Competition is open to all individuals over the age of 18 at the time of entry and to all validly formed legal entities that have not declared or been declared in bankruptcy
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 28. https://www.drivendata.org/competitions/53/optimize-photovoltaic-battery/
+
+- Status: **approval_required**
+- Categoria: ai_data_competition
+- Fonte: DrivenData Prize Competitions
+- URL: https://www.drivendata.org/competitions/53/optimize-photovoltaic-battery/
+- Recompensa: EUR 23,000.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: alta
+- Tempo estimado: 80.0 horas
+- Risco: baixo
+- Probabilidade estimada: 69.2%
+- Score de verificação: 86.5/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: Transferência bancária
+- Restrições geográficas: Eligibility The Competition is open to all individuals over the age of 18 at the time of entry and to all validly formed legal entities that have not declared or been decl
+- Requisitos: The Competition is open to all individuals over the age of 18 at the time of entry and to all validly formed legal entities that have not declared or been declared in bankruptcy
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 29. https://www.drivendata.org/competitions/55/schneider-cold-start/
+
+- Status: **approval_required**
+- Categoria: ai_data_competition
+- Fonte: DrivenData Prize Competitions
+- URL: https://www.drivendata.org/competitions/55/schneider-cold-start/
+- Recompensa: EUR 23,000.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: alta
+- Tempo estimado: 80.0 horas
+- Risco: baixo
+- Probabilidade estimada: 69.2%
+- Score de verificação: 86.5/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: Transferência bancária
+- Restrições geográficas: Eligibility The Competition is open to all individuals over the age of 18 at the time of entry and to all validly formed legal entities that have not declared or been decl
+- Requisitos: The Competition is open to all individuals over the age of 18 at the time of entry and to all validly formed legal entities that have not declared or been declared in bankruptcy
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 30. https://www.drivendata.org/competitions/67/competition-cervical-biopsy/
+
+- Status: **approval_required**
+- Categoria: ai_data_competition
+- Fonte: DrivenData Prize Competitions
+- URL: https://www.drivendata.org/competitions/67/competition-cervical-biopsy/
+- Recompensa: EUR 25,000.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: alta
+- Tempo estimado: 80.0 horas
+- Risco: baixo
+- Probabilidade estimada: 69.2%
+- Score de verificação: 86.5/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: não identificada
+- Restrições geográficas: Eligibility The Competition is open to all natural persons who, at the date of entry, are a legal resident of a country, state, province or territory within the Territory
+- Requisitos: The Competition is open to all natural persons who, at the date of entry, are a legal resident of a country, state, province or territory within the Territory and at least eighteen years of age and the age of majority in their jurisdiction of residence
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 31. https://www.drivendata.org/competitions/148/visiomel-melanoma/
+
+- Status: **approval_required**
+- Categoria: ai_data_competition
+- Fonte: DrivenData Prize Competitions
+- URL: https://www.drivendata.org/competitions/148/visiomel-melanoma/
+- Recompensa: EUR 25,000.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: alta
+- Tempo estimado: 80.0 horas
+- Risco: baixo
+- Probabilidade estimada: 69.2%
+- Score de verificação: 86.5/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: não identificada
+- Restrições geográficas: Eligibility The Competition is open to all natural persons who are a legal resident of a country, state, province or territory within the Territory, are not the target of
+- Requisitos: The Competition is open to all natural persons who are a legal resident of a country, state, province or territory within the Territory, are not the target of any trade sanctions administered or enforced by the United States, and, at the date of entry, are at least eighteen years of age and the age
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 32. https://www.drivendata.org/competitions/311/dat-parkinsons-challenge/
+
+- Status: **approval_required**
+- Categoria: ai_data_competition
+- Fonte: DrivenData Prize Competitions
+- URL: https://www.drivendata.org/competitions/311/dat-parkinsons-challenge/
+- Recompensa: EUR 125,002.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: alta
+- Tempo estimado: 80.0 horas
+- Risco: baixo
+- Probabilidade estimada: 69.2%
+- Score de verificação: 86.5/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: não identificada
+- Restrições geográficas: eligibility, to allow for independent result verification
+- Requisitos: The Competition is open to all natural persons who are a legal resident of a country, state, province or territory within the Territory, are not the target of any trade sanctions administered or enforced by the United States, and, at the date of entry, are at least eighteen years of age and the age
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 33. Grant Application - Educating Communities by Educating Their Leaders
 
 - Status: **approval_required**
 - Categoria: grant
@@ -608,7 +740,51 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 28. DeXe Protocol
+### 34. https://www.drivendata.org/competitions/52/anomaly-detection-electricity/
+
+- Status: **approval_required**
+- Categoria: ai_data_competition
+- Fonte: DrivenData Prize Competitions
+- URL: https://www.drivendata.org/competitions/52/anomaly-detection-electricity/
+- Recompensa: EUR 26,000.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: alta
+- Tempo estimado: 80.0 horas
+- Risco: baixo
+- Probabilidade estimada: 68.4%
+- Score de verificação: 85.5/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: Transferência bancária
+- Restrições geográficas: Eligibility The Competition is open to all individuals over the age of 18 at the time of entry and to all validly formed legal entities that have not declared or been decl
+- Requisitos: The Competition is open to all individuals over the age of 18 at the time of entry and to all validly formed legal entities that have not declared or been declared in bankruptcy
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 35. https://www.drivendata.org/competitions/56/predict-cleaning-time-series/
+
+- Status: **approval_required**
+- Categoria: ai_data_competition
+- Fonte: DrivenData Prize Competitions
+- URL: https://www.drivendata.org/competitions/56/predict-cleaning-time-series/
+- Recompensa: EUR 20,000.00
+- Prazo: não identificado
+- Capital necessário: não identificado
+- Dificuldade: alta
+- Tempo estimado: 80.0 horas
+- Risco: baixo
+- Probabilidade estimada: 68.4%
+- Score de verificação: 85.5/100
+- KYC: não identificado
+- Aprovação humana: sim
+- Forma de pagamento: não identificada
+- Restrições geográficas: Eligibility The Competition is open to all natural persons over the age of 18 at the time of entry
+- Requisitos: The Competition is open to all natural persons over the age of 18 at the time of entry
+- Próxima ação: **Revisar requisitos e autorizar a preparação.**
+- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
+
+### 36. DeXe Protocol
 
 - Status: **approval_required**
 - Categoria: authorized_bug_bounty
@@ -630,7 +806,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 29. StackingDAO
+### 37. StackingDAO
 
 - Status: **approval_required**
 - Categoria: authorized_bug_bounty
@@ -652,7 +828,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 30. Immunefi
+### 38. Immunefi
 
 - Status: **approval_required**
 - Categoria: authorized_bug_bounty
@@ -674,7 +850,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 31. Hedera
+### 39. Hedera
 
 - Status: **approval_required**
 - Categoria: authorized_bug_bounty
@@ -696,7 +872,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 32. Data Analytics Bounty
+### 40. Data Analytics Bounty
 
 - Status: **approval_required**
 - Categoria: crypto_bounty
@@ -718,7 +894,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 33. Tool discovery 2026-07-15: 6 candidates
+### 41. Tool discovery 2026-07-15: 6 candidates
 
 - Status: **approval_required**
 - Categoria: paid_development
@@ -740,7 +916,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 34. [BOUNTY $200] Testing — 自动化测试套件
+### 42. [BOUNTY $200] Testing — 自动化测试套件
 
 - Status: **approval_required**
 - Categoria: open_source_bounty
@@ -762,7 +938,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 35. Zest Protocol V2
+### 43. Zest Protocol V2
 
 - Status: **approval_required**
 - Categoria: authorized_bug_bounty
@@ -784,7 +960,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 36. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
+### 44. [0.10 USDC autonomous bounty] Complete an agent-skill claim-to-payout canary
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -806,7 +982,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 37. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
+### 45. [0.10 USDC autonomous bounty] Complete an MCP-discovered claim-to-payout canary
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -828,7 +1004,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 38. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
+### 46. [0.10 USDC autonomous bounty] Complete a wallet claim-to-payout canary
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -850,7 +1026,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 39. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
+### 47. [0.10 USDC autonomous meta-bounty] Create a paid coding-bounty loop
 
 - Status: **approval_required**
 - Categoria: open_source_bounty
@@ -872,7 +1048,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 40. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
+### 48. [0.10 USDC autonomous meta-bounty] Post a funded agent-tooling bounty completed by another wallet
 
 - Status: **approval_required**
 - Categoria: open_source_bounty
@@ -894,7 +1070,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 41. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
+### 49. [UNFUNDED: 0/2.01 USDC] Complete a machine-API paid loop
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -916,7 +1092,7 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
 
-### 42. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
+### 50. [2 USDC autonomous bounty] Complete an independent-relayer paid loop
 
 - Status: **approval_required**
 - Categoria: ai_integration
@@ -937,179 +1113,3 @@ Gerado em: 2026-09-05T19:51:30.161077+00:00
 - Requisitos: and payment
 - Próxima ação: **Revisar requisitos e autorizar a preparação.**
 - Motivo: A oportunidade é promissora, mas exige ação humana sensível.
-
-### 43. [2 USDC autonomous bounty] Complete a browser-wallet paid loop
-
-- Status: **approval_required**
-- Categoria: ai_integration
-- Fonte: MCP Paid Opportunities
-- URL: https://github.com/NSPG13/agent-bounties/issues/248
-- Recompensa: USD 2.00
-- Prazo: não identificado
-- Capital necessário: não identificado
-- Dificuldade: baixa
-- Tempo estimado: 8.0 horas
-- Risco: baixo
-- Probabilidade estimada: 78.9%
-- Score de verificação: 71.7/100
-- KYC: não identificado
-- Aprovação humana: sim
-- Forma de pagamento: USDC, GitHub Sponsors
-- Restrições geográficas: eligibility and payment
-- Requisitos: and payment
-- Próxima ação: **Revisar requisitos e autorizar a preparação.**
-- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
-
-### 44. P1 — First verified revenue: USD 10+
-
-- Status: **approval_required**
-- Categoria: ai_bounty
-- Fonte: AI Agent Bounties
-- URL: https://github.com/jadeldiaz01-png/AUREUS-2026-Autonomous-Universal-Revenue-Efficient-Utility-Scheduler/issues/2
-- Recompensa: USD 10.00
-- Prazo: não identificado
-- Capital necessário: não identificado
-- Dificuldade: baixa
-- Tempo estimado: 8.0 horas
-- Risco: baixo
-- Probabilidade estimada: 78.9%
-- Score de verificação: 71.7/100
-- KYC: sim
-- Aprovação humana: sim
-- Forma de pagamento: GitHub Sponsors
-- Restrições geográficas: eligibility/onboarding is complete
-- Requisitos: signed in to change notification settings Fork 0 Star 0 Code Issues 1 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights P1 — First verified revenue: USD 10+ #2 New issue Copy link Ne
-- Próxima ação: **Revisar requisitos e autorizar a preparação.**
-- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
-
-### 45. [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for eight AI-agent
-
-- Status: **approval_required**
-- Categoria: ai_bounty
-- Fonte: AI Agent Bounties
-- URL: https://github.com/zhangjiayang6835-cyber/bounty-plaza/issues/834
-- Recompensa: USD 3.00
-- Prazo: não identificado
-- Capital necessário: não identificado
-- Dificuldade: baixa
-- Tempo estimado: 8.0 horas
-- Risco: baixo
-- Probabilidade estimada: 78.8%
-- Score de verificação: 71.6/100
-- KYC: não identificado
-- Aprovação humana: sim
-- Forma de pagamento: USDC, GitHub Sponsors
-- Restrições geográficas: não identificadas
-- Requisitos: signed in to change notification settings Fork 44 Star 7 Code Issues 405 Pull requests 218 Actions Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Security and quality Insights [Bounty] [3 USDC][Open Competition V2] Map the shortest discovery path for
-- Próxima ação: **Revisar requisitos e autorizar a preparação.**
-- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
-
-### 46. bounty: $25 USDC — add-only docs/LIVE_LEDGER.md
-
-- Status: **approval_required**
-- Categoria: ai_integration
-- Fonte: MCP Paid Opportunities
-- URL: https://github.com/kwizzlesurp10-ctrl/x402-mcp/issues/496
-- Recompensa: USD 25.00
-- Prazo: não identificado
-- Capital necessário: não identificado
-- Dificuldade: baixa
-- Tempo estimado: 8.0 horas
-- Risco: baixo
-- Probabilidade estimada: 78.6%
-- Score de verificação: 71.45/100
-- KYC: não identificado
-- Aprovação humana: sim
-- Forma de pagamento: USDC, GitHub Sponsors
-- Restrições geográficas: não identificadas
-- Requisitos: signed in to change notification settings Fork 0 Star 1 Code Issues 33 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights bounty: $25 USDC — add-only docs/LIVE_LEDGER
-- Próxima ação: **Revisar requisitos e autorizar a preparação.**
-- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
-
-### 47. [UNFUNDED: 0/0.11 USDC] Complete a fresh earning-loop friction canary
-
-- Status: **approval_required**
-- Categoria: open_source_bounty
-- Fonte: GitHub Paid Issues
-- URL: https://github.com/NSPG13/agent-bounties/issues/291
-- Recompensa: USD 0.10
-- Prazo: não identificado
-- Capital necessário: não identificado
-- Dificuldade: baixa
-- Tempo estimado: 8.0 horas
-- Risco: baixo
-- Probabilidade estimada: 78.0%
-- Score de verificação: 70.9/100
-- KYC: não identificado
-- Aprovação humana: sim
-- Forma de pagamento: USDC, GitHub Sponsors
-- Restrições geográficas: eligibility 1
-- Requisitos: A wallet different from the creator owns the active canonical claim round
-- Próxima ação: **Revisar requisitos e autorizar a preparação.**
-- Motivo: A oportunidade é promissora, mas exige ação humana sensível.
-
-### 48. [gig] DeskCrew Bounty Board
-
-- Status: **approval_required**
-- Categoria: ai_bounty
-- Fonte: AI Agent Bounties
-- URL: https://github.com/gigs-sh/gigs-sh/issues/5
-- Recompensa: não identificada
-- Prazo: não identificado
-- Capital necessário: sim
-- Dificuldade: baixa
-- Tempo estimado: 8.0 horas
-- Risco: alto
-- Probabilidade estimada: 2.0%
-- Score de verificação: 0.0/100
-- KYC: sim
-- Aprovação humana: sim
-- Forma de pagamento: USDC, GitHub Sponsors
-- Restrições geográficas: open to anonymous AI agents
-- Requisitos: signed in to change notification settings Fork 1 Star 1 Code Issues 5 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights [gig] DeskCrew Bounty Board #5 New issue Copy link New issue C
-- Próxima ação: **Solicitar aprovação humana antes de qualquer gasto.**
-- Motivo: A oportunidade aparenta exigir capital, taxa, depósito ou compra.
-
-### 49. rwa-adapter::deposit() never transfers tokens into the vault — the entire yield-vault custody model is a no-op
-
-- Status: **approval_required**
-- Categoria: competition
-- Fonte: GitHub Prize Issues
-- URL: https://github.com/INVERSEARENA/inversearena-frontend/issues/1299
-- Recompensa: não identificada
-- Prazo: não identificado
-- Capital necessário: sim
-- Dificuldade: média
-- Tempo estimado: 30.0 horas
-- Risco: alto
-- Probabilidade estimada: 2.0%
-- Score de verificação: 0.0/100
-- KYC: não identificado
-- Aprovação humana: sim
-- Forma de pagamento: GitHub Sponsors
-- Restrições geográficas: não identificadas
-- Requisitos: signed in to change notification settings Fork 113 Star 3 Code Issues 63 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights rwa-adapter::deposit() never transfers tokens into the vaul
-- Próxima ação: **Solicitar aprovação humana antes de qualquer gasto.**
-- Motivo: A oportunidade aparenta exigir capital, taxa, depósito ou compra.
-
-### 50. Build, Ship, Shape: Amazon Developer Hackathon
-
-- Status: **verified**
-- Categoria: hackathon
-- Fonte: Devpost Hackathons
-- URL: https://amazonappdev2026.devpost.com/
-- Recompensa: não identificada
-- Prazo: 2026-10-23
-- Capital necessário: não identificado
-- Dificuldade: média
-- Tempo estimado: 30.0 horas
-- Risco: médio
-- Probabilidade estimada: 33.2%
-- Score de verificação: 33.2/100
-- KYC: não identificado
-- Aprovação humana: não
-- Forma de pagamento: não identificada
-- Restrições geográficas: não identificadas
-- Requisitos: não identificados
-- Próxima ação: **Realizar revisão humana curta antes da preparação.**
-- Motivo: A oportunidade parece executável, mas ainda possui informação incompleta.
