@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import hashlib
 import json
@@ -24,6 +24,21 @@ HEADERS = {
     ),
     "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
 }
+
+TERMINAL_NEGATIVE_TERMS = (
+    "submissions closed",
+    "registration closed",
+    "completed audit",
+    "completed competition",
+    "completed competitions",
+    "past audit",
+    "past contest",
+    "practice competition",
+    "beginner practice",
+    "intermediate practice",
+    "advanced practice",
+    "benchmark",
+)
 
 GENERIC_NEGATIVE_TERMS = (
     "blog",
@@ -118,6 +133,15 @@ def score_candidate(
     source: dict,
 ) -> tuple[float, str | None]:
     combined = f"{title} {excerpt} {url}".lower()
+
+    terminal_terms = tuple(TERMINAL_NEGATIVE_TERMS) + tuple(
+        term.lower()
+        for term in source.get("reject_terms", [])
+    )
+
+    if any(term in combined for term in terminal_terms):
+        return 0.0, None
+
     score = 25.0
 
     positive_matches = [
@@ -247,6 +271,16 @@ run_cursor = connection.execute(
 )
 
 run_id = run_cursor.lastrowid
+
+# Only candidates observed and qualified in the current scan remain staged.
+# This prevents closed or removed opportunities from persisting indefinitely.
+connection.execute(
+    """
+    UPDATE high_trust_candidates
+    SET verification_status = 'stale'
+    WHERE verification_status = 'staged'
+    """
+)
 connection.commit()
 
 source_results = []
