@@ -1,6 +1,6 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-09-05T09:51:10.142388+00:00`
+Generated at: `2026-09-05T12:08:12.494507+00:00`
 
 - Live candidates checked: **58**
 - Ready for technical review: **0**

@@ -1,6 +1,6 @@
 # Global Revenue Hunter — Relatório Executivo
 
-Gerado em: `2026-09-05T09:48:27.894271+00:00`
+Gerado em: `2026-09-05T12:05:19.501496+00:00`
 
 ## Resumo
 
@@ -774,8 +774,8 @@ Gerado em: `2026-09-05T09:48:27.894271+00:00`
 | GitHub Prize Issues | github_api | 30 | 0 | 2026-08-26T19:33:51.733698+00:00 |
 | GitHub Reward Issues | github_api | 30 | 0 | 2026-08-26T19:33:49.780127+00:00 |
 | MCP Paid Opportunities | github_api | 30 | 0 | 2026-08-26T19:33:55.953241+00:00 |
-| Mozilla Blog | rss | 20 | 0 | 2026-09-05T09:47:35.326172+00:00 |
-| Open Source Initiative | rss | 10 | 0 | 2026-09-05T09:47:35.589479+00:00 |
+| Mozilla Blog | rss | 20 | 0 | 2026-09-05T12:04:28.615681+00:00 |
+| Open Source Initiative | rss | 10 | 0 | 2026-09-05T12:04:28.876492+00:00 |
 | GitHub Algora Bounties | github_api | 0 | 0 | 2026-08-26T20:03:55.826692+00:00 |
 | GitHub Algora Bounties | github_api | 0 | 0 | 2026-08-27T22:16:24.424356+00:00 |
 | GitHub Algora Bounties | github_api | 0 | 0 | 2026-08-28T22:20:53.683493+00:00 |
@@ -786,7 +786,7 @@ Gerado em: `2026-09-05T09:48:27.894271+00:00`
 | GitHub Algora Bounties | github_api | 0 | 0 | 2026-09-02T21:04:13.969673+00:00 |
 | GitHub Algora Bounties | github_api | 0 | 0 | 2026-09-03T21:03:01.832462+00:00 |
 | GitHub Algora Bounties | github_api | 0 | 0 | 2026-09-04T16:22:03.818897+00:00 |
-| GitHub Algora Bounties | github_api | 0 | 0 | 2026-09-05T09:47:32.265060+00:00 |
+| GitHub Algora Bounties | github_api | 0 | 0 | 2026-09-05T12:04:25.472253+00:00 |
 | GitHub Crypto Bounties | github_api | 0 | 0 | 2026-08-26T20:03:56.889388+00:00 |
 | GitHub Crypto Bounties | github_api | 0 | 0 | 2026-08-27T22:16:25.417968+00:00 |
 | GitHub Crypto Bounties | github_api | 0 | 0 | 2026-08-28T22:20:54.823584+00:00 |
@@ -797,7 +797,7 @@ Gerado em: `2026-09-05T09:48:27.894271+00:00`
 | GitHub Crypto Bounties | github_api | 0 | 0 | 2026-09-02T21:04:14.994971+00:00 |
 | GitHub Crypto Bounties | github_api | 0 | 0 | 2026-09-03T21:03:02.707124+00:00 |
 | GitHub Crypto Bounties | github_api | 0 | 0 | 2026-09-04T16:22:04.800279+00:00 |
-| GitHub Crypto Bounties | github_api | 0 | 0 | 2026-09-05T09:47:33.277859+00:00 |
+| GitHub Crypto Bounties | github_api | 0 | 0 | 2026-09-05T12:04:26.532533+00:00 |
 | GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-08-26T20:03:55.177909+00:00 |
 | GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-08-27T22:16:23.887744+00:00 |
 | GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-08-28T22:20:52.964753+00:00 |
@@ -808,7 +808,7 @@ Gerado em: `2026-09-05T09:48:27.894271+00:00`
 | GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-09-02T21:04:13.206659+00:00 |
 | GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-09-03T21:03:01.197790+00:00 |
 | GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-09-04T16:22:03.287501+00:00 |
-| GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-09-05T09:47:31.759357+00:00 |
+| GitHub Explicit USD Bounties | github_api | 0 | 0 | 2026-09-05T12:04:24.884879+00:00 |
 | GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-08-26T20:03:57.761096+00:00 |
 | GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-08-27T22:16:26.238785+00:00 |
 | GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-08-28T22:20:55.734828+00:00 |
@@ -819,7 +819,7 @@ Gerado em: `2026-09-05T09:48:27.894271+00:00`
 | GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-09-02T21:04:15.969488+00:00 |
 | GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-09-03T21:03:03.609594+00:00 |
 | GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-09-04T16:22:05.692627+00:00 |
-| GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-09-05T09:47:33.999625+00:00 |
+| GitHub Paid AI Tasks | github_api | 0 | 0 | 2026-09-05T12:04:27.453501+00:00 |
 | GitHub Reward Labels | github_api | 0 | 0 | 2026-08-26T20:03:56.097914+00:00 |
 | GitHub Reward Labels | github_api | 0 | 0 | 2026-08-27T22:16:24.682627+00:00 |
 | GitHub Reward Labels | github_api | 0 | 0 | 2026-08-28T22:20:54.080499+00:00 |
@@ -830,7 +830,7 @@ Gerado em: `2026-09-05T09:48:27.894271+00:00`
 | GitHub Reward Labels | github_api | 0 | 0 | 2026-09-02T21:04:14.249862+00:00 |
 | GitHub Reward Labels | github_api | 0 | 0 | 2026-09-03T21:03:02.142823+00:00 |
 | GitHub Reward Labels | github_api | 0 | 0 | 2026-09-04T16:22:04.068244+00:00 |
-| GitHub Reward Labels | github_api | 0 | 0 | 2026-09-05T09:47:32.479245+00:00 |
-| Devpost Blog | rss | 0 | 64 | - |
-| Gitcoin Blog | rss | 0 | 64 | - |
-| HackerOne Blog | rss | 0 | 64 | - |
+| GitHub Reward Labels | github_api | 0 | 0 | 2026-09-05T12:04:25.809960+00:00 |
+| Devpost Blog | rss | 0 | 65 | - |
+| Gitcoin Blog | rss | 0 | 65 | - |
+| HackerOne Blog | rss | 0 | 65 | - |

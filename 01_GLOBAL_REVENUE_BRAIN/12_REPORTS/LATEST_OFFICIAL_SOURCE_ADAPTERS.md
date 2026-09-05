@@ -1,6 +1,6 @@
 # Global Revenue Brain — Official Source Adapters
 
-Gerado em: 2026-09-05T09:47:57.460273+00:00
+Gerado em: 2026-09-05T12:04:48.458761+00:00
 
 ## Resumo
 
