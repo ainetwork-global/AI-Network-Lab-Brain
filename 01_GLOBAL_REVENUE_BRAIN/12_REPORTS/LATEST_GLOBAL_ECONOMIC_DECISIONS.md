@@ -1,11 +1,11 @@
 # GLOBAL ECONOMIC DECISION ENGINE
 
-Generated: `2026-09-04T16:24:03.736956+00:00`
+Generated: `2026-09-05T01:31:09.214009+00:00`
 
 - Automatic technical execution: **0**
 - Human decision required: **8**
 - Evidence refresh required: **8**
-- Archived/blocked: **44**
+- Archived/blocked: **42**
 - Participant platforms monitored: **16**
 - External claims, applications, submissions, signatures, KYC and money movement performed: **0**
 

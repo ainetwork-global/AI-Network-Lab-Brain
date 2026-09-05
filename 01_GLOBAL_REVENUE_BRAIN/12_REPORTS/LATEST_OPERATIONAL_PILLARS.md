@@ -1,10 +1,11 @@
 # OPERATIONAL REVENUE PILLARS
 
-Generated: `2026-09-04T16:24:04.033101+00:00`
+Generated: `2026-09-05T01:31:09.547075+00:00`
 
 - Operations tracked: **6**
 - Pending individual approvals: **0**
 - Settlement profiles configured: **7**
+- Operations waiting for retry: **0**
 
 ## Pillar status
 

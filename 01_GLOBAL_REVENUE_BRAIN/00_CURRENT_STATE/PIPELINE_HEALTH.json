@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-09-05T01:21:03.401524+00:00",
+  "started_at": "2026-09-05T01:20:01.582196+00:00",
+  "status": "healthy",
+  "successful_steps": 11,
+  "failed_steps": 0,
+  "steps": [
+    {
+      "name": "1. Inicialização do banco local",
+      "script": "01_GLOBAL_REVENUE_BRAIN/10_SCRIPTS/database.py",
+      "returncode": 0,
+      "critical": true,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "2. Descoberta global de oportunidades",
+      "script": "01_GLOBAL_REVENUE_BRAIN/02_DISCOVERY/global_revenue_hunter.py",
+      "returncode": 0,
+      "critical": false,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "3. Descoberta global de trabalhos remotos pagos",
+      "script": "01_GLOBAL_REVENUE_BRAIN/02_DISCOVERY/global_paid_work_discovery.py",
+      "returncode": 0,
+      "critical": false,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "4. Descoberta oficial de hackathons Devpost",
+      "script": "01_GLOBAL_REVENUE_BRAIN/02_DISCOVERY/devpost_official_adapter.py",
+      "returncode": 0,
+      "critical": false,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "5. Descoberta de Grants.gov e Immunefi",
+      "script": "01_GLOBAL_REVENUE_BRAIN/02_DISCOVERY/official_source_adapters.py",
+      "returncode": 0,
+      "critical": false,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "6. Descoberta oficial de projetos Superteam",
+      "script": "02_DISCOVERY/superteam_earn_official_adapter.py",
+      "returncode": 0,
+      "critical": false,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "7. Descoberta oficial de bounties Algora",
+      "script": "01_GLOBAL_REVENUE_BRAIN/02_DISCOVERY/algora_open_bounty_adapter.py",
+      "returncode": 0,
+      "critical": false,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "8. Integração Algora na fila principal",
+      "script": "01_GLOBAL_REVENUE_BRAIN/02_DISCOVERY/import_algora_into_opportunities.py",
+      "returncode": 0,
+      "critical": false,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "9. Integração das plataformas globais na fila principal",
+      "script": "01_GLOBAL_REVENUE_BRAIN/02_DISCOVERY/import_global_sources_into_opportunities.py",
+      "returncode": 0,
+      "critical": false,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "10. Monitoramento de plataformas com conta",
+      "script": "01_GLOBAL_REVENUE_BRAIN/02_DISCOVERY/participant_platform_monitor.py",
+      "returncode": 0,
+      "critical": false,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "name": "11. Geração da fila financeira prioritária",
+      "script": "01_GLOBAL_REVENUE_BRAIN/03_INTELLIGENCE/generate_revenue_report.py",
+      "returncode": 0,
+      "critical": true,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    }
+  ]
+}
