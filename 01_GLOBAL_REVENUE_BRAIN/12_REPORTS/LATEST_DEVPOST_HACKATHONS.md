@@ -1,6 +1,6 @@
 # Global Revenue Brain — Devpost Hackathons
 
-Gerado em: 2026-09-05T19:53:52.191553+00:00
+Gerado em: 2026-09-05T20:05:03.701570+00:00
 
 ## Resumo
 
@@ -139,7 +139,7 @@ Gerado em: 2026-09-05T19:53:52.191553+00:00
 - Início: 2026-08-26
 - Prazo: 2026-10-30
 - Online: sim
-- Participantes: 2495
+- Participantes: 2496
 - Competências: Machine Learning/AI, Beginner Friendly, Robotic Process Automation
 - URL: https://nebiusglobalaihackathon.devpost.com/
 
@@ -151,7 +151,7 @@ Gerado em: 2026-09-05T19:53:52.191553+00:00
 - Início: 2026-08-10
 - Prazo: 2026-09-14
 - Online: sim
-- Participantes: 7745
+- Participantes: 7746
 - Competências: Beginner Friendly, Machine Learning/AI, Open Ended
 - URL: https://agentsforhumans.devpost.com/
 
@@ -667,7 +667,7 @@ Gerado em: 2026-09-05T19:53:52.191553+00:00
 - Início: 2026-07-27
 - Prazo: 2026-09-09
 - Online: sim
-- Participantes: 9590
+- Participantes: 9591
 - Competências: Databases, Machine Learning/AI, Open Ended
 - URL: https://agentic-cinema.devpost.com/
 
@@ -763,7 +763,7 @@ Gerado em: 2026-09-05T19:53:52.191553+00:00
 - Início: 2026-09-05
 - Prazo: 2026-09-06
 - Online: não identificado
-- Participantes: 14
+- Participantes: 15
 - Competências: Machine Learning/AI, Open Ended, Social Good
 - URL: https://myhack-isna.devpost.com/
 
@@ -1939,7 +1939,7 @@ Gerado em: 2026-09-05T19:53:52.191553+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 7746
+- Participantes: 7747
 - Competências: agent
 - URL: https://agentsforhumans.devpost.com/
 
@@ -2311,7 +2311,7 @@ Gerado em: 2026-09-05T19:53:52.191553+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 2846
+- Participantes: 2847
 - Competências: não identificadas
 - URL: https://call-e.devpost.com/
 
@@ -2347,7 +2347,7 @@ Gerado em: 2026-09-05T19:53:52.191553+00:00
 - Início: não identificado
 - Prazo: não identificado
 - Online: não identificado
-- Participantes: 23662
+- Participantes: 23664
 - Competências: não identificadas
 - URL: https://revenuecat-shipaton-2026.devpost.com/
 

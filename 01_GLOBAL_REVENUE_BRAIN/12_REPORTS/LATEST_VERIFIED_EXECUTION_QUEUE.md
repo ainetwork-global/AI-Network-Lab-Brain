@@ -1,11 +1,11 @@
 # VERIFIED EXECUTION QUEUE
 
-Generated at: `2026-09-05T19:57:01.153178+00:00`
+Generated at: `2026-09-05T20:08:15.272205+00:00`
 
-- Verified records: **1459**
+- Verified records: **1484**
 - Ready for technical review: **4**
-- Human review required: **51**
-- Blocked: **1404**
+- Human review required: **56**
+- Blocked: **1424**
 
 No claim, submission, contract acceptance, wallet signature, or financial transaction was performed.
 
@@ -110,7 +110,51 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://www.drivendata.org/competitions/311/dat-parkinsons-challenge/
 
-### 10. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
+### 10. DittoETH
+
+- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
+- Priority score: `97.0`
+- Verification score: `79.0`
+- Reward: `USD 336516.0`
+- Payment method: `USDC`
+- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
+- Risk: `baixo`
+- URL: https://codehawks.cyfrin.io/c/2023-09-ditto
+
+### 11. Foundry DeFi Stablecoin CodeHawks Audit Contest
+
+- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
+- Priority score: `97.0`
+- Verification score: `79.0`
+- Reward: `USD 23664.0`
+- Payment method: `USDC`
+- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
+- Risk: `baixo`
+- URL: https://codehawks.cyfrin.io/c/2023-07-foundry-defi-stablecoin
+
+### 12. Bug Bounties Featured
+
+- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
+- Priority score: `96.5`
+- Verification score: `78.5`
+- Reward: `USDC 30000.0`
+- Payment method: `USDC`
+- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
+- Risk: `baixo`
+- URL: https://audits.sherlock.xyz/bug-bounties
+
+### 13. https://www.drivendata.org/competitions/group/uk-federated-learning/
+
+- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
+- Priority score: `94.3`
+- Verification score: `81.3`
+- Reward: `GBP 585000.0`
+- Payment method: `unknown`
+- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
+- Risk: `baixo`
+- URL: https://www.drivendata.org/competitions/group/uk-federated-learning/
+
+### 14. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `92.7`
@@ -121,7 +165,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/52
 
-### 11. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
+### 15. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `92.7`
@@ -132,7 +176,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/167
 
-### 12. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
+### 16. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `92.7`
@@ -143,7 +187,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/aLexzzz430/Cognitive-OS/issues/5
 
-### 13. Tool discovery 2026-07-15: 6 candidates
+### 17. Tool discovery 2026-07-15: 6 candidates
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `92.31`
@@ -154,7 +198,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/TarronKayAUA/aua-ai-hub/issues/21
 
-### 14. Fixed-Goal Grant Proposal
+### 18. Fixed-Goal Grant Proposal
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `92.21`
@@ -165,7 +209,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/FreeCAD/FPA-grant-proposals/issues/104
 
-### 15. Approval: create Stripe Payment Links for paid audits
+### 19. Approval: create Stripe Payment Links for paid audits
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `92.05`
@@ -176,7 +220,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/Davidleeops/mcpscan/issues/3
 
-### 16. Data Analytics Bounty
+### 20. Data Analytics Bounty
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `91.95`
@@ -187,7 +231,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/Honest-Protocol/Gitcoin_Metamorphosis/issues/3
 
-### 17. Calculate the exact value of PI
+### 21. Calculate the exact value of PI
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `89.95`
@@ -198,7 +242,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/xevrion-v2/agent-playground/issues/17
 
-### 18. Kendraio App MusicBrainz integration (bounty)
+### 22. Kendraio App MusicBrainz integration (bounty)
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `84.95`
@@ -209,7 +253,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/kendraio/kendraio-app/issues/184
 
-### 19. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
+### 23. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `84.95`
@@ -220,7 +264,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/moorcheh-ai/memanto/issues/770
 
-### 20. [BOUNTY $200] Testing — 自动化测试套件
+### 24. [BOUNTY $200] Testing — 自动化测试套件
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `84.33`
@@ -231,7 +275,7 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Risk: `baixo`
 - URL: https://github.com/illbnm/homelab-stack/issues/14
 
-### 21. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
+### 25. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
 
 - Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
 - Priority score: `84.0`
@@ -241,47 +285,3 @@ No claim, submission, contract acceptance, wallet signature, or financial transa
 - Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
 - Risk: `baixo`
 - URL: https://github.com/moorcheh-ai/memanto/issues/770
-
-### 22. 🎯 Bounty Alert: 31 New Opportunities — 2026-07-15 03:21 UTC
-
-- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
-- Priority score: `83.6`
-- Verification score: `75.45`
-- Reward: `USD 150.0`
-- Payment method: `GitHub Sponsors`
-- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
-- Risk: `baixo`
-- URL: https://github.com/greyw0rks/bountyscout/issues/265
-
-### 23. Support actual payment amount confirmation and rate-shift tracking for foreign scheduled expenses
-
-- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
-- Priority score: `83.3`
-- Verification score: `75.17`
-- Reward: `EUR 130.74`
-- Payment method: `GitHub Sponsors`
-- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
-- Risk: `baixo`
-- URL: https://github.com/pedrazamiguez/split-trip/issues/1400
-
-### 24. monte_carlo_layer_means default seed makes a small-n draw an exact prefix of a large-n draw, and the compare_against_monte_carlo MSE column is easy to misread
-
-- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
-- Priority score: `83.19`
-- Verification score: `74.69`
-- Reward: `USD 500.0`
-- Payment method: `GitHub Sponsors`
-- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
-- Risk: `baixo`
-- URL: https://github.com/AIcrowd/whest-starterkit/issues/39
-
-### 25. VoltHacks
-
-- Queue status: `ELIGIBILITY_REVIEW_REQUIRED`
-- Priority score: `82.96`
-- Verification score: `79.66`
-- Reward: `USD 300.0`
-- Payment method: `unknown`
-- Brazil eligibility: `UNKNOWN_REVIEW_REQUIRED`
-- Risk: `baixo`
-- URL: https://volthacks.devpost.com/

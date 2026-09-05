@@ -1,13 +1,13 @@
 # Global Revenue Brain — High-Trust Source Scan
 
-Gerado em: 2026-09-05T19:53:31.281927+00:00
+Gerado em: 2026-09-05T20:04:44.944777+00:00
 
 ## Resumo
 
 - Fontes verificadas: **12**
 - Fontes saudáveis: **12**
 - Links examinados: **307**
-- Candidatos staged: **75**
+- Candidatos staged: **63**
 - Erros: **0**
 
 ## Saúde das fontes
@@ -44,7 +44,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 
 - HTTP: 200
 - Links examinados: 63
-- Candidatos qualificados: 12
+- Candidatos qualificados: 0
 - Erro: nenhum
 
 ### Cyfrin CodeHawks Competitive Audits
@@ -305,115 +305,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/group/reclamation-water-supply-forecast/
 
-### 24. Completed Mitigation review MR Blackhole Mitigation Review A new decentralised exchange designed to serve as the Trading and Liquidity Hub for all blockchain projects on Avalanche. EVM Solidity 18 Jun 2025 8:00 PM - 23 Jun 2025 8:00 PM $4,250 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $4,250
-- Status: staged
-- URL: https://code4rena.com/audits/2025-06-blackhole-mitigation-review
-
-### 25. Completed Mitigation review MR Blend V2 Mitigation Review A liquidity protocol primitive built on Stellar Stellar Rust 07 Apr 2025 8:00 PM - 11 Apr 2025 8:00 PM $20,000 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $20,000
-- Status: staged
-- URL: https://code4rena.com/audits/2025-04-blend-v2-mitigation-review
-
-### 26. Completed Mitigation review MR Flare - fAsset Mitigation Review The blockchain for data. The platform for non smart contract asset DeFi. Built on enshrined data protocols. EVM Solidity 27 Oct 2025 8:00 PM - 30 Oct 2025 8:00 PM $11,000 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $11,000
-- Status: staged
-- URL: https://code4rena.com/audits/2025-10-flare-fasset-mitigation-review
-
-### 27. Completed Mitigation review MR Hybra Finance Mitigation Review Decentralized public liquidity layer for Hyperliquid EVM Solidity 06 Nov 2025 8:00 PM - 10 Nov 2025 8:00 PM $5,000 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $5,000
-- Status: staged
-- URL: https://code4rena.com/audits/2025-11-hybra-finance-mitigation-review
-
-### 28. Completed Mitigation review MR Hybra Finance: mitigation review, round 2 EVM Solidity 11 Nov 2025 8:00 PM - 12 Nov 2025 8:00 PM $5,000 in USDC (all rounds)
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $5,000
-- Status: staged
-- URL: https://code4rena.com/audits/2025-11-hybra-finance-mitigation-review-round-2
-
-### 29. Completed Mitigation review MR Intuition Mitigation Review The decentralized language protocol, knowledge network, & native blockchain for InfoFi - unlocking the next generation of the internet. Powered by $TRUST. EVM Solidity 02 Apr 8:00 PM - 06 Apr 8:00 PM $4,000 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $4,000
-- Status: staged
-- URL: https://code4rena.com/audits/2026-04-intuition-mitigation-review
-
-### 30. Completed Mitigation review MR Panoptic: Next Core Mitigation Review Panoptic is a DeFi options protocol designed to enhance LPing and trading. It transforms Uniswap LP positions into onchain options, enabling traders to access liquidity in a new, flexible way. EVM Solidity 13 Feb 8:00 PM - 18 Feb 8:00 PM $6,000 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $6,000
-- Status: staged
-- URL: https://code4rena.com/audits/2026-02-panoptic-next-core-mitigation-review
-
-### 31. Completed Mitigation review MR Panoptic: Next Core Mitigation Review: Round 2 Panoptic is a DeFi options protocol designed to enhance LPing and trading. It transforms Uniswap LP positions into onchain options, enabling traders to access liquidity in a new, flexible way. EVM Solidity 23 Feb 8:00 PM - 25 Feb 8:00 PM $6,000 in USDC (all rounds)
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $6,000
-- Status: staged
-- URL: https://code4rena.com/audits/2026-02-panoptic-next-core-mitigation-review-round-2
-
-### 32. Completed Mitigation review MR Silo Finance Mitigation Review Isolated lending markets on Ethereum. EVM Solidity 01 May 2025 8:00 PM - 05 May 2025 8:00 PM $8,000 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $8,000
-- Status: staged
-- URL: https://code4rena.com/audits/2025-05-silo-finance-mitigation-review
-
-### 33. Completed Mitigation review MR Swafe Mitigation Review No passwords. No backup phrases. No trusted companies. Swafe protects your access — securely, privately, and on your terms. 20 Mar 8:00 PM - 24 Mar 8:00 PM $12,000 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $12,000
-- Status: staged
-- URL: https://code4rena.com/audits/2026-03-swafe-mitigation-review
-
-### 34. Completed Mitigation review MR Swafe Mitigation Review: Round 2 No passwords. No backup phrases. No trusted companies. Swafe protects your access — securely, privately, and on your terms. 30 Mar 8:00 PM - 01 Apr 8:00 PM $12,000 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $12,000
-- Status: staged
-- URL: https://code4rena.com/audits/2026-03-swafe-mitigation-review-round-2
-
-### 35. Report in progress Audit Rujira Rujira is building the App Layer on THORChain, providing a fully integrated suite of DeFi applications, accessible with native assets from all connected chains. THORChain Cosmos Rust 16 Dec 2025 8:00 PM - 16 Jan 8:00 PM $40,000 in USDC
-
-- Fonte: Code4rena Audits
-- Categoria: authorized_security_contest
-- Score inicial: 80.0
-- Recompensa detectada: $40,000
-- Status: staged
-- URL: https://code4rena.com/audits/2025-12-rujira
-
-### 36. CONCEPT COMPETITION
+### 24. CONCEPT COMPETITION
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -422,7 +314,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/217/cdc-fall-narratives/
 
-### 37. https://www.drivendata.org/competitions/255/kelp-forest-segmentation/
+### 25. https://www.drivendata.org/competitions/255/kelp-forest-segmentation/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -431,7 +323,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/255/kelp-forest-segmentation/
 
-### 38. https://www.drivendata.org/competitions/298/literacy-screening/
+### 26. https://www.drivendata.org/competitions/298/literacy-screening/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -440,7 +332,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/298/literacy-screening/
 
-### 39. https://www.drivendata.org/competitions/52/anomaly-detection-electricity/
+### 27. https://www.drivendata.org/competitions/52/anomaly-detection-electricity/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -449,7 +341,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/52/anomaly-detection-electricity/
 
-### 40. https://www.drivendata.org/competitions/56/predict-cleaning-time-series/
+### 28. https://www.drivendata.org/competitions/56/predict-cleaning-time-series/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -458,7 +350,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/56/predict-cleaning-time-series/
 
-### 41. https://www.drivendata.org/competitions/59/camera-trap-serengeti/
+### 29. https://www.drivendata.org/competitions/59/camera-trap-serengeti/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -467,7 +359,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/59/camera-trap-serengeti/
 
-### 42. https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research/
+### 30. https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -476,7 +368,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research/
 
-### 43. https://www.drivendata.org/competitions/72/predict-wind-speeds/
+### 31. https://www.drivendata.org/competitions/72/predict-wind-speeds/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -485,7 +377,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/72/predict-wind-speeds/
 
-### 44. https://www.drivendata.org/competitions/73/noaa-magnetic-forecasting/
+### 32. https://www.drivendata.org/competitions/73/noaa-magnetic-forecasting/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -494,7 +386,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/73/noaa-magnetic-forecasting/
 
-### 45. https://www.drivendata.org/competitions/81/detect-flood-water/
+### 33. https://www.drivendata.org/competitions/81/detect-flood-water/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -503,7 +395,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/81/detect-flood-water/
 
-### 46. https://www.drivendata.org/competitions/93/nasa-mars-spectrometry/
+### 34. https://www.drivendata.org/competitions/93/nasa-mars-spectrometry/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -512,7 +404,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/93/nasa-mars-spectrometry/
 
-### 47. https://www.drivendata.org/competitions/96/beluga-whales/
+### 35. https://www.drivendata.org/competitions/96/beluga-whales/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -521,7 +413,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/96/beluga-whales/
 
-### 48. https://www.drivendata.org/competitions/97/nasa-mars-gcms/
+### 36. https://www.drivendata.org/competitions/97/nasa-mars-gcms/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -530,7 +422,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/97/nasa-mars-gcms/
 
-### 49. https://www.drivendata.org/competitions/99/biomass-estimation/
+### 37. https://www.drivendata.org/competitions/99/biomass-estimation/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -539,7 +431,7 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Status: staged
 - URL: https://www.drivendata.org/competitions/99/biomass-estimation/
 
-### 50. https://www.drivendata.org/competitions/group/cdc-narratives/
+### 38. https://www.drivendata.org/competitions/group/cdc-narratives/
 
 - Fonte: DrivenData Prize Competitions
 - Categoria: ai_data_competition
@@ -547,3 +439,111 @@ Gerado em: 2026-09-05T19:53:31.281927+00:00
 - Recompensa detectada: $70,000
 - Status: staged
 - URL: https://www.drivendata.org/competitions/group/cdc-narratives/
+
+### 39. https://www.drivendata.org/competitions/group/competition-air-quality/
+
+- Fonte: DrivenData Prize Competitions
+- Categoria: ai_data_competition
+- Score inicial: 75.0
+- Recompensa detectada: $50,000
+- Status: staged
+- URL: https://www.drivendata.org/competitions/group/competition-air-quality/
+
+### 40. https://www.drivendata.org/competitions/group/competition-nasa-airport-configuration/
+
+- Fonte: DrivenData Prize Competitions
+- Categoria: ai_data_competition
+- Score inicial: 75.0
+- Recompensa detectada: $40,000
+- Status: staged
+- URL: https://www.drivendata.org/competitions/group/competition-nasa-airport-configuration/
+
+### 41. https://www.drivendata.org/competitions/group/competition-nasa-airport-pushback/
+
+- Fonte: DrivenData Prize Competitions
+- Categoria: ai_data_competition
+- Score inicial: 75.0
+- Recompensa detectada: $50,000
+- Status: staged
+- URL: https://www.drivendata.org/competitions/group/competition-nasa-airport-pushback/
+
+### 42. https://www.drivendata.org/competitions/group/competition-reclamation-snow-water/
+
+- Fonte: DrivenData Prize Competitions
+- Categoria: ai_data_competition
+- Score inicial: 75.0
+- Recompensa detectada: $500,000
+- Status: staged
+- URL: https://www.drivendata.org/competitions/group/competition-reclamation-snow-water/
+
+### 43. https://www.drivendata.org/competitions/group/competition-differential-privacy-deid2/
+
+- Fonte: DrivenData Prize Competitions
+- Categoria: ai_data_competition
+- Score inicial: 73.0
+- Recompensa detectada: $147,000
+- Status: staged
+- URL: https://www.drivendata.org/competitions/group/competition-differential-privacy-deid2/
+
+### 44. https://www.drivendata.org/competitions/group/nist-federated-learning/
+
+- Fonte: DrivenData Prize Competitions
+- Categoria: ai_data_competition
+- Score inicial: 73.0
+- Recompensa detectada: $675,000
+- Status: staged
+- URL: https://www.drivendata.org/competitions/group/nist-federated-learning/
+
+### 45. https://www.drivendata.org/competitions/group/uk-federated-learning/
+
+- Fonte: DrivenData Prize Competitions
+- Categoria: ai_data_competition
+- Score inicial: 73.0
+- Recompensa detectada: £585,000
+- Status: staged
+- URL: https://www.drivendata.org/competitions/group/uk-federated-learning/
+
+### 46. CONCEPT COMPETITION
+
+- Fonte: DrivenData Prize Competitions
+- Categoria: ai_data_competition
+- Score inicial: 70.0
+- Recompensa detectada: não detectada
+- Status: staged
+- URL: https://www.drivendata.org/competitions/256/pale-blue-dot/
+
+### 47. Competitive Audits
+
+- Fonte: Cyfrin CodeHawks Competitive Audits
+- Categoria: authorized_security_contest
+- Score inicial: 60.0
+- Recompensa detectada: não detectada
+- Status: staged
+- URL: https://codehawks.cyfrin.io/contests
+
+### 48. Contests
+
+- Fonte: Sherlock Audit Contests
+- Categoria: authorized_security_contest
+- Score inicial: 60.0
+- Recompensa detectada: não detectada
+- Status: staged
+- URL: https://audits.sherlock.xyz/contests
+
+### 49. DittoETH
+
+- Fonte: Cyfrin CodeHawks Competitive Audits
+- Categoria: authorized_security_contest
+- Score inicial: 50.0
+- Recompensa detectada: não detectada
+- Status: staged
+- URL: https://codehawks.cyfrin.io/c/2023-09-ditto
+
+### 50. Foundry DeFi Stablecoin CodeHawks Audit Contest
+
+- Fonte: Cyfrin CodeHawks Competitive Audits
+- Categoria: authorized_security_contest
+- Score inicial: 50.0
+- Recompensa detectada: não detectada
+- Status: staged
+- URL: https://codehawks.cyfrin.io/c/2023-07-foundry-defi-stablecoin

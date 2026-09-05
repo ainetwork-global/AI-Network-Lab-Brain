@@ -1,11 +1,11 @@
 # LIVE TRUTH EXECUTION QUEUE
 
-Generated at: `2026-09-05T19:57:49.917580+00:00`
+Generated at: `2026-09-05T20:08:47.056977+00:00`
 
 - Live candidates checked: **60**
 - Ready for technical review: **0**
-- Human/resource review required: **16**
-- Blocked: **44**
+- Human/resource review required: **21**
+- Blocked: **39**
 
 No claim, submission, contract, wallet signature, purchase, deposit, or financial transaction was performed.
 
@@ -135,7 +135,52 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `EUR 20000.0`
 - URL: https://www.drivendata.org/competitions/56/predict-cleaning-time-series/
 
-## 15. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
+## 15. Competitive Audits
+
+- Truth status: `SOURCE_REVIEW_REQUIRED`
+- Reason: Fonte externa ainda exige validação específica da plataforma.
+- Live GitHub state: `external_source`
+- Comments: `0`
+- Reward: `USDC 500000.0`
+- URL: https://codehawks.cyfrin.io/contests
+
+## 16. DittoETH
+
+- Truth status: `SOURCE_REVIEW_REQUIRED`
+- Reason: Fonte externa ainda exige validação específica da plataforma.
+- Live GitHub state: `external_source`
+- Comments: `0`
+- Reward: `USD 336516.0`
+- URL: https://codehawks.cyfrin.io/c/2023-09-ditto
+
+## 17. Foundry DeFi Stablecoin CodeHawks Audit Contest
+
+- Truth status: `SOURCE_REVIEW_REQUIRED`
+- Reason: Fonte externa ainda exige validação específica da plataforma.
+- Live GitHub state: `external_source`
+- Comments: `0`
+- Reward: `USD 23664.0`
+- URL: https://codehawks.cyfrin.io/c/2023-07-foundry-defi-stablecoin
+
+## 18. Bug Bounties Featured
+
+- Truth status: `SOURCE_REVIEW_REQUIRED`
+- Reason: Fonte externa ainda exige validação específica da plataforma.
+- Live GitHub state: `external_source`
+- Comments: `0`
+- Reward: `USDC 30000.0`
+- URL: https://audits.sherlock.xyz/bug-bounties
+
+## 19. https://www.drivendata.org/competitions/group/uk-federated-learning/
+
+- Truth status: `SOURCE_REVIEW_REQUIRED`
+- Reason: Fonte externa ainda exige validação específica da plataforma.
+- Live GitHub state: `external_source`
+- Comments: `0`
+- Reward: `GBP 585000.0`
+- URL: https://www.drivendata.org/competitions/group/uk-federated-learning/
+
+## 20. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
 
 - Truth status: `BLOCKED_EXTERNAL_MIRROR`
 - Reason: É um espelho/agregador; somente a issue original pode ser validada e executada.
@@ -144,7 +189,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 3000.0`
 - URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/52
 
-## 16. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
+## 21. [aLexzzz430/Cognitive-OS] [ Bounty $3k ] [ Research ] Collect and compare AI-generated
 
 - Truth status: `BLOCKED_EXTERNAL_MIRROR`
 - Reason: É um espelho/agregador; somente a issue original pode ser validada e executada.
@@ -153,16 +198,16 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 3000.0`
 - URL: https://github.com/Vikingr2023/awesome-agent-bounties/issues/167
 
-## 17. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
+## 22. [ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals
 
 - Truth status: `BLOCKED_HIGH_COMPETITION`
-- Reason: Há 28 PRs concorrentes relacionados (incluindo #48, #47, #45, #44, #43); não investir trabalho nesta oportunidade saturada.
+- Reason: Há 29 PRs concorrentes relacionados (incluindo #49, #48, #47, #45, #44); não investir trabalho nesta oportunidade saturada.
 - Live GitHub state: `open`
 - Comments: `65`
 - Reward: `USD 3000.0`
 - URL: https://github.com/aLexzzz430/Cognitive-OS/issues/5
 
-## 18. Tool discovery 2026-07-15: 6 candidates
+## 23. Tool discovery 2026-07-15: 6 candidates
 
 - Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
 - Reason: A API do GitHub informa que a oportunidade não está aberta.
@@ -171,7 +216,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `USD 4167.0`
 - URL: https://github.com/TarronKayAUA/aua-ai-hub/issues/21
 
-## 19. Fixed-Goal Grant Proposal
+## 24. Fixed-Goal Grant Proposal
 
 - Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
 - Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
@@ -180,7 +225,7 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Reward: `EUR 5000.0`
 - URL: https://github.com/FreeCAD/FPA-grant-proposals/issues/104
 
-## 20. Approval: create Stripe Payment Links for paid audits
+## 25. Approval: create Stripe Payment Links for paid audits
 
 - Truth status: `BLOCKED_REWARD_CONTEXT_FALSE_POSITIVE`
 - Reason: O valor encontrado não aparece em contexto explícito de prêmio/pagamento.
@@ -188,48 +233,3 @@ No claim, submission, contract, wallet signature, purchase, deposit, or financia
 - Comments: `8`
 - Reward: `USD 3500.0`
 - URL: https://github.com/Davidleeops/mcpscan/issues/3
-
-## 21. Data Analytics Bounty
-
-- Truth status: `BLOCKED_STALE_COMPETITION`
-- Reason: Competição antiga com anúncio de vencedor já previsto.
-- Live GitHub state: `open`
-- Comments: `7`
-- Reward: `USD 2250.0`
-- URL: https://github.com/Honest-Protocol/Gitcoin_Metamorphosis/issues/3
-
-## 22. Calculate the exact value of PI
-
-- Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
-- Reason: Há 1 PR(s) concorrente(s) relacionado(s) (#9379); confirmar disponibilidade antes de desenvolver.
-- Live GitHub state: `open`
-- Comments: `64`
-- Reward: `USD 1000.0`
-- URL: https://github.com/xevrion-v2/agent-playground/issues/17
-
-## 23. Kendraio App MusicBrainz integration (bounty)
-
-- Truth status: `ACTIVE_WORK_CONFIRMATION_REQUIRED`
-- Reason: Há 1 PR(s) concorrente(s) relacionado(s) (#614); confirmar disponibilidade antes de desenvolver.
-- Live GitHub state: `open`
-- Comments: `13`
-- Reward: `USD 500.0`
-- URL: https://github.com/kendraio/kendraio-app/issues/184
-
-## 24. [BOUNTY $100] 🐜The Memanto Bug & Exploit Challenge
-
-- Truth status: `BLOCKED_CLOSED_OR_COMPLETED`
-- Reason: A API do GitHub informa que a oportunidade não está aberta.
-- Live GitHub state: `closed`
-- Comments: `314`
-- Reward: `USD 100.0`
-- URL: https://github.com/moorcheh-ai/memanto/issues/770
-
-## 25. [BOUNTY $200] Testing — 自动化测试套件
-
-- Truth status: `BLOCKED_HIGH_COMPETITION`
-- Reason: Há 14 PRs concorrentes relacionados (incluindo #744, #726, #706, #697, #687); não investir trabalho nesta oportunidade saturada.
-- Live GitHub state: `open`
-- Comments: `340`
-- Reward: `USD 280.0`
-- URL: https://github.com/illbnm/homelab-stack/issues/14

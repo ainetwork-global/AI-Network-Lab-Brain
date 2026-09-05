@@ -1,9 +1,9 @@
 # HUMAN LOGIN HANDOFF QUEUE
 
-Generated: `2026-09-05T19:57:50.061279+00:00`
+Generated: `2026-09-05T20:08:47.201519+00:00`
 
 - Login required to discover personalized opportunities: **15**
-- Candidate decisions awaiting human review: **11**
+- Candidate decisions awaiting human review: **16**
 - Public scans available: **1**
 
 The account holder performs login, identity verification, truthful answers, interviews and recordings.
@@ -28,13 +28,18 @@ No application, claim, submission, signature, purchase or payment was performed.
 | OneForma | LOGIN_REQUIRED_TO_DISCOVER | Abra a plataforma, faça login na sua própria conta e avise: login concluído. | Inspecionar as oportunidades exibidas na conta, classificar retorno e preparar a execução permitida. |
 | Clickworker | LOGIN_REQUIRED_TO_DISCOVER | Abra a plataforma, faça login na sua própria conta e avise: login concluído. | Inspecionar as oportunidades exibidas na conta, classificar retorno e preparar a execução permitida. |
 | TELUS Digital AI Community | PUBLIC_SCAN_AVAILABLE | Nenhum login necessário para consultar vagas públicas. | Validar vagas públicas, requisitos e elegibilidade. |
+| Cyfrin CodeHawks Competitive Audits | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
+| Cyfrin CodeHawks Competitive Audits | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
+| Sherlock Audit Contests | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | DrivenData Prize Competitions | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
+| Cyfrin CodeHawks Competitive Audits | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | DrivenData Prize Competitions | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | DrivenData Prize Competitions | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | DrivenData Prize Competitions | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | Devpost Hackathons | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | Arbeitnow | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | Arbeitnow | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
+| DrivenData Prize Competitions | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | DrivenData Prize Competitions | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | DrivenData Prize Competitions | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
 | DrivenData Prize Competitions | HUMAN_REVIEW_REQUIRED | Destacar no dashboard com motivo, evidências e decisão solicitada. | Continuar validação e preparação interna após a decisão humana. |
